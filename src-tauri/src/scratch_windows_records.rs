@@ -74,8 +74,10 @@ fn parse_names(buffer: &[u8], max_entries: usize) -> io::Result<Vec<Vec<u16>>> {
         }
         names.push(
             buffer[name_start..name_end]
-                .chunks_exact(2)
-                .map(|pair| u16::from_le_bytes([pair[0], pair[1]]))
+                .as_chunks::<2>()
+                .0
+                .iter()
+                .map(|pair| u16::from_le_bytes(*pair))
                 .collect(),
         );
         if names.len() > max_entries {
