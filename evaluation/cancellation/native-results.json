@@ -1,0 +1,25 @@
+{
+  "observed_at": "2026-10-09T18:41:00.075807+00:00",
+  "platform": "macOS arm64",
+  "native_checks": {
+    "cancel_from_ask": true,
+    "cancel_from_documents": true,
+    "notice": "Answer generation cancelled.",
+    "retained_search_hits": 6,
+    "retry_answer_returned": true,
+    "retry_citation_count": 4,
+    "retry_display_seconds": 4.7,
+    "retry_input_tokens": 609,
+    "retry_cached_tokens": 608,
+    "generation_stopped": true,
+    "embedding_stopped": true
+  },
+  "library_counts": {
+    "documents": 7,
+    "chunks": 12,
+    "embeddings": 12
+  },
+  "app_pid": 53513,
+  "app_descendants": 0,
+  "scope": "Native interaction verifies cancel controls, retained evidence, cited retry and stopped runtimes; citation membership is not an entailment or representative quality evaluation."
+}

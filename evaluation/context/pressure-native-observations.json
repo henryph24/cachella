@@ -1,0 +1,44 @@
+{
+  "method": "Native CUA observations, read-only SQLite and ps, existing coalition collector",
+  "query": "PressureBudget",
+  "matches": 4,
+  "answer": "The PressureBudget monthly cap is eight dollars. This information is present in multiple records.",
+  "citations": [
+    "PressureBudget-0.txt",
+    "PressureBudget-1.txt",
+    "PressureBudget-2.txt",
+    "PressureBudget-3.txt"
+  ],
+  "first": {
+    "displayed_seconds": 8.5,
+    "input_tokens": 3646,
+    "cached_tokens": 0
+  },
+  "repeat": {
+    "displayed_seconds": 5.2,
+    "input_tokens": 3646,
+    "cached_tokens": 3645
+  },
+  "recovery": {
+    "query": "BudgetRecovery",
+    "answer": "The BudgetRecovery monthly cap is eight dollars, which is the approved recurring monthly budget.",
+    "citation": "context-recovery.txt",
+    "displayed_seconds": 2.2,
+    "input_tokens": 196,
+    "cached_tokens": 67
+  },
+  "samples": 882,
+  "valid_samples": 880,
+  "median_sample_interval_ms": 154,
+  "elapsed_ms": 135553,
+  "engine_pids": [
+    11697
+  ],
+  "final_counts": {
+    "documents": 11,
+    "chunks": 70,
+    "embeddings": 60
+  },
+  "final_bundle_processes": 0,
+  "fixture_contents_match_store": true
+}

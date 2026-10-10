@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="A budget-constrained implementation plan for Cachella: a private multimodal knowledge assistant on Fly.io.">
+  <title>Cachella | Historical Fly CPU proposal</title>
+  <style>
+    :root { color-scheme: light; --ink: #000; --paper: #fff; --rule: #000; --quiet: #f3f3f3; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 1rem; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.65 Georgia, 'Times New Roman', serif; }
+    a { color: #000; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible, summary:focus-visible { outline: 3px solid #000; outline-offset: 4px; }
+    .skip { position: absolute; top: -100px; left: 16px; background: #fff; padding: 8px; z-index: 2; }
+    .skip:focus { top: 8px; }
+    .page { width: min(1440px, 100%); margin: auto; padding: 28px 32px 44px; }
+    .masthead { display: flex; justify-content: space-between; gap: 16px; padding-bottom: 14px; border-bottom: 3px solid #000; font: 14px/1.4 Helvetica, Arial, sans-serif; }
+    .masthead strong { font-size: 20px; }
+    h1 { font-size: clamp(34px, 4.6vw, 62px); line-height: 1.08; letter-spacing: -1.4px; margin: 30px 0 18px; max-width: 1000px; }
+    .lead { font-size: 21px; line-height: 1.5; max-width: 920px; margin: 0 0 24px; }
+    .decision { border: 2px solid #000; padding: 20px 24px; margin: 22px 0; }
+    .decision p { margin: 0; max-width: 1080px; }
+    .decision p + p { margin-top: 10px; }
+    .facts { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid #000; border-bottom: 1px solid #000; margin: 26px 0; font-family: Helvetica, Arial, sans-serif; }
+    .facts div { padding: 16px 14px; border-right: 1px solid #000; }
+    .facts div:first-child { padding-left: 0; }
+    .facts div:last-child { border: 0; }
+    .facts dt { font-size: 13px; }
+    .facts dd { font-weight: bold; font-size: 25px; margin: 4px 0 0; line-height: 1.25; }
+    .layout { display: grid; grid-template-columns: 205px minmax(0, 1fr); gap: 40px; align-items: start; }
+    main, nav { min-width: 0; }
+    nav { position: sticky; top: 20px; font: 14px/1.45 Helvetica, Arial, sans-serif; }
+    nav ol { margin: 10px 0; padding-left: 21px; }
+    nav li { margin: 0 0 11px; }
+    nav a { text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    section { margin-bottom: 38px; }
+    h2 { font: bold 25px/1.25 Helvetica, Arial, sans-serif; padding-bottom: 10px; border-bottom: 2px solid #000; margin: 0 0 18px; }
+    h3 { font: bold 18px/1.35 Helvetica, Arial, sans-serif; margin: 24px 0 8px; }
+    p { margin: 10px 0 14px; max-width: 86ch; }
+    li { margin-bottom: 7px; }
+    .table-wrap { overflow-x: auto; margin: 16px 0; }
+    table { width: 100%; border-collapse: collapse; font: 14px/1.5 Helvetica, Arial, sans-serif; }
+    caption { text-align: left; font-weight: bold; margin: 0 0 8px; }
+    th, td { text-align: left; padding: 11px 10px; border-bottom: 1px solid #000; vertical-align: top; }
+    th { background: var(--quiet); border-top: 1px solid #000; }
+    tfoot td { font-weight: bold; border-top: 2px solid #000; }
+    .number { white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; }
+    .note { border-left: 3px solid #000; padding: 2px 0 2px 15px; margin: 20px 0; }
+    .small { font: 13px/1.6 Helvetica, Arial, sans-serif; }
+    .architecture { border: 1px solid #000; padding: 18px; margin: 18px 0; font: 14px/1.5 Helvetica, Arial, sans-serif; }
+    .flow { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; }
+    .flow div { border: 1px solid #000; padding: 14px; }
+    .flow strong { display: block; margin-bottom: 5px; }
+    .store { border-top: 1px solid #000; padding-top: 12px; margin-top: 14px; }
+    code { font: 0.88em/1.5 'SFMono-Regular', Consolas, monospace; overflow-wrap: anywhere; }
+    pre { border: 1px solid #000; padding: 16px; overflow-x: auto; background: #fff; line-height: 1.45; }
+    pre code { white-space: pre; }
+    details { border-top: 1px solid #000; border-bottom: 1px solid #000; padding: 12px 0; margin: 20px 0; }
+    summary { cursor: pointer; font: bold 15px/1.5 Helvetica, Arial, sans-serif; }
+    .sources li { font: 14px/1.55 Helvetica, Arial, sans-serif; margin: 0 0 12px; overflow-wrap: anywhere; }
+    footer { border-top: 3px solid #000; margin-top: 28px; padding-top: 16px; font: 13px/1.5 Helvetica, Arial, sans-serif; }
+    @media (max-width: 900px) {
+      .page { padding: 22px 20px; }
+      .layout { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+      nav { position: static; border-bottom: 1px solid #000; padding-bottom: 15px; }
+      nav ol { columns: 2; column-gap: 28px; }
+      nav li { break-inside: avoid; }
+      .flow { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 520px) {
+      .page { padding: 18px 14px; }
+      .masthead { flex-direction: column; gap: 5px; }
+      .lead { font-size: 18px; }
+      .facts { grid-template-columns: 1fr 1fr; }
+      .facts div { padding: 12px; }
+      .facts div:first-child { padding-left: 12px; }
+      .facts div:nth-child(2) { border-right: 0; }
+      .facts div:nth-child(-n+2) { border-bottom: 1px solid #000; }
+      .decision { padding: 16px; }
+      h1 { letter-spacing: -0.6px; }
+      h2 { font-size: 23px; }
+      th, td { padding: 9px 7px; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    @page { size: A4; margin: 13mm 10mm; }
+    @media print {
+      body { font-size: 12pt; }
+      .page { padding: 0; max-width: none; }
+      nav, .skip { display: none; }
+      .layout { display: block; }
+      h1 { font-size: 31pt; letter-spacing: -0.5pt; }
+      h2 { font-size: 17pt; break-after: avoid; }
+      h3 { break-after: avoid; }
+      .lead { font-size: 14pt; }
+      .facts dd { font-size: 18pt; }
+      table { font-size: 9pt; }
+      tr, .decision, .architecture { break-inside: avoid; }
+      thead { display: table-header-group; }
+      .table-wrap { overflow: visible; }
+      a { text-decoration: underline; }
+      .small, footer { font-size: 9pt; }
+      section { margin-bottom: 22pt; }
+      details { display: none; }
+    }
+  </style>
+</head>
+<body>
+<a class="skip" href="#plan">Skip to the plan</a>
+<div class="page">
+  <header>
+    <div class="decision"><p><strong>Historical proposal.</strong> The current direction is a local-first Windows/macOS application with Tauri, llama.cpp and built-in caching. Read the <a href="local-first-plan.html">current implementation plan</a>. This Fly CPU proposal is retained for reference.</p></div>
+    <div class="masthead"><strong>Cachella</strong><span>Technical proposal · 9 October 2026 · Draft for implementation</span></div>
+    <h1>A private knowledge assistant.<br>A budget below $10 a month.</h1>
+    <p class="lead">Search documents, images, audio and video on Fly.io, with traceable answers and visible operating costs.</p>
+    <div class="decision">
+      <p><strong>Recommendation:</strong> build a presenter-operated CPU demo, available during explicitly opened sessions. Use a small corpus, one Machine and local storage. An assumed monthly envelope of <strong>$7.95</strong> leaves <strong>$2.05</strong> below the $10 boundary.</p>
+      <p><strong>The original goal needs a scope change.</strong> Fly’s GPU service is deprecated. A leading large-model deployment with a high-throughput GPU engine and a validated LMCache savings benchmark is outside this plan. This version demonstrates private multimodal retrieval and small-model inference. <a href="#source-gpu">[1]</a></p>
+    </div>
+    <dl class="facts">
+      <div><dt>Planning envelope</dt><dd>$7.95 / month</dd></div>
+      <div><dt>Total active compute allowance</dt><dd>40 hours / month</dd></div>
+      <div><dt>Deployment footprint</dt><dd>1 CPU Machine</dd></div>
+      <div><dt>Initial indexed corpus</dt><dd>≤ 5,000 chunks</dd></div>
+    </dl>
+  </header>
+  <div class="layout">
+    <nav aria-label="Plan contents">
+      <strong>In this plan</strong>
+      <ol>
+        <li><a href="#scope">Scope and feasibility</a></li>
+        <li><a href="#budget">Budget and assumptions</a></li>
+        <li><a href="#architecture">System architecture</a></li>
+        <li><a href="#models">Model decisions</a></li>
+        <li><a href="#ingestion">Ingestion and retrieval</a></li>
+        <li><a href="#experience">Demo experience</a></li>
+        <li><a href="#operations">Fly operation and limits</a></li>
+        <li><a href="#implementation">Implementation sequence</a></li>
+        <li><a href="#validation">Acceptance and measurement</a></li>
+        <li><a href="#risks">Failure paths and boundaries</a></li>
+        <li><a href="#decisions">Decisions and open gates</a></li>
+        <li><a href="#sources">Sources and evidence</a></li>
+      </ol>
+    </nav>
+    <main id="plan">
+      <section id="scope">
+        <h2>1. Scope and feasibility</h2>
+        <p>The product slice is the knowledge-search and grounded-answer experience of a Notion-style assistant: upload a file, find relevant evidence across formats, inspect the source, and ask a question. Rich document editing, team collaboration and a full workspace platform remain expansion work.</p>
+        <div class="table-wrap"><table>
+          <caption>What the budget can demonstrate</caption>
+          <thead><tr><th scope="col">Capability</th><th scope="col">Proposed delivery</th><th scope="col">Boundary</th></tr></thead>
+          <tbody>
+            <tr><td>Multimodal search</td><td>Text queries retrieve text, images, audio segments and video segments.</td><td>Native media embeddings must pass the four-modality smoke test.</td></tr>
+            <tr><td>Source-grounded answers</td><td>Short answers with clickable citations; evidence-only results when generation cannot meet quality checks.</td><td>Small-model reasoning and writing quality require measurement.</td></tr>
+            <tr><td>Private hosting</td><td>Application, database, media and model inference run on Fly Machines and Volumes.</td><td>Model downloads and software dependencies are external supply-chain inputs.</td></tr>
+            <tr><td>Cost demonstration</td><td>Show actual runtime, indexed content, request timings and estimated bill allocation.</td><td>Enterprise production savings require an additional representative benchmark.</td></tr>
+            <tr><td>Service availability</td><td>Presenter opens and closes demonstration sessions.</td><td>The stopped application is unavailable until the owner starts it.</td></tr>
+          </tbody>
+        </table></div>
+        <p><strong>Assumed operating scale:</strong> one workspace, one active inference job, up to three authenticated viewers, 100 source files, 500 MB of original media and 5,000 searchable chunks. This is an evaluation workload; none of these limits is a measured capacity result.</p>
+      </section>
+
+      <section id="budget">
+        <h2>2. Budget and assumptions</h2>
+        <p><strong>Verified published rates:</strong> Fly lists $13.39 per 30 days for shared-CPU-2x/2 GB in <code>iad</code>, plus $6 per extra GB of RAM. Eight GB therefore calculates to $49.39 per 720 hours, or approximately $0.0686/hour. Use a conservative <strong>$0.08/hour</strong> planning rate pending an account-specific quote. <a href="#source-pricing">[2]</a></p>
+        <div class="table-wrap"><table id="budget-table">
+          <caption>Assumed monthly envelope in USD; no trial credits included</caption>
+          <thead><tr><th scope="col">Item</th><th scope="col">Calculation or allowance</th><th scope="col" class="number">Budget</th></tr></thead>
+          <tbody>
+            <tr><td>CPU Machine</td><td>2 shared CPUs, 8 GB RAM; 40 active hours × $0.08</td><td class="number" data-cost="3.20">$3.20</td></tr>
+            <tr><td>Persistent volume</td><td>10 GB × $0.15; weights, database and media</td><td class="number" data-cost="1.50">$1.50</td></tr>
+            <tr><td>Stopped root filesystem</td><td>Allow 5 GB × $0.15 for a full month</td><td class="number" data-cost="0.75">$0.75</td></tr>
+            <tr><td>Outbound traffic</td><td>Assume 5 GB from North America × $0.02</td><td class="number" data-cost="0.10">$0.10</td></tr>
+            <tr><td>Snapshot allowance</td><td>Reserve for stored snapshot data beyond included usage</td><td class="number" data-cost="0.40">$0.40</td></tr>
+            <tr><td>Build and release allowance</td><td>One-time or occasional billed build resources</td><td class="number" data-cost="0.50">$0.50</td></tr>
+            <tr><td>Contingency</td><td>Tax, regional differences and measurement uncertainty</td><td class="number" data-cost="1.50">$1.50</td></tr>
+          </tbody>
+          <tfoot><tr><td colspan="2">Planned envelope</td><td class="number" id="budget-total">$7.95</td></tr></tfoot>
+        </table></div>
+        <p class="small">Storage, rootfs and transfer rates are sourced from Fly’s pricing page; quantities and allowances are proposed limits. Snapshots have a published 10 GB free allowance, followed by $0.08/GB-month. Shared IPs avoid a dedicated IPv4 charge. Provisioned storage continues billing while compute is stopped. <a href="#source-pricing">[2]</a></p>
+        <div class="note"><p><strong>A conditional budget, with no invoice guarantee.</strong> Confirm the region, tax treatment, image size and existing organization charges before deployment. The $10 ceiling applies to this project’s allocated bill. If the user means the entire Fly organization, include every existing resource before approving the envelope.</p></div>
+        <p><strong>Runtime allocation:</strong> reserve 10 hours for ingestion, 10 for evaluation and deployment checks, and 20 for demonstrations. Every model load, warm-up, idle period and failed job consumes this same 40-hour allowance. A full month at the conservative compute rate alone would be $57.60.</p>
+        <p>Use the existing Fly subdomain. Provision a single replica, one volume and no paid database, object-store extension, dedicated IP or monitoring service. Keep paid external model API usage at zero.</p>
+      </section>
+
+      <section id="architecture">
+        <h2>3. System architecture</h2>
+        <p><strong>Proposed stack:</strong> a small server-rendered interface, FastAPI, SQLite with FTS5, normalized vectors stored alongside chunk metadata, FFmpeg for media decoding, an embedding subprocess and a llama.cpp generation subprocess. Keep the runtime within one Fly Machine and serialize expensive work.</p>
+        <figure class="architecture">
+          <figcaption><strong>One Fly Machine, one durable data directory</strong></figcaption>
+          <div class="flow" style="margin-top:14px">
+            <div><strong>1. Receive</strong>Authenticate → validate upload or query → create a bounded job.</div>
+            <div><strong>2. Find</strong>Encode → permission filter → vector and keyword retrieval → combine ranks.</div>
+            <div><strong>3. Explain</strong>Display source evidence → optionally generate a short answer → validate citations.</div>
+          </div>
+          <div class="store"><strong>Fly Volume at /data:</strong> SQLite · source files · thumbnails · segment metadata · pinned model weights · evaluation results.</div>
+        </figure>
+        <p>Separate model processes allow memory to be reclaimed after each stage. Keep the embedder resident during search sessions when measured memory permits. Unload it before generation if peak memory approaches the limit. Load weights from the volume so restarting avoids repeated downloads.</p>
+        <p>At 5,000 chunks, a 768-dimensional float32 vector matrix contains <strong>15,360,000 bytes</strong> of raw vector data. Exact cosine search is a sensible initial implementation at this scale. Measure its latency before adding a separate vector service. Database, metadata and Python memory are additional.</p>
+        <p><strong>Data model:</strong> workspaces, users, memberships, documents, document versions, chunks, jobs, query runs and usage counters. Each chunk records its workspace, source version, model revision, media type, content hash, page or time range, extracted text and embedding dimensions.</p>
+      </section>
+
+      <section id="models">
+        <h2>4. Model decisions</h2>
+        <div class="table-wrap"><table>
+          <caption>Selection for the constrained demo</caption>
+          <thead><tr><th scope="col">Role</th><th scope="col">Candidate</th><th scope="col">Decision and gate</th></tr></thead>
+          <tbody>
+            <tr><td>Embeddings</td><td>Google EmbeddingGemma 2</td><td>Primary candidate: 740M parameters, four modalities and Apache 2.0. Establish correctness with the supported Transformers path. <a href="#source-embedding">[4]</a></td></tr>
+            <tr><td>Embedding precision</td><td>Float32 CPU baseline</td><td>Use a correctness baseline first; validate an optimized or quantized runtime on identical fixtures before switching. Google warns against FP16. <a href="#source-embedding">[4]</a></td></tr>
+            <tr><td>Answer generation</td><td>Qwen3-0.6B GGUF, 4-bit candidate</td><td>CPU inference through llama.cpp; verify the selected file, license, revision and chat template. Disable thinking and bound output. <a href="#source-qwen">[6]</a></td></tr>
+            <tr><td>Jina v5 Omni</td><td>Commercial evaluation alternative</td><td>Published weights use CC BY-NC 4.0. Commercial terms are an extra dependency for this enterprise showcase. Keep it outside the initial stack. <a href="#source-jina">[5]</a></td></tr>
+            <tr><td>Gemini embedding API</td><td>Optional future comparator</td><td>Excluded by the all-Fly requirement. No external inference fallback is enabled.</td></tr>
+            <tr><td>vLLM + LMCache</td><td>Future inference experiment</td><td>Deferred. Reopen with a separately validated compatible runtime and infrastructure budget.</td></tr>
+          </tbody>
+        </table></div>
+        <p>The full embedder’s raw float32 weights are approximately <strong>2.96 GB</strong> by parameter-count arithmetic. Activations, decoding buffers, libraries and the application increase memory usage. The proposed 8 GB Machine is a starting hypothesis; a measured peak below 6.5 GB is the release gate.</p>
+        <p>For the embedder, start with 768-dimensional normalized vectors. Google supports dimensional truncation; evaluate 256 dimensions only after recording the baseline. Keep model versions and dimensions consistent between stored content and queries. <a href="#source-embedding">[4]</a></p>
+        <p>Use a 4,096-token generation context, at most four concise evidence excerpts and a 192-token answer limit. Treat this model as an experimental answer composer. Retrieval and source inspection must remain useful when it abstains or times out.</p>
+      </section>
+
+      <section id="ingestion">
+        <h2>5. Ingestion and retrieval</h2>
+        <div class="table-wrap"><table>
+          <caption>Initial processing policy; limits are proposed</caption>
+          <thead><tr><th scope="col">Input</th><th scope="col">Representation</th><th scope="col">Citation and limit</th></tr></thead>
+          <tbody>
+            <tr><td>Text, Markdown, text PDFs</td><td>Heading-aware sections of roughly 300–500 tokens; small overlap; retain titles.</td><td>Document section or PDF page; Implemented selectable-text PDF limit: 200 physical pages, 16 MiB source and 2 MiB extracted text; chunks preserve page boundaries. See <a href="../evaluation/pdf/README.md">verification and limitations</a>.</td></tr>
+            <tr><td>Images and scanned pages</td><td>Native image embedding; bounded-resolution preview. Add supplied or locally extracted text as a separate searchable field.</td><td>Original image/page; image limit 10 MB with decoded pixel limits.</td></tr>
+            <tr><td>Audio</td><td>Normalize to mono 16 kHz; native embeddings of 20–30-second segments with a 5-second overlap.</td><td>Start/end timestamps; initial recording limit 3 minutes.</td></tr>
+            <tr><td>Video</td><td>10–20-second windows; sampled frames and separately extracted audio. Combine retrieval ranks using the same segment identity.</td><td>Seekable timestamps; initial video limit 2 minutes and 50 MB.</td></tr>
+          </tbody>
+        </table></div>
+        <p>Explicitly process the video soundtrack as audio. A frame-only route does not establish spoken-content retrieval. Keep media windows comfortably within the embedding model’s shared context limit. <a href="#source-embedding">[4]</a></p>
+        <p><strong>Transcripts and OCR:</strong> the first corpus includes source-provided transcripts and captions, with provenance labels. These support quotations and answers. Native media embeddings provide additional search evidence. Arbitrary live transcription, OCR and visual caption generation require separate CPU feasibility checks; missing text produces a source-only result.</p>
+        <p><strong>Retrieval sequence:</strong> validate access → embed the query → retrieve top 20 semantic and top 20 keyword candidates within the authorized workspace → combine with reciprocal rank fusion → deduplicate overlapping segments → show the best eight sources → supply up to four text-bearing sources for generation. Skip an additional neural reranker in the first version.</p>
+        <p><strong>Update discipline:</strong> hash original content, assign immutable versions, index into staging, then atomically activate the new version. Jobs checkpoint after each segment and resume after a stopped Machine restarts. Delete documents by removing active chunks, derived files and original media; enforce the retention policy on snapshots separately.</p>
+      </section>
+
+      <section id="experience">
+        <h2>6. Demo experience</h2>
+        <p>Use a synthetic product-launch workspace with 12 pages, 6 PDFs, 12 screenshots, 4 short audio recordings and 4 video clips. Include answers spanning several sources, conflicting versions and questions with no supporting evidence.</p>
+        <ol>
+          <li><strong>Ask:</strong> “Why did we postpone the launch?” Search displays a planning page, a slide screenshot and a timestamped meeting segment.</li>
+          <li><strong>Inspect:</strong> selecting a citation opens the exact page or seeks the recording. Each result identifies how its searchable text was obtained.</li>
+          <li><strong>Answer:</strong> generate a short response from text-bearing sources, showing citations and an explicit insufficient-evidence response where needed.</li>
+          <li><strong>Repeat:</strong> rerun the same question with the application cache enabled and disabled, while keeping model output settings constant.</li>
+          <li><strong>Measure:</strong> display measured retrieval/generation timings and cache counters beside estimated infrastructure cost, with their evidence labels.</li>
+        </ol>
+        <p>The interface needs four views: library and upload status, search and answer, source preview, and a presenter-only measurement panel. Text search is the initial query input; image and audio queries can follow after the core corpus retrieval tests pass.</p>
+        <p><strong>Cache attribution:</strong> separately label embedding reuse, retrieval-result reuse and exact-answer reuse. An exact-answer hit avoids a generation request. This provides no evidence about LMCache KV-cache savings. Versioned keys must include workspace access scope, document versions, model revision and prompt configuration.</p>
+      </section>
+
+      <section id="operations">
+        <h2>7. Fly operation and limits</h2>
+        <p>Start with <code>iad</code> for the quoted cost basis. Assess the added latency for a Vietnam-based presenter. Moving to <code>sin</code> requires a new budget calculation. One Machine owns one mounted volume; there is no automatic replica failover.</p>
+        <p><strong>Owner-controlled sessions:</strong> start the Machine through Fly before presenting; wait for health checks and model warm-up; stop it after the session. Disable request-triggered starts so web crawlers cannot wake paid compute. Fly documents this configuration’s availability tradeoff. <a href="#source-autostop">[3]</a></p>
+        <pre aria-label="Illustrative Fly configuration"><code># Illustrative configuration; validate before deployment.
+primary_region = "iad"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_start_machines = false
+  auto_stop_machines = "off"
+  min_machines_running = 0
+
+[[vm]]
+  cpu_kind = "shared"
+  cpus = 2
+  memory = "8gb"
+
+[[mounts]]
+  source = "cachella_data"
+  destination = "/data"</code></pre>
+        <p>Pair this configuration with an application supervisor that ends the process after a maximum two-hour session, plus a Machine restart policy that leaves it stopped after exit. Verify the entire lifecycle with the actual Fly Machine configuration. HTTP autostop is disabled because indexing work may continue without active requests.</p>
+        <ul>
+          <li><strong>Runtime admission:</strong> reserve a session’s maximum runtime in SQLite before loading models. Refuse new work when the remaining allowance cannot cover it. Reconcile counters against actual Machine events.</li>
+          <li><strong>Work limits:</strong> one inference job; queue depth five; per-stage timeouts; upload count, decoded size, media duration and response-byte quotas.</li>
+          <li><strong>Budget stop:</strong> at 35 used hours, reserve the remainder for export and verification. Stop opening sessions when projected all-in spending reaches $8.00; retain headroom for billing lag and fixed charges.</li>
+          <li><strong>Credentials:</strong> authenticated invitations, secure session cookies and secrets supplied through Fly. Keep Fly management credentials out of the web application.</li>
+          <li><strong>Recovery:</strong> bounded snapshot retention and a tested SQLite backup/restore procedure. Use synthetic data until restore and permission checks pass.</li>
+        </ul>
+        <p class="small">These are application and operating controls. A supervisor failure, repeated manual starts or extra organization resources can still exceed the budget. Inspect usage before each demo and verify the stopped state afterward. Fly’s cost-management guidance is the operating reference. <a href="#source-cost">[7]</a></p>
+      </section>
+
+      <section id="implementation">
+        <h2>8. Implementation sequence</h2>
+        <p>Proceed through dependency gates. A failed cost or runtime gate returns the design for revision before expanding the application.</p>
+        <div class="table-wrap"><table>
+          <caption>Build steps and concrete exit criteria</caption>
+          <thead><tr><th scope="col">Step</th><th scope="col">Work</th><th scope="col">Exit evidence</th></tr></thead>
+          <tbody>
+            <tr><td>1. Prove runtime feasibility</td><td>Pin model/runtime revisions. Run one text, image, audio and video fixture. Run the tiny generator. Measure peak memory and latency on the proposed Fly CPU class.</td><td>Four finite, correctly sized embeddings; retrieval sanity checks; one grounded answer; peak RSS below 6.5 GB.</td></tr>
+            <tr><td>2. Establish storage and access</td><td>Implement SQLite schema, workspace permissions, source versions and bounded ingestion jobs.</td><td>Unauthorized reads blocked; interrupted jobs resume; duplicate uploads reuse indexed content.</td></tr>
+            <tr><td>3. Implement retrieval</td><td>Add modality adapters, segment citations, FTS5, exact vector search and rank fusion.</td><td>Known evidence retrieved across all four modalities; video soundtrack and visuals each tested.</td></tr>
+            <tr><td>4. Add grounded generation</td><td>Connect the quantized CPU model, evidence packing, citation validation, streaming and abstention behavior.</td><td>Citation IDs resolve to authorized retrieved chunks; unsupported cases return evidence or abstain.</td></tr>
+            <tr><td>5. Add measurements and cache</td><td>Instrument timings, usage accounting, cache identity and cache invalidation.</td><td>Cache-on/off runs distinguish measured values from estimates; permission and version changes invalidate entries.</td></tr>
+            <tr><td>6. Package and verify Fly operation</td><td>Single-Machine image, mounted data, health checks, session watchdog, restart policy and bounded release strategy.</td><td>Stop/restart preserves data; timeout ends compute; only one serving replica exists; budget recalculated from actual image size.</td></tr>
+            <tr><td>7. Run acceptance suite</td><td>Freeze the synthetic corpus and labeled questions. Exercise quality, budget, failure and security paths.</td><td>Results file, reproducible commands and an explicit pass/fail release decision.</td></tr>
+          </tbody>
+        </table></div>
+        <p><strong>Proposed repository layout:</strong> <code>app/</code> for API and views, <code>ingestion/</code> for typed adapters, <code>retrieval/</code> for ranking and filters, <code>inference/</code> for subprocess management, <code>eval/</code> for fixtures and results, and <code>ops/</code> for Fly configuration and operating scripts. Model files stay outside the source repository.</p>
+        <p>Use test-first development for data handling, permissions, caches and spending controls. Add integration checks for model processes and database boundaries. Obtain an independent review of authentication, authorization and runtime shutdown before sharing the deployed demo.</p>
+      </section>
+
+      <section id="validation">
+        <h2>9. Acceptance and measurement</h2>
+        <p>All thresholds below are proposed targets. No runtime, quality or cost result has been measured for this project.</p>
+        <div class="table-wrap"><table>
+          <caption>Initial evaluation contract</caption>
+          <thead><tr><th scope="col">Check</th><th scope="col">Method</th><th scope="col">Target or action</th></tr></thead>
+          <tbody>
+            <tr><td>Retrieval relevance</td><td>80 labeled questions: 20 each for text, images, audio and video; measure Recall@5 and nDCG@10.</td><td>Recall@5 ≥ 80% overall and ≥ 70% for each modality; report all subgroup results.</td></tr>
+            <tr><td>Unsupported questions</td><td>20 additional questions with no supporting answer.</td><td>At least 18 abstentions or evidence-only responses; inspect every unsupported assertion.</td></tr>
+            <tr><td>Answer grounding</td><td>Human review of 40 answerable cases, 10 per modality where text evidence exists.</td><td>At least 36 fully supported answers; report media cases lacking answer-ready text separately.</td></tr>
+            <tr><td>Citations and permissions</td><td>Resolve every displayed citation; test allowed and denied users against sources, previews and cached answers.</td><td>100% valid citation targets; zero unauthorized source disclosures.</td></tr>
+            <tr><td>CPU latency</td><td>30 repeated warm queries, cache disabled, concurrency one.</td><td>Search p95 ≤ 10 seconds; answer p95 ≤ 60 seconds. Label misses and keep retrieval usable.</td></tr>
+            <tr><td>Cold start and memory</td><td>Three complete stop/start cycles; record boot, model load, first result and maximum RSS.</td><td>Peak RSS &lt; 6.5 GB. Publish measured cold-start latency separately.</td></tr>
+            <tr><td>Quantization impact</td><td>Compare quantized generation with a higher-precision checkpoint on 20 fixed prompts within the runtime budget.</td><td>Report grounding, latency and memory changes. If skipped, make no quantified quality-retention claim.</td></tr>
+            <tr><td>Cost controls</td><td>Simulate near-exhausted hours, watchdog expiry, process crash, queue overload and blocked autostart.</td><td>No admitted work beyond configured limits; Machine reaches stopped state and stays stopped.</td></tr>
+            <tr><td>Durability</td><td>Resume an interrupted index job, restore a database backup and exercise document deletion.</td><td>Index and media remain consistent; deleted content disappears from results and caches.</td></tr>
+          </tbody>
+        </table></div>
+        <p><strong>Report costs in two views:</strong> marginal compute per operation and allocated monthly cost per successful answer. The latter includes indexing, idle runtime, storage, snapshot and release costs. Record the number of successful answers and the covered billing window beside every unit-cost figure.</p>
+        <p><strong>Valid savings experiment:</strong> use the same corpus and exact query set with cache disabled, then enabled; separately measure cold and warm runs. Report cache hit rate and avoided inference work. A lower request latency alone does not establish a lower monthly bill when the Machine remains running for the same session duration.</p>
+      </section>
+
+      <section id="risks">
+        <h2>10. Failure paths and boundaries</h2>
+        <ul>
+          <li><strong>Embedder too slow:</strong> retain pre-indexed content, reduce permitted live-ingestion work, and measure an optimized CPU runtime. If text-query latency still fails, mark the interactive demo blocked under this budget.</li>
+          <li><strong>Memory exceeds the gate:</strong> release each model process between stages, reduce media resolution and batch size, and rerun the four-modality checks. Any larger Machine requires a smaller active-hour allowance.</li>
+          <li><strong>Generation quality fails:</strong> ship search, evidence excerpts and source previews. Clearly mark generated Q&amp;A incomplete.</li>
+          <li><strong>New model integration fails:</strong> pin a working supported runtime after reproducing the issue. A text-only fallback must explicitly show reduced modality coverage.</li>
+          <li><strong>Document contains malicious instructions:</strong> treat retrieved content as evidence data, disable agent actions and secrets access, and test prompt-injection cases.</li>
+          <li><strong>Single host or volume unavailable:</strong> show service unavailability, recover from backup and reindex if required. This design offers no production availability guarantee.</li>
+          <li><strong>Budget is exhausted:</strong> stop sessions and preserve stored data. Resume only after a new allowance is available or the scope is explicitly changed.</li>
+        </ul>
+        <p><strong>Deferred product scope:</strong> full Notion editor parity, synchronized enterprise connectors, arbitrary-hour recordings, automatic meeting transcription, real-time collaboration, production SSO, high concurrency and formal compliance certification.</p>
+        <p><strong>Deferred infrastructure scope:</strong> large frontier-quality generation, production GPU inference, validated LMCache integration, multi-region availability and replicated storage. Revisit these when the hosting constraint or budget changes.</p>
+      </section>
+
+      <section id="decisions">
+        <h2>11. Decisions and open gates</h2>
+        <p><strong>Selected for this draft:</strong> all application inference on Fly CPU; one manually started Machine; EmbeddingGemma 2 as the first embedding candidate; a 4-bit sub-billion-parameter generator; SQLite; synthetic evidence; explicit monthly runtime limits.</p>
+        <p><strong>Assumptions to confirm during implementation:</strong> presenter-operated availability is acceptable, the corpus is small, the $10 limit covers this project, and the chosen Fly region’s actual quote fits the envelope.</p>
+        <p><strong>Required before deployment:</strong> model/runtime compatibility, CPU timing and memory evidence, account-specific billing calculation, watchdog and restart-policy verification, permission review, and a backup restore check.</p>
+        <div class="decision"><p><strong>Draft status:</strong> architecture and scope proposed; public documentation researched. Application implementation, model benchmarks, account inspection and deployment have not been performed. This document provisions no resources.</p></div>
+      </section>
+
+      <section id="sources">
+        <h2>12. Sources and evidence</h2>
+        <p class="small">Primary sources consulted on 9 October 2026. Published capability and price facts are attributed below. Capacity, latency, usage limits and the $7.95 envelope are planning assumptions or arithmetic, with validation gates above.</p>
+        <ol class="sources">
+          <li id="source-gpu"><a href="https://fly.io/blog/transcribing-on-fly-gpu-machines/">Fly.io: Transcribing on Fly GPU Machines</a>. The page carries a GPU deprecation notice. The earlier GPU recipe is historical.</li>
+          <li id="source-pricing"><a href="https://docs.fly.io/about/pricing">Fly.io: Resource pricing</a>. Current regional compute basis, RAM, volume, rootfs, snapshot and egress charges. The live page supersedes older search excerpts.</li>
+          <li id="source-autostop"><a href="https://docs.fly.io/launch/autostop-autostart">Fly.io: Autostop/autostart Machines</a>. Start/stop semantics and configuration options.</li>
+          <li id="source-embedding"><a href="https://huggingface.co/google/embeddinggemma-2">Google: EmbeddingGemma 2 model card</a>. Modalities, license, dimensions, precision constraints, context and processor guidance.</li>
+          <li id="source-jina"><a href="https://huggingface.co/jinaai/jina-embeddings-v5-omni-small">Jina: v5 Omni Small model card</a>. Multimodal capability and commercial-use licensing requirement.</li>
+          <li id="source-qwen"><a href="https://huggingface.co/Qwen/Qwen3-0.6B-GGUF">Qwen: Qwen3-0.6B GGUF</a>. Official quantized-model distribution and CPU-runtime usage guidance.</li>
+          <li id="source-cost"><a href="https://docs.fly.io/about/cost-management/">Fly.io: Cost management</a>. Operational reference for monitoring resource usage.</li>
+          <li id="source-launch"><a href="https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/">Google: EmbeddingGemma 2 launch announcement</a>. October 6, 2026 release; deployment ecosystem and model positioning.</li>
+        </ol>
+      </section>
+    </main>
+  </div>
+  <footer>Cachella · Implementation draft · USD estimates · Fixed light theme · Print using your browser’s Print command</footer>
+</div>
+</body>
+</html>

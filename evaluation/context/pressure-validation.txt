@@ -1,0 +1,1 @@
+PASS: 3 documents, 59 local links, 6 fixture shapes, 10 artifact hashes.

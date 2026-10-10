@@ -1,0 +1,17 @@
+{
+  "guardian_pid": 63656,
+  "owner_pid": 63654,
+  "tool_pid": 63657,
+  "workspaces": [
+    "/var/folders/fr/2kbwk9hx48z3jhs3fghq2j2w0000gn/T/cachella-scratch-v1/session-0fccb1a8e47e4f958d0f03ef384b93f0/workspace-79ec2d404f0e4e68a72ac7321bc072be",
+    "/var/folders/fr/2kbwk9hx48z3jhs3fghq2j2w0000gn/T/cachella-scratch-v1/session-0fccb1a8e47e4f958d0f03ef384b93f0/workspace-f4f12496658a4461b8155084953a602b",
+    "/var/folders/fr/2kbwk9hx48z3jhs3fghq2j2w0000gn/T/cachella-scratch-v1/session-0fccb1a8e47e4f958d0f03ef384b93f0/workspace-27d52b858a51491fbce521d17be4e466"
+  ],
+  "orphan_files": 3,
+  "unrelated_path": "/var/folders/fr/2kbwk9hx48z3jhs3fghq2j2w0000gn/T/cachella-scratch-v1/native-verification-preserve.txt",
+  "before_counts": {
+    "documents": 8,
+    "chunks": 51,
+    "embeddings": 51
+  }
+}

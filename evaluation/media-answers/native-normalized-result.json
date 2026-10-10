@@ -1,0 +1,34 @@
+{
+  "counts": {
+    "documents": 1,
+    "chunks": 2,
+    "embeddings": 2,
+    "assets": 1,
+    "media_parts": 2
+  },
+  "owned_bundle_processes": [],
+  "observations_kind": "manually transcribed CUA accessibility observations",
+  "question": "What does the video show, and what monthly cloud budget does it mention?",
+  "retrieval_order": [
+    "audio",
+    "image"
+  ],
+  "answer": "The video shows a red circle. The project cloud budget is $8 per month.",
+  "citation_buttons": 2,
+  "matched_interval_ms": [
+    0,
+    3042
+  ],
+  "requests": [
+    {
+      "displayed_elapsed_seconds": 3.8,
+      "prompt_tokens": 460,
+      "cached_tokens": 0
+    },
+    {
+      "displayed_elapsed_seconds": 3.2,
+      "prompt_tokens": 460,
+      "cached_tokens": 455
+    }
+  ]
+}

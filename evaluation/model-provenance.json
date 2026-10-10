@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-09",
+  "models": [
+    {
+      "id": "qwen3-1.7b-q8",
+      "repository": "Qwen/Qwen3-1.7B-GGUF",
+      "file": "Qwen3-1.7B-Q8_0.gguf",
+      "sha256": "061b54daade076b5d3362dac252678d17da8c68f07560be70818cace6590cb1a",
+      "bytes": 1834426016,
+      "role": "official Q8 integration baseline"
+    },
+    {
+      "id": "qwen3-1.7b-q4",
+      "repository": "unsloth/Qwen3-1.7B-GGUF",
+      "revision": "d7f544eead698dbd1f15126ef60b45a1e1933222",
+      "base_model": "Qwen/Qwen3-1.7B",
+      "license": "apache-2.0",
+      "file": "Qwen3-1.7B-Q4_K_M.gguf",
+      "sha256": "b139949c5bd74937ad8ed8c8cf3d9ffb1e99c866c823204dc42c0d91fa181897",
+      "bytes": 1107409472,
+      "role": "third-party Q4_K_M candidate"
+    }
+  ],
+  "limitation": "Different GGUF publishers; observations do not isolate quantization from conversion/tokenizer differences."
+}

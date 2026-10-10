@@ -1,0 +1,37 @@
+[
+  {
+    "path": "src-tauri/src/desktop.rs",
+    "bytes": 72083,
+    "sha256": "75aad8b01cff4d62be95689a530b4466113daa7158f3834b6117ed02cea23a5f"
+  },
+  {
+    "path": "src-tauri/src/runtime.rs",
+    "bytes": 17744,
+    "sha256": "433b0af6b80faf0a566102dc3e69f461a8850509692670dc8932fec034e4bb2c"
+  },
+  {
+    "path": "src/MemoryPolicy.tsx",
+    "bytes": 2895,
+    "sha256": "293ca8af7558377d0e33d27186807490c66c19670c9c89e217dbaba589d0bb02"
+  },
+  {
+    "path": "src/ManagedRuntime.tsx",
+    "bytes": 7423,
+    "sha256": "3028814793c74b109881c29615d5cdbb1150c226d2b8a1fed175ffcc96834f6b"
+  },
+  {
+    "path": "src/EmbeddingSetup.tsx",
+    "bytes": 5590,
+    "sha256": "0760e630b28dc180ab29fc898672df6a2b6a3d178cfbd58cb907e23eeb253c3b"
+  },
+  {
+    "path": "src/App.tsx",
+    "bytes": 27078,
+    "sha256": "67a9305f7180984996805efc58d5945a5da7c55e16d5521913cb3f7654e74c74"
+  },
+  {
+    "path": "src-tauri/target/debug/bundle/macos/Cachella Media Check.app/Contents/MacOS/cachella",
+    "bytes": 48887256,
+    "sha256": "b4d510476e49a793d2d0f969e9214f9d1101cffb0e645616be97b534c7427ff7"
+  }
+]

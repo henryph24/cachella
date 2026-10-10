@@ -1,0 +1,12 @@
+{
+  "final_indexed": 14,
+  "final_total": 14,
+  "index_cancel_ms": 0,
+  "media_parts": 4,
+  "query_cancel_ms": 0,
+  "resume_batches": 2,
+  "retained_vectors": 1,
+  "retry_first_title": "Synthetic budget 9",
+  "runtime_stopped": true,
+  "scope": "Actual managed embedding engine, production index batch and query functions, isolated temporary SQLite. Timings are workload observations. Desktop IPC and UI require separate checks."
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "file": "audio.flac",
+    "bytes": 68552,
+    "sha256": "f16659861c1a91dd54f3c93bc0ccf20ec218e4f14b3a98d5bb4b19238759debe"
+  },
+  {
+    "file": "audio.mp3",
+    "bytes": 9620,
+    "sha256": "f1456f369612666d84cffc6b52e0656ee29ea8ba9c2943715fb0dcc2408e5d9f"
+  },
+  {
+    "file": "audio.ogg",
+    "bytes": 18340,
+    "sha256": "759df9c799de2fd87ac97482b50bdec110be2eefde1bb35148e08595101c284c"
+  },
+  {
+    "file": "image.jpg",
+    "bytes": 10736,
+    "sha256": "26b397b08fee62d5cbdd3eda0d96df1ffe8e5c5a4267a2a17851aa0635716522"
+  },
+  {
+    "file": "video.webm",
+    "bytes": 131370,
+    "sha256": "9e2bf672bc16f567ae666af1fce40fca023718d12e19911b8f3c1a65c9928889"
+  }
+]

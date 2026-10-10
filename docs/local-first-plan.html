@@ -1,0 +1,109 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light"><title>Cachella | Local-first implementation plan</title><style>
+    :root { color-scheme: light; --ink: #000; --paper: #fff; --rule: #000; --quiet: #f3f3f3; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 1rem; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.65 Georgia, 'Times New Roman', serif; }
+    a { color: #000; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible, summary:focus-visible { outline: 3px solid #000; outline-offset: 4px; }
+    .skip { position: absolute; top: -100px; left: 16px; background: #fff; padding: 8px; z-index: 2; }
+    .skip:focus { top: 8px; }
+    .page { width: min(1440px, 100%); margin: auto; padding: 28px 32px 44px; }
+    .masthead { display: flex; justify-content: space-between; gap: 16px; padding-bottom: 14px; border-bottom: 3px solid #000; font: 14px/1.4 Helvetica, Arial, sans-serif; }
+    .masthead strong { font-size: 20px; }
+    h1 { font-size: clamp(34px, 4.6vw, 62px); line-height: 1.08; letter-spacing: -1.4px; margin: 30px 0 18px; max-width: 1000px; }
+    .lead { font-size: 21px; line-height: 1.5; max-width: 920px; margin: 0 0 24px; }
+    .decision { border: 2px solid #000; padding: 20px 24px; margin: 22px 0; }
+    .decision p { margin: 0; max-width: 1080px; }
+    .decision p + p { margin-top: 10px; }
+    .facts { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid #000; border-bottom: 1px solid #000; margin: 26px 0; font-family: Helvetica, Arial, sans-serif; }
+    .facts div { padding: 16px 14px; border-right: 1px solid #000; }
+    .facts div:first-child { padding-left: 0; }
+    .facts div:last-child { border: 0; }
+    .facts dt { font-size: 13px; }
+    .facts dd { font-weight: bold; font-size: 25px; margin: 4px 0 0; line-height: 1.25; }
+    .layout { display: grid; grid-template-columns: 205px minmax(0, 1fr); gap: 40px; align-items: start; }
+    main, nav { min-width: 0; }
+    nav { position: sticky; top: 20px; font: 14px/1.45 Helvetica, Arial, sans-serif; }
+    nav ol { margin: 10px 0; padding-left: 21px; }
+    nav li { margin: 0 0 11px; }
+    nav a { text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    section { margin-bottom: 38px; }
+    h2 { font: bold 25px/1.25 Helvetica, Arial, sans-serif; padding-bottom: 10px; border-bottom: 2px solid #000; margin: 0 0 18px; }
+    h3 { font: bold 18px/1.35 Helvetica, Arial, sans-serif; margin: 24px 0 8px; }
+    p { margin: 10px 0 14px; max-width: 86ch; }
+    li { margin-bottom: 7px; }
+    .table-wrap { overflow-x: auto; margin: 16px 0; }
+    table { width: 100%; border-collapse: collapse; font: 14px/1.5 Helvetica, Arial, sans-serif; }
+    caption { text-align: left; font-weight: bold; margin: 0 0 8px; }
+    th, td { text-align: left; padding: 11px 10px; border-bottom: 1px solid #000; vertical-align: top; }
+    th { background: var(--quiet); border-top: 1px solid #000; }
+    tfoot td { font-weight: bold; border-top: 2px solid #000; }
+    .number { white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; }
+    .note { border-left: 3px solid #000; padding: 2px 0 2px 15px; margin: 20px 0; }
+    .small { font: 13px/1.6 Helvetica, Arial, sans-serif; }
+    .architecture { border: 1px solid #000; padding: 18px; margin: 18px 0; font: 14px/1.5 Helvetica, Arial, sans-serif; }
+    .flow { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; }
+    .flow div { border: 1px solid #000; padding: 14px; }
+    .flow strong { display: block; margin-bottom: 5px; }
+    .store { border-top: 1px solid #000; padding-top: 12px; margin-top: 14px; }
+    code { font: 0.88em/1.5 'SFMono-Regular', Consolas, monospace; overflow-wrap: anywhere; }
+    pre { border: 1px solid #000; padding: 16px; overflow-x: auto; background: #fff; line-height: 1.45; }
+    pre code { white-space: pre; }
+    details { border-top: 1px solid #000; border-bottom: 1px solid #000; padding: 12px 0; margin: 20px 0; }
+    summary { cursor: pointer; font: bold 15px/1.5 Helvetica, Arial, sans-serif; }
+    .sources li { font: 14px/1.55 Helvetica, Arial, sans-serif; margin: 0 0 12px; overflow-wrap: anywhere; }
+    footer { border-top: 3px solid #000; margin-top: 28px; padding-top: 16px; font: 13px/1.5 Helvetica, Arial, sans-serif; }
+    @media (max-width: 900px) {
+      .page { padding: 22px 20px; }
+      .layout { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+      nav { position: static; border-bottom: 1px solid #000; padding-bottom: 15px; }
+      nav ol { columns: 2; column-gap: 28px; }
+      nav li { break-inside: avoid; }
+      .flow { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 520px) {
+      .page { padding: 18px 14px; }
+      .masthead { flex-direction: column; gap: 5px; }
+      .lead { font-size: 18px; }
+      .facts { grid-template-columns: 1fr 1fr; }
+      .facts div { padding: 12px; }
+      .facts div:first-child { padding-left: 12px; }
+      .facts div:nth-child(2) { border-right: 0; }
+      .facts div:nth-child(-n+2) { border-bottom: 1px solid #000; }
+      .decision { padding: 16px; }
+      h1 { letter-spacing: -0.6px; }
+      h2 { font-size: 23px; }
+      th, td { padding: 9px 7px; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    @page { size: A4; margin: 13mm 10mm; }
+    @media print {
+      body { font-size: 12pt; }
+      .page { padding: 0; max-width: none; }
+      nav, .skip { display: none; }
+      .layout { display: block; }
+      h1 { font-size: 31pt; letter-spacing: -0.5pt; }
+      h2 { font-size: 17pt; break-after: avoid; }
+      h3 { break-after: avoid; }
+      .lead { font-size: 14pt; }
+      .facts dd { font-size: 18pt; }
+      table { font-size: 9pt; }
+      tr, .decision, .architecture { break-inside: avoid; }
+      thead { display: table-header-group; }
+      .table-wrap { overflow: visible; }
+      a { text-decoration: underline; }
+      .small, footer { font-size: 9pt; }
+      section { margin-bottom: 22pt; }
+      details { display: none; }
+    }
+  </style></head><body><div class="page"><header><div class="masthead"><strong>Cachella</strong><span>Local-first implementation plan · 9 October 2026</span></div><h1>Your knowledge.<br>On your computer.</h1><p class="lead">A Windows and macOS enterprise desktop application with local inference, searchable evidence and measurable cache reuse.</p><div class="decision"><p><strong>Current decision:</strong> Tauri 2 + React/TypeScript, a Rust native layer, SQLite and llama.cpp. Evaluate a 1–4B quantized generation model on consumer hardware. Local caching uses the inference engine’s built-in features. LMCache remains an optional enterprise-server integration.</p></div></header>
+<section><h2>Product contract</h2><p>Import text, documents, images, audio and video. Search across modalities, inspect the original evidence and ask grounded questions with page or timestamp citations. Store files, indexes, settings and models locally. Network activity must be explicit, with model setup and optional remote enterprise inference separately disclosed.</p><p>Deliver in verified increments while retaining the full multimodal objective. An implementation limited to text is an intermediate state. Each view must state which formats and runtime features are actually available.</p></section>
+<section><h2>Architecture</h2><div class="table-wrap"><table><thead><tr><th>Layer</th><th>Implementation</th><th>Verification</th></tr></thead><tbody><tr><td>Desktop</td><td>Tauri 2; React + TypeScript; native file dialogs</td><td>Native macOS launch and Windows build/runtime checks</td></tr><tr><td>Native boundary</td><td>Rust commands; validated inputs; managed subprocesses</td><td>Failure, cancellation and resource-limit tests</td></tr><tr><td>Persistence</td><td>SQLite, FTS5, immutable chunk identifiers and content hashes</td><td>Restart, delete, duplicate and corruption behavior</td></tr><tr><td>Inference</td><td>llama.cpp behind a typed local interface</td><td>Actual quantized-model completion, grounded citations and cache metrics</td></tr><tr><td>Embeddings</td><td>EmbeddingGemma 2 candidate; runtime selected after four-modality feasibility testing</td><td>Text, image, audio and video fixtures, consistent dimensions</td></tr><tr><td>Caching</td><td>Persistent embeddings; versioned retrieval; runtime prompt cache</td><td>Measured cold/warm runs and source-update invalidation</td></tr></tbody></table></div></section>
+<section><h2>Execution sequence</h2><ol><li>Build desktop shell and native storage boundary with text ingestion, library, search and source inspection.</li><li>Connect a local llama.cpp process; validate health, model identity, request limits and evidence-only fallback.</li><li>Add model installation, checksum verification, lifecycle management and offline restart behavior.</li><li>Prove multimodal embedding support; add document parsing, media segmentation, timestamps, thumbnails and resumable jobs.</li><li>Add cache measurement and invalidation; compare identical cold and warm workloads.</li><li>Review security and concurrency independently; package desktop builds and run acceptance tests.</li></ol></section>
+<section><h2>Hardware and cost</h2><p>Use a 16 GB Windows laptop as the intended baseline, with 8 GB considered only after measured memory checks. The development Mac has 36 GiB. Model weights, KV cache, embedding processes and UI compete for memory. The optional one-model mode keeps at most one Cachella-managed engine loaded, switching between search and answers after each role has been started once per session. Stop disables automatic resumption for that role. Switching adds startup time and discards the stopped engine’s prompt cache. This residency policy provides no fixed RAM guarantee; whole-app measurements remain required.</p><p>Measured prototype: Qwen3-1.7B Q4_K_M through llama.cpp plus EmbeddingGemma 2 Q8. Two M3 Pro runs observed 1.488–1.507 GiB of sampled combined process footprint, with clean mapped memory, the desktop webview and the OS outside that metric. This does not establish a minimum RAM requirement. For an identical 1,365-token prefix, generation-only median response latency was 1,624.5 ms with reuse disabled and 763.0 ms with reuse enabled. These are local llama.cpp observations; LMCache was absent. <a href="../evaluation/resources/README.md">Method, raw results and limitations</a>.</p><p>Core local inference has no recurring hosting bill. Electricity, hardware, signing and distribution are separate costs. Fly.io is optional for a future service and must stay below the user’s $10 monthly budget if introduced. No cloud resources are provisioned by this plan.</p></section>
+<section><h2>Enterprise boundary</h2><p>Local file access is user initiated. Keep the rendering layer free of arbitrary filesystem and shell access. Bind model servers to loopback and use an application-owned credential for a managed server. Prevent prompts and document contents from reaching remote endpoints by default. Source documents are untrusted data; the model has no tools or authority to execute instructions.</p><p>An optional enterprise-server adapter may later connect to vLLM + LMCache under explicit policy. That option needs tenant-aware permissions, authentication, transport security and independent benchmarks. Local prompt-cache results must never be presented as LMCache measurements.</p></section>
+<section><h2>Delivery evidence</h2><p>The macOS release has native multimodal, lifecycle, context-limit recovery and long-context measurements. Windows execution and the intended 16 GB hardware check remain pending. The test package references separately downloaded models and has no distribution signature. <a href="delivery-status.md">Current package, evidence and remaining delivery gates</a>.</p></section>
+<section><h2>Acceptance</h2><ul><li>Persistent imported content survives a native-app restart; deletions remove searchable chunks and invalidate cached answers.</li><li>Every citation resolves to an actual supplied source; absent evidence yields an explicit abstention.</li><li>One actual model completes a grounded query with a quantized checkpoint; timings come from measured execution.</li><li>Four modality fixtures retrieve the expected evidence, including audio tracks in videos.</li><li>Windows and macOS verification are reported separately. Cross-platform source alone does not prove Windows runtime behavior.</li><li>All relevant tests, type checks and lint checks pass; risk-bearing changes receive independent review.</li></ul></section>
+<section><h2>References</h2><ul><li><a href="https://v2.tauri.app/concept/architecture/">Tauri architecture</a></li><li><a href="https://github.com/ggml-org/llama.cpp/tree/master/tools/server">llama.cpp server and prompt caching</a></li><li><a href="https://huggingface.co/google/embeddinggemma-2">EmbeddingGemma 2 model card</a></li><li><a href="https://docs.lmcache.ai/developer_guide/integration.html">LMCache engine integrations</a></li></ul></section><footer>Implementation status and evidence are tracked in tasks/todo.md. This document describes the target system; each capability needs runtime verification.</footer></div></body></html>

@@ -1,0 +1,39 @@
+{
+  "name": "cachella",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 1420 --strictPort",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "tauri": "tauri",
+    "desktop": "tauri dev --features desktop",
+    "desktop:build": "npm run engine:prepare && tauri build --features desktop --config src-tauri/tauri.engine.conf.json",
+    "test:rust": "cargo build --manifest-path src-tauri/Cargo.toml --example process_guard_fixture && cargo test --manifest-path src-tauri/Cargo.toml --lib --features desktop",
+    "check:rust": "cargo clippy --manifest-path src-tauri/Cargo.toml --all-targets --features desktop -- -D warnings",
+    "test": "vitest run",
+    "engine:prepare": "python3 scripts/prepare_engine.py",
+    "decoder:prepare": "python3 scripts/prepare_decoder.py --replace",
+    "desktop:build:mac": "npm run engine:prepare && npm run decoder:prepare && tauri build --features desktop --config src-tauri/tauri.engine.conf.json --config src-tauri/tauri.decoder.conf.json",
+    "desktop:bundle:windows": "npm run engine:prepare && tauri build --features desktop --config src-tauri/tauri.engine.conf.json --config src-tauri/tauri.decoder.conf.json"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.10.1",
+    "lucide-react": "^0.577.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.12.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.7",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.1.0",
+    "jsdom": "^29.1.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.0",
+    "vitest": "^4.1.11"
+  }
+}

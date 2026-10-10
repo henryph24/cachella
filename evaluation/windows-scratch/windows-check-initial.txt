@@ -1,0 +1,115 @@
+   Compiling windows_x86_64_msvc v0.52.6
+   Compiling io-lifetimes v2.0.4
+   Compiling proc-macro2 v1.0.107
+   Compiling io-extras v0.18.4
+   Compiling quote v1.0.47
+   Compiling unicode-ident v1.0.26
+   Compiling getrandom v0.4.3
+    Checking bitflags v2.13.2
+   Compiling cap-primitives v3.4.6
+    Checking cfg-if v1.0.5
+    Checking ambient-authority v0.0.2
+   Compiling cap-std v3.4.6
+    Checking maybe-owned v0.3.4
+   Compiling serde_core v1.0.229
+    Checking ipnet v2.12.2
+   Compiling serde v1.0.229
+    Checking windows-link v0.2.1
+   Compiling cap-fs-ext v3.4.6
+    Checking windows-sys v0.61.2
+    Checking fastrand v2.5.0
+    Checking once_cell v1.21.4
+    Checking windows-targets v0.52.6
+    Checking windows-sys v0.59.0
+    Checking fs-set-times v0.20.3
+    Checking winx v0.36.4
+    Checking uuid v1.27.0
+    Checking tempfile v3.27.0
+   Compiling syn v3.0.6
+   Compiling serde_derive v1.0.229
+    Checking cachella-scratch-check v0.1.0 (/Users/hungpq2412/cachella/scripts/scratch-check)
+error[E0412]: cannot find type `FILE_DIRECTORY_INFORMATION` in this scope
+    --> ../../src-tauri/src/scratch_windows.rs:333:46
+     |
+ 333 |         if buffer.len() - offset < size_of::<FILE_DIRECTORY_INFORMATION>() - size_of::<u16>() {
+     |                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^ help: a struct with a similar name exists: `FILE_DISPOSITION_INFORMATION`
+     |
+    ::: /Users/hungpq2412/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/windows-sys-0.61.2/src/Windows/Wdk/Storage/FileSystem/mod.rs:1699:1
+     |
+1699 | pub struct FILE_DISPOSITION_INFORMATION {
+     | --------------------------------------- similarly named struct `FILE_DISPOSITION_INFORMATION` defined here
+
+error[E0412]: cannot find type `FILE_DIRECTORY_INFORMATION` in this scope
+    --> ../../src-tauri/src/scratch_windows.rs:336:66
+     |
+ 336 |         let entry = unsafe { &*(buffer[offset..].as_ptr().cast::<FILE_DIRECTORY_INFORMATION>()) };
+     |                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^ help: a struct with a similar name exists: `FILE_DISPOSITION_INFORMATION`
+     |
+    ::: /Users/hungpq2412/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/windows-sys-0.61.2/src/Windows/Wdk/Storage/FileSystem/mod.rs:1699:1
+     |
+1699 | pub struct FILE_DISPOSITION_INFORMATION {
+     | --------------------------------------- similarly named struct `FILE_DISPOSITION_INFORMATION` defined here
+
+error[E0412]: cannot find type `FILE_DIRECTORY_INFORMATION` in this scope
+    --> ../../src-tauri/src/scratch_windows.rs:337:46
+     |
+ 337 |         let name_start = offset + (size_of::<FILE_DIRECTORY_INFORMATION>() - size_of::<u16>());
+     |                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^ help: a struct with a similar name exists: `FILE_DISPOSITION_INFORMATION`
+     |
+    ::: /Users/hungpq2412/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/windows-sys-0.61.2/src/Windows/Wdk/Storage/FileSystem/mod.rs:1699:1
+     |
+1699 | pub struct FILE_DISPOSITION_INFORMATION {
+     | --------------------------------------- similarly named struct `FILE_DISPOSITION_INFORMATION` defined here
+
+error[E0412]: cannot find type `FILE_DIRECTORY_INFORMATION` in this scope
+    --> ../../src-tauri/src/scratch_windows.rs:353:29
+     |
+ 353 | ...   if next < size_of::<FILE_DIRECTORY_INFORMATION>() - size_of::<u16>() || offset.checked_add(next).filter(|end| *end < buffer.len())....
+     |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^ help: a struct with a similar name exists: `FILE_DISPOSITION_INFORMATION`
+     |
+    ::: /Users/hungpq2412/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/windows-sys-0.61.2/src/Windows/Wdk/Storage/FileSystem/mod.rs:1699:1
+     |
+1699 | pub struct FILE_DISPOSITION_INFORMATION {
+     | --------------------------------------- similarly named struct `FILE_DISPOSITION_INFORMATION` defined here
+
+error[E0308]: mismatched types
+   --> ../../src-tauri/src/scratch_windows.rs:133:21
+    |
+131 |                 NtQueryDirectoryFile(
+    |                 -------------------- arguments to this function are incorrect
+132 |                     raw_handle(&self.file),
+133 |                     0,
+    |                     ^ expected `*mut c_void`, found `usize`
+    |
+    = note: expected raw pointer `*mut c_void`
+                      found type `usize`
+note: function defined here
+   --> /Users/hungpq2412/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/windows-sys-0.61.2/src/Windows/Wdk/Storage/FileSystem/mod.rs:660:45
+    |
+660 | windows_link::link!("ntdll.dll" "system" fn NtQueryDirectoryFile(filehandle : super::super::super::Win32::Foundation:: HANDLE, event : su...
+    |                                             ^^^^^^^^^^^^^^^^^^^^
+help: if you meant to create a null pointer, use `std::ptr::null_mut()`
+    |
+133 -                     0,
+133 +                     std::ptr::null_mut(),
+    |
+
+error[E0308]: mismatched types
+   --> ../../src-tauri/src/scratch_windows.rs:297:30
+    |
+297 |     let mut handle: HANDLE = 0;
+    |                     ------   ^ expected `*mut c_void`, found `usize`
+    |                     |
+    |                     expected due to this
+    |
+    = note: expected raw pointer `*mut c_void`
+                      found type `usize`
+help: if you meant to create a null pointer, use `std::ptr::null_mut()`
+    |
+297 -     let mut handle: HANDLE = 0;
+297 +     let mut handle: HANDLE = std::ptr::null_mut();
+    |
+
+Some errors have detailed explanations: E0308, E0412.
+For more information about an error, try `rustc --explain E0308`.
+error: could not compile `cachella-scratch-check` (lib test) due to 6 previous errors

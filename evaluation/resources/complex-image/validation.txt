@@ -1,0 +1,1 @@
+PASS: 3 documents, 65 local links, 5 artifact hashes, 2 PNG dimensions, 706 samples/702 valid and final coalition empty.

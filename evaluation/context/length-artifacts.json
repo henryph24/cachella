@@ -1,0 +1,37 @@
+[
+  {
+    "path": "src-tauri/src/inference.rs",
+    "bytes": 33788,
+    "sha256": "f381bb8c7eb5fd6c97ac7e321eb060f95570729ede418a0d5a1a709953d04a39"
+  },
+  {
+    "path": "src-tauri/target/release/examples/evaluate_local_rag",
+    "bytes": 6947984,
+    "sha256": "e75f901c772362c0428061dcfe45521805c047b0066bd577494a0349d67266cc"
+  },
+  {
+    "path": ".local/context_capture_inference.rs",
+    "bytes": 30648,
+    "sha256": "092a5360d71f45f92c5224c0d1a20171935fed060486db6c4291f039be71f197"
+  },
+  {
+    "path": ".local/context_capture_probe.rs",
+    "bytes": 4958,
+    "sha256": "1b85151fc9d5961405002ea2b1307fc07e486f2ca2069208dd5138c095136322"
+  },
+  {
+    "path": "evaluation/context/structure-response.json",
+    "bytes": 1346,
+    "sha256": "9421344a7003b65679d1a64be4b4c5530452f44225c5ade9d07cea73da9f53e4"
+  },
+  {
+    "path": "evaluation/context/length-recovery-cases.json",
+    "bytes": 10981,
+    "sha256": "f2d9531118f7c2ccfadc490f7b5052f73c6b28f42e95eb5604d6c58bcc6b190f"
+  },
+  {
+    "path": "evaluation/context/length-recovery-results.json",
+    "bytes": 16357,
+    "sha256": "90cb2b758d048704bdbcc69127ba8de7383dd1a9b5d5c981b19ddfe61c2a0ff7"
+  }
+]

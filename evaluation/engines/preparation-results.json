@@ -1,0 +1,20 @@
+[
+  {
+    "platform": "macos-arm64",
+    "files": 61,
+    "bytes": 72108556,
+    "payload_sha256": "4ae80e16eda973ce7b00b8e313d4069a5088975188cdd77f0959cd6a16846b21",
+    "fresh_publication_verified": true,
+    "reuse_verified": true,
+    "runtime_executed": false
+  },
+  {
+    "platform": "windows-x86_64",
+    "files": 52,
+    "bytes": 49751379,
+    "payload_sha256": "b2f27e1f09b32094a2e4d85d732e1169d5992b77dd22ccac89c84b2706e7a98d",
+    "fresh_publication_verified": true,
+    "reuse_verified": true,
+    "runtime_executed": false
+  }
+]

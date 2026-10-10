@@ -1,0 +1,1 @@
+PASS: native index cancellation retained 29/51, resumed 51/51; 29 hashes unchanged; 8 documents; 0 app descendants

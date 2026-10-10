@@ -1,0 +1,26 @@
+node_modules/
+dist/
+src-tauri/target/
+scripts/scratch-check/target/
+src-tauri/gen/
+.DS_Store
+*.log
+artifacts/
+.local/
+
+*.tsbuildinfo
+__pycache__/
+*.pyc
+
+# Verified engine binaries are prepared from pinned archives during packaging.
+src-tauri/resources/engine/
+
+# Decoder binaries and build workspaces are generated from pinned source.
+src-tauri/resources/decoder/
+src-tauri/resources/.decoder-build-*/
+src-tauri/resources/.decoder-prepare.lock
+src-tauri/resources/.decoder-previous-*/
+
+# Local document render previews and process markers.
+tmp/
+*.pid

@@ -1,0 +1,19 @@
+{
+  "method": "Native CUA accessibility observations; read-only SQLite and ps inspection",
+  "query": "LimitBudget",
+  "matching_passages": 4,
+  "error": "The model reached its generation or context limit before finishing the answer. Try a shorter, more specific question. Your search results are still available.",
+  "results_retained": true,
+  "generation_control_restored": true,
+  "recovery_query": "BudgetRecovery",
+  "recovery_answer": "The BudgetRecovery monthly cap is eight dollars, which is the approved recurring monthly budget.",
+  "recovery_citations": [
+    "context-recovery.txt"
+  ],
+  "displayed_seconds": 2.2,
+  "input_tokens": 196,
+  "cached_tokens": 67,
+  "same_engine_pid": 14306,
+  "before_after_process_rows_equal": true,
+  "final_bundle_process_count": 0
+}

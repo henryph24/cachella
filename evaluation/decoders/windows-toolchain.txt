@@ -1,0 +1,71 @@
+Warning: You are using macOS 14.
+We (and Apple) do not provide support for this old version.
+
+Homebrew no longer builds bottles for this configuration.
+Consider MacPorts, which provides binary packages for this macOS version:
+  https://www.macports.org
+Warning: The following taps are not trusted:
+  anomalyco/tap
+  supabase/tap
+
+Homebrew is currently ignoring formulae, casks and commands
+from these taps because tap trust is required.
+Prefer trusting only the specific formulae, casks or commands you need.
+Trust installed formulae from these taps with:
+  brew trust --formula supabase/tap/supabase
+Trust other specific casks and commands with:
+  brew trust --cask <user>/<tap>/<cask>
+  brew trust --command <user>/<tap>/<command>
+Whole-tap trust is broader and includes all current and future formulae,
+casks and commands from the listed taps. Trust whole taps with:
+  brew trust anomalyco/tap supabase/tap
+Untap them with:
+  brew untap anomalyco/tap supabase/tap
+For more information, see:
+  https://docs.brew.sh/Tap-Trust
+==> Downloading bottle manifests
+✔︎ Bottle Manifest mingw-w64 (14.0.0_3)
+✔︎ Bottle Manifest nasm (3.02)
+==> Would install 2 formulae:
+mingw-w64  14.0.0_3
+nasm       3.02
+==> Would install 3 dependencies for mingw-w64:
+isl
+mpfr
+libmpc
+==> Would upgrade 1 dependency for mingw-w64:
+xz
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/b1c63f8c9fa7f115188c81f91e04c7914d24764e/Formula/x/xz.rb
+Already downloaded: /Users/hungpq2412/Library/Caches/Homebrew/downloads/13257a85f34839562856c2223076b628b74fa96d7dab8ca561f2aa373bdbfaa0--xz.rb
+==> Fetching downloads for: mingw-w64 and nasm
+✔︎ Bottle nasm (3.02)
+✔︎ Bottle Manifest isl (0.28)
+✔︎ Bottle Manifest mpfr (4.2.2)
+✔︎ Bottle mpfr (4.2.2)
+✔︎ Bottle Manifest libmpc (1.4.1)
+✔︎ Bottle libmpc (1.4.1)
+✔︎ API Source xz.rb
+✔︎ Bottle isl (0.28)
+✔︎ Formula xz (5.8.4)
+✔︎ Bottle mingw-w64 (14.0.0_3)
+==> Installing dependencies for mingw-w64: isl, mpfr and libmpc
+==> Installing mingw-w64 dependency: isl (0.28)
+==> Pouring isl--0.28.arm64_sonoma.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/isl/0.28: 80 files, 8MB
+==> Installing mingw-w64 dependency: mpfr (4.2.2)
+==> Pouring mpfr--4.2.2.arm64_sonoma.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mpfr/4.2.2: 31 files, 3.2MB
+==> Installing mingw-w64 dependency: libmpc (1.4.1)
+==> Pouring libmpc--1.4.1.arm64_sonoma.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libmpc/1.4.1: 14 files, 525KB
+==> Installing mingw-w64
+==> Pouring mingw-w64--14.0.0_3.arm64_sonoma.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mingw-w64/14.0.0_3: 8,584 files, 1.4GB
+==> Pouring nasm--3.02.arm64_sonoma.bottle.tar.gz
+
+This is a Tier 3 configuration:
+  https://docs.brew.sh/Support-Tiers#tier-3
+You can report issues with Tier 3 configurations to Homebrew/* repositories!
+  
+Read the above document before opening any issues or PRs.
+🍺  /opt/homebrew/Cellar/nasm/3.02: 12 files, 3.1MB

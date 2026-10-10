@@ -1,0 +1,13 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.18s
+     Running unittests src/lib.rs (src-tauri/target/debug/deps/cachella_lib-0d67fb13494b5020)
+
+running 4 tests
+test settings::tests::readers_keep_committed_settings_until_publication ... ok
+test settings::tests::failed_publication_preserves_destination_and_removes_staging ... ok
+test settings::tests::json_round_trips_and_legacy_temporary_files_are_preserved ... ok
+
+running 1 test
+test settings::tests::interrupted_writer_keeps_committed_settings_and_releases_staging_lease ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 124 filtered out; finished in 0.11s
+

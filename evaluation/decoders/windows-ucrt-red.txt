@@ -1,0 +1,16 @@
+................E
+======================================================================
+ERROR: test_windows_ucrt_api_sets_are_system_imports (test_prepare_decoder.DecoderPreparationTests.test_windows_ucrt_api_sets_are_system_imports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/hungpq2412/cachella/scripts/test_prepare_decoder.py", line 97, in test_windows_ucrt_api_sets_are_system_imports
+    d.validate_pe_inspection(record)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/hungpq2412/cachella/scripts/prepare_decoder.py", line 277, in validate_pe_inspection
+    raise PrepareError('decoder imports a non-system Windows runtime: ' + (', '.join(rejected) or 'no imports reported'))
+prepare_engine.PrepareError: decoder imports a non-system Windows runtime: api-ms-win-crt-runtime-l1-1-0.dll
+
+----------------------------------------------------------------------
+Ran 17 tests in 1.026s
+
+FAILED (errors=1)

@@ -1,0 +1,30 @@
+{
+  "bundle_id": "embeddinggemma2-q8",
+  "elapsed_ms": 200054,
+  "files": [
+    {
+      "bytes": 309855456,
+      "name": "embeddinggemma-2-Q8_0.gguf"
+    },
+    {
+      "bytes": 554821024,
+      "name": "mmproj-embeddinggemma-2-Q8_0.gguf"
+    }
+  ],
+  "observed_phases": [
+    "downloading",
+    "verifying",
+    "downloading",
+    "verifying"
+  ],
+  "progress": {
+    "bundle_id": "embeddinggemma2-q8",
+    "current_file": null,
+    "downloaded_bytes": 864676480,
+    "error": null,
+    "phase": "ready",
+    "total_bytes": 864676480
+  },
+  "scope": "Production installer; SHA256, GGUF header and exact size enforced before publication. Engine selection/start is a separate native UI check.",
+  "verified": true
+}

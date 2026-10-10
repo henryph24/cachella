@@ -1,0 +1,33 @@
+   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 2.52s
+     Running unittests src/lib.rs (src-tauri/target/debug/deps/cachella_lib-53fb0332b27fd23f)
+
+running 23 tests
+test models::tests::catalog_is_pinned_and_has_exact_totals ... ok
+test models::tests::recovery_preserves_active_owner_and_reclaims_after_release ... ok
+test models::tests::recovery_rejects_linked_directories_and_lock_and_preserves_linked_partials ... ok
+test models::tests::recovery_stays_in_locked_directory_after_path_replacement ... ok
+test models::tests::recovery_only_removes_regular_partials_in_known_revisions ... ok
+test models::tests::rejects_untrusted_urls ... ok
+
+running 1 test
+test models::tests::recovery_after_forced_process_exit_releases_os_lease ... ok
+test models::tests::shutdown_child_exits_after_stalled_transfer_cleanup ... ok
+test models::tests::installs_verified_fixture_and_reuses_without_network ... ok
+test models::tests::unknown_bundle_does_not_create_files_or_change_progress ... ok
+test models::tests::verification_observes_cancellation ... ok
+test models::tests::verifies_header_length_and_checksum ... ok
+test models::tests::cancellation_releases_global_gate_and_retry_restarts ... ok
+test models::tests::dropped_install_future_releases_gate_and_removes_partial ... ok
+test models::tests::refuses_symlinked_install_directories ... ok
+test models::tests::publication_never_clobbers_a_concurrently_created_destination ... ok
+test models::tests::install_rejects_an_external_revision_lease_without_touching_its_partial ... ok
+test models::tests::rejects_corrupt_existing_file_without_clobbering_it ... ok
+test models::tests::rejects_oversized_and_corrupt_downloads_with_partial_cleanup ... ok
+test models::tests::retry_removes_abandoned_partials_and_preserves_other_files ... ok
+test models::tests::shutdown_permanently_rejects_new_installs ... ok
+test models::tests::stale_cancel_notification_does_not_cancel_a_new_install ... ok
+test models::tests::truncated_or_wrong_declared_size_never_publishes ... ok
+
+test result: ok. 23 passed; 0 failed; 0 ignored; 0 measured; 69 filtered out; finished in 0.20s
+

@@ -1,0 +1,20 @@
+{
+  "app_pid": 19417,
+  "children_before": [
+    {
+      "pid": 23023,
+      "parent": 19417,
+      "command": "/Users/hungpq2412/cachella/src-tauri/target/debug/bundle/macos/Cachella.app/Contents/Resources/engine/llama-server"
+    }
+  ],
+  "survivors_after_forced_exit": [
+    {
+      "pid": 23023,
+      "parent": 1,
+      "command": "/Users/hungpq2412/cachella/src-tauri/target/debug/bundle/macos/Cachella.app/Contents/Resources/engine/llama-server"
+    }
+  ],
+  "observation_ms": 5078,
+  "automatic_child_cleanup": false,
+  "scope": "SIGKILL of the exact development app root; independent guardian kill and OS crash are outside this check."
+}

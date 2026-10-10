@@ -1,0 +1,15 @@
+{
+  "document_id": "44e51b874fd78ea85775b89605b5ea3c9262e7f67b9c4fafb36bc0691f82610d",
+  "mime": "image/png",
+  "stored_bytes": 143181,
+  "width": 512,
+  "height": 410,
+  "payload_sha256": "956ae9713d72cb7fbb4913a6085f609d5451a74ced21909387f22b32034c8d1c",
+  "media_parts": 1,
+  "part_matches_preview": true,
+  "counts": {
+    "documents": 16,
+    "chunks": 75,
+    "embeddings": 60
+  }
+}

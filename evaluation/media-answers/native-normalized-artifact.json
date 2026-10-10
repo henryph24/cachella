@@ -1,0 +1,6 @@
+{
+  "binary": "src-tauri/target/debug/bundle/macos/Cachella Media Check.app/Contents/MacOS/cachella",
+  "bytes": 48824696,
+  "sha256": "dd9c431b9283b87c0d40596282b1377097c88655e267179598d9a9c1d3ece18d",
+  "inference_source_sha256": "cf26feafc50219a8304b65277cbc4dbcf885fafe650596d1997e6cc7919e1d33"
+}

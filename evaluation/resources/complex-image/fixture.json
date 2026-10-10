@@ -1,0 +1,10 @@
+{
+  "path": "evaluation/resources/complex-image/noise20m.png",
+  "width": 5000,
+  "height": 4000,
+  "pixels": 20000000,
+  "color_type": "8-bit grayscale",
+  "seed": 20000000,
+  "bytes": 20010168,
+  "sha256": "e13131b057abb7c4112ed581453f5695f391cfa00a116b20fb521cb5c7c4bcd2"
+}

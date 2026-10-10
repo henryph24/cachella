@@ -1,0 +1,14 @@
+   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.25s
+     Running `src-tauri/target/debug/examples/multimodal_smoke .local/engine-candidate/llama-b11531/llama-server .local/models/embeddinggemma-2-Q8_0.gguf .local/models/mmproj-embeddinggemma-2-Q8_0.gguf /opt/homebrew/bin/ffmpeg evaluation/multimodal/fixtures evaluation/lifecycle/multimodal-results.json`
+PASS: decoded, persisted and range-served red-circle.png (1 parts).
+PASS: decoded, persisted and range-served blue-square.png (1 parts).
+PASS: decoded, persisted and range-served budget.wav (1 parts).
+PASS: decoded, persisted and range-served lunch.wav (1 parts).
+PASS: decoded, persisted and range-served budget-video.mp4 (2 parts).
+PASS: image retrieval ranks expected content above contrast.
+PASS: audio retrieval ranks expected content above contrast.
+PASS: video_frame retrieval ranks expected content above contrast.
+PASS: video_audio retrieval ranks expected content above contrast.
+PASS: text retrieval ranks expected content above contrast.
+PASS: persistence, timestamp metadata, text-only generation guard, deletion and process cleanup verified.

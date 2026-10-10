@@ -1,0 +1,18 @@
+    Blocking waiting for file lock on build directory
+   Compiling ring v0.17.14
+   Compiling libsqlite3-sys v0.30.1
+   Compiling rustls v0.23.45
+   Compiling rustls-webpki v0.103.15
+   Compiling rcgen v0.14.10
+   Compiling rusqlite v0.32.1
+   Compiling tokio-rustls v0.26.6
+   Compiling hyper-rustls v0.27.10
+   Compiling reqwest v0.12.28
+   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 36.39s
+     Running `src-tauri/target/debug/examples/pdf_smoke .local/engine-candidate/llama-b11531/llama-server .local/models/Qwen3-1.7B-Q4_K_M.gguf .local/models/embeddinggemma-2-Q8_0.gguf .local/models/mmproj-embeddinggemma-2-Q8_0.gguf evaluation/pdf/fixtures/project-brief.pdf evaluation/pdf/model-results.json`
+PASS: guarded PDF import preserves 3 physical pages and searches page 3 after a blank page.
+PASS: actual local embeddings rank budget evidence on page 3 first.
+PASS: source bytes, blank page, page citations and 2 vectors survive database reopen.
+PASS: actual Q4 answer states the synthetic budget and cites the stored page-3 evidence.
+PASS: deleting PDF removes pages, search evidence and vectors; both engines stopped.

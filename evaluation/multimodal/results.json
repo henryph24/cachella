@@ -1,0 +1,114 @@
+{
+  "model": "ggml-org/embeddinggemma-2-GGUF Q8_0 + Q8_0 projector",
+  "dimensions": 768,
+  "fixture_hashes": {
+    "budget-video.mp4": "95b7bcd236ce0a2e7cfa5b6d9d2e20ec62ace31dde455434a1b91e745b3a05bf",
+    "blue-square.png": "135e1b8427c159e5cdcbfb5f2d7d323e939b63421e0c0b714332f95229da2794",
+    "video-audio.wav": "f783a566c79162279adf5f5d1c40489bc819ce6e56c2f9fbc8869b36206c5cbb",
+    "red-circle.png": "e9c11c07932429606491d42a2f29e1322a492fb2515fc2f9bebf22fbc08a1fd1",
+    "video-frame.png": "2b1ab0feb14c861ff754961059bca8be14c64e81b96c4ad35c5955ada0fd859c",
+    "lunch.wav": "4e21fce40eaf06193d966327fbafff269be6109cf910fe9c5d928fe5f77c6703",
+    "video-metadata.json": "19e6192bcbbfb1a20e3b7c05651d6105aeeb82d86ca7a6139930bec26a95401b",
+    "budget.wav": "e06108cfa6141805e9dedc7743220e307c5786d9a1502caa15afe27c65602af9"
+  },
+  "embedding_ms": {
+    "text_budget": 86.44,
+    "text_lunch": 21.04,
+    "red_circle": 408.96,
+    "blue_square": 102.15,
+    "audio_budget": 437.02,
+    "audio_lunch": 57.58,
+    "video_frame": 102.4,
+    "video_audio": 51.2
+  },
+  "cases": [
+    {
+      "case": "text",
+      "query": "What is our spending cap for cloud hosting?",
+      "query_ms": 16.9,
+      "expected": "text_budget",
+      "ranked": [
+        {
+          "id": "text_budget",
+          "cosine": 0.8053123612273215
+        },
+        {
+          "id": "text_lunch",
+          "cosine": 0.5130579932688478
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "image",
+      "query": "A red circle on a white background",
+      "query_ms": 75.22,
+      "expected": "red_circle",
+      "ranked": [
+        {
+          "id": "red_circle",
+          "cosine": 0.7780243909155681
+        },
+        {
+          "id": "blue_square",
+          "cosine": 0.6263280894316675
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "audio",
+      "query": "A person states the monthly project cloud budget",
+      "query_ms": 17.03,
+      "expected": "audio_budget",
+      "ranked": [
+        {
+          "id": "audio_budget",
+          "cosine": 0.8525799044700141
+        },
+        {
+          "id": "audio_lunch",
+          "cosine": 0.5023404669214944
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "video_visual",
+      "query": "A red circle on a white background",
+      "query_ms": 13.3,
+      "expected": "video_frame",
+      "ranked": [
+        {
+          "id": "video_frame",
+          "cosine": 0.7834241169053954
+        },
+        {
+          "id": "blue_square",
+          "cosine": 0.6263280894316675
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "video_soundtrack",
+      "query": "A person states the monthly project cloud budget",
+      "query_ms": 16.42,
+      "expected": "video_audio",
+      "ranked": [
+        {
+          "id": "video_audio",
+          "cosine": 0.8592481665769827
+        },
+        {
+          "id": "audio_lunch",
+          "cosine": 0.5023404669214944
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "passed": 5,
+  "total": 5,
+  "scope": "Synthetic two-candidate retrieval feasibility. Video frame and soundtrack embedded separately; no claim of fused temporal video understanding."
+}

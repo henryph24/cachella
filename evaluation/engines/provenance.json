@@ -1,0 +1,28 @@
+{
+  "tag": "b11531",
+  "source_commit": "8b543610254aafe121942eaf79a23c3847177270",
+  "release_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11531",
+  "release_published_at": "2026-10-09T16:38:06Z",
+  "artifacts": [
+    {
+      "platform": "macos-arm64",
+      "filename": "llama-b11531-bin-macos-arm64.tar.gz",
+      "bytes": 12075606,
+      "sha256": "d4938d47e4cceb8f123b80b36f1c541279dff08a60fa36408dbe36d4844f4425"
+    },
+    {
+      "platform": "windows-x86_64",
+      "filename": "llama-b11531-bin-win-cpu-x64.zip",
+      "bytes": 19513227,
+      "sha256": "a713d17e2bde26862e3c27bf2a226d35dffc80c3220a135b8cc278ad035ab170"
+    }
+  ],
+  "macos_compatibility": {
+    "managed_generation_smoke_pass_lines": 5,
+    "semantic_smoke_pass_lines": 5,
+    "generation_model": "Qwen3-1.7B-Q4_K_M.gguf",
+    "embedding_model": "embeddinggemma-2-Q8_0.gguf",
+    "projector": "mmproj-embeddinggemma-2-Q8_0.gguf"
+  },
+  "windows_runtime_verified": false
+}

@@ -1,0 +1,16 @@
+   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.74s
+     Running unittests src/lib.rs (src-tauri/target/debug/deps/cachella_lib-29f73393dc8ef66a)
+
+running 8 tests
+test pdf::tests::rejects_excessive_font_mapping_cardinality_before_expansion ... ok
+test pdf::tests::bounds_font_mapping_payload_and_keeps_normal_unicode_mapping ... ok
+test pdf::tests::rejects_invalid_and_oversized_sources ... ok
+test pdf::tests::extracts_physical_pages_without_renumbering_blank_pages ... ok
+test pdf::tests::rejects_documents_without_selectable_text ... ok
+test pdf::tests::rejects_permission_protected_and_password_protected_pdfs ... ok
+test pdf::tests::rejects_page_stream_expansion_beyond_the_limit ... ok
+test pdf::tests::guarded_helper_prepares_the_exact_input_snapshot ... ok
+
+test result: ok. 8 passed; 0 failed; 0 ignored; 0 measured; 77 filtered out; finished in 0.34s
+

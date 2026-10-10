@@ -1,0 +1,383 @@
+{
+  "cases": [
+    {
+      "audio_first": true,
+      "cache": false,
+      "order": [
+        "audio/wav",
+        "image/png"
+      ],
+      "repeat": 1,
+      "result": {
+        "answer": {
+          "answer": {
+            "answer": "The retrieved documents do not provide enough reliable evidence to answer this question. Review the sources or add a relevant document.",
+            "insufficient_evidence": true,
+            "source_ids": []
+          },
+          "cached_tokens": 0,
+          "completion_tokens": 36,
+          "elapsed_ms": 1263,
+          "prompt_tokens": 459,
+          "sources": [
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1",
+              "kind": "video",
+              "ordinal": 1,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video audio 0:00–0:03 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            },
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "kind": "video",
+              "ordinal": 0,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video frame at 0:00 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            }
+          ]
+        },
+        "ok": true
+      }
+    },
+    {
+      "audio_first": true,
+      "cache": false,
+      "order": [
+        "audio/wav",
+        "image/png"
+      ],
+      "repeat": 2,
+      "result": {
+        "answer": {
+          "answer": {
+            "answer": "The retrieved documents do not provide enough reliable evidence to answer this question. Review the sources or add a relevant document.",
+            "insufficient_evidence": true,
+            "source_ids": []
+          },
+          "cached_tokens": 0,
+          "completion_tokens": 36,
+          "elapsed_ms": 1236,
+          "prompt_tokens": 459,
+          "sources": [
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1",
+              "kind": "video",
+              "ordinal": 1,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video audio 0:00–0:03 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            },
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "kind": "video",
+              "ordinal": 0,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video frame at 0:00 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            }
+          ]
+        },
+        "ok": true
+      }
+    },
+    {
+      "audio_first": false,
+      "cache": false,
+      "order": [
+        "image/png",
+        "audio/wav"
+      ],
+      "repeat": 1,
+      "result": {
+        "answer": {
+          "answer": {
+            "answer": "The retrieved documents do not provide enough reliable evidence to answer this question. Review the sources or add a relevant document.",
+            "insufficient_evidence": true,
+            "source_ids": []
+          },
+          "cached_tokens": 0,
+          "completion_tokens": 36,
+          "elapsed_ms": 1232,
+          "prompt_tokens": 459,
+          "sources": [
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "kind": "video",
+              "ordinal": 0,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video frame at 0:00 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            },
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1",
+              "kind": "video",
+              "ordinal": 1,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video audio 0:00–0:03 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            }
+          ]
+        },
+        "ok": true
+      }
+    },
+    {
+      "audio_first": false,
+      "cache": false,
+      "order": [
+        "image/png",
+        "audio/wav"
+      ],
+      "repeat": 2,
+      "result": {
+        "answer": {
+          "answer": {
+            "answer": "The retrieved documents do not provide enough reliable evidence to answer this question. Review the sources or add a relevant document.",
+            "insufficient_evidence": true,
+            "source_ids": []
+          },
+          "cached_tokens": 0,
+          "completion_tokens": 36,
+          "elapsed_ms": 1249,
+          "prompt_tokens": 459,
+          "sources": [
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "kind": "video",
+              "ordinal": 0,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video frame at 0:00 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            },
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1",
+              "kind": "video",
+              "ordinal": 1,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video audio 0:00–0:03 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            }
+          ]
+        },
+        "ok": true
+      }
+    },
+    {
+      "audio_first": true,
+      "cache": true,
+      "order": [
+        "audio/wav",
+        "image/png"
+      ],
+      "repeat": 1,
+      "result": {
+        "answer": {
+          "answer": {
+            "answer": "The retrieved documents do not provide enough reliable evidence to answer this question. Review the sources or add a relevant document.",
+            "insufficient_evidence": true,
+            "source_ids": []
+          },
+          "cached_tokens": 454,
+          "completion_tokens": 36,
+          "elapsed_ms": 655,
+          "prompt_tokens": 459,
+          "sources": [
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1",
+              "kind": "video",
+              "ordinal": 1,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video audio 0:00–0:03 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            },
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "kind": "video",
+              "ordinal": 0,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video frame at 0:00 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            }
+          ]
+        },
+        "ok": true
+      }
+    },
+    {
+      "audio_first": true,
+      "cache": true,
+      "order": [
+        "audio/wav",
+        "image/png"
+      ],
+      "repeat": 2,
+      "result": {
+        "answer": {
+          "answer": {
+            "answer": "The retrieved documents do not provide enough reliable evidence to answer this question. Review the sources or add a relevant document.",
+            "insufficient_evidence": true,
+            "source_ids": []
+          },
+          "cached_tokens": 454,
+          "completion_tokens": 36,
+          "elapsed_ms": 646,
+          "prompt_tokens": 459,
+          "sources": [
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1",
+              "kind": "video",
+              "ordinal": 1,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video audio 0:00–0:03 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            },
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "kind": "video",
+              "ordinal": 0,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video frame at 0:00 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            }
+          ]
+        },
+        "ok": true
+      }
+    },
+    {
+      "audio_first": false,
+      "cache": true,
+      "order": [
+        "image/png",
+        "audio/wav"
+      ],
+      "repeat": 1,
+      "result": {
+        "answer": {
+          "answer": {
+            "answer": "The retrieved documents do not provide enough reliable evidence to answer this question. Review the sources or add a relevant document.",
+            "insufficient_evidence": true,
+            "source_ids": []
+          },
+          "cached_tokens": 454,
+          "completion_tokens": 36,
+          "elapsed_ms": 650,
+          "prompt_tokens": 459,
+          "sources": [
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "kind": "video",
+              "ordinal": 0,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video frame at 0:00 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            },
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1",
+              "kind": "video",
+              "ordinal": 1,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video audio 0:00–0:03 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            }
+          ]
+        },
+        "ok": true
+      }
+    },
+    {
+      "audio_first": false,
+      "cache": true,
+      "order": [
+        "image/png",
+        "audio/wav"
+      ],
+      "repeat": 2,
+      "result": {
+        "answer": {
+          "answer": {
+            "answer": "The retrieved documents do not provide enough reliable evidence to answer this question. Review the sources or add a relevant document.",
+            "insufficient_evidence": true,
+            "source_ids": []
+          },
+          "cached_tokens": 454,
+          "completion_tokens": 36,
+          "elapsed_ms": 656,
+          "prompt_tokens": 459,
+          "sources": [
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "kind": "video",
+              "ordinal": 0,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video frame at 0:00 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            },
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1",
+              "kind": "video",
+              "ordinal": 1,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video audio 0:00–0:03 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            }
+          ]
+        },
+        "ok": true
+      }
+    }
+  ],
+  "engine_stopped": true,
+  "question": "What annual company revenue is stated in the video?",
+  "scope": "single synthetic video; production request path; manual quality review required"
+}

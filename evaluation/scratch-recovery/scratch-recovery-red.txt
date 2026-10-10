@@ -1,0 +1,21 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.14s
+     Running unittests src/lib.rs (target/debug/deps/cachella_lib-c4930060c370d23d)
+
+running 1 test
+test scratch::tests::workspace_drop_preserves_a_real_directory_replacement ... FAILED
+
+failures:
+
+---- scratch::tests::workspace_drop_preserves_a_real_directory_replacement stdout ----
+
+thread 'scratch::tests::workspace_drop_preserves_a_real_directory_replacement' (1393505) panicked at src/scratch.rs:410:9:
+assertion failed: marker.exists()
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    scratch::tests::workspace_drop_preserves_a_real_directory_replacement
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 107 filtered out; finished in 0.00s
+
+error: test failed, to rerun pass `--lib`

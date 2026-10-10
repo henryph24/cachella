@@ -1,0 +1,5 @@
+chars_1250 cache=false ERROR: The model reached its generation or context limit before finishing the answer. Try a shorter, more specific question. Your search results are still available.
+chars_1250 cache=true ERROR: The model reached its generation or context limit before finishing the answer. Try a shorter, more specific question. Your search results are still available.
+chars_1200 cache=false 8090 ms, abstention_matches=true
+chars_1200 cache=true 4897 ms, abstention_matches=true
+Captured 4 requests: 2 errors, 0 abstention mismatches. Manual rubric review required.

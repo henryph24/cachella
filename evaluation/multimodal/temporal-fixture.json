@@ -1,0 +1,20 @@
+{
+  "file": "evaluation/multimodal/fixtures/temporal-video.mp4",
+  "bytes": 138270,
+  "sha256": "a8bd59921443355376bb5158d3ca66f1e98a83420665bffe5d99f498dbeb2391",
+  "synthetic": true,
+  "visuals": [
+    {
+      "source": "red-circle.png",
+      "start_seconds": 0,
+      "end_seconds": 6
+    },
+    {
+      "source": "blue-square.png",
+      "start_seconds": 6,
+      "end_seconds": 12
+    }
+  ],
+  "audio": "budget.wav looped",
+  "duration_seconds": 12
+}

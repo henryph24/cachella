@@ -1,0 +1,46 @@
+[
+  {
+    "path": "evaluation/resources/fixtures/limit120.mp4",
+    "sha256": "ec6b746a12f0f08fa1a0d56173f49626eeb77a6853adf1fdeb8edc9b445ffbd0",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 384,
+          "height": 384
+        },
+        {
+          "codec_type": "audio"
+        }
+      ],
+      "format": {
+        "duration": "120.000000",
+        "size": "1281132"
+      }
+    }
+  },
+  {
+    "path": "evaluation/resources/fixtures/over121.mp4",
+    "sha256": "7cc54139c365fffc29752c28fe3880b1a7cf137b0a07ffc485c9a46683caf008",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 384,
+          "height": 384
+        },
+        {
+          "codec_type": "audio"
+        }
+      ],
+      "format": {
+        "duration": "121.000000",
+        "size": "1290277"
+      }
+    }
+  }
+]

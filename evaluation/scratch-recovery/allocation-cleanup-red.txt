@@ -1,0 +1,9 @@
+   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+error[E0425]: cannot find function `cleanup_failed_allocation` in this scope
+   --> src/scratch.rs:518:9
+    |
+518 |         cleanup_failed_allocation(original).unwrap();
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^ not found in this scope
+
+For more information about this error, try `rustc --explain E0425`.
+error: could not compile `cachella` (lib test) due to 1 previous error

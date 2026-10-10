@@ -1,0 +1,4 @@
+   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 4.68s
+     Running `src-tauri/target/debug/examples/cancel_index_smoke .local/engine-candidate/llama-b11531/llama-server .local/models/embeddinggemma-2-Q8_0.gguf .local/models/mmproj-embeddinggemma-2-Q8_0.gguf /opt/homebrew/Cellar/ffmpeg/8.0_2/bin/ffmpeg evaluation/multimodal/fixtures evaluation/search-index-cancellation/model-results.json`
+Error: "Batch finished before observing a committed vector and active slot"

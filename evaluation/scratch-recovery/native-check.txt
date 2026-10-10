@@ -1,0 +1,1 @@
+PASS: native startup reclaimed 3 workspaces / 3 files; unrelated file preserved; 8 documents / 51 passages / 51 vectors unchanged; 0 app descendants

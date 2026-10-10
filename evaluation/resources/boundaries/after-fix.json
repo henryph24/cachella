@@ -1,0 +1,82 @@
+[
+  {
+    "name": "pixels20m.png",
+    "expected_exit": 0,
+    "exit": 0,
+    "stdout": "PASS: pixels20m.png -> image/png preview, 1 indexed parts\n",
+    "stderr": "",
+    "sha256": "11962db71c2f1b28ec5bc9118c7bee01e44f523a02ce4f024ccf14674016167b"
+  },
+  {
+    "name": "pixels-over.png",
+    "expected_exit": 1,
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Error: \"Images are limited to 8,192 pixels per side and 20 megapixels.\"\n",
+    "sha256": "72857010eb5152e1d42b1c849687dc33c0fae53b8769cacc59675a1694c35456"
+  },
+  {
+    "name": "side8192.png",
+    "expected_exit": 0,
+    "exit": 0,
+    "stdout": "PASS: side8192.png -> image/png preview, 1 indexed parts\n",
+    "stderr": "",
+    "sha256": "5a770ef37ddc38e2e828f5fe1bf2e35e5009c170d6c5a961a0158f1c031346cc"
+  },
+  {
+    "name": "side-over.png",
+    "expected_exit": 1,
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Error: \"Images are limited to 8,192 pixels per side and 20 megapixels.\"\n",
+    "sha256": "34b831bb29bda20ec2ea88815e714bdf0d2522501fb24e74c88b8529de3ad7fe"
+  },
+  {
+    "name": "portrait8192.png",
+    "expected_exit": 0,
+    "exit": 0,
+    "stdout": "PASS: portrait8192.png -> image/png preview, 1 indexed parts\n",
+    "stderr": "",
+    "sha256": "eb340398e119bb4af14a5bd36f2c027c65bf74c67135370caf8c20cd3afabe2d"
+  },
+  {
+    "name": "wide-video.mp4",
+    "expected_exit": 0,
+    "exit": 0,
+    "stdout": "PASS: wide-video.mp4 -> video/mp4 preview, 1 indexed parts\n",
+    "stderr": "",
+    "sha256": "d0d8e97561cd30f69a88cf4597668894d59dc87de7db2436ea7d7f4965ea1bc6"
+  },
+  {
+    "name": "tall-video.mp4",
+    "expected_exit": 0,
+    "exit": 0,
+    "stdout": "PASS: tall-video.mp4 -> video/mp4 preview, 1 indexed parts\n",
+    "stderr": "",
+    "sha256": "ff610cded72d7948998667b6d890e3d435866edab79bee348b72c300f2f7e1ec"
+  },
+  {
+    "name": "odd-video.mp4",
+    "expected_exit": 0,
+    "exit": 0,
+    "stdout": "PASS: odd-video.mp4 -> video/mp4 preview, 1 indexed parts\n",
+    "stderr": "",
+    "sha256": "8a87a6e3d3fbb6d1569a0c20d543ed6ec16a559ed99c1625851fdbddc652f70e"
+  },
+  {
+    "name": "bytes32m.mp4",
+    "expected_exit": 0,
+    "exit": 0,
+    "stdout": "PASS: bytes32m.mp4 -> video/mp4 preview, 2 indexed parts\n",
+    "stderr": "",
+    "sha256": "35c6cc44d57f1b51f2468c87365604e85ea2c3326e885b89a391ae29ec0381ad"
+  },
+  {
+    "name": "bytes-over.mp4",
+    "expected_exit": 1,
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Error: \"Media files must be nonempty regular files of at most 32 MB.\"\n",
+    "sha256": "10df526bced328463d9c1181495279e0c37d4f15dae6e5034aff8946e3bb19f2"
+  }
+]

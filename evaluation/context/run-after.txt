@@ -1,0 +1,9 @@
+baseline cache=false 5215 ms, abstention_matches=true
+baseline cache=true 4682 ms, abstention_matches=true
+dense_ascii cache=false ERROR: The question and retrieved evidence exceed this model's context limit. Try a shorter, more specific question. Your search results are still available.
+dense_ascii cache=true ERROR: The question and retrieved evidence exceed this model's context limit. Try a shorter, more specific question. Your search results are still available.
+dense_unicode cache=false ERROR: The question and retrieved evidence exceed this model's context limit. Try a shorter, more specific question. Your search results are still available.
+dense_unicode cache=true ERROR: The question and retrieved evidence exceed this model's context limit. Try a shorter, more specific question. Your search results are still available.
+recovery cache=false 5009 ms, abstention_matches=true
+recovery cache=true 4478 ms, abstention_matches=true
+Captured 8 requests: 4 errors, 0 abstention mismatches. Manual rubric review required.

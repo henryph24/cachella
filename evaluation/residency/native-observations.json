@@ -1,0 +1,43 @@
+{
+  "method": "Manual CUA accessibility observations, transcribed; read-only SQLite and ps checks separately recorded",
+  "profile": "com.cachella.mediacheck",
+  "policy": "single",
+  "steps": [
+    "Enabled single mode with both engines stopped",
+    "Explicit embedding Start: Running, 2 of 2 indexed",
+    "Explicit generation Start: generation Running, embeddings On demand",
+    "Index library while embedding suspended: embeddings resumed, generation On demand, 2 of 2 indexed; no new passages needed indexing",
+    "Semantic search returned two video passages, audio first and frame second",
+    "Generate answer resumed generation and suspended embeddings",
+    "Stop embedding while suspended: Stopped; Stop and Index disabled",
+    "Subsequent semantic search rejected without restarting embedding",
+    "Normal quit: no bundle executables remaining"
+  ],
+  "question": "What does the video show, and what monthly cloud budget does it mention?",
+  "answer": "The video shows a red circle. The project cloud budget is $8 per month.",
+  "citation_count": 2,
+  "displayed_seconds": 3.5,
+  "input_tokens": 460,
+  "cached_tokens": 0,
+  "retained_rows": {
+    "documents": 1,
+    "chunks": 2,
+    "embeddings": 2,
+    "assets": 1,
+    "media_parts": 2
+  },
+  "limitation": "Observed search-after-stop error referred to answer model; regression and focused correction followed this native run.",
+  "final_build_checks": {
+    "restart": "single persisted; model selections retained; both roles stopped and disarmed",
+    "cancellation": "Index library initiated embedding auto-resume; Cancel indexing restored idle controls and retained 2/2 progress; generation stayed running, embeddings On demand. Cancellation occurred during pre-start file verification.",
+    "explicit_stop_error": "Start the embedding model in Local runtime first.",
+    "final_bundle_process_count": 0,
+    "retained_rows": {
+      "documents": 1,
+      "chunks": 2,
+      "embeddings": 2,
+      "assets": 1,
+      "media_parts": 2
+    }
+  }
+}

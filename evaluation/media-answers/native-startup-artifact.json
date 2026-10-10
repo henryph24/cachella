@@ -1,0 +1,22 @@
+[
+  {
+    "path": "src-tauri/src/desktop.rs",
+    "bytes": 59327,
+    "sha256": "d72b4f328f4c32bbc99a5ecb9600be397d7d5826fe4440b17c002e364b0a08f6"
+  },
+  {
+    "path": "src-tauri/src/runtime.rs",
+    "bytes": 17685,
+    "sha256": "f3724c2a60c9c225320e228409281bfadaed018e28d4f7d31ac5931b4ba35e2e"
+  },
+  {
+    "path": "src-tauri/examples/process_guard_fixture.rs",
+    "bytes": 4360,
+    "sha256": "619b72120d9169042a7cf5241e90676813c032a2f08b8ecba9656923c42e0adf"
+  },
+  {
+    "path": "src-tauri/target/debug/bundle/macos/Cachella Media Check.app/Contents/MacOS/cachella",
+    "bytes": 48828920,
+    "sha256": "ff234f466c5d01f756015f252ed42f0c60425359a0761565d0e39dbab2afe2df"
+  }
+]

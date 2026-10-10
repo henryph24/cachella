@@ -1,0 +1,27 @@
+[
+  {
+    "path": "src-tauri/src/media.rs",
+    "bytes": 39239,
+    "sha256": "704a92ceb18f41b86984167ca3cde8790bddee8b884b93565b95f8284c91bd74"
+  },
+  {
+    "path": "src-tauri/target/release/examples/decode_smoke",
+    "bytes": 1672896,
+    "sha256": "02839d2e2edecde9012dd37e7bbed19241079298afbd817a722c37952c97ff30"
+  },
+  {
+    "path": "src-tauri/resources/decoder/ffmpeg",
+    "bytes": 9107416,
+    "sha256": "b3ca3080547f76f707316f8da0f57b5a31bb88fd87ebb2ef5b104edaac21c080"
+  },
+  {
+    "path": "src-tauri/resources/decoder/ffprobe",
+    "bytes": 8913960,
+    "sha256": "062d1d0918126127c10de207e4a0ea19af1b51c1d37627bc83613b7397002959"
+  },
+  {
+    "path": "evaluation/resources/boundary_fixtures.py",
+    "bytes": 2817,
+    "sha256": "238d8acd71a798d78e44f2e81bdb998a62cedc17172e146391d50d3c9fdb2431"
+  }
+]

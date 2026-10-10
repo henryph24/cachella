@@ -1,0 +1,20 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on build directory
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 14.59s
+     Running unittests src/lib.rs (target/debug/deps/cachella_lib-c4930060c370d23d)
+
+running 9 tests
+test scratch::tests::recovers_an_orphaned_owned_session ... ok
+test scratch::tests::recovery_removes_an_empty_session_interrupted_before_lease_creation ... ok
+test scratch::tests::workspace_drop_preserves_a_real_directory_replacement ... ok
+test scratch::tests::workspace_drop_removes_its_directory ... ok
+test scratch::tests::workspace_drop_does_not_follow_a_renamed_path ... ok
+test scratch::tests::recovery_deletes_the_original_after_a_real_directory_replacement ... ok
+test scratch::tests::recovery_preserves_unrelated_and_symlink_entries ... ok
+test scratch::tests::active_parent_and_guardian_keep_session ... ok
+test scratch::tests::coordinator_wait_is_bounded ... ok
+
+test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 102 filtered out; finished in 0.01s
+

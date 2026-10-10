@@ -1,0 +1,22 @@
+    Checking cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+error: read amount is not handled
+   --> src/inference.rs:416:13
+    |
+416 |             stream.read(&mut request).unwrap();
+    |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: use `Read::read_exact` instead, or handle partial reads
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.91.0/index.html#unused_io_amount
+    = note: `#[deny(clippy::unused_io_amount)]` on by default
+
+error: read amount is not handled
+   --> src/inference.rs:458:17
+    |
+458 |                 stream.read(&mut request).unwrap();
+    |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: use `Read::read_exact` instead, or handle partial reads
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.91.0/index.html#unused_io_amount
+
+error: could not compile `cachella` (lib test) due to 2 previous errors
+warning: build failed, waiting for other jobs to finish...

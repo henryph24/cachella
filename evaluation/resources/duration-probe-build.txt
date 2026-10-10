@@ -1,0 +1,11 @@
+   Compiling ring v0.17.14
+   Compiling libsqlite3-sys v0.30.1
+   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+   Compiling rustls v0.23.45
+   Compiling rustls-webpki v0.103.15
+   Compiling rcgen v0.14.10
+   Compiling tokio-rustls v0.26.6
+   Compiling hyper-rustls v0.27.10
+   Compiling reqwest v0.12.28
+   Compiling rusqlite v0.32.1
+    Finished `release` profile [optimized] target(s) in 18.00s

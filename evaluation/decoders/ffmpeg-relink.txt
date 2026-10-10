@@ -1,0 +1,4 @@
+LD	ffprobe_g
+LD	ffmpeg_g
+STRIP	ffprobe
+STRIP	ffmpeg

@@ -1,0 +1,87 @@
+name: Desktop checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      platform:
+        description: Platforms to verify
+        type: choice
+        options: [windows, all]
+        default: windows
+permissions:
+  contents: read
+jobs:
+  desktop:
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        include: ${{ fromJSON(github.event_name == 'workflow_dispatch' && inputs.platform == 'windows' && '[{"os":"windows-latest","bundle":"nsis","build":"desktop:bundle:windows"}]' || '[{"os":"macos-latest","bundle":"app","build":"desktop:build:mac"},{"os":"windows-latest","bundle":"nsis","build":"desktop:bundle:windows"}]') }}
+    runs-on: ${{ matrix.os }}
+    # Manual qualification defaults to Windows; push/PR checks retain both platforms.
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 -m unittest discover -s scripts -p "test_*.py"
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - run: npm run test:rust
+      - name: Windows scratch reparse-point regression
+        if: runner.os == 'Windows'
+        run: cargo test --manifest-path src-tauri/Cargo.toml --lib --features desktop scratch::windows::tests::deleting_a_reparse_child_never_traverses_its_target -- --ignored
+      - run: npm run check:rust
+      - run: cargo fmt --manifest-path src-tauri/Cargo.toml -- --check
+      - name: macOS decoder build tools
+        if: runner.os == 'macOS'
+        run: brew install pkg-config
+      - name: Windows decoder build tools
+        if: runner.os == 'Windows'
+        uses: msys2/setup-msys2@v2
+        with:
+          msystem: UCRT64
+          update: true
+          install: >-
+            python
+            make
+            pkgconf
+            diffutils
+            mingw-w64-ucrt-x86_64-gcc
+            mingw-w64-ucrt-x86_64-nasm
+      - name: Build Windows decoder from pinned source
+        if: runner.os == 'Windows'
+        shell: msys2 {0}
+        run: |
+          /usr/bin/python3 -m unittest discover -s scripts -p "test_prepare_decoder.py"
+          /usr/bin/python3 scripts/prepare_decoder.py --platform windows-x86_64 --replace
+      - name: Windows decoder production import smoke
+        if: runner.os == 'Windows'
+        run: >-
+          cargo run --manifest-path src-tauri/Cargo.toml --example decode_smoke --features desktop --
+          src-tauri/resources/decoder/ffmpeg.exe
+          evaluation/multimodal/fixtures/red-circle.png evaluation/multimodal/fixtures/blue-square.png
+          evaluation/multimodal/fixtures/budget.wav evaluation/multimodal/fixtures/lunch.wav
+          evaluation/multimodal/fixtures/temporal-video.mp4 evaluation/multimodal/fixtures/budget-video.mp4
+          evaluation/decoders/fixtures/image.jpg evaluation/decoders/fixtures/audio.mp3
+          evaluation/decoders/fixtures/audio.flac evaluation/decoders/fixtures/audio.ogg
+          evaluation/decoders/fixtures/video.webm
+      - run: npm run ${{ matrix.build }} -- --debug --bundles ${{ matrix.bundle }}
+
+      - name: Retain Windows installer
+        if: runner.os == 'Windows'
+        uses: actions/upload-artifact@v4
+        with:
+          name: cachella-windows-installer
+          path: src-tauri/target/debug/bundle/nsis/*.exe
+          if-no-files-found: error
+          retention-days: 1

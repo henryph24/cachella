@@ -1,0 +1,31 @@
+{
+  "method": "Native CUA observations, read-only SQLite verification and existing coalition collector",
+  "profile": "com.cachella.mediacheck",
+  "policy": "single",
+  "newly_indexed_passages": 36,
+  "total_indexed_passages": 58,
+  "question": "What monthly cloud budget does the video mention?",
+  "retrieved_count": 8,
+  "limit120_retrieval_ranks": [
+    2,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "answer": "The project cloud budget is eight dollars per month.",
+  "citation_count": 4,
+  "displayed_inference_seconds": 6.3,
+  "input_tokens": 1349,
+  "cached_tokens": 0,
+  "opened_citation": {
+    "title": "limit120.mp4",
+    "matched_interval": "1:00\u20131:10",
+    "stored_preview_visible": true
+  },
+  "sample_count": 1019,
+  "valid_sample_count": 1016,
+  "maximum_sampled_engine_count": 1,
+  "final_coalition_members": 0
+}

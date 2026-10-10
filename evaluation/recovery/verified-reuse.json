@@ -1,0 +1,23 @@
+{
+  "bundle_id": "qwen3-1.7b-q4",
+  "elapsed_ms": 35833,
+  "files": [
+    {
+      "bytes": 1107409472,
+      "name": "Qwen3-1.7B-Q4_K_M.gguf"
+    }
+  ],
+  "observed_phases": [
+    "verifying"
+  ],
+  "progress": {
+    "bundle_id": "qwen3-1.7b-q4",
+    "current_file": null,
+    "downloaded_bytes": 1107409472,
+    "error": null,
+    "phase": "ready",
+    "total_bytes": 1107409472
+  },
+  "scope": "Production installer; SHA256, GGUF header and exact size enforced before publication. Engine selection/start is a separate native UI check.",
+  "verified": true
+}

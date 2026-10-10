@@ -1,0 +1,17 @@
+{
+  "reclaimed_workspaces": 3,
+  "reclaimed_files": 3,
+  "unrelated_file_preserved": true,
+  "library_before": {
+    "documents": 8,
+    "chunks": 51,
+    "embeddings": 51
+  },
+  "library_after": {
+    "documents": 8,
+    "chunks": 51,
+    "embeddings": 51
+  },
+  "app_descendants": 0,
+  "scope": "macOS packaged debug app startup; synthetic orphan workspace contents and unchanged library counts"
+}

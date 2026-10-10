@@ -1,0 +1,5 @@
+Created image.jpg
+Created audio.mp3
+Created audio.flac
+Created audio.ogg
+Created video.webm

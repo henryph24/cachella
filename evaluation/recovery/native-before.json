@@ -1,0 +1,27 @@
+{
+  "partial": "/Users/hungpq2412/Library/Application Support/com.cachella.desktop/models/qwen3-1.7b-q4/d7f544eead698dbd1f15126ef60b45a1e1933222/.download-b7001fba6d744404bca17020abae71a6.part",
+  "partial_bytes": 4096,
+  "preserved_probe": "/Users/hungpq2412/Library/Application Support/com.cachella.desktop/models/qwen3-1.7b-q4/d7f544eead698dbd1f15126ef60b45a1e1933222/recovery-probe-795896e78bfa48b2bd844e8bc97dfe6d.txt",
+  "library_counts": {
+    "documents": 7,
+    "chunks": 12,
+    "embeddings": 12
+  },
+  "models": [
+    {
+      "path": "/Users/hungpq2412/Library/Application Support/com.cachella.desktop/models/embeddinggemma2-q8/bfcd298762cc34d0357ece5ebdd31791a3a374d8/embeddinggemma-2-Q8_0.gguf",
+      "bytes": 309855456,
+      "sha256": "2188ac1deca4b77dffefd603c2776a9d76d9d74ec01841392982ebb840b09135"
+    },
+    {
+      "path": "/Users/hungpq2412/Library/Application Support/com.cachella.desktop/models/embeddinggemma2-q8/bfcd298762cc34d0357ece5ebdd31791a3a374d8/mmproj-embeddinggemma-2-Q8_0.gguf",
+      "bytes": 554821024,
+      "sha256": "c4a8a52691ecef40618438928bdf9e68379b854e24166f292592353db0aab64f"
+    },
+    {
+      "path": "/Users/hungpq2412/Library/Application Support/com.cachella.desktop/models/qwen3-1.7b-q4/d7f544eead698dbd1f15126ef60b45a1e1933222/Qwen3-1.7B-Q4_K_M.gguf",
+      "bytes": 1107409472,
+      "sha256": "b139949c5bd74937ad8ed8c8cf3d9ffb1e99c866c823204dc42c0d91fa181897"
+    }
+  ]
+}

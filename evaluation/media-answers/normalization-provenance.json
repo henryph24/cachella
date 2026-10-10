@@ -1,0 +1,25 @@
+{
+  "files": {
+    "evaluation/multimodal/fixtures/blue-square.png": {
+      "bytes": 1303,
+      "sha256": "135e1b8427c159e5cdcbfb5f2d7d323e939b63421e0c0b714332f95229da2794"
+    },
+    "evaluation/multimodal/fixtures/lunch.wav": {
+      "bytes": 104848,
+      "sha256": "4e21fce40eaf06193d966327fbafff269be6109cf910fe9c5d928fe5f77c6703"
+    },
+    "evaluation/multimodal/fixtures/lunch-video.mp4": {
+      "bytes": 38642,
+      "sha256": "8d81e2653ff66be74c59909bbce87b22a4ab21722045b95accb8c4dc02d09f90"
+    },
+    "src-tauri/src/inference.rs": {
+      "bytes": 24278,
+      "sha256": "cf26feafc50219a8304b65277cbc4dbcf885fafe650596d1997e6cc7919e1d33"
+    },
+    "src-tauri/examples/media_order_probe.rs": {
+      "bytes": 4813,
+      "sha256": "a9020e66e84ebd7e1990d770808be08e532341ea230108db17ec7009226da3cb"
+    }
+  },
+  "fixture_recipe": "/opt/homebrew/bin/ffmpeg -v error -nostdin -loop 1 -i evaluation/multimodal/fixtures/blue-square.png -i evaluation/multimodal/fixtures/lunch.wav -t 3.274063 -c:v libx264 -pix_fmt yuv420p -c:a aac -movflags +faststart -n evaluation/multimodal/fixtures/lunch-video.mp4"
+}

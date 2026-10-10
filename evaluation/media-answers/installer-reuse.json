@@ -1,0 +1,27 @@
+{
+  "bundle_id": "gemma4-e2b-q4",
+  "elapsed_ms": 101065,
+  "files": [
+    {
+      "bytes": 2841481184,
+      "name": "gemma-4-E2B-it-Q4_0.gguf"
+    },
+    {
+      "bytes": 557368064,
+      "name": "mmproj-gemma-4-E2B-it-Q8_0.gguf"
+    }
+  ],
+  "observed_phases": [
+    "verifying"
+  ],
+  "progress": {
+    "bundle_id": "gemma4-e2b-q4",
+    "current_file": null,
+    "downloaded_bytes": 3398849248,
+    "error": null,
+    "phase": "ready",
+    "total_bytes": 3398849248
+  },
+  "scope": "Production installer; SHA256, GGUF header and exact size enforced before publication. Engine selection/start is a separate native UI check.",
+  "verified": true
+}

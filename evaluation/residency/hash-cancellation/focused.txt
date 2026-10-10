@@ -1,0 +1,15 @@
+   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 2.51s
+     Running unittests src/lib.rs (src-tauri/target/debug/deps/cachella_lib-0d67fb13494b5020)
+
+running 7 tests
+test embedding::tests::media_request_requires_correct_modality_marker_and_bounded_payload ... ok
+test embedding::tests::accepts_only_one_finite_normalized_768_vector ... ok
+test embedding::tests::cancelled_profile_task_signals_already_running_worker ... ok
+test embedding::tests::async_profile_preserves_digest_and_validation_errors ... ok
+test embedding::tests::profiles_change_with_file_contents_and_inputs_preserve_unicode ... ok
+test embedding::tests::profile_cancellation_stops_between_chunks_before_projector_validation ... ok
+test embedding::tests::cancelled_index_batch_keeps_commits_and_resumes_only_pending_passages ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 145 filtered out; finished in 0.03s
+

@@ -1,0 +1,321 @@
+{
+  "authentication_verified": true,
+  "cases": [
+    {
+      "elapsed_ms": 1520,
+      "fixture": "red-circle.png",
+      "question": "Describe the shape and its color in this image.",
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "{\n  \"answer\": \"The image displays a solid red circle. The circle is centered in the frame, and its color is a vibrant red against a white background.\",\n  \"insufficient_evidence\": false,\n  \"source_ids\": [\n    \"red-circle.png\"\n  ]\n}",
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 1791578199,
+        "id": "chatcmpl-OfsAcJwtTWo7Dy3EoHPJNdok73tnNFAk",
+        "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+        "object": "chat.completion",
+        "system_fingerprint": "b11531-8b5436102",
+        "timings": {
+          "cache_n": 0,
+          "predicted_ms": 1156.918,
+          "predicted_n": 73,
+          "predicted_per_second": 62.23431565590647,
+          "predicted_per_token_ms": 16.068305555555554,
+          "prompt_ms": 352.074,
+          "prompt_n": 191,
+          "prompt_per_second": 542.4995881547628,
+          "prompt_per_token_ms": 1.8433193717277487
+        },
+        "usage": {
+          "completion_tokens": 73,
+          "prompt_tokens": 191,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 264
+        }
+      },
+      "sha256": "e9c11c07932429606491d42a2f29e1322a492fb2515fc2f9bebf22fbc08a1fd1",
+      "validation": {
+        "answer": {
+          "answer": "The image displays a solid red circle. The circle is centered in the frame, and its color is a vibrant red against a white background.",
+          "insufficient_evidence": false,
+          "source_ids": [
+            "red-circle.png"
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "elapsed_ms": 1276,
+      "fixture": "blue-square.png",
+      "question": "Describe the shape and its color in this image.",
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "{\n  \"answer\": \"The image displays a solid blue square. The shape is a square, and its color is blue.\",\n  \"insufficient_evidence\": false,\n  \"source_ids\": [\n    \"blue-square.png\"\n  ]\n}",
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 1791578201,
+        "id": "chatcmpl-Lbmy6VVm0zLmecaSTOawVulVZvLjPHaE",
+        "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+        "object": "chat.completion",
+        "system_fingerprint": "b11531-8b5436102",
+        "timings": {
+          "cache_n": 67,
+          "predicted_ms": 1016.661,
+          "predicted_n": 65,
+          "predicted_per_second": 62.95117054750797,
+          "predicted_per_token_ms": 15.885328125,
+          "prompt_ms": 252.972,
+          "prompt_n": 124,
+          "prompt_per_second": 490.172825451038,
+          "prompt_per_token_ms": 2.0400967741935485
+        },
+        "usage": {
+          "completion_tokens": 65,
+          "prompt_tokens": 191,
+          "prompt_tokens_details": {
+            "cached_tokens": 67
+          },
+          "total_tokens": 256
+        }
+      },
+      "sha256": "135e1b8427c159e5cdcbfb5f2d7d323e939b63421e0c0b714332f95229da2794",
+      "validation": {
+        "answer": {
+          "answer": "The image displays a solid blue square. The shape is a square, and its color is blue.",
+          "insufficient_evidence": false,
+          "source_ids": [
+            "blue-square.png"
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "elapsed_ms": 1048,
+      "fixture": "budget.wav",
+      "question": "Transcribe the speech in this recording exactly.",
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "{\n  \"answer\": \"The project cloud budget is eight dollars per month.\",\n  \"insufficient_evidence\": false,\n  \"source_ids\": [\n    \"budget.wav\"\n  ]\n}",
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 1791578202,
+        "id": "chatcmpl-PwbBeBJkJejPwBwY4WEuBRMHJYn5AluS",
+        "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+        "object": "chat.completion",
+        "system_fingerprint": "b11531-8b5436102",
+        "timings": {
+          "cache_n": 67,
+          "predicted_ms": 828.143,
+          "predicted_n": 53,
+          "predicted_per_second": 62.79108801257753,
+          "predicted_per_token_ms": 15.925826923076924,
+          "prompt_ms": 203.148,
+          "prompt_n": 114,
+          "prompt_per_second": 561.1672278338946,
+          "prompt_per_token_ms": 1.782
+        },
+        "usage": {
+          "completion_tokens": 53,
+          "prompt_tokens": 181,
+          "prompt_tokens_details": {
+            "cached_tokens": 67
+          },
+          "total_tokens": 234
+        }
+      },
+      "sha256": "e06108cfa6141805e9dedc7743220e307c5786d9a1502caa15afe27c65602af9",
+      "validation": {
+        "answer": {
+          "answer": "The project cloud budget is eight dollars per month.",
+          "insufficient_evidence": false,
+          "source_ids": [
+            "budget.wav"
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "elapsed_ms": 1105,
+      "fixture": "lunch.wav",
+      "question": "Transcribe the speech in this recording exactly.",
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "{\n  \"answer\": \"Lunch is tomato soup with fresh bread and green salad.\",\n  \"insufficient_evidence\": false,\n  \"source_ids\": [\n    \"lunch.wav\"\n  ]\n}",
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 1791578203,
+        "id": "chatcmpl-M4pT1EfZIR7gfV2irhUQYnrL0EsANFvO",
+        "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+        "object": "chat.completion",
+        "system_fingerprint": "b11531-8b5436102",
+        "timings": {
+          "cache_n": 67,
+          "predicted_ms": 887.139,
+          "predicted_n": 54,
+          "predicted_per_second": 59.74261079718059,
+          "predicted_per_token_ms": 16.73847169811321,
+          "prompt_ms": 201.97,
+          "prompt_n": 120,
+          "prompt_per_second": 594.147645689954,
+          "prompt_per_token_ms": 1.6830833333333333
+        },
+        "usage": {
+          "completion_tokens": 54,
+          "prompt_tokens": 187,
+          "prompt_tokens_details": {
+            "cached_tokens": 67
+          },
+          "total_tokens": 241
+        }
+      },
+      "sha256": "4e21fce40eaf06193d966327fbafff269be6109cf910fe9c5d928fe5f77c6703",
+      "validation": {
+        "answer": {
+          "answer": "Lunch is tomato soup with fresh bread and green salad.",
+          "insufficient_evidence": false,
+          "source_ids": [
+            "lunch.wav"
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "elapsed_ms": 952,
+      "fixture": "budget.wav",
+      "question": "What monthly cloud budget does this recording specify?",
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "{\n  \"answer\": \"$8 per month\",\n  \"insufficient_evidence\": false,\n  \"source_ids\": [\n    \"budget.wav\"\n  ]\n}",
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 1791578204,
+        "id": "chatcmpl-IZVgeoXuV3WsRoJmRfb2XEGnHQ2OH2ml",
+        "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+        "object": "chat.completion",
+        "system_fingerprint": "b11531-8b5436102",
+        "timings": {
+          "cache_n": 67,
+          "predicted_ms": 739.396,
+          "predicted_n": 47,
+          "predicted_per_second": 62.212941373769944,
+          "predicted_per_token_ms": 16.073826086956522,
+          "prompt_ms": 197.604,
+          "prompt_n": 114,
+          "prompt_per_second": 576.9113985546851,
+          "prompt_per_token_ms": 1.7333684210526317
+        },
+        "usage": {
+          "completion_tokens": 47,
+          "prompt_tokens": 181,
+          "prompt_tokens_details": {
+            "cached_tokens": 67
+          },
+          "total_tokens": 228
+        }
+      },
+      "sha256": "e06108cfa6141805e9dedc7743220e307c5786d9a1502caa15afe27c65602af9",
+      "validation": {
+        "answer": {
+          "answer": "$8 per month",
+          "insufficient_evidence": false,
+          "source_ids": [
+            "budget.wav"
+          ]
+        },
+        "valid": true
+      }
+    },
+    {
+      "elapsed_ms": 850,
+      "fixture": "red-circle.png",
+      "question": "What is the company's annual revenue? Say unknown if the image does not provide it.",
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "{\n  \"answer\": \"unknown\",\n  \"insufficient_evidence\": true,\n  \"source_ids\": []\n}",
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 1791578205,
+        "id": "chatcmpl-Z4P9EThWnkk50Nm4K4jQ5mBuIj1SAWnD",
+        "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+        "object": "chat.completion",
+        "system_fingerprint": "b11531-8b5436102",
+        "timings": {
+          "cache_n": 67,
+          "predicted_ms": 568.944,
+          "predicted_n": 35,
+          "predicted_per_second": 59.75983576591018,
+          "predicted_per_token_ms": 16.73364705882353,
+          "prompt_ms": 273.551,
+          "prompt_n": 133,
+          "prompt_per_second": 486.1981860786471,
+          "prompt_per_token_ms": 2.0567744360902256
+        },
+        "usage": {
+          "completion_tokens": 35,
+          "prompt_tokens": 200,
+          "prompt_tokens_details": {
+            "cached_tokens": 67
+          },
+          "total_tokens": 235
+        }
+      },
+      "sha256": "e9c11c07932429606491d42a2f29e1322a492fb2515fc2f9bebf22fbc08a1fd1",
+      "validation": {
+        "answer": {
+          "answer": "The retrieved documents do not provide enough reliable evidence to answer this question. Review the sources or add a relevant document.",
+          "insufficient_evidence": true,
+          "source_ids": []
+        },
+        "valid": true
+      }
+    }
+  ],
+  "context_tokens": 4096,
+  "engine_stopped": true,
+  "grounded": true,
+  "scope": "managed runtime with direct media requests",
+  "startup_ms": 1454,
+  "thinking": false
+}

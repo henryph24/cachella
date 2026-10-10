@@ -1,0 +1,33 @@
+{
+  "document_chunk_embedding_counts": [
+    [
+      "budget-loop60.mp4",
+      20,
+      20
+    ],
+    [
+      "budget-video.mp4",
+      2,
+      2
+    ],
+    [
+      "limit120.mp4",
+      36,
+      36
+    ]
+  ],
+  "limit120_parts": [
+    [
+      "audio/wav",
+      12,
+      0,
+      120000
+    ],
+    [
+      "image/png",
+      24,
+      0,
+      120000
+    ]
+  ]
+}

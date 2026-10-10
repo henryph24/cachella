@@ -1,0 +1,13 @@
+
+> cachella@0.1.0 test
+> vitest run
+
+
+ RUN  v4.1.11 /Users/hungpq2412/cachella
+
+
+ Test Files  6 passed (6)
+      Tests  51 passed (51)
+   Start at  01:57:59
+   Duration  2.98s (transform 711ms, setup 0ms, import 1.68s, tests 3.16s, environment 3.29s)
+

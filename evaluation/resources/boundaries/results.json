@@ -1,0 +1,142 @@
+[
+  {
+    "name": "pixels20m.png",
+    "probe_exit": 0,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 5000,
+          "height": 4000
+        }
+      ],
+      "format": {
+        "size": "68321"
+      }
+    },
+    "decode_exit": 0,
+    "stdout": "PASS: pixels20m.png -> image/png preview, 1 indexed parts\n",
+    "stderr": "",
+    "probe_decode_seconds": 0.159
+  },
+  {
+    "name": "pixels-over.png",
+    "probe_exit": 0,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 5000,
+          "height": 4001
+        }
+      ],
+      "format": {
+        "size": "68338"
+      }
+    },
+    "decode_exit": 1,
+    "stdout": "",
+    "stderr": "Error: \"Images are limited to 8,192 pixels per side and 20 megapixels.\"\n",
+    "probe_decode_seconds": 0.063
+  },
+  {
+    "name": "side8192.png",
+    "probe_exit": 0,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 8192,
+          "height": 1
+        }
+      ],
+      "format": {
+        "size": "106"
+      }
+    },
+    "decode_exit": 1,
+    "stdout": "",
+    "stderr": "Error: \"ffmpeg could not normalize this media file: [Parsed_scale_0 @ 0x6000020046e0] Rescaled dimensions 512x0 are invalid, output dimensions must be positive. [Parsed_scale_0 @ 0x6000020046e0] Failed to configure output pad on Parsed_scale_0 [vf#0:0 @ 0x147016600] Error reinitializing filters! [vf#0:0 @ 0x147016600] Task finished with error code: -22 (Invalid argument) [vf#0:0 @ 0x147016600] Terminating thread with return code -22 (Invalid argument) [vost#0:0/png @ 0x146806210] [enc:png @ 0x600003c00230] Could not open encoder before EOF [vost#0:0/png @ 0x146806210] Task finished with error code: -22 (Invalid argument) [vost#0:0/png @ 0x146806210] Terminating thread with return code -22 (Invalid argument) [out#0/image2 @ 0x600002200300] Nothing was written into output file, because at least one of its streams received no packets.\"\n",
+    "probe_decode_seconds": 0.082
+  },
+  {
+    "name": "side-over.png",
+    "probe_exit": 0,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 8193,
+          "height": 1
+        }
+      ],
+      "format": {
+        "size": "106"
+      }
+    },
+    "decode_exit": 1,
+    "stdout": "",
+    "stderr": "Error: \"Images are limited to 8,192 pixels per side and 20 megapixels.\"\n",
+    "probe_decode_seconds": 0.045
+  },
+  {
+    "name": "bytes32m.mp4",
+    "probe_exit": 0,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 384,
+          "height": 384
+        },
+        {
+          "codec_type": "audio"
+        }
+      ],
+      "format": {
+        "duration": "3.042000",
+        "size": "33554432"
+      }
+    },
+    "decode_exit": 0,
+    "stdout": "PASS: bytes32m.mp4 -> video/mp4 preview, 2 indexed parts\n",
+    "stderr": "",
+    "probe_decode_seconds": 0.332
+  },
+  {
+    "name": "bytes-over.mp4",
+    "probe_exit": 0,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 384,
+          "height": 384
+        },
+        {
+          "codec_type": "audio"
+        }
+      ],
+      "format": {
+        "duration": "3.042000",
+        "size": "33554433"
+      }
+    },
+    "decode_exit": 1,
+    "stdout": "",
+    "stderr": "Error: \"Media files must be nonempty regular files of at most 32 MB.\"\n",
+    "probe_decode_seconds": 0.014
+  }
+]

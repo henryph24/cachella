@@ -1,0 +1,4 @@
+PASS: startup recovery preserved three workspaces owned by a live parent.
+PASS: after abrupt parent death, the actual guardian lease prevented premature cleanup.
+PASS: next startup reclaimed all three abandoned workspaces and preserved unrelated data.
+PASS: normal workspace drop removed its files.

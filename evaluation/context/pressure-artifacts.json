@@ -1,0 +1,52 @@
+[
+  {
+    "path": "evaluation/context/pressure-cases.json",
+    "bytes": 20958,
+    "sha256": "e2a004b1c2558a8a4966d0190876c4df675920d50a7aa41bb9c673a24f4fcd23"
+  },
+  {
+    "path": "evaluation/context/pressure-refined-cases.json",
+    "bytes": 10581,
+    "sha256": "bc0ac7bb038869dd130c8f37a6aa6538f40e8a0b2af7276efa7e17a452287cc6"
+  },
+  {
+    "path": "evaluation/context/pressure-results.json",
+    "bytes": 28866,
+    "sha256": "da73fc01b65003b062b3cbbf7805877b133876e5c115c2559cec96b04c9a2257"
+  },
+  {
+    "path": "evaluation/context/pressure-refined-results.json",
+    "bytes": 30106,
+    "sha256": "5e12bec844b1844ae5def5cd4e0288606b7942f841034fc8cf63ce9ea6559d71"
+  },
+  {
+    "path": "src-tauri/target/release/examples/evaluate_local_rag",
+    "bytes": 6947984,
+    "sha256": "d94b4ee6b2edf35f047cbe2448b84aa41392e6352732dc33b3abf645c1fb0052"
+  },
+  {
+    "path": "src-tauri/src/inference.rs",
+    "bytes": 30501,
+    "sha256": "e5753aa2f17d578aef9c2eac9c8a5393bb4697f2c48df2834535b434a055caa9"
+  },
+  {
+    "path": "evaluation/context/pressure-native-fixtures/PressureBudget-0.txt",
+    "bytes": 1200,
+    "sha256": "7df5d2307a898b3f99b53910240ce1c36b75074fbda66423d6f5b2ebd6d4cf9e"
+  },
+  {
+    "path": "evaluation/context/pressure-native-fixtures/PressureBudget-1.txt",
+    "bytes": 1200,
+    "sha256": "5eeb268f02b7611fcdcd970a09121adbb6079e12cbfefcda5692d55726232c46"
+  },
+  {
+    "path": "evaluation/context/pressure-native-fixtures/PressureBudget-2.txt",
+    "bytes": 1200,
+    "sha256": "956f7036ebc6d9e1e3821b1ec5f352012017e66d806f6663b36490e908c991d1"
+  },
+  {
+    "path": "evaluation/context/pressure-native-fixtures/PressureBudget-3.txt",
+    "bytes": 1200,
+    "sha256": "8b4884df12945979d28bc62025b589982aaf472a745eac9b5fa764378b83cb5e"
+  }
+]

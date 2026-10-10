@@ -1,0 +1,38 @@
+{
+  "source": {
+    "name": "budget-video.mp4",
+    "bytes": 38967,
+    "sha256": "95b7bcd236ce0a2e7cfa5b6d9d2e20ec62ace31dde455434a1b91e745b3a05bf"
+  },
+  "loop": {
+    "name": "budget-loop60.mp4",
+    "bytes": 731537,
+    "sha256": "72c871a7c269cbca9885d0c22458fbb781044bb72a508505448d7b6db6d9618c"
+  },
+  "generation": "ffmpeg -stream_loop 19 -i budget-video.mp4 -t 60 -c copy budget-loop60.mp4",
+  "duration_seconds": 60.091641,
+  "manual_native_observations": {
+    "question": "What does the video show, and what monthly cloud budget does it mention?",
+    "answers_both_modes": "The video shows a red circle. The project cloud budget is $8 per month.",
+    "single": {
+      "displayed_inference_seconds": 3.5,
+      "input_tokens": 460,
+      "cached_tokens": 0,
+      "citations": 2
+    },
+    "both": {
+      "displayed_inference_seconds": 3.7,
+      "input_tokens": 460,
+      "cached_tokens": 0,
+      "citations": 2
+    },
+    "final_profile_rows": {
+      "documents": 2,
+      "chunks": 22,
+      "embeddings": 2,
+      "assets": 2,
+      "media_parts": 22
+    },
+    "policy_restored": "single"
+  }
+}

@@ -1,0 +1,1 @@
+/Users/hungpq2412/cachella/src-tauri/resources/decoder

@@ -1,0 +1,29 @@
+   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 4.84s
+     Running unittests src/lib.rs (src-tauri/target/debug/deps/cachella_lib-53fb0332b27fd23f)
+
+running 3 tests
+
+thread 'answer_jobs::tests::shutdown_cancels_registered_work_and_refuses_later_registration' (1269880) panicked at src/answer_jobs.rs:71:9:
+assertion failed: jobs.begin().is_err()
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'answer_jobs::tests::cancelled_pending_request_never_executes_and_does_not_cancel_retry' (1269878) panicked at src/answer_jobs.rs:32:9:
+assertion failed: jobs.cancel(&old).unwrap()
+
+thread 'answer_jobs::tests::running_cancellation_drops_work_releases_gate_and_permits_retry' (1269879) panicked at src/answer_jobs.rs:56:9:
+assertion failed: jobs.begin().is_err()
+test answer_jobs::tests::cancelled_pending_request_never_executes_and_does_not_cancel_retry ... FAILED
+test answer_jobs::tests::shutdown_cancels_registered_work_and_refuses_later_registration ... FAILED
+test answer_jobs::tests::running_cancellation_drops_work_releases_gate_and_permits_retry ... FAILED
+
+failures:
+
+failures:
+    answer_jobs::tests::cancelled_pending_request_never_executes_and_does_not_cancel_retry
+    answer_jobs::tests::running_cancellation_drops_work_releases_gate_and_permits_retry
+    answer_jobs::tests::shutdown_cancels_registered_work_and_refuses_later_registration
+
+test result: FAILED. 0 passed; 3 failed; 0 ignored; 0 measured; 92 filtered out; finished in 0.00s
+
+error: test failed, to rerun pass `--lib`

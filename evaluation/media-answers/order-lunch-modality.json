@@ -1,0 +1,407 @@
+{
+  "cases": [
+    {
+      "audio_first": true,
+      "cache": false,
+      "order": [
+        "audio/wav",
+        "image/png"
+      ],
+      "repeat": 1,
+      "result": {
+        "answer": {
+          "answer": {
+            "answer": "The video shows a lunch of tomato soup with fresh bread and a green salad.",
+            "insufficient_evidence": false,
+            "source_ids": [
+              "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1"
+            ]
+          },
+          "cached_tokens": 0,
+          "completion_tokens": 174,
+          "elapsed_ms": 3409,
+          "prompt_tokens": 463,
+          "sources": [
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1",
+              "kind": "video",
+              "ordinal": 1,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video audio 0:00–0:03 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            },
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "kind": "video",
+              "ordinal": 0,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video frame at 0:00 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            }
+          ]
+        },
+        "ok": true
+      }
+    },
+    {
+      "audio_first": true,
+      "cache": false,
+      "order": [
+        "audio/wav",
+        "image/png"
+      ],
+      "repeat": 2,
+      "result": {
+        "answer": {
+          "answer": {
+            "answer": "The video shows a lunch of tomato soup with fresh bread and a green salad.",
+            "insufficient_evidence": false,
+            "source_ids": [
+              "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1"
+            ]
+          },
+          "cached_tokens": 0,
+          "completion_tokens": 174,
+          "elapsed_ms": 3391,
+          "prompt_tokens": 463,
+          "sources": [
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1",
+              "kind": "video",
+              "ordinal": 1,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video audio 0:00–0:03 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            },
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "kind": "video",
+              "ordinal": 0,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video frame at 0:00 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            }
+          ]
+        },
+        "ok": true
+      }
+    },
+    {
+      "audio_first": false,
+      "cache": false,
+      "order": [
+        "image/png",
+        "audio/wav"
+      ],
+      "repeat": 1,
+      "result": {
+        "answer": {
+          "answer": {
+            "answer": "The video shows a blue square. The recording mentions lunch as tomato soup with fresh bread and green salad.",
+            "insufficient_evidence": false,
+            "source_ids": [
+              "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1"
+            ]
+          },
+          "cached_tokens": 0,
+          "completion_tokens": 179,
+          "elapsed_ms": 3663,
+          "prompt_tokens": 463,
+          "sources": [
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "kind": "video",
+              "ordinal": 0,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video frame at 0:00 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            },
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1",
+              "kind": "video",
+              "ordinal": 1,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video audio 0:00–0:03 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            }
+          ]
+        },
+        "ok": true
+      }
+    },
+    {
+      "audio_first": false,
+      "cache": false,
+      "order": [
+        "image/png",
+        "audio/wav"
+      ],
+      "repeat": 2,
+      "result": {
+        "answer": {
+          "answer": {
+            "answer": "The video shows a blue square. The recording mentions lunch as tomato soup with fresh bread and green salad.",
+            "insufficient_evidence": false,
+            "source_ids": [
+              "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1"
+            ]
+          },
+          "cached_tokens": 0,
+          "completion_tokens": 179,
+          "elapsed_ms": 3737,
+          "prompt_tokens": 463,
+          "sources": [
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "kind": "video",
+              "ordinal": 0,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video frame at 0:00 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            },
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1",
+              "kind": "video",
+              "ordinal": 1,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video audio 0:00–0:03 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            }
+          ]
+        },
+        "ok": true
+      }
+    },
+    {
+      "audio_first": true,
+      "cache": true,
+      "order": [
+        "audio/wav",
+        "image/png"
+      ],
+      "repeat": 1,
+      "result": {
+        "answer": {
+          "answer": {
+            "answer": "The video shows a lunch of tomato soup with fresh bread and a green salad.",
+            "insufficient_evidence": false,
+            "source_ids": [
+              "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1"
+            ]
+          },
+          "cached_tokens": 458,
+          "completion_tokens": 174,
+          "elapsed_ms": 2805,
+          "prompt_tokens": 463,
+          "sources": [
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1",
+              "kind": "video",
+              "ordinal": 1,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video audio 0:00–0:03 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            },
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "kind": "video",
+              "ordinal": 0,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video frame at 0:00 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            }
+          ]
+        },
+        "ok": true
+      }
+    },
+    {
+      "audio_first": true,
+      "cache": true,
+      "order": [
+        "audio/wav",
+        "image/png"
+      ],
+      "repeat": 2,
+      "result": {
+        "answer": {
+          "answer": {
+            "answer": "The video shows a lunch of tomato soup with fresh bread and a green salad.",
+            "insufficient_evidence": false,
+            "source_ids": [
+              "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1"
+            ]
+          },
+          "cached_tokens": 458,
+          "completion_tokens": 174,
+          "elapsed_ms": 2786,
+          "prompt_tokens": 463,
+          "sources": [
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1",
+              "kind": "video",
+              "ordinal": 1,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video audio 0:00–0:03 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            },
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "kind": "video",
+              "ordinal": 0,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video frame at 0:00 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            }
+          ]
+        },
+        "ok": true
+      }
+    },
+    {
+      "audio_first": false,
+      "cache": true,
+      "order": [
+        "image/png",
+        "audio/wav"
+      ],
+      "repeat": 1,
+      "result": {
+        "answer": {
+          "answer": {
+            "answer": "The video shows a blue square. The recording mentions lunch as tomato soup with fresh bread and green salad.",
+            "insufficient_evidence": false,
+            "source_ids": [
+              "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1"
+            ]
+          },
+          "cached_tokens": 458,
+          "completion_tokens": 179,
+          "elapsed_ms": 2855,
+          "prompt_tokens": 463,
+          "sources": [
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "kind": "video",
+              "ordinal": 0,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video frame at 0:00 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            },
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1",
+              "kind": "video",
+              "ordinal": 1,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video audio 0:00–0:03 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            }
+          ]
+        },
+        "ok": true
+      }
+    },
+    {
+      "audio_first": false,
+      "cache": true,
+      "order": [
+        "image/png",
+        "audio/wav"
+      ],
+      "repeat": 2,
+      "result": {
+        "answer": {
+          "answer": {
+            "answer": "The video shows a blue square. The recording mentions lunch as tomato soup with fresh bread and green salad.",
+            "insufficient_evidence": false,
+            "source_ids": [
+              "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1"
+            ]
+          },
+          "cached_tokens": 458,
+          "completion_tokens": 179,
+          "elapsed_ms": 2841,
+          "prompt_tokens": 463,
+          "sources": [
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:0",
+              "kind": "video",
+              "ordinal": 0,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video frame at 0:00 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            },
+            {
+              "document_id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b",
+              "end_ms": 3275,
+              "id": "2dabe08733189c4872ca795c550a0c84146783cbcc08d151a72ab24feb08eb8b:1",
+              "kind": "video",
+              "ordinal": 1,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "lunch-video.mp4: Video audio 0:00–0:03 [0-3275 ms]",
+              "title": "lunch-video.mp4"
+            }
+          ]
+        },
+        "ok": true
+      }
+    }
+  ],
+  "engine_stopped": true,
+  "question": "What does the video show, and what food does the recording mention?",
+  "scope": "single synthetic video; production request path; manual quality review required"
+}

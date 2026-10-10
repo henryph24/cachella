@@ -1,0 +1,1 @@
+PASS: 4 documents, 80 local links, 7 artifact hashes, 4 live results; temporary example removed, production capture absent.

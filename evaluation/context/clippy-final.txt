@@ -1,0 +1,2 @@
+    Checking cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.80s

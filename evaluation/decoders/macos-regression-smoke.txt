@@ -1,0 +1,11 @@
+PASS: red-circle.png -> image/png preview, 1 indexed parts
+PASS: blue-square.png -> image/png preview, 1 indexed parts
+PASS: budget.wav -> audio/wav preview, 1 indexed parts
+PASS: lunch.wav -> audio/wav preview, 1 indexed parts
+PASS: temporal-video.mp4 -> video/mp4 preview, 5 indexed parts
+PASS: budget-video.mp4 -> video/mp4 preview, 2 indexed parts
+PASS: image.jpg -> image/png preview, 1 indexed parts
+PASS: audio.mp3 -> audio/wav preview, 1 indexed parts
+PASS: audio.flac -> audio/wav preview, 1 indexed parts
+PASS: audio.ogg -> audio/wav preview, 1 indexed parts
+PASS: video.webm -> video/mp4 preview, 5 indexed parts

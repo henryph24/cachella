@@ -1,0 +1,9 @@
+{
+  "live_parent_preserved": 3,
+  "live_guardian_preserved_after_parent_kill": 3,
+  "abandoned_workspaces_reclaimed": 3,
+  "unrelated_file_preserved": true,
+  "normal_drop_removed": true,
+  "guardian_and_tool_exited": true,
+  "scope": "POSIX subprocesses; actual production process guardian and independent startup recovery. Synthetic PDF/media/TLS payloads; parser/model integration checked separately."
+}

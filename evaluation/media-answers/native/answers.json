@@ -1,0 +1,262 @@
+{
+  "authentication_verified": true,
+  "cases": [
+    {
+      "elapsed_ms": 852,
+      "fixture": "red-circle.png",
+      "question": "Describe the shape and its color in this image.",
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "The image displays a **circle** that is **red**.",
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 1791578148,
+        "id": "chatcmpl-MAtrPTT6i8RzL0NvYkdI7Xo9CiVFQLTX",
+        "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+        "object": "chat.completion",
+        "system_fingerprint": "b11531-8b5436102",
+        "timings": {
+          "cache_n": 0,
+          "predicted_ms": 184.869,
+          "predicted_n": 13,
+          "predicted_per_second": 64.91082874900604,
+          "predicted_per_token_ms": 15.40575,
+          "prompt_ms": 660.605,
+          "prompt_n": 102,
+          "prompt_per_second": 154.40391762096866,
+          "prompt_per_token_ms": 6.476519607843137
+        },
+        "usage": {
+          "completion_tokens": 13,
+          "prompt_tokens": 102,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 115
+        }
+      },
+      "sha256": "e9c11c07932429606491d42a2f29e1322a492fb2515fc2f9bebf22fbc08a1fd1"
+    },
+    {
+      "elapsed_ms": 587,
+      "fixture": "blue-square.png",
+      "question": "Describe the shape and its color in this image.",
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "The image displays a **square** shape.\n\nThe color of the square is a vibrant, deep **blue**.",
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 1791578148,
+        "id": "chatcmpl-LNnvRaY4haUoddOgsTOPf3zvf8KNdbPp",
+        "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+        "object": "chat.completion",
+        "system_fingerprint": "b11531-8b5436102",
+        "timings": {
+          "cache_n": 1,
+          "predicted_ms": 360.923,
+          "predicted_n": 24,
+          "predicted_per_second": 63.725503777814104,
+          "predicted_per_token_ms": 15.692304347826086,
+          "prompt_ms": 222.562,
+          "prompt_n": 101,
+          "prompt_per_second": 453.8061304265778,
+          "prompt_per_token_ms": 2.2035841584158415
+        },
+        "usage": {
+          "completion_tokens": 24,
+          "prompt_tokens": 102,
+          "prompt_tokens_details": {
+            "cached_tokens": 1
+          },
+          "total_tokens": 126
+        }
+      },
+      "sha256": "135e1b8427c159e5cdcbfb5f2d7d323e939b63421e0c0b714332f95229da2794"
+    },
+    {
+      "elapsed_ms": 376,
+      "fixture": "budget.wav",
+      "question": "Transcribe the speech in this recording exactly.",
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "The project cloud budget is eight dollars per month.",
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 1791578149,
+        "id": "chatcmpl-qvshNr7ngPu3HCDFcPVjKYi44EExbmrw",
+        "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+        "object": "chat.completion",
+        "system_fingerprint": "b11531-8b5436102",
+        "timings": {
+          "cache_n": 1,
+          "predicted_ms": 152.919,
+          "predicted_n": 11,
+          "predicted_per_second": 65.39409752875704,
+          "predicted_per_token_ms": 15.291900000000002,
+          "prompt_ms": 209.543,
+          "prompt_n": 95,
+          "prompt_per_second": 453.3675665615171,
+          "prompt_per_token_ms": 2.2057157894736843
+        },
+        "usage": {
+          "completion_tokens": 11,
+          "prompt_tokens": 96,
+          "prompt_tokens_details": {
+            "cached_tokens": 1
+          },
+          "total_tokens": 107
+        }
+      },
+      "sha256": "e06108cfa6141805e9dedc7743220e307c5786d9a1502caa15afe27c65602af9"
+    },
+    {
+      "elapsed_ms": 351,
+      "fixture": "lunch.wav",
+      "question": "Transcribe the speech in this recording exactly.",
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "Launches tomato soup with fresh bread and green salad.",
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 1791578149,
+        "id": "chatcmpl-oxQalgtIVh63rQLfdQcKJ3wIfRENwYK6",
+        "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+        "object": "chat.completion",
+        "system_fingerprint": "b11531-8b5436102",
+        "timings": {
+          "cache_n": 1,
+          "predicted_ms": 168.706,
+          "predicted_n": 12,
+          "predicted_per_second": 65.20218605147417,
+          "predicted_per_token_ms": 15.33690909090909,
+          "prompt_ms": 167.83,
+          "prompt_n": 101,
+          "prompt_per_second": 601.7994399094322,
+          "prompt_per_token_ms": 1.6616831683168318
+        },
+        "usage": {
+          "completion_tokens": 12,
+          "prompt_tokens": 102,
+          "prompt_tokens_details": {
+            "cached_tokens": 1
+          },
+          "total_tokens": 114
+        }
+      },
+      "sha256": "4e21fce40eaf06193d966327fbafff269be6109cf910fe9c5d928fe5f77c6703"
+    },
+    {
+      "elapsed_ms": 305,
+      "fixture": "budget.wav",
+      "question": "What monthly cloud budget does this recording specify?",
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "The monthly cloud budget is $8.",
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 1791578149,
+        "id": "chatcmpl-0xvoB4yavUF0AALUoTRebPH7rOFzYTtA",
+        "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+        "object": "chat.completion",
+        "system_fingerprint": "b11531-8b5436102",
+        "timings": {
+          "cache_n": 1,
+          "predicted_ms": 123.167,
+          "predicted_n": 9,
+          "predicted_per_second": 64.9524629162032,
+          "predicted_per_token_ms": 15.395875,
+          "prompt_ms": 167.109,
+          "prompt_n": 95,
+          "prompt_per_second": 568.4912242907324,
+          "prompt_per_token_ms": 1.759042105263158
+        },
+        "usage": {
+          "completion_tokens": 9,
+          "prompt_tokens": 96,
+          "prompt_tokens_details": {
+            "cached_tokens": 1
+          },
+          "total_tokens": 105
+        }
+      },
+      "sha256": "e06108cfa6141805e9dedc7743220e307c5786d9a1502caa15afe27c65602af9"
+    },
+    {
+      "elapsed_ms": 981,
+      "fixture": "red-circle.png",
+      "question": "What is the company's annual revenue? Say unknown if the image does not provide it.",
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "I'm sorry, but the image you provided is a **red circle on a white background**. It does not contain any information about a company or its annual revenue.\n\nTherefore, the company's annual revenue is **unknown**.",
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 1791578150,
+        "id": "chatcmpl-XW2a20tf0A6G3fuO49mWnawwhjtopRwd",
+        "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+        "object": "chat.completion",
+        "system_fingerprint": "b11531-8b5436102",
+        "timings": {
+          "cache_n": 1,
+          "predicted_ms": 732.043,
+          "predicted_n": 48,
+          "predicted_per_second": 64.20387873389951,
+          "predicted_per_token_ms": 15.575382978723404,
+          "prompt_ms": 245.1,
+          "prompt_n": 110,
+          "prompt_per_second": 448.7964096287229,
+          "prompt_per_token_ms": 2.228181818181818
+        },
+        "usage": {
+          "completion_tokens": 48,
+          "prompt_tokens": 111,
+          "prompt_tokens_details": {
+            "cached_tokens": 1
+          },
+          "total_tokens": 159
+        }
+      },
+      "sha256": "e9c11c07932429606491d42a2f29e1322a492fb2515fc2f9bebf22fbc08a1fd1"
+    }
+  ],
+  "context_tokens": 4096,
+  "engine_stopped": true,
+  "scope": "managed runtime with direct media requests",
+  "startup_ms": 16679,
+  "thinking": false
+}

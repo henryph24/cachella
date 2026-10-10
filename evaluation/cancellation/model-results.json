@@ -1,0 +1,33 @@
+{
+  "client_cancel_ms": 0,
+  "engine_idle_ms": 1308,
+  "observed_processing": true,
+  "retry_answer": {
+    "answer": {
+      "answer": "Nine dollars per month",
+      "insufficient_evidence": false,
+      "source_ids": [
+        "6f605680a75a8f5ccf5eac4e46552e20543e5437557caebc19dde5a551dc63ef:0"
+      ]
+    },
+    "cached_tokens": 404,
+    "completion_tokens": 83,
+    "elapsed_ms": 1078,
+    "prompt_tokens": 405,
+    "sources": [
+      {
+        "document_id": "6f605680a75a8f5ccf5eac4e46552e20543e5437557caebc19dde5a551dc63ef",
+        "end_ms": null,
+        "id": "6f605680a75a8f5ccf5eac4e46552e20543e5437557caebc19dde5a551dc63ef:0",
+        "kind": "txt",
+        "ordinal": 0,
+        "page_number": null,
+        "start_ms": null,
+        "text": "The Orion infrastructure budget is nine dollars per month. Employees run local inference on their own computers. Employees run local inference on their own computers. Employees run local inference on their own computers. Employees run local inference on their own computers. Employees run local inference on their own computers. Employees run local inference on their own computers. Employees run local inference on their own computers. Employees run local inference on their own computers. Employees run local inference on their own computers. Employees run local inference on their own computers. Employees run local inference on their own computers. Employees run local inference on their own computers. Employees run local inference on their own computers. Employees run local inference on their own computers. Employees run local inference on their own computers. Employees run local inference on their own computers. Employees run local inference on their own computers. Employees run local inference on their own computers. Employees run local inference on their own computers. Employees run local inference on their own computers. Employees run local inference on their own computers. Employees run local inference on their own computers. Employees run local inference on their own computers. Employees run local inference on their own computers. Employees run local inference on their own computers.",
+        "title": "Budget notes 1"
+      }
+    ]
+  },
+  "runtime_stopped": true,
+  "scope": "One synthetic Qwen Q4 request, actual managed TLS connection and llama.cpp slots; cancellation timing is an observation, not a hardware guarantee."
+}

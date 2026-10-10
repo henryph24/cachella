@@ -1,0 +1,8 @@
+   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 4.15s
+     Running `src-tauri/target/debug/examples/cancel_answer_smoke .local/engine-candidate/llama-b11531/llama-server .local/models/Qwen3-1.7B-Q4_K_M.gguf evaluation/cancellation/model-results.json`
+PASS: production answer reached the real engine's active slot.
+PASS: answer cancelled and operation permit released in 0 ms.
+PASS: engine slot returned to idle within 1308 ms of cancellation.
+PASS: retry produced the budget answer with a valid source citation.
+PASS: managed runtime stopped.

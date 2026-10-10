@@ -1,0 +1,40 @@
+PASS: 19 files match local build receipt; 3 pinned source archives included
+ffmpeg.exe 14094848 bytes
+.local/decoder-windows/ffmpeg.exe:     file format pei-x86-64
+architecture: i386:x86-64, flags 0x00000103:
+DLL Name: bcrypt.dll
+DLL Name: KERNEL32.dll
+DLL Name: api-ms-win-crt-conio-l1-1-0.dll
+DLL Name: api-ms-win-crt-convert-l1-1-0.dll
+DLL Name: api-ms-win-crt-environment-l1-1-0.dll
+DLL Name: api-ms-win-crt-filesystem-l1-1-0.dll
+DLL Name: api-ms-win-crt-heap-l1-1-0.dll
+DLL Name: api-ms-win-crt-locale-l1-1-0.dll
+DLL Name: api-ms-win-crt-math-l1-1-0.dll
+DLL Name: api-ms-win-crt-private-l1-1-0.dll
+DLL Name: api-ms-win-crt-runtime-l1-1-0.dll
+DLL Name: api-ms-win-crt-stdio-l1-1-0.dll
+DLL Name: api-ms-win-crt-string-l1-1-0.dll
+DLL Name: api-ms-win-crt-time-l1-1-0.dll
+DLL Name: api-ms-win-crt-utility-l1-1-0.dll
+DLL Name: SHELL32.dll
+ffprobe.exe 13885440 bytes
+.local/decoder-windows/ffprobe.exe:     file format pei-x86-64
+architecture: i386:x86-64, flags 0x00000103:
+DLL Name: bcrypt.dll
+DLL Name: KERNEL32.dll
+DLL Name: api-ms-win-crt-convert-l1-1-0.dll
+DLL Name: api-ms-win-crt-environment-l1-1-0.dll
+DLL Name: api-ms-win-crt-filesystem-l1-1-0.dll
+DLL Name: api-ms-win-crt-heap-l1-1-0.dll
+DLL Name: api-ms-win-crt-locale-l1-1-0.dll
+DLL Name: api-ms-win-crt-math-l1-1-0.dll
+DLL Name: api-ms-win-crt-private-l1-1-0.dll
+DLL Name: api-ms-win-crt-runtime-l1-1-0.dll
+DLL Name: api-ms-win-crt-stdio-l1-1-0.dll
+DLL Name: api-ms-win-crt-string-l1-1-0.dll
+DLL Name: api-ms-win-crt-time-l1-1-0.dll
+DLL Name: api-ms-win-crt-utility-l1-1-0.dll
+DLL Name: SHELL32.dll
+PASS: zlib license and network-disabled configuration present
+Windows execution: NOT VERIFIED (cross-compiled on macOS)

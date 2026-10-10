@@ -1,0 +1,1 @@
+PASS: 4 Markdown files, 36 local links, balanced fences, 4 JSON reports; 117 Rust tests, 10 scratch tests, 4 guardian checks, 5 model checks, 1 package recorded

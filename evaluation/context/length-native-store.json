@@ -1,0 +1,8 @@
+{
+  "counts": {
+    "documents": 15,
+    "chunks": 74,
+    "embeddings": 60
+  },
+  "fixture_matches": 4
+}

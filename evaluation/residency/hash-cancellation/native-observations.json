@@ -1,0 +1,28 @@
+{
+  "method": "Manual CUA observations; read-only SQLite counts and executable-name ps checks",
+  "profile": "com.cachella.mediacheck",
+  "policy": "single",
+  "steps": [
+    "Started embedding model using persisted model/projector; 2/22 passages retained",
+    "Started generation model; embedding suspended on demand",
+    "Started indexing auto-resume and cancelled; idle controls returned and 2/22 progress retained",
+    "After cancellation embedding was Running and generation On demand; startup had completed before cancellation",
+    "Retried indexing; 22/22 passages indexed",
+    "Semantic query returned 8 passages; original budget-video audio ranked first, followed by audio segments of budget-loop60",
+    "Quit via native shortcut"
+  ],
+  "query": "What monthly cloud budget does the video mention?",
+  "counts": {
+    "documents": 2,
+    "chunks": 22,
+    "embeddings": 22,
+    "assets": 2,
+    "media_parts": 22
+  },
+  "after_quit_bundle_processes": 0,
+  "limits": [
+    "UI cancellation did not catch the file-hashing phase",
+    "No direct observation of hash worker termination",
+    "One isolated Mac profile; Windows and lower-memory devices unverified"
+  ]
+}

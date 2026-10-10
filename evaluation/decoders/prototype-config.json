@@ -1,0 +1,50 @@
+{
+  "status": "prototype build evidence; not a distribution recipe",
+  "ffmpeg_configure": [
+    "bash",
+    "/Users/hungpq2412/cachella/.local/decoder-source/ffmpeg-9.0.2/configure",
+    "--prefix=/Users/hungpq2412/cachella/.local/decoder-build/prefix",
+    "--disable-autodetect",
+    "--disable-network",
+    "--disable-doc",
+    "--disable-debug",
+    "--disable-ffplay",
+    "--disable-avdevice",
+    "--disable-shared",
+    "--enable-static",
+    "--disable-everything",
+    "--enable-ffmpeg",
+    "--enable-ffprobe",
+    "--enable-gpl",
+    "--enable-libx264",
+    "--enable-zlib",
+    "--enable-protocol=file,pipe",
+    "--enable-demuxer=image_png_pipe,mjpeg,wav,mp3,flac,ogg,mov,matroska",
+    "--enable-muxer=image2,wav,mp4",
+    "--enable-encoder=png,pcm_s16le,libx264,aac",
+    "--enable-decoder=png,mjpeg,aac,ac3,alac,flac,mp3,mp3float,vorbis,opus,pcm_s16le,pcm_s24le,pcm_s32le,pcm_u8,pcm_f32le,pcm_f64le,pcm_s16be,pcm_s24be,pcm_s32be,pcm_mulaw,pcm_alaw,adpcm_ima_wav,adpcm_ms,h264,hevc,mpeg4,vp8,vp9",
+    "--enable-parser=aac,aac_latm,ac3,flac,h264,hevc,mjpeg,mpeg4video,mpegaudio,opus,png,vorbis,vp8,vp9",
+    "--enable-bsf=h264_mp4toannexb,hevc_mp4toannexb,aac_adtstoasc,vp9_superframe_split",
+    "--enable-filter=scale,fps,format,aresample,aformat,anull,null,trim,atrim,buffer,abuffer,buffersink,abuffersink",
+    "--extra-cflags=-mmacosx-version-min=11.0",
+    "--extra-ldflags=-mmacosx-version-min=11.0",
+    "--pkg-config-flags=--static"
+  ],
+  "x264_configure": [
+    "bash",
+    "/Users/hungpq2412/cachella/.local/decoder-source/x264-0480cb05fa188d37ae87e8f4fd8f1aea3711f7ee/configure",
+    "--prefix=/Users/hungpq2412/cachella/.local/decoder-build/prefix-macos11",
+    "--enable-static",
+    "--enable-pic",
+    "--disable-cli",
+    "--disable-opencl",
+    "--extra-cflags=-mmacosx-version-min=11.0",
+    "--extra-asflags=-mmacosx-version-min=11.0",
+    "--extra-ldflags=-mmacosx-version-min=11.0"
+  ],
+  "x264_environment": {
+    "MACOSX_DEPLOYMENT_TARGET": "11.0",
+    "LC_ALL": "C"
+  },
+  "note": "The corrected x264 archive from prefix-macos11/lib/libx264.a replaced prefix/lib/libx264.a before both stripped and unstripped FFmpeg executables were removed and relinked."
+}

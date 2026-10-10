@@ -1,0 +1,27 @@
+{
+  "artifacts": {
+    "src-tauri/target/release/examples/evaluate_local_rag": {
+      "bytes": 6949216,
+      "sha256": "c1c3690304ad917d0ff1b2fdff0c3d853cbd89b23269768244b837854daf1a37"
+    },
+    "src-tauri/resources/engine/llama-server": {
+      "bytes": 49984,
+      "sha256": "1bf5602a2be50097c44282a6ecc63234d94ee8f96d39fd45fed6eff4e74b6b41"
+    },
+    "src-tauri/src/inference.rs": {
+      "bytes": 24278,
+      "sha256": "cf26feafc50219a8304b65277cbc4dbcf885fafe650596d1997e6cc7919e1d33"
+    },
+    "src-tauri/examples/evaluate_local_rag.rs": {
+      "bytes": 4866,
+      "sha256": "87d4e2353848648ea8d3e1e860af3ff1be16e04fdaed2c76c1c4e963d91c5666"
+    },
+    "evaluation/local-rag-cases.json": {
+      "bytes": 3793,
+      "sha256": "ae490dc3bb3a4855229a2b0bf72b789eb15a93d3a5ce9b6f77a46dd35a42b9c1"
+    }
+  },
+  "request_mode": "managed projector enabled; production media-capable text evidence path",
+  "model_provenance": "media-answers/download-verification.json",
+  "git_repository_present": false
+}

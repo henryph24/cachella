@@ -1,0 +1,38 @@
+{
+  "method": "Manual native CUA import and source-preview observation; read-only SQLite, stored-payload ffprobe and ps verification",
+  "imported": [
+    {
+      "name": "side8192.png",
+      "stored_bytes": 99,
+      "dimensions": {
+        "width": 512,
+        "height": 1
+      },
+      "v2_fingerprint_matches": true
+    },
+    {
+      "name": "odd-video.mp4",
+      "stored_bytes": 1575,
+      "dimensions": {
+        "width": 512,
+        "height": 256
+      },
+      "v2_fingerprint_matches": true
+    }
+  ],
+  "profile": "com.cachella.mediacheck",
+  "counts": {
+    "documents": 5,
+    "chunks": 60,
+    "embeddings": 58,
+    "assets": 5,
+    "media_parts": 60
+  },
+  "bundle_processes_after_quit": [],
+  "odd_video_preview_visible": true,
+  "limits": [
+    "Two new passages remain unindexed",
+    "No playback timing or whole-app resource measurement repeated",
+    "Windows and lower-memory hardware unverified"
+  ]
+}

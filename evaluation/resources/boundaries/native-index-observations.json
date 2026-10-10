@@ -1,0 +1,33 @@
+{
+  "method": "Manual native CUA indexing/search/source preview, read-only SQLite vector checks, ps executable check",
+  "total_embeddings": 60,
+  "retained_previous_vectors": 58,
+  "new_vectors": [
+    {
+      "name": "side8192.png",
+      "dimensions": 768,
+      "norm": 1.0000000321340214
+    },
+    {
+      "name": "odd-video.mp4",
+      "dimensions": 768,
+      "norm": 1.000000027479957
+    }
+  ],
+  "queries": [
+    {
+      "query": "solid red image",
+      "results": 8,
+      "first": "odd-video.mp4"
+    },
+    {
+      "query": "thin red horizontal line",
+      "results": 8,
+      "first": "side8192.png",
+      "second": "odd-video.mp4"
+    }
+  ],
+  "thin_image_preview_opened": true,
+  "bundle_process_count_after_quit": 0,
+  "scope": "Two synthetic semantic queries; no general retrieval quality claim"
+}

@@ -1,0 +1,54 @@
+{
+  "method": "Native CUA accessibility observations; read-only SQL, ps and coalition collector",
+  "overflow_query": "ContextOverflow",
+  "overflow_matches": 5,
+  "error": "The question and retrieved evidence exceed this model's context limit. Try a shorter, more specific question. Your search results are still available.",
+  "results_retained": true,
+  "recovery_query": "BudgetRecovery",
+  "recovery_matches": 1,
+  "answer": "The BudgetRecovery monthly cap is eight dollars, which is the approved recurring monthly budget.",
+  "citations": [
+    "context-recovery.txt"
+  ],
+  "displayed_elapsed_seconds": 2.2,
+  "input_tokens": 196,
+  "cached_tokens": 0,
+  "same_engine_pid": 9940,
+  "before_after_process_rows_equal": true,
+  "final_counts": {
+    "documents": 7,
+    "chunks": 66,
+    "embeddings": 60
+  },
+  "final_bundle_process_count": 0,
+  "samples": 1336,
+  "valid_samples": 1335,
+  "median_sample_interval_ms": 154,
+  "duration_ms": 205454,
+  "phases": {
+    "import_and_start": {
+      "valid_samples": 1154,
+      "max_process_count": 10,
+      "sampled_peak_resident_sum_bytes": 1478934528,
+      "sampled_peak_footprint_sum_bytes": 1369808896
+    },
+    "oversized_answer": {
+      "valid_samples": 96,
+      "max_process_count": 10,
+      "sampled_peak_resident_sum_bytes": 1482555392,
+      "sampled_peak_footprint_sum_bytes": 1256693824
+    },
+    "recovery_answer": {
+      "valid_samples": 67,
+      "max_process_count": 10,
+      "sampled_peak_resident_sum_bytes": 1531707392,
+      "sampled_peak_footprint_sum_bytes": 1334650496
+    },
+    "shutdown": {
+      "valid_samples": 18,
+      "max_process_count": 10,
+      "sampled_peak_resident_sum_bytes": 1531461632,
+      "sampled_peak_footprint_sum_bytes": 984770176
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "path": "src-tauri/target/release/bundle/macos/Cachella Media Check.app/Contents/MacOS/cachella",
+    "bytes": 17138672,
+    "sha256": "a86a684ea0f478c30aaa44fd65fd34e1074d6392c5f82874e0ffa93f853d6a0a"
+  },
+  {
+    "path": "src-tauri/src/inference.rs",
+    "bytes": 33788,
+    "sha256": "f381bb8c7eb5fd6c97ac7e321eb060f95570729ede418a0d5a1a709953d04a39"
+  },
+  {
+    "path": "evaluation/context/length-native-fixtures/LimitBudget-0.txt",
+    "bytes": 1300,
+    "sha256": "2ebb4956830ce37ffea917d0e6b4b84f6095e679549b4c59276685ca4764df19"
+  },
+  {
+    "path": "evaluation/context/length-native-fixtures/LimitBudget-1.txt",
+    "bytes": 1300,
+    "sha256": "0be754dc57ff48927e6aaa89b63213cd82feeab01f3302a325f3bd8b48439ec2"
+  },
+  {
+    "path": "evaluation/context/length-native-fixtures/LimitBudget-2.txt",
+    "bytes": 1300,
+    "sha256": "d6f27b39355b10ee38085199f903c7e4c0c31692ba966972b0b7a348d937dfff"
+  },
+  {
+    "path": "evaluation/context/length-native-fixtures/LimitBudget-3.txt",
+    "bytes": 1300,
+    "sha256": "4cf96ccc546cfdacc55e271640e38b7c654cefe9a2ec58963c1853ce76524dcf"
+  }
+]

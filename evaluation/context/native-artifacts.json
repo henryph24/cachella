@@ -1,0 +1,22 @@
+[
+  {
+    "path": "src-tauri/target/release/bundle/macos/Cachella Media Check.app/Contents/MacOS/cachella",
+    "bytes": 17137696,
+    "sha256": "345b33725bd590f0fed1ce7b68839d94ee955850e900da077e4a26f41aea5567"
+  },
+  {
+    "path": "src-tauri/src/inference.rs",
+    "bytes": 30501,
+    "sha256": "e5753aa2f17d578aef9c2eac9c8a5393bb4697f2c48df2834535b434a055caa9"
+  },
+  {
+    "path": "evaluation/context/native-fixtures/context-overflow.txt",
+    "bytes": 74500,
+    "sha256": "2c964092b00dd8c21826c658050851c463d651b8f55d752515b7b64a45290d34"
+  },
+  {
+    "path": "evaluation/context/native-fixtures/context-recovery.txt",
+    "bytes": 92,
+    "sha256": "25d82dd94797924ffdf4b22d6f899a425961c075786ce04a2b8f77ac10762d2d"
+  }
+]

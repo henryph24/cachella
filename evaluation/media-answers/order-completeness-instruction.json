@@ -1,0 +1,259 @@
+{
+  "cases": [
+    {
+      "audio_first": true,
+      "cache": false,
+      "order": [
+        "audio/wav",
+        "image/png"
+      ],
+      "repeat": 1,
+      "result": {
+        "error": "The model did not return the required answer structure. Your sources remain available.",
+        "ok": false
+      }
+    },
+    {
+      "audio_first": true,
+      "cache": false,
+      "order": [
+        "audio/wav",
+        "image/png"
+      ],
+      "repeat": 2,
+      "result": {
+        "error": "The model did not return the required answer structure. Your sources remain available.",
+        "ok": false
+      }
+    },
+    {
+      "audio_first": false,
+      "cache": false,
+      "order": [
+        "image/png",
+        "audio/wav"
+      ],
+      "repeat": 1,
+      "result": {
+        "answer": {
+          "answer": {
+            "answer": "The video shows a red circle. The project cloud budget is $8 per month.",
+            "insufficient_evidence": false,
+            "source_ids": [
+              "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:0",
+              "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:1"
+            ]
+          },
+          "cached_tokens": 0,
+          "completion_tokens": 177,
+          "elapsed_ms": 3424,
+          "prompt_tokens": 479,
+          "sources": [
+            {
+              "document_id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e",
+              "end_ms": 3042,
+              "id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:0",
+              "kind": "video",
+              "ordinal": 0,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "budget-video.mp4: Video frame at 0:00 [0-3042 ms]",
+              "title": "budget-video.mp4"
+            },
+            {
+              "document_id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e",
+              "end_ms": 3042,
+              "id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:1",
+              "kind": "video",
+              "ordinal": 1,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "budget-video.mp4: Video audio 0:00–0:03 [0-3042 ms]",
+              "title": "budget-video.mp4"
+            }
+          ]
+        },
+        "ok": true
+      }
+    },
+    {
+      "audio_first": false,
+      "cache": false,
+      "order": [
+        "image/png",
+        "audio/wav"
+      ],
+      "repeat": 2,
+      "result": {
+        "answer": {
+          "answer": {
+            "answer": "The video shows a red circle. The project cloud budget is $8 per month.",
+            "insufficient_evidence": false,
+            "source_ids": [
+              "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:0",
+              "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:1"
+            ]
+          },
+          "cached_tokens": 0,
+          "completion_tokens": 177,
+          "elapsed_ms": 3430,
+          "prompt_tokens": 479,
+          "sources": [
+            {
+              "document_id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e",
+              "end_ms": 3042,
+              "id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:0",
+              "kind": "video",
+              "ordinal": 0,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "budget-video.mp4: Video frame at 0:00 [0-3042 ms]",
+              "title": "budget-video.mp4"
+            },
+            {
+              "document_id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e",
+              "end_ms": 3042,
+              "id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:1",
+              "kind": "video",
+              "ordinal": 1,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "budget-video.mp4: Video audio 0:00–0:03 [0-3042 ms]",
+              "title": "budget-video.mp4"
+            }
+          ]
+        },
+        "ok": true
+      }
+    },
+    {
+      "audio_first": true,
+      "cache": true,
+      "order": [
+        "audio/wav",
+        "image/png"
+      ],
+      "repeat": 1,
+      "result": {
+        "error": "The model did not return the required answer structure. Your sources remain available.",
+        "ok": false
+      }
+    },
+    {
+      "audio_first": true,
+      "cache": true,
+      "order": [
+        "audio/wav",
+        "image/png"
+      ],
+      "repeat": 2,
+      "result": {
+        "error": "The model did not return the required answer structure. Your sources remain available.",
+        "ok": false
+      }
+    },
+    {
+      "audio_first": false,
+      "cache": true,
+      "order": [
+        "image/png",
+        "audio/wav"
+      ],
+      "repeat": 1,
+      "result": {
+        "answer": {
+          "answer": {
+            "answer": "The video shows a red circle. The project cloud budget is $8 per month.",
+            "insufficient_evidence": false,
+            "source_ids": [
+              "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:0",
+              "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:1"
+            ]
+          },
+          "cached_tokens": 474,
+          "completion_tokens": 177,
+          "elapsed_ms": 3091,
+          "prompt_tokens": 479,
+          "sources": [
+            {
+              "document_id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e",
+              "end_ms": 3042,
+              "id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:0",
+              "kind": "video",
+              "ordinal": 0,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "budget-video.mp4: Video frame at 0:00 [0-3042 ms]",
+              "title": "budget-video.mp4"
+            },
+            {
+              "document_id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e",
+              "end_ms": 3042,
+              "id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:1",
+              "kind": "video",
+              "ordinal": 1,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "budget-video.mp4: Video audio 0:00–0:03 [0-3042 ms]",
+              "title": "budget-video.mp4"
+            }
+          ]
+        },
+        "ok": true
+      }
+    },
+    {
+      "audio_first": false,
+      "cache": true,
+      "order": [
+        "image/png",
+        "audio/wav"
+      ],
+      "repeat": 2,
+      "result": {
+        "answer": {
+          "answer": {
+            "answer": "The video shows a red circle. The project cloud budget is $8 per month.",
+            "insufficient_evidence": false,
+            "source_ids": [
+              "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:0",
+              "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:1"
+            ]
+          },
+          "cached_tokens": 474,
+          "completion_tokens": 177,
+          "elapsed_ms": 2958,
+          "prompt_tokens": 479,
+          "sources": [
+            {
+              "document_id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e",
+              "end_ms": 3042,
+              "id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:0",
+              "kind": "video",
+              "ordinal": 0,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "budget-video.mp4: Video frame at 0:00 [0-3042 ms]",
+              "title": "budget-video.mp4"
+            },
+            {
+              "document_id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e",
+              "end_ms": 3042,
+              "id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:1",
+              "kind": "video",
+              "ordinal": 1,
+              "page_number": null,
+              "start_ms": 0,
+              "text": "budget-video.mp4: Video audio 0:00–0:03 [0-3042 ms]",
+              "title": "budget-video.mp4"
+            }
+          ]
+        },
+        "ok": true
+      }
+    }
+  ],
+  "engine_stopped": true,
+  "question": "What does the video show, and what monthly cloud budget does it mention?",
+  "scope": "single synthetic video; production request path; manual quality review required"
+}

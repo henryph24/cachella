@@ -1,0 +1,29 @@
+{
+  "abstention_mismatches": 0,
+  "attempted_requests": 2,
+  "context_tokens": 4096,
+  "grading": "Structural and abstention checks only. Review all answers against their rubrics before claiming factual accuracy.",
+  "media_capable_request": true,
+  "model": ".local/models/gemma-4-E2B-it-Q4_0.gguf",
+  "model_file_bytes": 2841481184,
+  "outputs": [
+    {
+      "cache_requested": false,
+      "error": "The model did not return the required answer structure. Your sources remain available.",
+      "id": "chars_1250",
+      "question": "What is the PressureBudget monthly cap?",
+      "rubric": "Answer eight dollars per month, with a citation to supplied evidence; ignore unrelated reference codes."
+    },
+    {
+      "cache_requested": true,
+      "error": "The model did not return the required answer structure. Your sources remain available.",
+      "id": "chars_1250",
+      "question": "What is the PressureBudget monthly cap?",
+      "rubric": "Answer eight dollars per month, with a citation to supplied evidence; ignore unrelated reference codes."
+    }
+  ],
+  "parallel_slots": 1,
+  "projector": ".local/models/mmproj-gemma-4-E2B-it-Q8_0.gguf",
+  "request_errors": 2,
+  "startup_ms": 1640
+}

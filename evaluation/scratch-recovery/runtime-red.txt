@@ -1,0 +1,31 @@
+   Compiling ring v0.17.14
+   Compiling libsqlite3-sys v0.30.1
+   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+   Compiling rustls v0.23.45
+   Compiling rusqlite v0.32.1
+   Compiling rustls-webpki v0.103.15
+   Compiling rcgen v0.14.10
+   Compiling tokio-rustls v0.26.6
+   Compiling hyper-rustls v0.27.10
+   Compiling reqwest v0.12.28
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 10.30s
+     Running unittests src/lib.rs (src-tauri/target/debug/deps/cachella_lib-53fb0332b27fd23f)
+
+running 1 test
+test runtime::tests::owns_child_and_clears_credentials_on_stop ... FAILED
+
+failures:
+
+---- runtime::tests::owns_child_and_clears_credentials_on_stop stdout ----
+
+thread 'runtime::tests::owns_child_and_clears_credentials_on_stop' (1383463) panicked at src/runtime.rs:418:9:
+TLS files must use the recoverable scratch namespace
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    runtime::tests::owns_child_and_clears_credentials_on_stop
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 101 filtered out; finished in 0.07s
+
+error: test failed, to rerun pass `--lib`

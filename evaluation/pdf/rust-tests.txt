@@ -1,0 +1,130 @@
+
+> cachella@0.1.0 test:rust
+> cargo build --manifest-path src-tauri/Cargo.toml --example process_guard_fixture && cargo test --manifest-path src-tauri/Cargo.toml --lib --features desktop
+
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.54s
+    Blocking waiting for file lock on build directory
+   Compiling objc2-exception-helper v0.1.1
+   Compiling objc2 v0.6.5
+   Compiling tokio-rustls v0.26.6
+   Compiling lopdf v0.45.0 (/Users/hungpq2412/cachella/vendor/lopdf)
+   Compiling rcgen v0.14.10
+   Compiling rusqlite v0.32.1
+   Compiling hyper-rustls v0.27.10
+   Compiling reqwest v0.12.28
+   Compiling objc2-foundation v0.3.2
+   Compiling block2 v0.6.2
+   Compiling objc2-core-foundation v0.3.2
+   Compiling wry v0.57.0
+   Compiling dispatch2 v0.3.1
+   Compiling objc2-quartz-core v0.3.2
+   Compiling objc2-app-kit v0.3.2
+   Compiling objc2-web-kit v0.3.2
+   Compiling tao v0.37.1
+   Compiling muda v0.20.0
+   Compiling window-vibrancy v0.8.1
+   Compiling rfd v0.15.4
+   Compiling tauri-runtime v2.12.1
+   Compiling tauri-runtime-wry v2.12.1
+   Compiling tauri v2.12.2
+   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 26.55s
+     Running unittests src/lib.rs (src-tauri/target/debug/deps/cachella_lib-8a04a6544d081210)
+
+running 90 tests
+test asset::tests::ranges_support_bounded_open_and_suffix_requests ... ok
+test asset::tests::rejects_empty_out_of_bounds_multiple_and_malformed_ranges ... ok
+test inference::tests::abstention_can_have_no_citations ... ok
+test inference::tests::abstention_does_not_display_model_claims_or_citations ... ok
+test inference::tests::abstention_discards_blank_oversized_and_fabricated_content ... ok
+test desktop::tests::shutdown_rejects_late_startup_and_download_selection ... ok
+test inference::tests::answers_must_cite_provided_evidence ... ok
+test embedding::tests::media_request_requires_correct_modality_marker_and_bounded_payload ... ok
+test embedding::tests::accepts_only_one_finite_normalized_768_vector ... ok
+test inference::tests::endpoint_accepts_only_direct_loopback_http ... ok
+test inference::tests::media_matches_are_available_for_inspection_without_text_generation ... ok
+test asset::tests::serves_only_stored_media_and_honors_get_head_and_range_failures ... ok
+test media::tests::accepts_real_fixture_signatures ... ok
+test media::tests::fingerprint_changes_when_normalization_version_changes_input ... ok
+test media::tests::rejects_more_than_allowed_prepared_memory ... ok
+test models::tests::catalog_is_pinned_and_has_exact_totals ... ok
+test desktop::tests::installed_embedding_selection_clears_profile_and_failed_save_preserves_config ... ok
+test desktop::tests::installed_model_selection_preserves_engine_and_newer_user_choices ... ok
+test media::tests::rejects_a_mislabeled_file_before_decoder_execution ... ok
+test media::tests::bounded_reader_rejects_growth_beyond_its_limit ... ok
+test embedding::tests::profiles_change_with_file_contents_and_inputs_preserve_unicode ... ok
+test desktop::tests::bundled_selection_preserves_models_and_guards_settings ... ok
+test models::tests::rejects_untrusted_urls ... ok
+test models::tests::cancellation_releases_global_gate_and_retry_restarts ... ok
+test desktop::tests::deletion_is_blocked_while_generation_uses_evidence ... ok
+test models::tests::dropped_install_future_releases_gate_and_removes_partial ... ok
+test models::tests::installs_verified_fixture_and_reuses_without_network ... ok
+test models::tests::unknown_bundle_does_not_create_files_or_change_progress ... ok
+test models::tests::verification_observes_cancellation ... ok
+test models::tests::verifies_header_length_and_checksum ... ok
+test pdf::tests::bounds_font_mapping_payload_and_keeps_normal_unicode_mapping ... ok
+test pdf::tests::extracts_physical_pages_without_renumbering_blank_pages ... ok
+test models::tests::publication_never_clobbers_a_concurrently_created_destination ... ok
+test models::tests::rejects_corrupt_existing_file_without_clobbering_it ... ok
+test pdf::tests::rejects_excessive_font_mapping_cardinality_before_expansion ... ok
+test models::tests::refuses_symlinked_install_directories ... ok
+test pdf::tests::rejects_invalid_and_oversized_sources ... ok
+test pdf::tests::rejects_documents_without_selectable_text ... ok
+test pdf::tests::rejects_permission_protected_and_password_protected_pdfs ... ok
+test models::tests::rejects_oversized_and_corrupt_downloads_with_partial_cleanup ... ok
+test models::tests::shutdown_permanently_rejects_new_installs ... ok
+test models::tests::stale_cancel_notification_does_not_cancel_a_new_install ... ok
+test models::tests::truncated_or_wrong_declared_size_never_publishes ... ok
+test models::tests::shutdown_child_exits_after_stalled_transfer_cleanup ... ok
+test pdf::tests::rejects_page_stream_expansion_beyond_the_limit ... ok
+test process_guard::tests::preserves_non_utf8_os_arguments ... ok
+test process_guard::tests::rejects_environment_removal ... ok
+test process_guard::tests::rejects_oversized_protocol_frame ... ok
+test process_guard::tests::serializes_only_explicit_environment_values ... ok
+test runtime::tests::bundled_defaults_preserve_manual_choices_and_follow_app_moves ... ok
+test process_guard::tests::post_spawn_guard_failure_reaps_child_before_startup_error_returns ... ok
+test process_guard::tests::closing_lease_kills_and_reaps_the_inner_child ... ok
+test runtime::tests::owns_child_and_clears_credentials_on_stop ... ok
+test runtime::tests::rejects_invalid_model_and_missing_configuration ... ok
+test store::tests::chunks_preserve_unicode_and_overlap ... ok
+test process_guard::tests::forwards_output_and_normal_exit_status ... ok
+test process_guard::tests::forwards_large_normal_output_when_drained_concurrently ... ok
+test store::tests::deduplicates_content_and_removes_all_search_evidence_on_delete ... ok
+test store::tests::concurrent_imports_respect_capacity ... ok
+test store::tests::embedding_validation_rejects_malformed_vectors_and_delete_cascades ... ok
+test store::tests::empty_documents_have_no_chunks ... ok
+test store::tests::file_reader_enforces_limit_during_read ... ok
+test store::tests::embeddings_are_profile_specific_and_pending_is_capped ... ok
+test store::tests::invalid_chunk_settings_do_not_loop ... ok
+test store::tests::embeddings_persist_and_resume_pending_chunks_after_restart ... ok
+test pdf::tests::guarded_helper_prepares_the_exact_input_snapshot ... ok
+test store::tests::media_accepts_video_parts_grouped_by_modality_with_valid_times ... ok
+test store::tests::imported_document_survives_restart_and_is_searchable ... ok
+test process_guard::tests::abrupt_parent_exit_closes_lease_and_reaps_the_inner_child ... ok
+test store::tests::legacy_embedding_migration_rolls_back_when_a_row_is_orphaned ... ok
+test store::tests::media_rejects_invalid_boundary_data_without_writing ... ok
+test store::tests::media_persists_deduplicates_indexes_and_cascades_delete ... ok
+test store::tests::media_rejects_payloads_outside_normalized_downstream_contract ... ok
+test store::tests::pdf_deduplicates_rejects_invalid_input_without_writing_and_cascades_delete ... ok
+test store::tests::pdf_respects_document_capacity_without_writing_partial_imports ... ok
+test store::tests::media_schema_migrates_current_text_library_without_losing_sources ... ok
+test process_guard::tests::lease_closure_does_not_wait_for_unread_forwarded_output ... ok
+test store::tests::pdf_persists_pages_and_page_citations_across_search_paths ... ok
+test store::tests::rejects_empty_oversized_and_binary_documents ... ok
+test store::tests::migrates_legacy_multi_profile_embeddings_without_losing_documents ... ok
+test store::tests::search_treats_query_syntax_as_plain_text ... ok
+test store::tests::pdf_schema_migrates_populated_old_library_without_losing_documents ... ok
+test store::tests::semantic_search_returns_only_top_eight_and_breaks_ties_by_chunk_id ... ok
+test store::tests::pdf_respects_chunk_capacity_without_writing_partial_imports ... ok
+test process_guard::tests::delayed_post_spawn_ack_releases_lease_and_reaps_child ... ok
+test media::tests::prepares_real_local_multimodal_fixtures_when_ffmpeg_is_installed ... ok
+test runtime::tests::embedding_mode_requires_projector_and_passes_bounded_embedding_flags ... ok
+test media::tests::caps_decoder_output_and_terminates_the_child ... ok
+test runtime::tests::exited_child_does_not_fall_back_to_external_connection ... ok
+test media::tests::aborting_a_running_tool_reaps_its_own_child ... ok
+
+test result: ok. 90 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 2.52s
+

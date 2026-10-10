@@ -1,0 +1,3 @@
+chars_1250 cache=false ERROR: The model did not return the required answer structure. Your sources remain available.
+chars_1250 cache=true ERROR: The model did not return the required answer structure. Your sources remain available.
+Captured 2 requests: 2 errors, 0 abstention mismatches. Manual rubric review required.

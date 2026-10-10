@@ -1,0 +1,50 @@
+ Downloading crates ...
+  Downloaded io-lifetimes v2.0.4
+  Downloaded io-extras v0.18.4
+  Downloaded fs-set-times v0.20.3
+  Downloaded ambient-authority v0.0.2
+  Downloaded maybe-owned v0.3.4
+  Downloaded cap-fs-ext v3.4.6
+  Downloaded cap-std v3.4.6
+  Downloaded cap-primitives v3.4.6
+   Compiling ring v0.17.14
+   Compiling io-lifetimes v2.0.4
+   Compiling rustix v1.1.5
+   Compiling io-extras v0.18.4
+   Compiling cap-primitives v3.4.6
+   Compiling cap-std v3.4.6
+   Compiling maybe-owned v0.3.4
+   Compiling ambient-authority v0.0.2
+   Compiling libsqlite3-sys v0.30.1
+   Compiling cap-fs-ext v3.4.6
+   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+   Compiling rustls v0.23.45
+   Compiling rustls-webpki v0.103.15
+   Compiling rcgen v0.14.10
+   Compiling rusqlite v0.32.1
+   Compiling fs-set-times v0.20.3
+   Compiling tempfile v3.27.0
+   Compiling tokio-rustls v0.26.6
+   Compiling hyper-rustls v0.27.10
+   Compiling reqwest v0.12.28
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 8.73s
+     Running unittests src/lib.rs (src-tauri/target/debug/deps/cachella_lib-53fb0332b27fd23f)
+
+running 1 test
+test models::tests::recovery_stays_in_locked_directory_after_path_replacement ... FAILED
+
+failures:
+
+---- models::tests::recovery_stays_in_locked_directory_after_path_replacement stdout ----
+
+thread 'models::tests::recovery_stays_in_locked_directory_after_path_replacement' (1238361) panicked at src/models.rs:782:61:
+called `Result::unwrap()` on an `Err` value: Os { code: 2, kind: NotFound, message: "No such file or directory" }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    models::tests::recovery_stays_in_locked_directory_after_path_replacement
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 91 filtered out; finished in 0.01s
+
+error: test failed, to rerun pass `--lib`

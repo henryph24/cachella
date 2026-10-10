@@ -1,0 +1,9 @@
+baseline cache=false 5206 ms, abstention_matches=true
+baseline cache=true 4648 ms, abstention_matches=true
+dense_ascii cache=false ERROR: Local engine returned HTTP 400.
+dense_ascii cache=true ERROR: Local engine returned HTTP 400.
+dense_unicode cache=false ERROR: Local engine returned HTTP 400.
+dense_unicode cache=true ERROR: Local engine returned HTTP 400.
+recovery cache=false 4988 ms, abstention_matches=true
+recovery cache=true 4453 ms, abstention_matches=true
+Captured 8 requests: 4 errors, 0 abstention mismatches. Manual rubric review required.

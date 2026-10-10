@@ -1,0 +1,9 @@
+chars_900 cache=false 7527 ms, abstention_matches=true
+chars_900 cache=true 5074 ms, abstention_matches=true
+chars_1100 cache=false 7841 ms, abstention_matches=true
+chars_1100 cache=true 4834 ms, abstention_matches=true
+chars_1250 cache=false ERROR: The model did not return the required answer structure. Your sources remain available.
+chars_1250 cache=true ERROR: The model did not return the required answer structure. Your sources remain available.
+chars_1400 cache=false ERROR: The question and retrieved evidence exceed this model's context limit. Try a shorter, more specific question. Your search results are still available.
+chars_1400 cache=true ERROR: The question and retrieved evidence exceed this model's context limit. Try a shorter, more specific question. Your search results are still available.
+Captured 8 requests: 4 errors, 0 abstention mismatches. Manual rubric review required.

@@ -1,0 +1,323 @@
+{
+  "abstention_mismatches": 0,
+  "attempted_requests": 8,
+  "context_tokens": 4096,
+  "grading": "Structural and abstention checks only. Review all answers against their rubrics before claiming factual accuracy.",
+  "media_capable_request": true,
+  "model": ".local/models/gemma-4-E2B-it-Q4_0.gguf",
+  "model_file_bytes": 2841481184,
+  "outputs": [
+    {
+      "abstention_matches": true,
+      "cache_requested": false,
+      "expected_abstention": false,
+      "id": "baseline",
+      "question": "What is the BudgetAlpha monthly cap?",
+      "result": {
+        "answer": {
+          "answer": "The BudgetAlpha monthly cap is eight dollars.",
+          "insufficient_evidence": false,
+          "source_ids": [
+            "1ef445a9e16668bdfa0f7c5b43ad3ed825a339f4a20e5541d04125b7c676fddb:0",
+            "44b45d1ded854a0f13f4bd5ef3564d26a30472e4e15ec3eabe8fa229cc7a4a80:0",
+            "64acf1453f53a8caefd50ed4cc8627a94196fdb03f8a1cb8291a16159b9c8616:0",
+            "b7da2d371621f5d449f8513577f63cc35f64ba4e824eeb9051414d1c7467d1fb:0"
+          ]
+        },
+        "cached_tokens": 0,
+        "completion_tokens": 298,
+        "elapsed_ms": 5206,
+        "prompt_tokens": 546,
+        "sources": [
+          {
+            "document_id": "b7da2d371621f5d449f8513577f63cc35f64ba4e824eeb9051414d1c7467d1fb",
+            "end_ms": null,
+            "id": "b7da2d371621f5d449f8513577f63cc35f64ba4e824eeb9051414d1c7467d1fb:0",
+            "kind": "txt",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "BudgetAlpha monthly cap is eight dollars. Note 0. Ordinary source evidence.",
+            "title": "BudgetAlpha note 0"
+          },
+          {
+            "document_id": "44b45d1ded854a0f13f4bd5ef3564d26a30472e4e15ec3eabe8fa229cc7a4a80",
+            "end_ms": null,
+            "id": "44b45d1ded854a0f13f4bd5ef3564d26a30472e4e15ec3eabe8fa229cc7a4a80:0",
+            "kind": "txt",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "BudgetAlpha monthly cap is eight dollars. Note 1. Ordinary source evidence.",
+            "title": "BudgetAlpha note 1"
+          },
+          {
+            "document_id": "1ef445a9e16668bdfa0f7c5b43ad3ed825a339f4a20e5541d04125b7c676fddb",
+            "end_ms": null,
+            "id": "1ef445a9e16668bdfa0f7c5b43ad3ed825a339f4a20e5541d04125b7c676fddb:0",
+            "kind": "txt",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "BudgetAlpha monthly cap is eight dollars. Note 2. Ordinary source evidence.",
+            "title": "BudgetAlpha note 2"
+          },
+          {
+            "document_id": "64acf1453f53a8caefd50ed4cc8627a94196fdb03f8a1cb8291a16159b9c8616",
+            "end_ms": null,
+            "id": "64acf1453f53a8caefd50ed4cc8627a94196fdb03f8a1cb8291a16159b9c8616:0",
+            "kind": "txt",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "BudgetAlpha monthly cap is eight dollars. Note 3. Ordinary source evidence.",
+            "title": "BudgetAlpha note 3"
+          }
+        ]
+      },
+      "rubric": "Answer eight dollars per month with valid supporting citations. For oversized evidence, record explicit failure and assess subsequent recovery; do not grade a rejected request as a factual answer."
+    },
+    {
+      "abstention_matches": true,
+      "cache_requested": true,
+      "expected_abstention": false,
+      "id": "baseline",
+      "question": "What is the BudgetAlpha monthly cap?",
+      "result": {
+        "answer": {
+          "answer": "The BudgetAlpha monthly cap is eight dollars.",
+          "insufficient_evidence": false,
+          "source_ids": [
+            "1ef445a9e16668bdfa0f7c5b43ad3ed825a339f4a20e5541d04125b7c676fddb:0",
+            "44b45d1ded854a0f13f4bd5ef3564d26a30472e4e15ec3eabe8fa229cc7a4a80:0",
+            "64acf1453f53a8caefd50ed4cc8627a94196fdb03f8a1cb8291a16159b9c8616:0",
+            "b7da2d371621f5d449f8513577f63cc35f64ba4e824eeb9051414d1c7467d1fb:0"
+          ]
+        },
+        "cached_tokens": 545,
+        "completion_tokens": 298,
+        "elapsed_ms": 4648,
+        "prompt_tokens": 546,
+        "sources": [
+          {
+            "document_id": "b7da2d371621f5d449f8513577f63cc35f64ba4e824eeb9051414d1c7467d1fb",
+            "end_ms": null,
+            "id": "b7da2d371621f5d449f8513577f63cc35f64ba4e824eeb9051414d1c7467d1fb:0",
+            "kind": "txt",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "BudgetAlpha monthly cap is eight dollars. Note 0. Ordinary source evidence.",
+            "title": "BudgetAlpha note 0"
+          },
+          {
+            "document_id": "44b45d1ded854a0f13f4bd5ef3564d26a30472e4e15ec3eabe8fa229cc7a4a80",
+            "end_ms": null,
+            "id": "44b45d1ded854a0f13f4bd5ef3564d26a30472e4e15ec3eabe8fa229cc7a4a80:0",
+            "kind": "txt",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "BudgetAlpha monthly cap is eight dollars. Note 1. Ordinary source evidence.",
+            "title": "BudgetAlpha note 1"
+          },
+          {
+            "document_id": "1ef445a9e16668bdfa0f7c5b43ad3ed825a339f4a20e5541d04125b7c676fddb",
+            "end_ms": null,
+            "id": "1ef445a9e16668bdfa0f7c5b43ad3ed825a339f4a20e5541d04125b7c676fddb:0",
+            "kind": "txt",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "BudgetAlpha monthly cap is eight dollars. Note 2. Ordinary source evidence.",
+            "title": "BudgetAlpha note 2"
+          },
+          {
+            "document_id": "64acf1453f53a8caefd50ed4cc8627a94196fdb03f8a1cb8291a16159b9c8616",
+            "end_ms": null,
+            "id": "64acf1453f53a8caefd50ed4cc8627a94196fdb03f8a1cb8291a16159b9c8616:0",
+            "kind": "txt",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "BudgetAlpha monthly cap is eight dollars. Note 3. Ordinary source evidence.",
+            "title": "BudgetAlpha note 3"
+          }
+        ]
+      },
+      "rubric": "Answer eight dollars per month with valid supporting citations. For oversized evidence, record explicit failure and assess subsequent recovery; do not grade a rejected request as a factual answer."
+    },
+    {
+      "cache_requested": false,
+      "error": "Local engine returned HTTP 400.",
+      "id": "dense_ascii",
+      "question": "What is the BudgetAlpha monthly cap?",
+      "rubric": "Answer eight dollars per month with valid supporting citations. For oversized evidence, record explicit failure and assess subsequent recovery; do not grade a rejected request as a factual answer."
+    },
+    {
+      "cache_requested": true,
+      "error": "Local engine returned HTTP 400.",
+      "id": "dense_ascii",
+      "question": "What is the BudgetAlpha monthly cap?",
+      "rubric": "Answer eight dollars per month with valid supporting citations. For oversized evidence, record explicit failure and assess subsequent recovery; do not grade a rejected request as a factual answer."
+    },
+    {
+      "cache_requested": false,
+      "error": "Local engine returned HTTP 400.",
+      "id": "dense_unicode",
+      "question": "What is the BudgetAlpha monthly cap?",
+      "rubric": "Answer eight dollars per month with valid supporting citations. For oversized evidence, record explicit failure and assess subsequent recovery; do not grade a rejected request as a factual answer."
+    },
+    {
+      "cache_requested": true,
+      "error": "Local engine returned HTTP 400.",
+      "id": "dense_unicode",
+      "question": "What is the BudgetAlpha monthly cap?",
+      "rubric": "Answer eight dollars per month with valid supporting citations. For oversized evidence, record explicit failure and assess subsequent recovery; do not grade a rejected request as a factual answer."
+    },
+    {
+      "abstention_matches": true,
+      "cache_requested": false,
+      "expected_abstention": false,
+      "id": "recovery",
+      "question": "What is the BudgetAlpha monthly cap?",
+      "result": {
+        "answer": {
+          "answer": "The BudgetAlpha monthly cap is eight dollars.",
+          "insufficient_evidence": false,
+          "source_ids": [
+            "07e640f78bf442b89e00bd01efbf67bb06d1400cd03fe049a4ac897227874bd7:0",
+            "3596c44a3fccd76c446a23638356eefeffd91acc2c9f34ff4c09dfda4073756d:0",
+            "3fee146afffc8aee849c4e991e2f0e6cde7e3ba3fafb80bdf7f93549d9bfe66a:0",
+            "b9f8ff355788f3325a0f899fc90efef4670cb95c85580e8a33efe7e3f8df23dc:0"
+          ]
+        },
+        "cached_tokens": 0,
+        "completion_tokens": 285,
+        "elapsed_ms": 4988,
+        "prompt_tokens": 549,
+        "sources": [
+          {
+            "document_id": "3596c44a3fccd76c446a23638356eefeffd91acc2c9f34ff4c09dfda4073756d",
+            "end_ms": null,
+            "id": "3596c44a3fccd76c446a23638356eefeffd91acc2c9f34ff4c09dfda4073756d:0",
+            "kind": "txt",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "BudgetAlpha monthly cap is eight dollars. Note 0. Ordinary source evidence after the oversized request.",
+            "title": "BudgetAlpha note 0"
+          },
+          {
+            "document_id": "07e640f78bf442b89e00bd01efbf67bb06d1400cd03fe049a4ac897227874bd7",
+            "end_ms": null,
+            "id": "07e640f78bf442b89e00bd01efbf67bb06d1400cd03fe049a4ac897227874bd7:0",
+            "kind": "txt",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "BudgetAlpha monthly cap is eight dollars. Note 1. Ordinary source evidence after the oversized request.",
+            "title": "BudgetAlpha note 1"
+          },
+          {
+            "document_id": "b9f8ff355788f3325a0f899fc90efef4670cb95c85580e8a33efe7e3f8df23dc",
+            "end_ms": null,
+            "id": "b9f8ff355788f3325a0f899fc90efef4670cb95c85580e8a33efe7e3f8df23dc:0",
+            "kind": "txt",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "BudgetAlpha monthly cap is eight dollars. Note 2. Ordinary source evidence after the oversized request.",
+            "title": "BudgetAlpha note 2"
+          },
+          {
+            "document_id": "3fee146afffc8aee849c4e991e2f0e6cde7e3ba3fafb80bdf7f93549d9bfe66a",
+            "end_ms": null,
+            "id": "3fee146afffc8aee849c4e991e2f0e6cde7e3ba3fafb80bdf7f93549d9bfe66a:0",
+            "kind": "txt",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "BudgetAlpha monthly cap is eight dollars. Note 3. Ordinary source evidence after the oversized request.",
+            "title": "BudgetAlpha note 3"
+          }
+        ]
+      },
+      "rubric": "Answer eight dollars per month with valid supporting citations. For oversized evidence, record explicit failure and assess subsequent recovery; do not grade a rejected request as a factual answer."
+    },
+    {
+      "abstention_matches": true,
+      "cache_requested": true,
+      "expected_abstention": false,
+      "id": "recovery",
+      "question": "What is the BudgetAlpha monthly cap?",
+      "result": {
+        "answer": {
+          "answer": "The BudgetAlpha monthly cap is eight dollars.",
+          "insufficient_evidence": false,
+          "source_ids": [
+            "07e640f78bf442b89e00bd01efbf67bb06d1400cd03fe049a4ac897227874bd7:0",
+            "3596c44a3fccd76c446a23638356eefeffd91acc2c9f34ff4c09dfda4073756d:0",
+            "3fee146afffc8aee849c4e991e2f0e6cde7e3ba3fafb80bdf7f93549d9bfe66a:0",
+            "b9f8ff355788f3325a0f899fc90efef4670cb95c85580e8a33efe7e3f8df23dc:0"
+          ]
+        },
+        "cached_tokens": 548,
+        "completion_tokens": 285,
+        "elapsed_ms": 4453,
+        "prompt_tokens": 549,
+        "sources": [
+          {
+            "document_id": "3596c44a3fccd76c446a23638356eefeffd91acc2c9f34ff4c09dfda4073756d",
+            "end_ms": null,
+            "id": "3596c44a3fccd76c446a23638356eefeffd91acc2c9f34ff4c09dfda4073756d:0",
+            "kind": "txt",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "BudgetAlpha monthly cap is eight dollars. Note 0. Ordinary source evidence after the oversized request.",
+            "title": "BudgetAlpha note 0"
+          },
+          {
+            "document_id": "07e640f78bf442b89e00bd01efbf67bb06d1400cd03fe049a4ac897227874bd7",
+            "end_ms": null,
+            "id": "07e640f78bf442b89e00bd01efbf67bb06d1400cd03fe049a4ac897227874bd7:0",
+            "kind": "txt",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "BudgetAlpha monthly cap is eight dollars. Note 1. Ordinary source evidence after the oversized request.",
+            "title": "BudgetAlpha note 1"
+          },
+          {
+            "document_id": "b9f8ff355788f3325a0f899fc90efef4670cb95c85580e8a33efe7e3f8df23dc",
+            "end_ms": null,
+            "id": "b9f8ff355788f3325a0f899fc90efef4670cb95c85580e8a33efe7e3f8df23dc:0",
+            "kind": "txt",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "BudgetAlpha monthly cap is eight dollars. Note 2. Ordinary source evidence after the oversized request.",
+            "title": "BudgetAlpha note 2"
+          },
+          {
+            "document_id": "3fee146afffc8aee849c4e991e2f0e6cde7e3ba3fafb80bdf7f93549d9bfe66a",
+            "end_ms": null,
+            "id": "3fee146afffc8aee849c4e991e2f0e6cde7e3ba3fafb80bdf7f93549d9bfe66a:0",
+            "kind": "txt",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "BudgetAlpha monthly cap is eight dollars. Note 3. Ordinary source evidence after the oversized request.",
+            "title": "BudgetAlpha note 3"
+          }
+        ]
+      },
+      "rubric": "Answer eight dollars per month with valid supporting citations. For oversized evidence, record explicit failure and assess subsequent recovery; do not grade a rejected request as a factual answer."
+    }
+  ],
+  "parallel_slots": 1,
+  "projector": ".local/models/mmproj-gemma-4-E2B-it-Q8_0.gguf",
+  "request_errors": 4,
+  "startup_ms": 5314
+}

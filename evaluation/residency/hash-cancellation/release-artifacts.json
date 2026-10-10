@@ -1,0 +1,17 @@
+[
+  {
+    "path": "src-tauri/src/embedding.rs",
+    "bytes": 19717,
+    "sha256": "348cb5fd179d838323773fdd930f314b182ad4f898431ffc2cd7265bb9532963"
+  },
+  {
+    "path": "src-tauri/src/desktop.rs",
+    "bytes": 72727,
+    "sha256": "09bf383b7de076c9a2835b33ae19c05e044dc0d57d015f975d5c01130e6424c8"
+  },
+  {
+    "path": "src-tauri/target/release/bundle/macos/Cachella Media Check.app/Contents/MacOS/cachella",
+    "bytes": 17120320,
+    "sha256": "0b6c800d3611ea7bf4200d01abea0e175627ec2637a81339acd2c6f6f63c8cc4"
+  }
+]

@@ -1,0 +1,18 @@
+........F.......
+======================================================================
+FAIL: test_rejected_pe_import_names_are_reported_for_diagnosis (test_prepare_decoder.DecoderPreparationTests.test_rejected_pe_import_names_are_reported_for_diagnosis)
+----------------------------------------------------------------------
+prepare_engine.PrepareError: decoder imports a non-system Windows runtime
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hungpq2412/cachella/scripts/test_prepare_decoder.py", line 97, in test_rejected_pe_import_names_are_reported_for_diagnosis
+    with self.assertRaisesRegex(d.PrepareError, 'libwinpthread-1.dll'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "libwinpthread-1.dll" does not match "decoder imports a non-system Windows runtime"
+
+----------------------------------------------------------------------
+Ran 16 tests in 1.035s
+
+FAILED (failures=1)

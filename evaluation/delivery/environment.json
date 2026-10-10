@@ -1,0 +1,14 @@
+{
+  "host": "macOS-14.4-arm64-arm-64bit-Mach-O",
+  "physical_memory_bytes": 38654705664,
+  "git_worktree_exit_code": 128,
+  "git_worktree_output": "fatal: not a git repository (or any of the parent directories): .git",
+  "qemu_system_x86_64": null,
+  "wine": null,
+  "checked_vm_apps": {
+    "/Applications/UTM.app": false,
+    "/Applications/Parallels Desktop.app": false,
+    "/Applications/VMware Fusion.app": false
+  },
+  "scope": "Only this host and these named local tools/app paths checked. No claim about unavailable remote hosts."
+}

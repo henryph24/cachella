@@ -1,0 +1,22 @@
+   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 4.09s
+     Running unittests src/lib.rs (src-tauri/target/debug/deps/cachella_lib-0d67fb13494b5020)
+
+running 1 test
+test scratch::scratch_windows_records::tests::continuation_requires_another_complete_record ... FAILED
+
+failures:
+
+---- scratch::scratch_windows_records::tests::continuation_requires_another_complete_record stdout ----
+
+thread 'scratch::scratch_windows_records::tests::continuation_requires_another_complete_record' (1468057) panicked at src/scratch_windows_records.rs:118:9:
+assertion failed: parse_names(&record, 2).is_err()
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    scratch::scratch_windows_records::tests::continuation_requires_another_complete_record
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 120 filtered out; finished in 0.00s
+
+error: test failed, to rerun pass `--lib`

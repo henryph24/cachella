@@ -1,0 +1,37 @@
+[
+  {
+    "path": "src-tauri/src/inference.rs",
+    "bytes": 30501,
+    "sha256": "e5753aa2f17d578aef9c2eac9c8a5393bb4697f2c48df2834535b434a055caa9"
+  },
+  {
+    "path": "src-tauri/examples/evaluate_local_rag.rs",
+    "bytes": 4866,
+    "sha256": "87d4e2353848648ea8d3e1e860af3ff1be16e04fdaed2c76c1c4e963d91c5666"
+  },
+  {
+    "path": "src-tauri/target/release/examples/evaluate_local_rag",
+    "bytes": 6947984,
+    "sha256": "d94b4ee6b2edf35f047cbe2448b84aa41392e6352732dc33b3abf645c1fb0052"
+  },
+  {
+    "path": "src-tauri/resources/engine/llama-server",
+    "bytes": 49984,
+    "sha256": "1bf5602a2be50097c44282a6ecc63234d94ee8f96d39fd45fed6eff4e74b6b41"
+  },
+  {
+    "path": ".local/models/gemma-4-E2B-it-Q4_0.gguf",
+    "bytes": 2841481184,
+    "sha256": "8e30dff3ac4c8434c49a7036fa15564bdbb6044e42bf04550bf1a096ad7e6a52"
+  },
+  {
+    "path": ".local/models/mmproj-gemma-4-E2B-it-Q8_0.gguf",
+    "bytes": 557368064,
+    "sha256": "9406f99c16d68cda4f1f0552192dcc99021ea1fc6d2fd50b1dc3ccf30d04b292"
+  },
+  {
+    "path": "evaluation/context/cases.json",
+    "bytes": 38751,
+    "sha256": "02aa95ff22a5eeef1454643cc1f370574232c2166b9c0bcf04d3fadf5b77e1e5"
+  }
+]

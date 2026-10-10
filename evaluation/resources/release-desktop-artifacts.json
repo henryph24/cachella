@@ -1,0 +1,32 @@
+[
+  {
+    "path": "src-tauri/target/release/bundle/macos/Cachella Media Check.app/Contents/MacOS/cachella",
+    "name": "cachella",
+    "bytes": 17119376,
+    "sha256": "0391092bb324b607a8db2b258b23edf5ea4aa2d1e78ea1f3660cfdab1f114a89"
+  },
+  {
+    "path": "src-tauri/target/release/bundle/macos/Cachella Media Check.app/Contents/Resources/engine/llama-server",
+    "name": "llama-server",
+    "bytes": 49984,
+    "sha256": "1bf5602a2be50097c44282a6ecc63234d94ee8f96d39fd45fed6eff4e74b6b41"
+  },
+  {
+    "path": "src-tauri/target/release/bundle/macos/Cachella Media Check.app/Contents/Resources/decoder/ffmpeg",
+    "name": "ffmpeg",
+    "bytes": 9107416,
+    "sha256": "b3ca3080547f76f707316f8da0f57b5a31bb88fd87ebb2ef5b104edaac21c080"
+  },
+  {
+    "path": "evaluation/resources/desktop_measure.py",
+    "name": "desktop_measure.py",
+    "bytes": 8247,
+    "sha256": "89a97e821ed3457b1cd5c82d293929fb92a45093c06ca862ed0404c657bbb678"
+  },
+  {
+    "path": "evaluation/resources/memory_sample.c",
+    "name": "memory_sample.c",
+    "bytes": 1196,
+    "sha256": "56b3c78ed72d08ac3660f635344b9e619069f04851f9174f3167a207587bd90e"
+  }
+]

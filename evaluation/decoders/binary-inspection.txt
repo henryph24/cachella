@@ -1,0 +1,47 @@
+ffmpeg 9107416 bytes 1e22b51e48daf1070b8a00466f5cb20e82ccb2c5fb6cc247dcb46f94db0cf772
+.local/decoder-build/ffmpeg/ffmpeg: Mach-O 64-bit executable arm64
+.local/decoder-build/ffmpeg/ffmpeg:
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.100.2)
+	/usr/lib/libz.1.dylib (compatibility version 1.0.0, current version 1.2.12)
+	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 2420.0.0)
+	/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo (compatibility version 1.2.0, current version 1.5.0)
+	/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia (compatibility version 1.0.0, current version 1.0.0)
+
+PASS: system-only dynamic dependencies
+.local/decoder-build/ffmpeg/ffmpeg:
+Load command 10
+      cmd LC_BUILD_VERSION
+  cmdsize 32
+ platform MACOS
+    minos 11.0
+      sdk 14.4
+   ntools 1
+     tool LD
+  version 1053.12
+ffprobe 8913960 bytes ee0ae69d426edf55ea4859ecd8b18c6ad67961735c7ace69d9f07a3256e2b879
+.local/decoder-build/ffmpeg/ffprobe: Mach-O 64-bit executable arm64
+.local/decoder-build/ffmpeg/ffprobe:
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.100.2)
+	/usr/lib/libz.1.dylib (compatibility version 1.0.0, current version 1.2.12)
+	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 2420.0.0)
+	/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo (compatibility version 1.2.0, current version 1.5.0)
+	/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia (compatibility version 1.0.0, current version 1.0.0)
+
+PASS: system-only dynamic dependencies
+.local/decoder-build/ffmpeg/ffprobe:
+Load command 10
+      cmd LC_BUILD_VERSION
+  cmdsize 32
+ platform MACOS
+    minos 11.0
+      sdk 14.4
+   ntools 1
+     tool LD
+  version 1053.12
+Supported file protocols:
+Input:
+  file
+  pipe
+Output:
+  file
+  pipe

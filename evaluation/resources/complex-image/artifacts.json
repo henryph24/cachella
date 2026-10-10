@@ -1,0 +1,27 @@
+[
+  {
+    "path": "src-tauri/src/media.rs",
+    "bytes": 39239,
+    "sha256": "704a92ceb18f41b86984167ca3cde8790bddee8b884b93565b95f8284c91bd74"
+  },
+  {
+    "path": "src-tauri/target/release/bundle/macos/Cachella Media Check.app/Contents/MacOS/cachella",
+    "bytes": 17138672,
+    "sha256": "a86a684ea0f478c30aaa44fd65fd34e1074d6392c5f82874e0ffa93f853d6a0a"
+  },
+  {
+    "path": "src-tauri/target/release/bundle/macos/Cachella Media Check.app/Contents/Resources/decoder/ffmpeg",
+    "bytes": 9107416,
+    "sha256": "b3ca3080547f76f707316f8da0f57b5a31bb88fd87ebb2ef5b104edaac21c080"
+  },
+  {
+    "path": "evaluation/resources/complex-image/noise20m.png",
+    "bytes": 20010168,
+    "sha256": "e13131b057abb7c4112ed581453f5695f391cfa00a116b20fb521cb5c7c4bcd2"
+  },
+  {
+    "path": "evaluation/resources/complex-image/direct-preview.png",
+    "bytes": 143181,
+    "sha256": "956ae9713d72cb7fbb4913a6085f609d5451a74ced21909387f22b32034c8d1c"
+  }
+]

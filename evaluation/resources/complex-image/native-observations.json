@@ -1,0 +1,12 @@
+{
+  "native_import": "1 file processed",
+  "source_preview_opened": true,
+  "samples": 706,
+  "valid_samples": 702,
+  "elapsed_ms": 29509,
+  "median_interval_ms": 41,
+  "ffmpeg_samples": 0,
+  "ffprobe_samples": 0,
+  "final_bundle_process_count": 0,
+  "direct_normalization_preview_hash_matches_store": true
+}

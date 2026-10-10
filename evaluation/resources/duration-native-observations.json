@@ -1,0 +1,20 @@
+{
+  "method": "Manual CUA native UI observations, read-only SQLite and existing desktop coalition collector",
+  "accepted_seconds": 120,
+  "accepted_parts": 36,
+  "rejected_seconds": 121,
+  "error": "Audio and video are limited to 120 seconds.",
+  "profile_counts": {
+    "documents": 3,
+    "chunks": 58,
+    "embeddings": 22,
+    "assets": 3,
+    "media_parts": 58
+  },
+  "sample_count": 1294,
+  "valid_nonempty_samples": 1257,
+  "valid_ffmpeg_samples": 12,
+  "valid_ffprobe_samples": 0,
+  "median_actual_interval_ms": 42,
+  "final_member_count": 0
+}

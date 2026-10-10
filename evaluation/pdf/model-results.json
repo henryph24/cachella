@@ -1,0 +1,92 @@
+{
+  "answer": {
+    "answer": {
+      "answer": "Nine dollars per month",
+      "insufficient_evidence": false,
+      "source_ids": [
+        "afd1b5ae6371aaa7873a3513b77fbc8b0a2c5202e8226baeca83a7fb1ed3eb9f:1"
+      ]
+    },
+    "cached_tokens": 0,
+    "completion_tokens": 78,
+    "elapsed_ms": 1197,
+    "prompt_tokens": 287,
+    "sources": [
+      {
+        "document_id": "afd1b5ae6371aaa7873a3513b77fbc8b0a2c5202e8226baeca83a7fb1ed3eb9f",
+        "end_ms": null,
+        "id": "afd1b5ae6371aaa7873a3513b77fbc8b0a2c5202e8226baeca83a7fb1ed3eb9f:1",
+        "kind": "pdf",
+        "ordinal": 1,
+        "page_number": 3,
+        "start_ms": null,
+        "text": "Orion infrastructure budget The Orion infrastructure budget is nine dollars per month. Local inference runs on employee computers. 3",
+        "title": "Orion project brief"
+      },
+      {
+        "document_id": "afd1b5ae6371aaa7873a3513b77fbc8b0a2c5202e8226baeca83a7fb1ed3eb9f",
+        "end_ms": null,
+        "id": "afd1b5ae6371aaa7873a3513b77fbc8b0a2c5202e8226baeca83a7fb1ed3eb9f:0",
+        "kind": "pdf",
+        "ordinal": 0,
+        "page_number": 1,
+        "start_ms": null,
+        "text": "Orion launch decision The Orion launch is scheduled for Friday. Priya owns the permission fix required before launch. 1",
+        "title": "Orion project brief"
+      }
+    ]
+  },
+  "keyword_hits": [
+    {
+      "document_id": "afd1b5ae6371aaa7873a3513b77fbc8b0a2c5202e8226baeca83a7fb1ed3eb9f",
+      "end_ms": null,
+      "id": "afd1b5ae6371aaa7873a3513b77fbc8b0a2c5202e8226baeca83a7fb1ed3eb9f:1",
+      "kind": "pdf",
+      "ordinal": 1,
+      "page_number": 3,
+      "start_ms": null,
+      "text": "Orion infrastructure budget The Orion infrastructure budget is nine dollars per month. Local inference runs on employee computers. 3",
+      "title": "Orion project brief"
+    }
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Orion launch decision\n\nThe Orion launch is scheduled for Friday.\nPriya owns the permission fix required before launch.\n1"
+    },
+    {
+      "number": 2,
+      "text": ""
+    },
+    {
+      "number": 3,
+      "text": "Orion infrastructure budget\n\nThe Orion infrastructure budget is nine dollars per month.\nLocal inference runs on employee computers.\n3"
+    }
+  ],
+  "scope": "Synthetic selectable-text PDF with a blank physical page; no OCR or original-layout rendering.",
+  "semantic_hits": [
+    {
+      "document_id": "afd1b5ae6371aaa7873a3513b77fbc8b0a2c5202e8226baeca83a7fb1ed3eb9f",
+      "end_ms": null,
+      "id": "afd1b5ae6371aaa7873a3513b77fbc8b0a2c5202e8226baeca83a7fb1ed3eb9f:1",
+      "kind": "pdf",
+      "ordinal": 1,
+      "page_number": 3,
+      "start_ms": null,
+      "text": "Orion infrastructure budget The Orion infrastructure budget is nine dollars per month. Local inference runs on employee computers. 3",
+      "title": "Orion project brief"
+    },
+    {
+      "document_id": "afd1b5ae6371aaa7873a3513b77fbc8b0a2c5202e8226baeca83a7fb1ed3eb9f",
+      "end_ms": null,
+      "id": "afd1b5ae6371aaa7873a3513b77fbc8b0a2c5202e8226baeca83a7fb1ed3eb9f:0",
+      "kind": "pdf",
+      "ordinal": 0,
+      "page_number": 1,
+      "start_ms": null,
+      "text": "Orion launch decision The Orion launch is scheduled for Friday. Priya owns the permission fix required before launch. 1",
+      "title": "Orion project brief"
+    }
+  ],
+  "total_elapsed_ms": 32053
+}

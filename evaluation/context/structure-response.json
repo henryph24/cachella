@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "content": "{\n  \"answer\": \"The PressureBudget monthly cap is eight dollars.\",\n  \"insufficient_evidence\": false,\n  \"source_ids\": [\n    \"5d03c8167296f8818f571066fff8d9de406cfea14071a44339ae8b721ce846e5:0\",\n    \"c0877dbf7f139dfba7565df27661957344aef8cbab57761915cbd35f52eb4f6d:0\",\n    \"1947268f0abb239f4b236dc4efe404ef304b4eb87b70f3830f29b3b8bbe8a255:0\",\n    \"1c5652e950673dd35027c940898dfef35fe30da4ef994f6507b46c692bf629c6:0\",\n    \"1c5652e950673dd35027c940898",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1791585486,
+  "id": "chatcmpl-J2k1kfdeFFV60N1SByKejL6xra6ujLzr",
+  "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+  "object": "chat.completion",
+  "system_fingerprint": "b11531-8b5436102",
+  "timings": {
+    "cache_n": 3782,
+    "predicted_ms": 5082.099,
+    "predicted_n": 313,
+    "predicted_per_second": 61.391956355041486,
+    "predicted_per_token_ms": 16.288778846153846,
+    "prompt_ms": 19.83,
+    "prompt_n": 1,
+    "prompt_per_second": 50.42864346949067,
+    "prompt_per_token_ms": 19.83
+  },
+  "usage": {
+    "completion_tokens": 313,
+    "prompt_tokens": 3783,
+    "prompt_tokens_details": {
+      "cached_tokens": 3782
+    },
+    "total_tokens": 4096
+  }
+}

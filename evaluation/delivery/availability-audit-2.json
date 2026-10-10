@@ -1,0 +1,12 @@
+{
+  "audit": 2,
+  "host": "Darwin",
+  "git_exit": 128,
+  "git_result": "fatal: not a git repository (or any of the parent directories): .git",
+  "qemu": null,
+  "wine": null,
+  "named_vm_apps_present": [],
+  "windows_target_supplied_in_thread": false,
+  "pending": "Native Windows build/runtime and consumer-device acceptance",
+  "classification": "No progress: required execution environment remains unavailable; prior Mac checks reused."
+}

@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-09T18:25:55.264184+00:00",
+  "platform": "macOS arm64",
+  "recovered_files": 1,
+  "recovered_bytes": 4096,
+  "unrelated_probe_preserved": true,
+  "verified_models_unchanged": 3,
+  "library_counts": {
+    "documents": 7,
+    "chunks": 12,
+    "embeddings": 12
+  },
+  "app_pid": 46039,
+  "app_descendants": 0,
+  "native_ui": "7 documents and 12 indexed passages, available on this device.",
+  "scope": "Packaged startup removes disposable partial. Abrupt owner termination is covered in production-lease child regression."
+}

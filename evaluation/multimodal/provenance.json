@@ -1,0 +1,20 @@
+{
+  "model_repository": "ggml-org/embeddinggemma-2-GGUF",
+  "model_revision": "bfcd298762cc34d0357ece5ebdd31791a3a374d8",
+  "model_artifacts": [
+    {
+      "file": "embeddinggemma-2-Q8_0.gguf",
+      "bytes": 309855456,
+      "sha256": "2188ac1deca4b77dffefd603c2776a9d76d9d74ec01841392982ebb840b09135"
+    },
+    {
+      "file": "mmproj-embeddinggemma-2-Q8_0.gguf",
+      "bytes": 554821024,
+      "sha256": "c4a8a52691ecef40618438928bdf9e68379b854e24166f292592353db0aab64f"
+    }
+  ],
+  "llama_source_commit": "4fbc76dec51d0add466f0210855c0596589b60d4",
+  "source_archive_sha256": "4ea37c28e9d6a74e6ffb34ff33a6555b33f0398e75814f0e2f362407d79ecb36",
+  "installed_engine_rejected": "build 10621: unknown model architecture gemma-embedding2",
+  "model_artifacts_sha256_verified": true
+}

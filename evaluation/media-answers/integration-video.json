@@ -1,0 +1,705 @@
+{
+  "answers": [
+    {
+      "case": "image",
+      "question": "A red circle on a white background",
+      "result": {
+        "answer": {
+          "answer": "The image shows a red circle on a white background.",
+          "insufficient_evidence": false,
+          "source_ids": [
+            "cb94cee61076b39dcaf09b3c77d94457d926d1597377186f5905a29810bf8df8:0"
+          ]
+        },
+        "cached_tokens": 0,
+        "completion_tokens": 110,
+        "elapsed_ms": 2858,
+        "prompt_tokens": 733,
+        "sources": [
+          {
+            "document_id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e",
+            "end_ms": 3042,
+            "id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:0",
+            "kind": "video",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": 0,
+            "text": "budget-video.mp4: Video frame at 0:00 [0-3042 ms]",
+            "title": "budget-video.mp4"
+          },
+          {
+            "document_id": "cb94cee61076b39dcaf09b3c77d94457d926d1597377186f5905a29810bf8df8",
+            "end_ms": null,
+            "id": "cb94cee61076b39dcaf09b3c77d94457d926d1597377186f5905a29810bf8df8:0",
+            "kind": "image",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "red-circle.png: Image preview",
+            "title": "red-circle.png"
+          },
+          {
+            "document_id": "ad480f278c50ef655491a3d5342e7cecf261a7daf046ce3888f9b6259910d626",
+            "end_ms": null,
+            "id": "ad480f278c50ef655491a3d5342e7cecf261a7daf046ce3888f9b6259910d626:0",
+            "kind": "image",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "blue-square.png: Image preview",
+            "title": "blue-square.png"
+          },
+          {
+            "document_id": "a956cc6c761008bdb55f21038d616a4b0e0fb7272ac6a42114b17f9b559e326b",
+            "end_ms": null,
+            "id": "a956cc6c761008bdb55f21038d616a4b0e0fb7272ac6a42114b17f9b559e326b:0",
+            "kind": "txt",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "Priya owns the permission bug fix for the Friday launch.",
+            "title": "Launch.txt"
+          }
+        ]
+      }
+    },
+    {
+      "case": "audio",
+      "question": "What is the monthly cloud budget?",
+      "result": {
+        "answer": {
+          "answer": "The project cloud budget is $8 per month.",
+          "insufficient_evidence": false,
+          "source_ids": [
+            "db19381bb20da3dbdf39a5fc35cfa955642d4db482e63c4a49a4179f6756f8fc:0"
+          ]
+        },
+        "cached_tokens": 67,
+        "completion_tokens": 107,
+        "elapsed_ms": 2802,
+        "prompt_tokens": 722,
+        "sources": [
+          {
+            "document_id": "db19381bb20da3dbdf39a5fc35cfa955642d4db482e63c4a49a4179f6756f8fc",
+            "end_ms": 3042,
+            "id": "db19381bb20da3dbdf39a5fc35cfa955642d4db482e63c4a49a4179f6756f8fc:0",
+            "kind": "audio",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": 0,
+            "text": "budget.wav: Audio 0:00–0:03 [0-3042 ms]",
+            "title": "budget.wav"
+          },
+          {
+            "document_id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e",
+            "end_ms": 3042,
+            "id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:1",
+            "kind": "video",
+            "ordinal": 1,
+            "page_number": null,
+            "start_ms": 0,
+            "text": "budget-video.mp4: Video audio 0:00–0:03 [0-3042 ms]",
+            "title": "budget-video.mp4"
+          },
+          {
+            "document_id": "a956cc6c761008bdb55f21038d616a4b0e0fb7272ac6a42114b17f9b559e326b",
+            "end_ms": null,
+            "id": "a956cc6c761008bdb55f21038d616a4b0e0fb7272ac6a42114b17f9b559e326b:0",
+            "kind": "txt",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "Priya owns the permission bug fix for the Friday launch.",
+            "title": "Launch.txt"
+          },
+          {
+            "document_id": "ad480f278c50ef655491a3d5342e7cecf261a7daf046ce3888f9b6259910d626",
+            "end_ms": null,
+            "id": "ad480f278c50ef655491a3d5342e7cecf261a7daf046ce3888f9b6259910d626:0",
+            "kind": "image",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "blue-square.png: Image preview",
+            "title": "blue-square.png"
+          }
+        ]
+      }
+    },
+    {
+      "case": "video_frame",
+      "question": "A red circle on a white background",
+      "result": {
+        "answer": {
+          "answer": "The image shows a red circle on a white background.",
+          "insufficient_evidence": false,
+          "source_ids": [
+            "cb94cee61076b39dcaf09b3c77d94457d926d1597377186f5905a29810bf8df8:0"
+          ]
+        },
+        "cached_tokens": 728,
+        "completion_tokens": 110,
+        "elapsed_ms": 1918,
+        "prompt_tokens": 733,
+        "sources": [
+          {
+            "document_id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e",
+            "end_ms": 3042,
+            "id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:0",
+            "kind": "video",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": 0,
+            "text": "budget-video.mp4: Video frame at 0:00 [0-3042 ms]",
+            "title": "budget-video.mp4"
+          },
+          {
+            "document_id": "cb94cee61076b39dcaf09b3c77d94457d926d1597377186f5905a29810bf8df8",
+            "end_ms": null,
+            "id": "cb94cee61076b39dcaf09b3c77d94457d926d1597377186f5905a29810bf8df8:0",
+            "kind": "image",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "red-circle.png: Image preview",
+            "title": "red-circle.png"
+          },
+          {
+            "document_id": "ad480f278c50ef655491a3d5342e7cecf261a7daf046ce3888f9b6259910d626",
+            "end_ms": null,
+            "id": "ad480f278c50ef655491a3d5342e7cecf261a7daf046ce3888f9b6259910d626:0",
+            "kind": "image",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "blue-square.png: Image preview",
+            "title": "blue-square.png"
+          },
+          {
+            "document_id": "a956cc6c761008bdb55f21038d616a4b0e0fb7272ac6a42114b17f9b559e326b",
+            "end_ms": null,
+            "id": "a956cc6c761008bdb55f21038d616a4b0e0fb7272ac6a42114b17f9b559e326b:0",
+            "kind": "txt",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "Priya owns the permission bug fix for the Friday launch.",
+            "title": "Launch.txt"
+          }
+        ]
+      }
+    },
+    {
+      "case": "video_audio",
+      "question": "What is the monthly cloud budget?",
+      "result": {
+        "answer": {
+          "answer": "The project cloud budget is $8 per month.",
+          "insufficient_evidence": false,
+          "source_ids": [
+            "db19381bb20da3dbdf39a5fc35cfa955642d4db482e63c4a49a4179f6756f8fc:0"
+          ]
+        },
+        "cached_tokens": 717,
+        "completion_tokens": 107,
+        "elapsed_ms": 1749,
+        "prompt_tokens": 722,
+        "sources": [
+          {
+            "document_id": "db19381bb20da3dbdf39a5fc35cfa955642d4db482e63c4a49a4179f6756f8fc",
+            "end_ms": 3042,
+            "id": "db19381bb20da3dbdf39a5fc35cfa955642d4db482e63c4a49a4179f6756f8fc:0",
+            "kind": "audio",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": 0,
+            "text": "budget.wav: Audio 0:00–0:03 [0-3042 ms]",
+            "title": "budget.wav"
+          },
+          {
+            "document_id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e",
+            "end_ms": 3042,
+            "id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:1",
+            "kind": "video",
+            "ordinal": 1,
+            "page_number": null,
+            "start_ms": 0,
+            "text": "budget-video.mp4: Video audio 0:00–0:03 [0-3042 ms]",
+            "title": "budget-video.mp4"
+          },
+          {
+            "document_id": "a956cc6c761008bdb55f21038d616a4b0e0fb7272ac6a42114b17f9b559e326b",
+            "end_ms": null,
+            "id": "a956cc6c761008bdb55f21038d616a4b0e0fb7272ac6a42114b17f9b559e326b:0",
+            "kind": "txt",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "Priya owns the permission bug fix for the Friday launch.",
+            "title": "Launch.txt"
+          },
+          {
+            "document_id": "ad480f278c50ef655491a3d5342e7cecf261a7daf046ce3888f9b6259910d626",
+            "end_ms": null,
+            "id": "ad480f278c50ef655491a3d5342e7cecf261a7daf046ce3888f9b6259910d626:0",
+            "kind": "image",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "blue-square.png: Image preview",
+            "title": "blue-square.png"
+          }
+        ]
+      }
+    },
+    {
+      "case": "text",
+      "question": "Who owns the permission bug fix?",
+      "result": {
+        "answer": {
+          "answer": "Priya owns the permission bug fix for the Friday launch.",
+          "insufficient_evidence": false,
+          "source_ids": [
+            "a956cc6c761008bdb55f21038d616a4b0e0fb7272ac6a42114b17f9b559e326b:0"
+          ]
+        },
+        "cached_tokens": 67,
+        "completion_tokens": 113,
+        "elapsed_ms": 2769,
+        "prompt_tokens": 722,
+        "sources": [
+          {
+            "document_id": "a956cc6c761008bdb55f21038d616a4b0e0fb7272ac6a42114b17f9b559e326b",
+            "end_ms": null,
+            "id": "a956cc6c761008bdb55f21038d616a4b0e0fb7272ac6a42114b17f9b559e326b:0",
+            "kind": "txt",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "Priya owns the permission bug fix for the Friday launch.",
+            "title": "Launch.txt"
+          },
+          {
+            "document_id": "db19381bb20da3dbdf39a5fc35cfa955642d4db482e63c4a49a4179f6756f8fc",
+            "end_ms": 3042,
+            "id": "db19381bb20da3dbdf39a5fc35cfa955642d4db482e63c4a49a4179f6756f8fc:0",
+            "kind": "audio",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": 0,
+            "text": "budget.wav: Audio 0:00–0:03 [0-3042 ms]",
+            "title": "budget.wav"
+          },
+          {
+            "document_id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e",
+            "end_ms": 3042,
+            "id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:1",
+            "kind": "video",
+            "ordinal": 1,
+            "page_number": null,
+            "start_ms": 0,
+            "text": "budget-video.mp4: Video audio 0:00–0:03 [0-3042 ms]",
+            "title": "budget-video.mp4"
+          },
+          {
+            "document_id": "ad480f278c50ef655491a3d5342e7cecf261a7daf046ce3888f9b6259910d626",
+            "end_ms": null,
+            "id": "ad480f278c50ef655491a3d5342e7cecf261a7daf046ce3888f9b6259910d626:0",
+            "kind": "image",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": null,
+            "text": "blue-square.png: Image preview",
+            "title": "blue-square.png"
+          }
+        ]
+      }
+    },
+    {
+      "case": "video_only",
+      "question": "What does the video show, and what monthly cloud budget does it mention?",
+      "result": {
+        "answer": {
+          "answer": "The video shows a red circle. The project cloud budget is $8 per month.",
+          "insufficient_evidence": false,
+          "source_ids": [
+            "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:0",
+            "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:1"
+          ]
+        },
+        "cached_tokens": 67,
+        "completion_tokens": 177,
+        "elapsed_ms": 3475,
+        "prompt_tokens": 450,
+        "sources": [
+          {
+            "document_id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e",
+            "end_ms": 3042,
+            "id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:0",
+            "kind": "video",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": 0,
+            "text": "budget-video.mp4: Video frame at 0:00 [0-3042 ms]",
+            "title": "budget-video.mp4"
+          },
+          {
+            "document_id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e",
+            "end_ms": 3042,
+            "id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:1",
+            "kind": "video",
+            "ordinal": 1,
+            "page_number": null,
+            "start_ms": 0,
+            "text": "budget-video.mp4: Video audio 0:00–0:03 [0-3042 ms]",
+            "title": "budget-video.mp4"
+          }
+        ]
+      }
+    },
+    {
+      "case": "video_only",
+      "question": "What annual company revenue is stated in the video?",
+      "result": {
+        "answer": {
+          "answer": "The retrieved documents do not provide enough reliable evidence to answer this question. Review the sources or add a relevant document.",
+          "insufficient_evidence": true,
+          "source_ids": []
+        },
+        "cached_tokens": 67,
+        "completion_tokens": 36,
+        "elapsed_ms": 1157,
+        "prompt_tokens": 445,
+        "sources": [
+          {
+            "document_id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e",
+            "end_ms": 3042,
+            "id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:0",
+            "kind": "video",
+            "ordinal": 0,
+            "page_number": null,
+            "start_ms": 0,
+            "text": "budget-video.mp4: Video frame at 0:00 [0-3042 ms]",
+            "title": "budget-video.mp4"
+          },
+          {
+            "document_id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e",
+            "end_ms": 3042,
+            "id": "6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e:1",
+            "kind": "video",
+            "ordinal": 1,
+            "page_number": null,
+            "start_ms": 0,
+            "text": "budget-video.mp4: Video audio 0:00–0:03 [0-3042 ms]",
+            "title": "budget-video.mp4"
+          }
+        ]
+      }
+    }
+  ],
+  "checks": [
+    {
+      "case": "image",
+      "contrast_position": 2,
+      "expected_position": 1,
+      "passed": true,
+      "query": "A red circle on a white background",
+      "ranking": [
+        {
+          "end_ms": 3042,
+          "kind": "video",
+          "source": "budget-video.mp4",
+          "start_ms": 0
+        },
+        {
+          "end_ms": null,
+          "kind": "image",
+          "source": "red-circle.png",
+          "start_ms": null
+        },
+        {
+          "end_ms": null,
+          "kind": "image",
+          "source": "blue-square.png",
+          "start_ms": null
+        },
+        {
+          "end_ms": null,
+          "kind": "txt",
+          "source": "Launch.txt",
+          "start_ms": null
+        },
+        {
+          "end_ms": 3042,
+          "kind": "video",
+          "source": "budget-video.mp4",
+          "start_ms": 0
+        },
+        {
+          "end_ms": 3042,
+          "kind": "audio",
+          "source": "budget.wav",
+          "start_ms": 0
+        },
+        {
+          "end_ms": 3275,
+          "kind": "audio",
+          "source": "lunch.wav",
+          "start_ms": 0
+        }
+      ]
+    },
+    {
+      "case": "audio",
+      "contrast_position": 6,
+      "expected_position": 0,
+      "passed": true,
+      "query": "What is the monthly cloud budget?",
+      "ranking": [
+        {
+          "end_ms": 3042,
+          "kind": "audio",
+          "source": "budget.wav",
+          "start_ms": 0
+        },
+        {
+          "end_ms": 3042,
+          "kind": "video",
+          "source": "budget-video.mp4",
+          "start_ms": 0
+        },
+        {
+          "end_ms": null,
+          "kind": "txt",
+          "source": "Launch.txt",
+          "start_ms": null
+        },
+        {
+          "end_ms": null,
+          "kind": "image",
+          "source": "blue-square.png",
+          "start_ms": null
+        },
+        {
+          "end_ms": 3042,
+          "kind": "video",
+          "source": "budget-video.mp4",
+          "start_ms": 0
+        },
+        {
+          "end_ms": null,
+          "kind": "image",
+          "source": "red-circle.png",
+          "start_ms": null
+        },
+        {
+          "end_ms": 3275,
+          "kind": "audio",
+          "source": "lunch.wav",
+          "start_ms": 0
+        }
+      ]
+    },
+    {
+      "case": "video_frame",
+      "contrast_position": 2,
+      "expected_position": 0,
+      "passed": true,
+      "query": "A red circle on a white background",
+      "ranking": [
+        {
+          "end_ms": 3042,
+          "kind": "video",
+          "source": "budget-video.mp4",
+          "start_ms": 0
+        },
+        {
+          "end_ms": null,
+          "kind": "image",
+          "source": "red-circle.png",
+          "start_ms": null
+        },
+        {
+          "end_ms": null,
+          "kind": "image",
+          "source": "blue-square.png",
+          "start_ms": null
+        },
+        {
+          "end_ms": null,
+          "kind": "txt",
+          "source": "Launch.txt",
+          "start_ms": null
+        },
+        {
+          "end_ms": 3042,
+          "kind": "video",
+          "source": "budget-video.mp4",
+          "start_ms": 0
+        },
+        {
+          "end_ms": 3042,
+          "kind": "audio",
+          "source": "budget.wav",
+          "start_ms": 0
+        },
+        {
+          "end_ms": 3275,
+          "kind": "audio",
+          "source": "lunch.wav",
+          "start_ms": 0
+        }
+      ]
+    },
+    {
+      "case": "video_audio",
+      "contrast_position": 6,
+      "expected_position": 1,
+      "passed": true,
+      "query": "What is the monthly cloud budget?",
+      "ranking": [
+        {
+          "end_ms": 3042,
+          "kind": "audio",
+          "source": "budget.wav",
+          "start_ms": 0
+        },
+        {
+          "end_ms": 3042,
+          "kind": "video",
+          "source": "budget-video.mp4",
+          "start_ms": 0
+        },
+        {
+          "end_ms": null,
+          "kind": "txt",
+          "source": "Launch.txt",
+          "start_ms": null
+        },
+        {
+          "end_ms": null,
+          "kind": "image",
+          "source": "blue-square.png",
+          "start_ms": null
+        },
+        {
+          "end_ms": 3042,
+          "kind": "video",
+          "source": "budget-video.mp4",
+          "start_ms": 0
+        },
+        {
+          "end_ms": null,
+          "kind": "image",
+          "source": "red-circle.png",
+          "start_ms": null
+        },
+        {
+          "end_ms": 3275,
+          "kind": "audio",
+          "source": "lunch.wav",
+          "start_ms": 0
+        }
+      ]
+    },
+    {
+      "case": "text",
+      "contrast_position": 6,
+      "expected_position": 0,
+      "passed": true,
+      "query": "Who owns the permission bug fix?",
+      "ranking": [
+        {
+          "end_ms": null,
+          "kind": "txt",
+          "source": "Launch.txt",
+          "start_ms": null
+        },
+        {
+          "end_ms": 3042,
+          "kind": "audio",
+          "source": "budget.wav",
+          "start_ms": 0
+        },
+        {
+          "end_ms": 3042,
+          "kind": "video",
+          "source": "budget-video.mp4",
+          "start_ms": 0
+        },
+        {
+          "end_ms": null,
+          "kind": "image",
+          "source": "blue-square.png",
+          "start_ms": null
+        },
+        {
+          "end_ms": 3042,
+          "kind": "video",
+          "source": "budget-video.mp4",
+          "start_ms": 0
+        },
+        {
+          "end_ms": null,
+          "kind": "image",
+          "source": "red-circle.png",
+          "start_ms": null
+        },
+        {
+          "end_ms": 3275,
+          "kind": "audio",
+          "source": "lunch.wav",
+          "start_ms": 0
+        }
+      ]
+    }
+  ],
+  "delete_preview": true,
+  "engine_stopped": true,
+  "imports": [
+    {
+      "decode_and_store_ms": 83,
+      "file": "red-circle.png",
+      "kind": "image",
+      "parts": 1,
+      "preview_bytes": 2308
+    },
+    {
+      "decode_and_store_ms": 85,
+      "file": "blue-square.png",
+      "kind": "image",
+      "parts": 1,
+      "preview_bytes": 1325
+    },
+    {
+      "decode_and_store_ms": 177,
+      "file": "budget.wav",
+      "kind": "audio",
+      "parts": 1,
+      "preview_bytes": 97418
+    },
+    {
+      "decode_and_store_ms": 168,
+      "file": "lunch.wav",
+      "kind": "audio",
+      "parts": 1,
+      "preview_bytes": 104848
+    },
+    {
+      "decode_and_store_ms": 233,
+      "file": "budget-video.mp4",
+      "kind": "video",
+      "parts": 2,
+      "preview_bytes": 38715
+    }
+  ],
+  "indexed_parts": 7,
+  "indexing_ms": 541,
+  "passed": 5,
+  "persistence": true,
+  "profile": "gemma2-v2:72df80eee0fef1c80134cde2f9781025599500b0126701a963b59eed4a956aa0",
+  "scope": "Synthetic macOS integration; no general retrieval quality or performance claim",
+  "text_only_generation_guard": true,
+  "timestamp_metadata": true,
+  "total": 5
+}

@@ -1,0 +1,22 @@
+   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 1.93s
+     Running unittests src/lib.rs (src-tauri/target/debug/deps/cachella_lib-0d67fb13494b5020)
+
+running 1 test
+test desktop::tests::failed_endpoint_save_keeps_managed_mode_and_committed_selection ... FAILED
+
+failures:
+
+---- desktop::tests::failed_endpoint_save_keeps_managed_mode_and_committed_selection stdout ----
+
+thread 'desktop::tests::failed_endpoint_save_keeps_managed_mode_and_committed_selection' (1487066) panicked at src/desktop.rs:903:9:
+assertion failed: state.runtime().unwrap().status().unwrap().managed
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    desktop::tests::failed_endpoint_save_keeps_managed_mode_and_committed_selection
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 127 filtered out; finished in 0.05s
+
+error: test failed, to rerun pass `--lib`

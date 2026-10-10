@@ -1,0 +1,20 @@
+   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 1.35s
+     Running unittests src/lib.rs (src-tauri/target/debug/deps/cachella_lib-0d67fb13494b5020)
+
+running 12 tests
+test inference::tests::abstention_can_have_no_citations ... ok
+test inference::tests::abstention_does_not_display_model_claims_or_citations ... ok
+test inference::tests::abstention_discards_blank_oversized_and_fabricated_content ... ok
+test inference::tests::answers_must_cite_provided_evidence ... ok
+test inference::tests::endpoint_accepts_only_direct_loopback_http ... ok
+test inference::tests::media_matches_are_available_for_inspection_without_text_generation ... ok
+test inference::tests::media_evidence_binds_payloads_to_source_ids_and_timestamps ... ok
+test inference::tests::mixed_media_presentation_preserves_source_binding_across_retrieval_orders ... ok
+test inference::tests::media_loading_and_request_share_the_four_source_boundary ... ok
+test inference::tests::context_error_has_actionable_message_without_echoing_engine_body ... ok
+test inference::tests::media_evidence_rejects_missing_mismatched_and_oversized_payloads ... ok
+test inference::tests::stalled_error_body_returns_generic_error_before_client_timeout ... ok
+
+test result: ok. 12 passed; 0 failed; 0 ignored; 0 measured; 143 filtered out; finished in 2.01s
+

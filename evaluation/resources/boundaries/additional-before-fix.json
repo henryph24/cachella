@@ -1,0 +1,26 @@
+[
+  {
+    "name": "portrait8192.png",
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Error: \"ffmpeg could not normalize this media file: [Parsed_scale_0 @ 0x600000fe06e0] Rescaled dimensions 0x512 are invalid, output dimensions must be positive. [Parsed_scale_0 @ 0x600000fe06e0] Failed to configure output pad on Parsed_scale_0 [vf#0:0 @ 0x143016600] Error reinitializing filters! [vf#0:0 @ 0x143016600] Task finished with error code: -22 (Invalid argument) [vf#0:0 @ 0x143016600] Terminating thread with return code -22 (Invalid argument) [vost#0:0/png @ 0x141f06650] [enc:png @ 0x6000013e0690] Could not open encoder before EOF [vost#0:0/png @ 0x141f06650] Task finished with error code: -22 (Invalid argument) [vost#0:0/png @ 0x141f06650] Terminating thread with return code -22 (Invalid argument) [out#0/image2 @ 0x600000de0300] Nothing was written into output file, because at least one of its streams received no packets.\"\n"
+  },
+  {
+    "name": "wide-video.mp4",
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Error: \"ffmpeg could not normalize this media file: [Parsed_scale_1 @ 0x600000dcc8f0] Rescaled dimensions 720x0 are invalid, output dimensions must be positive. [Parsed_scale_1 @ 0x600000dcc8f0] Failed to configure output pad on Parsed_scale_1 [vf#0:0 @ 0x13c016200] Error reinitializing filters! [vf#0:0 @ 0x13c016200] Task finished with error code: -22 (Invalid argument) [vf#0:0 @ 0x13c016200] Terminating thread with return code -22 (Invalid argument) [vost#0:0/libx264 @ 0x13b8061f0] [enc:libx264 @ 0x6000011c05b0] Could not open encoder before EOF [vost#0:0/libx264 @ 0x13b8061f0] Task finished with error code: -22 (Invalid argument) [vost#0:0/libx264 @ 0x13b8061f0] Terminating thread with return code -22 (Invalid argument) [out#0/mp4 @ 0x600000fcc300] Nothing was written into output file, because at least one of its streams received no packets.\"\n"
+  },
+  {
+    "name": "tall-video.mp4",
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Error: \"ffmpeg could not normalize this media file: [Parsed_scale_1 @ 0x600002df8160] Rescaled dimensions 0x720 are invalid, output dimensions must be positive. [Parsed_scale_1 @ 0x600002df8160] Failed to configure output pad on Parsed_scale_1 [vf#0:0 @ 0x14d016200] Error reinitializing filters! [vf#0:0 @ 0x14d016200] Task finished with error code: -22 (Invalid argument) [vf#0:0 @ 0x14d016200] Terminating thread with return code -22 (Invalid argument) [vost#0:0/libx264 @ 0x14c7064f0] [enc:libx264 @ 0x6000031f4690] Could not open encoder before EOF [vost#0:0/libx264 @ 0x14c7064f0] Task finished with error code: -22 (Invalid argument) [vost#0:0/libx264 @ 0x14c7064f0] Terminating thread with return code -22 (Invalid argument) [out#0/mp4 @ 0x600002ff4300] Nothing was written into output file, because at least one of its streams received no packets.\"\n"
+  },
+  {
+    "name": "odd-video.mp4",
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Error: \"ffmpeg could not normalize this media file: [libx264 @ 0x12ce06bd0] width not divisible by 2 (513x257) [vost#0:0/libx264 @ 0x12ce06920] [enc:libx264 @ 0x6000003fd1f0] Error while opening encoder - maybe incorrect parameters such as bit_rate, rate, width or height. [vf#0:0 @ 0x12d018200] Error sending frames to consumers: Generic error in an external library [vf#0:0 @ 0x12d018200] Task finished with error code: -542398533 (Generic error in an external library) [vf#0:0 @ 0x12d018200] Terminating thread with return code -542398533 (Generic error in an external library) [vost#0:0/libx264 @ 0x12ce06920] [enc:libx264 @ 0x6000003fd1f0] Could not open encoder before EOF [vost#0:0/libx264 @ 0x12ce06920] Task finished with error code: -22 (Invalid argument) [vost#0:0/libx264 @ 0x12ce06920] Terminating thread with return code -22 (Invalid argument) [out#0/mp4 @ 0x600001dfc540] Nothing was written into output file, because at least one of its streams received no packets.\"\n"
+  }
+]

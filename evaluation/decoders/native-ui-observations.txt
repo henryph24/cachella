@@ -1,0 +1,38 @@
+Native CUA accessibility observations, 2026-10-10
+App: Cachella Decoder Check (com.cachella.decodercheck)
+Test profile did not exist before launch (filesystem check).
+
+Fresh launch:
+Documents 0
+Keyword search · 0 documents
+
+Local runtime:
+Included decoder selected : /Users/hungpq2412/cachella/src-tauri/target/debug/bundle/macos/Cachella Decoder Check.app/Contents/Resources/decoder/ffmpeg
+Library location: /Users/hungpq2412/Library/Application Support/com.cachella.decodercheck
+
+After importing budget-video.mp4 through the native file picker:
+1 file processed. Existing content is reused.
+1 documents 2 passages 37.8 KB stored source data
+
+Source preview:
+budget-video.mp4
+Video frame at 0:00; Video audio 0:00–0:03
+cachella-media://localhost/6cd72232d25edd512ac3b72be45044e4d659bd808e07ecd3c66a6167a633520e
+
+Playback:
+Pause
+Elapsed: 0 seconds
+Duration: 3 seconds
+Screenshot showed the red-circle video frame.
+Later state:
+Play
+Elapsed: 3 seconds
+Slider Value: 1, Details: 3 seconds
+
+After quitting and relaunching:
+Documents 1
+1 documents and 2 indexed passages, available on this device.
+Included decoder selected : /Users/hungpq2412/cachella/src-tauri/target/debug/bundle/macos/Cachella Decoder Check.app/Contents/Resources/decoder/ffmpeg
+
+App was quit at the end. A read-only database and process check is recorded in native-profile-check.txt.
+These are transcribed CUA observations, not an automated browser test transcript.

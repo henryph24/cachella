@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-10",
+  "platform": "macOS arm64",
+  "app_bundle_mib": 108.12,
+  "engine_tag": "b11531",
+  "packaged_manifest_files": 61,
+  "packaged_file_bytes": 72108556,
+  "existing_manual_choices_preserved_before_explicit_selection": true,
+  "generation_included_selection_and_ready": true,
+  "embedding_included_selection_and_ready": true,
+  "both_saved_bundled_flags": true,
+  "existing_index_passages": 10,
+  "query": "A blue square on a white background",
+  "top_result": "temporal-video.mp4",
+  "top_result_timestamp_ms": 10000,
+  "library_counts": {
+    "documents": 6,
+    "chunks": 10,
+    "embeddings": 10
+  },
+  "owned_child_processes_after_stopping": 0,
+  "windows_runtime_verified": false
+}

@@ -1,0 +1,92 @@
+--- before/inference.rs
++++ after/inference.rs
+@@ -360,6 +360,13 @@
+     };
+     let response=request.send().await.map_err(|_|"Local generation failed or exceeded 120 seconds. Your search results are still available.".to_string())?;
+     let result = bounded_json(response).await?;
++    if result
++        .pointer("/choices/0/finish_reason")
++        .and_then(Value::as_str)
++        == Some("length")
++    {
++        return Err("The model reached its generation or context limit before finishing the answer. Try a shorter, more specific question. Your search results are still available.".into());
++    }
+     let content = result
+         .pointer("/choices/0/message/content")
+         .and_then(Value::as_str)
+@@ -702,6 +709,75 @@
+         }]
+     }
+ 
++    #[tokio::test]
++    async fn length_limited_answers_have_actionable_feedback() {
++        use std::io::{BufRead, Read, Write};
++        async fn run(finish: Value, content: Value) -> Result<AnswerResult> {
++            let listener = std::net::TcpListener::bind("127.0.0.1:0").unwrap();
++            let address = listener.local_addr().unwrap();
++            let worker = std::thread::spawn(move || {
++                let (mut stream, _) = listener.accept().unwrap();
++                stream
++                    .set_read_timeout(Some(Duration::from_secs(5)))
++                    .unwrap();
++                let mut reader = std::io::BufReader::new(&mut stream);
++                let mut length = 0;
++                loop {
++                    let mut line = String::new();
++                    assert!(reader.read_line(&mut line).unwrap() > 0);
++                    if line == "\r\n" {
++                        break;
++                    }
++                    if let Some((name, value)) = line.split_once(':') {
++                        if name.eq_ignore_ascii_case("content-length") {
++                            length = value.trim().parse::<usize>().unwrap();
++                        }
++                    }
++                }
++                assert!(length < 16384);
++                reader.read_exact(&mut vec![0; length]).unwrap();
++                let body =
++                    json!({"choices":[{"finish_reason":finish,"message":{"content":content}}]})
++                        .to_string();
++                write!(
++                    stream,
++                    "HTTP/1.1 200 OK\r\nContent-Length: {}\r\nConnection: close\r\n\r\n{}",
++                    body.len(),
++                    body
++                )
++                .unwrap();
++            });
++            let result = answer(
++                &format!("http://{address}"),
++                "When is launch?",
++                evidence(),
++                true,
++            )
++            .await;
++            worker.join().unwrap();
++            result
++        }
++        let complete =
++            json!({"answer":"Friday","source_ids":["abc:0"],"insufficient_evidence":false})
++                .to_string();
++        for content in [
++            json!("private partial engine output"),
++            json!(complete),
++            Value::Null,
++        ] {
++            assert_eq!(run(json!("length"), content).await.unwrap_err(),
++                "The model reached its generation or context limit before finishing the answer. Try a shorter, more specific question. Your search results are still available.");
++        }
++        for finish in [json!("stop"), Value::Null] {
++            assert_eq!(
++                run(finish, json!(complete)).await.unwrap().answer.answer,
++                "Friday"
++            );
++        }
++        assert_eq!(run(json!("stop"), json!("private malformed content")).await.unwrap_err(),
++            "The model did not return the required answer structure. Your sources remain available.");
++    }
++
+     #[test]
+     fn answers_must_cite_provided_evidence() {
+         let answer = GroundedAnswer {

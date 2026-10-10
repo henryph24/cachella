@@ -1,0 +1,28 @@
+   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 2.58s
+     Running unittests src/lib.rs (src-tauri/target/debug/deps/cachella_lib-0d67fb13494b5020)
+
+running 20 tests
+test desktop::tests::failed_media_save_keeps_the_prior_selection ... ok
+test desktop::tests::installed_embedding_selection_clears_profile_and_failed_save_preserves_config ... ok
+test desktop::tests::included_media_status_and_selection_follow_current_resource_directory ... ok
+test desktop::tests::installed_model_selection_preserves_engine_and_newer_user_choices ... ok
+test desktop::tests::shutdown_rejects_late_startup_and_download_selection ... ok
+test desktop::tests::explicit_stop_and_external_selection_disable_automatic_restart ... ok
+test desktop::tests::failed_switch_keeps_resume_intent_without_two_resident_models ... ok
+test desktop::tests::manual_generation_model_change_clears_old_projector_after_persistence ... ok
+test desktop::tests::bundled_selection_preserves_models_and_guards_settings ... ok
+test desktop::tests::media_selection_reads_legacy_manual_path_and_resolves_included_after_move ... ok
+test desktop::tests::memory_policy_persists_only_after_idle_successful_publication ... ok
+test desktop::tests::startup_cleanup_preserves_committed_or_different_connection ... ok
+test desktop::tests::failed_endpoint_save_keeps_managed_mode_and_committed_selection ... ok
+test desktop::tests::stopped_embedding_request_names_the_embedding_model ... ok
+test desktop::tests::deletion_is_blocked_while_generation_uses_evidence ... ok
+test desktop::tests::startup_cleanup_recovers_poisoned_mutex_to_stop_its_child ... ok
+test desktop::tests::single_residency_stops_previous_owned_engine_before_next_start ... ok
+test desktop::tests::cancelled_startup_stops_only_its_owned_runtime_and_releases_permit ... ok
+test desktop::tests::shutdown_during_startup_releases_permit_without_publishing_readiness ... ok
+test desktop::tests::cancelled_automatic_switch_stops_new_child_and_allows_retry ... ok
+
+test result: ok. 20 passed; 0 failed; 0 ignored; 0 measured; 129 filtered out; finished in 1.93s
+
