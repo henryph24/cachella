@@ -1,0 +1,2 @@
+# Preserve publisher-pinned license bytes across Windows checkouts.
+/scripts/licenses/* -text
