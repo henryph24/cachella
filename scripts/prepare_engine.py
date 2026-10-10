@@ -281,7 +281,9 @@ def read_zip(archive: Path, out: Path) -> None:
 
 def manifest_for(root: Path, artifact: Artifact) -> dict:
     files = []
-    for path in sorted(p for p in root.rglob("*") if p.is_file()):
+    # Pin canonical relative names, independent of the host Path comparison rules.
+    for path in sorted((p for p in root.rglob("*") if p.is_file()),
+                       key=lambda p: p.relative_to(root).as_posix()):
         size, sha = digest(path)
         files.append({"path": path.relative_to(root).as_posix(), "size": size, "sha256": sha})
     return {"format": 1, "tag": TAG, "source_commit": SOURCE_COMMIT, "platform": artifact.platform,
