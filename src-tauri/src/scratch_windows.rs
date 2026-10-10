@@ -433,7 +433,6 @@ mod tests {
             Dir::open_ambient_dir(&temp.path().join("parent"), cap_std::ambient_authority())
                 .unwrap();
         parent.create_dir("owned").unwrap();
-        let owned = parent.open_dir_nofollow("owned").unwrap();
         fs::write(
             temp.path().join("parent").join("owned").join("payload"),
             b"x",
@@ -444,6 +443,10 @@ mod tests {
         fs::create_dir(temp.path().join("parent").join("owned")).unwrap();
         let marker = temp.path().join("parent").join("owned").join("marker");
         fs::write(&marker, b"replacement").unwrap();
+        // Windows forbids renaming an ancestor while a descendant handle is
+        // open. Keep the parent anchor across replacement, then resolve its
+        // original child through that retained handle.
+        let owned = parent.open_dir_nofollow("owned").unwrap();
         owned.remove_open_dir_all().unwrap();
         assert!(marker.exists());
         assert!(!temp.path().join("moved-parent").join("owned").exists());

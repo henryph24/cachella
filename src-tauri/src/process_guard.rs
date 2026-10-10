@@ -624,6 +624,13 @@ mod tests {
     fn fixture(args: &[&str]) -> Command {
         let mut command = Command::new(guardian_executable().unwrap());
         command.env_clear().args(args);
+        // Winsock resolves its provider DLL through %SystemRoot%. Keep the
+        // fixture's environment explicit, matching the production callers.
+        #[cfg(windows)]
+        command.env(
+            "SYSTEMROOT",
+            std::env::var_os("SYSTEMROOT").expect("Windows system root"),
+        );
         command
     }
 
@@ -733,6 +740,18 @@ mod tests {
         assert_eq!(status.code(), Some(7));
         assert_eq!(stdout, "fixture stdout");
         assert_eq!(stderr, "fixture stderr");
+    }
+
+    #[test]
+    fn fixture_environment_supports_socket_initialization() {
+        // Capture the direct child's diagnostics so a provider initialization
+        // failure is visible before lease tests wait for a readiness marker.
+        let output = fixture(&["bind-once"]).output().unwrap();
+        assert!(
+            output.status.success(),
+            "fixture socket initialization failed: {}",
+            String::from_utf8_lossy(&output.stderr)
+        );
     }
 
     #[test]

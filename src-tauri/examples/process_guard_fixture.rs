@@ -72,6 +72,10 @@ fn main() {
                 .expect("write large stdout");
             process::exit(0);
         }
+        Some("bind-once") => {
+            let _listener =
+                TcpListener::bind(("127.0.0.1", 0)).expect("initialize fixture sockets");
+        }
         Some("hold") => {
             let marker = args.next().expect("marker path");
             let port = args
@@ -93,6 +97,11 @@ fn main() {
             let port = args.next().expect("port");
             let mut child = Command::new(std::env::current_exe().expect("fixture executable"));
             child.args(["hold", &marker, &port]).env_clear();
+            #[cfg(windows)]
+            child.env(
+                "SYSTEMROOT",
+                std::env::var_os("SYSTEMROOT").expect("Windows system root"),
+            );
             let _guard = process_guard::spawn(&child, false).expect("spawn guarded holder");
             let deadline = Instant::now() + Duration::from_secs(3);
             while !std::path::Path::new(&marker).exists() && Instant::now() < deadline {

@@ -1,2 +1,4 @@
 # Preserve publisher-pinned license bytes across Windows checkouts.
 /scripts/licenses/* -text
+# PDF byte offsets and stream lengths must survive checkout unchanged.
+*.pdf -text
