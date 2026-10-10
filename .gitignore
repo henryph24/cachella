@@ -24,3 +24,10 @@ src-tauri/resources/.decoder-previous-*/
 # Local document render previews and process markers.
 tmp/
 *.pid
+
+# Developer credentials and downloaded model weights.
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.gguf
