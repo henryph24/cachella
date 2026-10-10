@@ -9,6 +9,10 @@ on:
         type: choice
         options: [windows, all]
         default: windows
+      qualify_runtime:
+        description: Install the Windows app and exercise pinned models (about 2 GB download)
+        type: boolean
+        default: false
 permissions:
   contents: read
 jobs:
@@ -30,6 +34,13 @@ jobs:
         with:
           python-version: "3.12"
       - run: python3 -m unittest discover -s scripts -p "test_*.py"
+      - name: Parse Windows qualification script
+        if: runner.os == 'Windows'
+        run: |
+          $tokens = $null
+          $parseErrors = $null
+          [System.Management.Automation.Language.Parser]::ParseFile((Resolve-Path scripts/qualify_windows.ps1), [ref]$tokens, [ref]$parseErrors) | Out-Null
+          if ($parseErrors.Count -ne 0) { throw ($parseErrors | Out-String) }
       - uses: dtolnay/rust-toolchain@stable
         with:
           components: rustfmt, clippy
@@ -84,4 +95,15 @@ jobs:
           name: cachella-windows-installer
           path: src-tauri/target/debug/bundle/nsis/*.exe
           if-no-files-found: error
+          retention-days: 1
+      - name: Windows installer and real-model qualification
+        if: runner.os == 'Windows' && inputs.qualify_runtime
+        run: ./scripts/qualify_windows.ps1 -WorkDirectory "${{ runner.temp }}/cachella-qualification"
+      - name: Retain Windows qualification reports
+        if: always() && runner.os == 'Windows' && inputs.qualify_runtime
+        uses: actions/upload-artifact@v4
+        with:
+          name: cachella-windows-qualification
+          path: ${{ runner.temp }}/cachella-qualification/reports/
+          if-no-files-found: warn
           retention-days: 1
