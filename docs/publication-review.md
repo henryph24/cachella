@@ -69,3 +69,7 @@ and downloaded model files are outside the publication snapshot.
 Independent review identified an unsafe optional metadata replay path. That option was removed; a regression failed before the fix and passed afterward. The CLI now always collects locked Cargo metadata.
 
 Application tests were not rerun: application executable behavior and build configuration are unchanged. Documentation and evidence normalization are exempt from test-first. Dependency metadata is an inventory; zlib license classification, exact model publisher terms and per-target binary notices still require review.
+
+## Publication follow-up: 11 October 2026
+
+The maintainer selected a permissive license and authorized public visibility. Cachella source now uses MIT, with aligned npm/Cargo metadata. GitHub reports `PUBLIC`; private vulnerability reporting returns `enabled: true`. The baseline private-repository and pending-license observations above are retained as historical review evidence. Signed installers and consumer-hardware qualification remain pending.

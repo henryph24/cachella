@@ -11,7 +11,7 @@ Checked 11 October 2026. Repository: [henryph24/cachella](https://github.com/hen
 - [x] Review evaluation artifacts and history; normalize personal home prefixes in 137 current evidence files and disclose retained historical paths.
 - [x] Generate the resolved [dependency license inventory](dependency-licenses.md): 566 Cargo packages and 210 npm entries.
 - [ ] Complete per-target binary notices, model terms and distribution review.
-- [ ] Configure private vulnerability reporting and publish its instructions.
+- [x] Enable and verify GitHub private vulnerability reporting; instructions are in SECURITY.md.
 - [x] Qualify the Windows release installer and actual model execution on the hosted runner; consumer Windows 11 acceptance remains open.
 - [ ] Validate the intended consumer hardware; qualify cloud source integrations before advertising them.
 - [x] Publish the source repository with maintainer authorization; signed releases remain pending.

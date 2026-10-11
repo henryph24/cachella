@@ -627,3 +627,12 @@ release prerequisites; the requested commit/push proceeds for completed preparat
 
 Verification: seven inventory fixture tests passed; 776 resolved package entries reproduce; 137 evidence files preserve all bytes except the home prefix; 102 local Markdown links resolve. History and prepared snapshot scans each return one reviewed prose false positive (raw exit 1). Signing identities: zero. Source license awaits maintainer choice.
 Independent review: two rounds; stale metadata replay removed after a failing regression. Final seven tests and inventory reproduction passed. Full desktop CI is skipped for this preparation-only commit; application behavior is unchanged.
+
+## Public source publication: 2026-10-11
+
+- [x] Apply MIT with full license text and aligned npm/Cargo metadata.
+- [x] Regenerate dependency inventory; seven tests and 56 relative links pass.
+- [x] Publish source repository: GitHub reports PUBLIC.
+- [x] Enable confidential vulnerability reporting: API returns enabled true.
+
+Documentation/license metadata changes are exempt from test-first; application behavior is unchanged and full desktop CI is skipped. Signed installers and consumer-hardware qualification remain pending.
