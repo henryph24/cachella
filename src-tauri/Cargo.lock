@@ -520,6 +520,7 @@ dependencies = [
  "base64 0.22.1",
  "cap-fs-ext",
  "cap-std",
+ "libc",
  "lopdf",
  "rcgen",
  "reqwest 0.12.28",

@@ -262,14 +262,13 @@ fn classify(input: &Path) -> Result<Kind> {
 }
 
 fn read_input(input: &Path) -> Result<Vec<u8>> {
-    let file = File::open(input).map_err(|_| "Choose an existing media file.".to_string())?;
-    if !file
-        .metadata()
-        .map_err(|_| "Choose an existing media file.".to_string())?
-        .is_file()
-    {
-        return Err("Media files must be regular files.".into());
-    }
+    let file = crate::regular_file::open_regular_file(input).map_err(|error| {
+        if error.kind() == std::io::ErrorKind::InvalidInput {
+            "Media files must be regular files.".to_string()
+        } else {
+            "Choose an existing media file.".to_string()
+        }
+    })?;
     read_file_limited(
         file,
         MAX_MEDIA_BYTES,
@@ -956,15 +955,13 @@ fn ensure_success(output: CommandOutput, fallback: &str) -> Result<()> {
 }
 
 fn read_output(path: &Path) -> Result<Vec<u8>> {
-    let file = File::open(path)
-        .map_err(|_| "Media preparation did not produce an output file.".to_string())?;
-    if !file
-        .metadata()
-        .map_err(|_| "Media preparation did not produce an output file.".to_string())?
-        .is_file()
-    {
-        return Err("Normalized media output is not a regular file.".into());
-    }
+    let file = crate::regular_file::open_regular_file(path).map_err(|error| {
+        if error.kind() == std::io::ErrorKind::InvalidInput {
+            "Normalized media output is not a regular file.".to_string()
+        } else {
+            "Media preparation did not produce an output file.".to_string()
+        }
+    })?;
     read_file_limited(
         file,
         MAX_MEDIA_BYTES,

@@ -1,3 +1,5 @@
+#[cfg(any(feature = "desktop", test))]
+mod app_data;
 pub mod asset;
 pub mod embedding;
 pub mod inference;
@@ -6,6 +8,7 @@ pub mod models;
 pub mod operation_jobs;
 pub mod pdf;
 pub mod process_guard;
+pub(crate) mod regular_file;
 pub mod runtime;
 pub mod scratch;
 pub mod settings;

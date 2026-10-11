@@ -1,0 +1,26 @@
+Independent final security review (2026-10-11), exact-source macOS probe
+
+Scratch Rust harness directly imported src-tauri/src/app_data.rs and src-tauri/src/regular_file.rs by absolute #[path] modules. It called prepare(path) or open_regular_file(path); no repository executable code was changed by reviewer.
+Compiled with rustc --edition=2021, dependency search src-tauri/target/debug/deps, and cap_std-cebdb0d206e452b8.rlib, cap_fs_ext-9170dd97c0d4b2fa.rlib, libc-71359b3c0672490d.rlib.
+
+Six checks observed:
+1. Existing app-data directory: APP_RESULT: Ok(()); PRIVATE_MODE: 0o700.
+2. Added chmod +a 'everyone allow list,search' policy: APP_RESULT: Err(Custom { kind: PermissionDenied, error: "App data has an extended access policy. Ask your administrator to review its ACL before opening Cachella." }); ls -lde still showed `group:everyone allow list,search`.
+3. App-data leaf symlink: APP_RESULT: Err(Os { code: 20, kind: NotADirectory, message: "Not a directory" }); OUTSIDE_MODE: 0o755.
+4. Selected regular file: FILE_RESULT: Ok(8).
+5. Selected symlink to regular file: FILE_RESULT: Ok(8).
+6. Unconnected FIFO: FILE_RESULT: Err(Custom { kind: InvalidInput, error: "selected path is not a regular file" }); FIFO_ELAPSED_MS: 2.2. Probe had a 1-second external timeout.
+
+Final wiring scan:
+rg -n 'File::open|open_regular_file' src-tauri/src/{embedding,runtime,media,pdf,store,desktop,regular_file}.rs
+Confirmed six production helper calls: embedding hash (embedding.rs:88), runtime GGUF header (runtime.rs:59), media input (media.rs:265), normalized media output (media.rs:958), shared PDF source/result reader (pdf.rs:113), text import reader (store.rs:870, invoked desktop.rs:477).
+Remaining File::open matches in these modules are the non-Unix helper branch and test fixtures. Non-Unix helper retains pre-open metadata rejection and validates the opened descriptor afterward.
+
+ACL FFI reviewed against local macOS SDK sys/acl.h. fd and C enum argument types match; opaque non-null ACL is freed once and rejected. NULL is accepted only with ENOENT. Leaf opens use retained parent handle with no-follow.
+
+Projection code tracing: keyword, pending embeddings and semantic retrieval use hit_from_row; text bound 8192 bytes retains at least 8143 original UTF-8 bytes, preserving 1800 Unicode characters (maximum7200 bytes) and embedding1500-byte prefix. Full-source inspection selects original documents.content.
+
+Formatting check: git diff --check -- src-tauri/src/app_data.rs src-tauri/src/regular_file.rs src-tauri/src/embedding.rs src-tauri/src/runtime.rs src-tauri/src/media.rs src-tauri/src/pdf.rs src-tauri/src/store.rs src-tauri/src/desktop.rs src-tauri/src/lib.rs src-tauri/Cargo.toml returned exit0, no output.
+
+Final conclusion: no remaining demonstrated defects in reviewed scope after embedding hash reopen was wired to helper.
+Limits: OS-provided app-data parent and same-account changes remain trusted/outside app-data privacy boundary. FIFO check establishes Unix FIFO-open rejection; arbitrary filesystem I/O latency has no new time guarantee. Windows native behavior and entire application suite were not run by independent reviewer; main agent is running applicable suite.

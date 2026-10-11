@@ -1,0 +1,12 @@
+   Compiling cachella v0.1.0 (<workspace>/src-tauri)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 6.36s
+     Running unittests src/lib.rs (src-tauri/target/debug/deps/cachella_lib-1ee65e307f0b1d3a)
+
+running 5 tests
+test app_data::tests::symlink_app_data_is_rejected_without_modifying_target ... ok
+test app_data::tests::new_app_data_is_private ... ok
+test app_data::tests::regular_file_at_app_data_path_is_rejected ... ok
+test app_data::tests::existing_app_data_is_hardened_without_changing_contents ... ok
+test app_data::tests::extended_acl_is_rejected_without_removing_user_policy ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 162 filtered out; finished in 0.01s

@@ -1,7 +1,7 @@
 use crate::{
     embedding, inference, media, models,
     runtime::{Runtime, RuntimeConfig, RuntimeStatus},
-    store::{Document, Hit, Result, Store, MAX_DOCUMENT_BYTES},
+    store::{Document, Hit, Result, Store},
 };
 use serde::{Deserialize, Serialize};
 use std::{
@@ -474,14 +474,7 @@ async fn import_documents(state: State<'_, AppState>) -> Result<ImportReport> {
                 .to_lowercase();
             let result = if matches!(kind.as_str(), "txt" | "md") {
                 (|| -> Result<Document> {
-                    let metadata = std::fs::metadata(path)
-                        .map_err(|_| "Cannot read this file.".to_string())?;
-                    if !metadata.is_file() || metadata.len() > MAX_DOCUMENT_BYTES as u64 {
-                        return Err("Choose a text file of at most 2 MB.".into());
-                    }
-                    let file = std::fs::File::open(path)
-                        .map_err(|_| "Cannot open this file.".to_string())?;
-                    let text = crate::store::read_text_bounded(file)?;
+                    let text = crate::store::read_text_file_bounded(path)?;
                     state.store()?.import_text(title, &kind, &text)
                 })()
             } else {
@@ -1002,7 +995,7 @@ pub fn run() {
         })
         .setup(|app| {
             let dir = app.path().app_data_dir()?;
-            std::fs::create_dir_all(&dir)?;
+            crate::app_data::prepare(&dir)?;
             crate::scratch::initialize().map_err(std::io::Error::other)?;
             crate::settings::recover(&dir).map_err(std::io::Error::other)?;
             let database = dir.join("workspace.sqlite");

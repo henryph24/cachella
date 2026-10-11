@@ -85,7 +85,7 @@ fn profile_checked(
             path.as_ref()
                 .ok_or("Choose embedding model and projector first.")?,
         )?;
-        let mut file = std::fs::File::open(path).map_err(|e| e.to_string())?;
+        let mut file = crate::regular_file::open_regular_file(&path).map_err(|e| e.to_string())?;
         let mut file_hash = Sha256::new();
         let mut buffer = [0; 65536];
         loop {

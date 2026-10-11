@@ -1,0 +1,31 @@
+macOS extended ACL privacy regression, before fix (2026-10-11)
+
+Reviewed implementation: src-tauri/src/app_data.rs, prepare Unix branch:
+open_dir_nofollow -> set_permissions(0700) -> metadata().permissions().mode() & 0777 == 0700.
+
+Probe compiled a scratch Rust executable importing that exact source module using:
+rustc --edition=2021 <scratch>/probe.rs -L dependency=<workspace>/src-tauri/target/debug/deps --extern cap_std=<workspace>/src-tauri/target/debug/deps/libcap_std-cebdb0d206e452b8.rlib --extern cap_fs_ext=<workspace>/src-tauri/target/debug/deps/libcap_fs_ext-9170dd97c0d4b2fa.rlib -o <scratch>/probe
+
+The probe calls app_data::prepare on its first argument.
+Fixture: temporary app directory containing workspace.sqlite; added extended ACL with:
+chmod +a 'everyone allow list,search,readattr,readextattr,readsecurity' <scratch>/app
+
+Observed exact helper output:
+PREPARE_RESULT: Ok(())
+MODE_AFTER_PREPARE: 0o700
+drwx------+ 3 hungpq2412  staff  96 Oct 11 15:14 <scratch>/app
+ 0: group:everyone allow list,search,readattr,readextattr,readsecurity
+
+This is the red security result: startup accepts a 0700 directory retaining an ACL granting every account directory listing and traversal, so directory mode bits do not enforce account privacy on macOS.
+
+Control: leaf symlink pointing to a separate 0755 directory was rejected by exact helper:
+PREPARE_RESULT: Err(Os { code: 20, kind: NotADirectory, message: "Not a directory" })
+OUTSIDE_MODE_AFTER_PREPARE: 0o755
+
+Native API probe via ctypes on this macOS machine:
+ACL-free directory: acl_get_fd_np(fd, 0x100) returned NULL with errno=2 (ENOENT).
+Directory with everyone ACL: acl_get_fd_np(fd, 0x100) returned non-NULL with errno=0; acl_valid returned 0; acl_get_entry(acl, ACL_FIRST_ENTRY, &entry) returned 0.
+
+Local SDK evidence:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/acl.h defines ACL_TYPE_EXTENDED=0x100 and declares acl_get_fd_np(int fd, acl_type_t type), acl_free(void *obj_p).
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man/man3/acl_get.3 documents retained-fd retrieval, allocated ACL ownership, acl_free, and NULL/error behavior.

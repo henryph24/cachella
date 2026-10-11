@@ -110,13 +110,9 @@ fn worker_executable() -> Result<PathBuf> {
 }
 
 fn read_bounded(path: &Path, limit: usize) -> Result<Vec<u8>> {
-    let before_open = std::fs::metadata(path).map_err(|_| "Cannot inspect PDF data.")?;
-    if !before_open.is_file() || before_open.len() > limit as u64 {
-        return Err("PDF data exceeds the supported file size.".into());
-    }
-    let file = std::fs::File::open(path).map_err(|_| "Cannot open PDF data.")?;
+    let file = crate::regular_file::open_regular_file(path).map_err(|_| "Cannot open PDF data.")?;
     let metadata = file.metadata().map_err(|_| "Cannot inspect PDF data.")?;
-    if !metadata.is_file() || metadata.len() > limit as u64 {
+    if metadata.len() > limit as u64 {
         return Err("PDF data exceeds the supported file size.".into());
     }
     let mut bytes = Vec::new();

@@ -1,0 +1,8 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.34s
+     Running unittests src/lib.rs (src-tauri/target/debug/deps/cachella_lib-1ee65e307f0b1d3a)
+
+running 2 tests
+test store::tests::passage_projection_preserves_exact_boundary_and_model_prefixes ... ok
+test store::tests::oversized_passages_have_bounded_projections_and_preserve_sources ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 165 filtered out; finished in 0.18s

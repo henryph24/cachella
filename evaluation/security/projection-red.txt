@@ -1,0 +1,22 @@
+   Compiling cachella v0.1.0 (<workspace>/src-tauri)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 2.51s
+     Running unittests src/lib.rs (src-tauri/target/debug/deps/cachella_lib-0d67fb13494b5020)
+
+running 1 test
+test store::tests::oversized_passages_have_bounded_projections_and_preserve_sources ... FAILED
+
+failures:
+
+---- store::tests::oversized_passages_have_bounded_projections_and_preserve_sources stdout ----
+
+thread 'store::tests::oversized_passages_have_bounded_projections_and_preserve_sources' (4942902) panicked at src/store.rs:879:9:
+assertion failed: hits[0].text.len() <= 8192
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    store::tests::oversized_passages_have_bounded_projections_and_preserve_sources
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 161 filtered out; finished in 0.16s
+
+error: test failed, to rerun pass `--lib`

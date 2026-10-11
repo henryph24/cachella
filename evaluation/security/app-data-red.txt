@@ -1,0 +1,41 @@
+   Compiling cachella v0.1.0 (<workspace>/src-tauri)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 5.26s
+     Running unittests src/lib.rs (src-tauri/target/debug/deps/cachella_lib-0d67fb13494b5020)
+
+running 4 tests
+test app_data::tests::regular_file_at_app_data_path_is_rejected ... ok
+test app_data::tests::new_app_data_is_private ... FAILED
+test app_data::tests::symlink_app_data_is_rejected_without_modifying_target ... FAILED
+test app_data::tests::existing_app_data_is_hardened_without_changing_contents ... FAILED
+
+failures:
+
+---- app_data::tests::new_app_data_is_private stdout ----
+
+thread 'app_data::tests::new_app_data_is_private' (4938285) panicked at src/app_data.rs:19:9:
+assertion `left == right` failed
+  left: 493
+ right: 448
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+---- app_data::tests::symlink_app_data_is_rejected_without_modifying_target stdout ----
+
+thread 'app_data::tests::symlink_app_data_is_rejected_without_modifying_target' (4938287) panicked at src/app_data.rs:43:9:
+assertion failed: prepare(&path).is_err()
+
+---- app_data::tests::existing_app_data_is_hardened_without_changing_contents stdout ----
+
+thread 'app_data::tests::existing_app_data_is_hardened_without_changing_contents' (4938284) panicked at src/app_data.rs:30:9:
+assertion `left == right` failed
+  left: 493
+ right: 448
+
+
+failures:
+    app_data::tests::existing_app_data_is_hardened_without_changing_contents
+    app_data::tests::new_app_data_is_private
+    app_data::tests::symlink_app_data_is_rejected_without_modifying_target
+
+test result: FAILED. 1 passed; 3 failed; 0 ignored; 0 measured; 157 filtered out; finished in 0.00s
+
+error: test failed, to rerun pass `--lib`

@@ -1,0 +1,8 @@
+{
+  "profile": "com.cachella.securitycheck",
+  "directory_mode": "0o700",
+  "documents": 0,
+  "native_ui": "Workspace ready; included engine and decoder selected; no models downloaded or started",
+  "scope": "isolated local packaged startup; no notarized installation or real-model rerun",
+  "remaining_app_processes": 0
+}

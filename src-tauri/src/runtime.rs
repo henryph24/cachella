@@ -56,11 +56,13 @@ pub fn validate_model(path: &Path) -> Result<PathBuf> {
     let path = path
         .canonicalize()
         .map_err(|_| "Cannot open the selected model.".to_string())?;
-    let mut file =
-        std::fs::File::open(&path).map_err(|_| "Cannot open the selected model.".to_string())?;
-    if !file.metadata().map_err(|e| e.to_string())?.is_file() {
-        return Err("Select a GGUF model file.".into());
-    }
+    let mut file = crate::regular_file::open_regular_file(&path).map_err(|error| {
+        if error.kind() == std::io::ErrorKind::InvalidInput {
+            "Select a GGUF model file.".to_string()
+        } else {
+            "Cannot open the selected model.".to_string()
+        }
+    })?;
     let mut header = [0; 4];
     file.read_exact(&mut header)
         .map_err(|_| "The model file is incomplete.".to_string())?;

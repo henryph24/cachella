@@ -14,6 +14,7 @@ const MAX_MEDIA_DURATION_MS: u64 = 120_000;
 const EMBEDDING_DIMENSIONS: usize = 768;
 const MAX_EMBEDDING_PROFILE_CHARS: usize = 128;
 const MAX_PENDING_EMBEDDINGS: usize = 32;
+const MAX_HIT_TEXT_BYTES: usize = 8192;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Document {
@@ -768,17 +769,39 @@ fn document_by_id(transaction: &rusqlite::Transaction<'_>, id: &str) -> Result<O
 }
 
 fn hit_from_row(row: &rusqlite::Row<'_>) -> rusqlite::Result<Hit> {
+    let value = row.get_ref(4)?;
+    let text = value.as_str().map_err(|error| {
+        rusqlite::Error::FromSqlConversionFailure(4, value.data_type(), Box::new(error))
+    })?;
     Ok(Hit {
         id: row.get(0)?,
         document_id: row.get(1)?,
         title: row.get(2)?,
         ordinal: row.get(3)?,
-        text: row.get(4)?,
+        text: hit_text_preview(text),
         kind: row.get(5)?,
         start_ms: row.get(6)?,
         end_ms: row.get(7)?,
         page_number: row.get(8)?,
     })
+}
+
+// Bound every retrieval/indexing projection, including previously stored chunks.
+// Keep the first 1,800 Unicode characters intact for generation (at most 7,200
+// bytes), and the embedding prefix intact. Full source inspection is unchanged.
+fn hit_text_preview(text: &str) -> String {
+    const SUFFIX: &str = "\n[Preview truncated; open source for full text.]";
+    if text.len() <= MAX_HIT_TEXT_BYTES {
+        return text.to_owned();
+    }
+    let mut end = MAX_HIT_TEXT_BYTES - SUFFIX.len();
+    while !text.is_char_boundary(end) {
+        end -= 1;
+    }
+    let mut preview = String::with_capacity(MAX_HIT_TEXT_BYTES);
+    preview.push_str(&text[..end]);
+    preview.push_str(SUFFIX);
+    preview
 }
 
 fn score_then_id(
@@ -843,6 +866,17 @@ pub fn read_text_bounded(reader: impl std::io::Read) -> Result<String> {
     String::from_utf8(bytes).map_err(|_| "File must contain valid UTF-8 text.".into())
 }
 
+pub fn read_text_file_bounded(path: &Path) -> Result<String> {
+    let file = crate::regular_file::open_regular_file(path).map_err(|error| {
+        if error.kind() == std::io::ErrorKind::InvalidInput {
+            "Choose a text file of at most 2 MB.".to_string()
+        } else {
+            "Cannot open this file.".to_string()
+        }
+    })?;
+    read_text_bounded(file)
+}
+
 pub fn chunks(text: &str, size: usize, overlap: usize) -> Vec<String> {
     if size == 0 {
         return Vec::new();
@@ -865,6 +899,47 @@ pub fn chunks(text: &str, size: usize, overlap: usize) -> Vec<String> {
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[test]
+    fn oversized_passages_have_bounded_projections_and_preserve_sources() {
+        let tmp = tempfile::tempdir().unwrap();
+        let mut db = Store::open(&tmp.path().join("workspace.sqlite")).unwrap();
+        // No whitespace: the existing word-based chunker produces one passage.
+        let text = "界".repeat(MAX_DOCUMENT_BYTES / 3);
+        let doc = db.import_text("projectionmatch", "txt", &text).unwrap();
+        assert_eq!(doc.chunks, 1);
+        let hits = db.search("projectionmatch").unwrap();
+        assert_eq!(hits.len(), 1);
+        assert!(hits[0].text.len() <= 8192);
+        assert!(hits[0]
+            .text
+            .ends_with("[Preview truncated; open source for full text.]"));
+        assert_eq!(
+            hits[0].text.chars().take(1800).collect::<String>(),
+            text.chars().take(1800).collect::<String>()
+        );
+        assert_eq!(db.document_text(&doc.id).unwrap(), text);
+        let pending = db.pending_embeddings("projection", 32).unwrap();
+        assert_eq!(pending[0].text, hits[0].text);
+        db.save_embedding(&pending[0].id, "projection", &normalized(0))
+            .unwrap();
+        let semantic = db.semantic_search("projection", &normalized(0)).unwrap();
+        assert_eq!(semantic[0].text, hits[0].text);
+    }
+
+    #[test]
+    fn passage_projection_preserves_exact_boundary_and_model_prefixes() {
+        let exact = "x".repeat(MAX_HIT_TEXT_BYTES);
+        assert_eq!(hit_text_preview(&exact), exact);
+        let oversized = "🦀".repeat(MAX_HIT_TEXT_BYTES / 4 + 1);
+        let preview = hit_text_preview(&oversized);
+        assert!(preview.len() <= MAX_HIT_TEXT_BYTES);
+        assert_eq!(
+            preview.chars().take(1800).collect::<String>(),
+            oversized.chars().take(1800).collect::<String>()
+        );
+        assert!(preview.ends_with("[Preview truncated; open source for full text.]"));
+    }
 
     #[test]
     fn chunks_preserve_unicode_and_overlap() {

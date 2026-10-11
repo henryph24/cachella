@@ -1,0 +1,12 @@
+
+> cachella@0.1.0 test
+> vitest run
+
+
+ RUN  v4.1.11 <workspace>
+
+
+ Test Files  7 passed (7)
+      Tests  67 passed (67)
+   Start at  15:16:28
+   Duration  3.45s (transform 814ms, setup 0ms, import 2.47s, tests 4.17s, environment 4.42s)
