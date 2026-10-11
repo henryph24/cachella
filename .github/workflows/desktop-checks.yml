@@ -51,6 +51,13 @@ jobs:
           $parseErrors = $null
           [System.Management.Automation.Language.Parser]::ParseFile((Resolve-Path scripts/qualify_windows.ps1), [ref]$tokens, [ref]$parseErrors) | Out-Null
           if ($parseErrors.Count -ne 0) { throw ($parseErrors | Out-String) }
+      - name: Verify Windows decoder source downloads before compilation
+        if: runner.os == 'Windows'
+        run: |
+          $sources = Join-Path $env:RUNNER_TEMP 'cachella-decoder-sources'
+          New-Item -ItemType Directory -Force -Path $sources | Out-Null
+          python3 -c 'import pathlib,sys; sys.path.insert(0,"scripts"); import prepare_decoder as p; root=pathlib.Path(sys.argv[1]); [p.obtain(source,root/source.filename,None) for source in p.sources_for("windows-x86_64")]; print("PASS: all three decoder source archives match pinned sizes and hashes")' $sources
+          if ($LASTEXITCODE -ne 0) { throw 'Decoder source verification failed before compilation.' }
       - uses: dtolnay/rust-toolchain@stable
         with:
           components: rustfmt, clippy
@@ -84,7 +91,7 @@ jobs:
         shell: msys2 {0}
         run: |
           /usr/bin/python3 -m unittest discover -s scripts -p "test_prepare_decoder.py"
-          /usr/bin/python3 scripts/prepare_decoder.py --platform windows-x86_64 --replace
+          /usr/bin/python3 scripts/prepare_decoder.py --platform windows-x86_64 --replace --sources "$(cygpath -u "$RUNNER_TEMP")/cachella-decoder-sources"
       - name: Windows decoder production import smoke
         if: runner.os == 'Windows'
         run: >-

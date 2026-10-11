@@ -113,6 +113,23 @@ class DecoderPreparationTests(unittest.TestCase):
             with self.assertRaises(d.PrepareError):
                 d.validate_destination(root, True, 'macos-arm64')
 
+    def test_download_mismatch_reports_observed_size_and_hash(self):
+        import hashlib
+        body = b'wrong archive'
+        source = d.Source('fixture.tar.xz', 100, '0' * 64, 'https://zlib.net/fixture.tar.xz')
+        response = unittest.mock.MagicMock()
+        response.__enter__.return_value = response
+        response.status = 200
+        response.geturl.return_value = source.url
+        response.read.side_effect = [body, b'']
+        opener = unittest.mock.Mock()
+        opener.open.return_value = response
+        with tempfile.TemporaryDirectory() as tmp, patch.object(d.urllib.request, 'build_opener', return_value=opener):
+            with self.assertRaises(d.PrepareError) as caught:
+                d.obtain(source, Path(tmp) / source.filename, None)
+        self.assertIn(f'actual size={len(body)}', str(caught.exception))
+        self.assertIn(hashlib.sha256(body).hexdigest(), str(caught.exception))
+
     def test_url_policy(self):
         for url in ('http://ffmpeg.org/a', 'https://evil.test/a', 'https://x@ffmpeg.org/a', 'https://ffmpeg.org:444/a'):
             with self.assertRaises(d.PrepareError): d.validate_url(url)

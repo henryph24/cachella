@@ -149,8 +149,13 @@ def obtain(source: Source, destination: Path, local: Path | None) -> None:
                 if total > source.size:
                     raise PrepareError('source download exceeded pinned size')
                 out.write(block)
-    if digest(destination) != (source.size, source.sha256):
-        raise PrepareError(f'source archive does not match pin: {source.filename}')
+    actual = digest(destination)
+    if actual != (source.size, source.sha256):
+        raise PrepareError(
+            f'source archive does not match pin: {source.filename}; '
+            f'expected size={source.size} sha256={source.sha256}; '
+            f'actual size={actual[0]} sha256={actual[1]}'
+        )
 
 
 def extract_source(archive: Path, out: Path) -> None:
