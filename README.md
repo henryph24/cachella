@@ -1,5 +1,10 @@
 # Cachella
 
+**Source alpha candidate:** experimental software for developers and invited testers.
+The repository is currently private; public source licensing and signed installer
+publication are still being prepared. See the [alpha release notes](docs/alpha-release.md)
+and [changelog](CHANGELOG.md).
+
 A local-first knowledge workspace with search across documents, images, audio and video, and cited answers from quantized models running on your computer.
 
 Cachella is a development-stage desktop application built with Tauri 2, React, Rust, SQLite and llama.cpp. The current packaged targets are Apple silicon macOS and x86-64 Windows. Enterprise deployment and consumer-hardware qualification are ongoing.

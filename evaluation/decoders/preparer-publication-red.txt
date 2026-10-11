@@ -3,7 +3,7 @@
 ERROR: test_failed_publication_restores_previous_output (test_prepare_decoder.DecoderPreparationTests.test_failed_publication_restores_previous_output)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/Users/hungpq2412/cachella/scripts/test_prepare_decoder.py", line 93, in test_failed_publication_restores_previous_output
+  File "/Users/developer/cachella/scripts/test_prepare_decoder.py", line 93, in test_failed_publication_restores_previous_output
     d.publish(stage, output)
     ^^^^^^^^^
 AttributeError: module 'prepare_decoder' has no attribute 'publish'
@@ -12,7 +12,7 @@ AttributeError: module 'prepare_decoder' has no attribute 'publish'
 ERROR: test_rollback_failure_retains_previous_directory (test_prepare_decoder.DecoderPreparationTests.test_rollback_failure_retains_previous_directory)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/Users/hungpq2412/cachella/scripts/test_prepare_decoder.py", line 105, in test_rollback_failure_retains_previous_directory
+  File "/Users/developer/cachella/scripts/test_prepare_decoder.py", line 105, in test_rollback_failure_retains_previous_directory
     d.publish(stage, output)
     ^^^^^^^^^
 AttributeError: module 'prepare_decoder' has no attribute 'publish'

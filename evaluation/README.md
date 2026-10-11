@@ -1,5 +1,11 @@
 # Local model evaluation
 
+Publication copies normalize maintainer home paths to `/Users/developer` in
+evaluation text and JSON. Measurements and artifact hashes remain unchanged; these
+paths describe the recorded environment and are not runnable setup instructions.
+Historical Git revisions retain the original paths. See the
+[publication review](../docs/publication-review.md).
+
 These eight synthetic cases exercise the actual SQLite retrieval and native inference path. Each case runs once with prompt reuse disabled and once with reuse enabled. The model engine uses one slot and a 4,096-token context, with the same structured-answer request as the desktop application.
 
 ## Reproduce

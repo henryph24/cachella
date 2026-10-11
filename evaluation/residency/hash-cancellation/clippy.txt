@@ -24,5 +24,5 @@
     Checking wry v0.57.0
     Checking tauri-runtime-wry v2.12.1
     Checking tauri v2.12.2
-    Checking cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+    Checking cachella v0.1.0 (/Users/developer/cachella/src-tauri)
     Finished `dev` profile [unoptimized + debuginfo] target(s) in 11.05s

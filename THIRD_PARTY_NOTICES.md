@@ -1,6 +1,6 @@
 # Third-party notices
 
-This inventory identifies major distribution boundaries. A complete dependency notice inventory remains a public binary-release gate.
+This document identifies major distribution boundaries. The resolved [license report](docs/dependency-licenses.md) and [machine-readable inventory](docs/dependency-inventory.json) cover 566 Cargo packages and 210 npm entries. Declared license metadata does not establish distribution clearance; complete per-target notices remain a public binary-release gate.
 
 | Component | Source and licensing record | Distribution notes |
 | --- | --- | --- |

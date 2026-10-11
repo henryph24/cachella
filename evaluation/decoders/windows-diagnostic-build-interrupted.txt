@@ -1,17 +1,17 @@
 Traceback (most recent call last):
-  File "/Users/hungpq2412/cachella/scripts/prepare_decoder.py", line 433, in <module>
+  File "/Users/developer/cachella/scripts/prepare_decoder.py", line 433, in <module>
     print(f'prepare_decoder: {error}', file=sys.stderr); return 1
                  ^^^^^^
-  File "/Users/hungpq2412/cachella/scripts/prepare_decoder.py", line 427, in main
+  File "/Users/developer/cachella/scripts/prepare_decoder.py", line 427, in main
     parser.add_argument('--jobs', type=int, default=min(4, os.cpu_count() or 1))
               ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/hungpq2412/cachella/scripts/prepare_decoder.py", line 402, in prepare
+  File "/Users/developer/cachella/scripts/prepare_decoder.py", line 402, in prepare
     archive = archives / source.filename
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/hungpq2412/cachella/scripts/prepare_decoder.py", line 248, in build
+  File "/Users/developer/cachella/scripts/prepare_decoder.py", line 248, in build
     run_build_command(command, directory, command_env, log)
     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/hungpq2412/cachella/scripts/prepare_decoder.py", line 208, in run_build_command
+  File "/Users/developer/cachella/scripts/prepare_decoder.py", line 208, in run_build_command
     code = process.wait(timeout=timeout)
   File "/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 1278, in wait
     return self._wait(timeout=timeout)

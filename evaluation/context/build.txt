@@ -7,5 +7,5 @@
    Compiling hyper-rustls v0.27.10
    Compiling reqwest v0.12.28
    Compiling rusqlite v0.32.1
-   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+   Compiling cachella v0.1.0 (/Users/developer/cachella/src-tauri)
     Finished `release` profile [optimized] target(s) in 18.24s

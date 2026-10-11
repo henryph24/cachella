@@ -12,7 +12,7 @@
    Compiling tokio-rustls v0.26.6
    Compiling hyper-rustls v0.27.10
    Compiling reqwest v0.12.28
-   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+   Compiling cachella v0.1.0 (/Users/developer/cachella/src-tauri)
     Finished `dev` profile [unoptimized + debuginfo] target(s) in 17.64s
    Compiling objc2-exception-helper v0.1.1
    Compiling objc2 v0.6.5
@@ -36,7 +36,7 @@
    Compiling tauri-runtime v2.12.1
    Compiling tauri-runtime-wry v2.12.1
    Compiling tauri v2.12.2
-   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+   Compiling cachella v0.1.0 (/Users/developer/cachella/src-tauri)
     Finished `test` profile [unoptimized + debuginfo] target(s) in 12.71s
      Running unittests src/lib.rs (src-tauri/target/debug/deps/cachella_lib-6d89736317e2b09d)
 

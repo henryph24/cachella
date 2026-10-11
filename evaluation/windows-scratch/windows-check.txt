@@ -1,5 +1,5 @@
     Blocking waiting for file lock on package cache
     Blocking waiting for file lock on package cache
     Blocking waiting for file lock on package cache
-    Checking cachella-scratch-check v0.1.0 (/Users/hungpq2412/cachella/scripts/scratch-check)
+    Checking cachella-scratch-check v0.1.0 (/Users/developer/cachella/scripts/scratch-check)
     Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.53s

@@ -6,7 +6,7 @@
     Checking maybe-owned v0.3.4
     Checking ambient-authority v0.0.2
     Checking libsqlite3-sys v0.30.1
-   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+   Compiling cachella v0.1.0 (/Users/developer/cachella/src-tauri)
     Checking io-extras v0.18.4
     Checking rusqlite v0.32.1
    Compiling objc2 v0.6.5

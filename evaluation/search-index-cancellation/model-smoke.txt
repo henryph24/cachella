@@ -1,4 +1,4 @@
-   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+   Compiling cachella v0.1.0 (/Users/developer/cachella/src-tauri)
     Finished `dev` profile [unoptimized + debuginfo] target(s) in 3.09s
      Running `src-tauri/target/debug/examples/cancel_index_smoke .local/engine-candidate/llama-b11531/llama-server .local/models/embeddinggemma-2-Q8_0.gguf .local/models/mmproj-embeddinggemma-2-Q8_0.gguf /opt/homebrew/Cellar/ffmpeg/8.0_2/bin/ffmpeg evaluation/multimodal/fixtures evaluation/search-index-cancellation/model-results.json`
 PASS: active real index cancelled in 0 ms; 1 of 10 committed vectors retained after reopening.

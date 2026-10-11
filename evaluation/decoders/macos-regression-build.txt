@@ -1,1 +1,1 @@
-/Users/hungpq2412/cachella/.local/macos-decoder-check/decoder
+/Users/developer/cachella/.local/macos-decoder-check/decoder

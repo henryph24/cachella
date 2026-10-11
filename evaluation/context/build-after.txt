@@ -1,2 +1,2 @@
-   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+   Compiling cachella v0.1.0 (/Users/developer/cachella/src-tauri)
     Finished `release` profile [optimized] target(s) in 3.30s

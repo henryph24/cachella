@@ -1,5 +1,5 @@
-   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+   Compiling cachella v0.1.0 (/Users/developer/cachella/src-tauri)
     Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.17s
-     Running `src-tauri/target/debug/examples/install_models_smoke '/Users/hungpq2412/Library/Application Support/com.cachella.desktop/models' qwen3-1.7b-q4 evaluation/recovery/verified-reuse.json`
+     Running `src-tauri/target/debug/examples/install_models_smoke '/Users/developer/Library/Application Support/com.cachella.desktop/models' qwen3-1.7b-q4 evaluation/recovery/verified-reuse.json`
 verifying: 0 of 1107409472 bytes
 PASS: 1 verified model file(s), 1107409472 bytes, 35833 ms

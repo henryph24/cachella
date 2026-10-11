@@ -3,7 +3,7 @@ E.......
 ERROR: test_build_timeout_kills_owned_group_and_reaps_child (test_prepare_decoder.DecoderPreparationTests.test_build_timeout_kills_owned_group_and_reaps_child)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/Users/hungpq2412/cachella/scripts/test_prepare_decoder.py", line 79, in test_build_timeout_kills_owned_group_and_reaps_child
+  File "/Users/developer/cachella/scripts/test_prepare_decoder.py", line 79, in test_build_timeout_kills_owned_group_and_reaps_child
     d.run_build_command(['compiler'], Path('.'), {}, io.StringIO(), timeout=1)
     ^^^^^^^^^^^^^^^^^^^
 AttributeError: module 'prepare_decoder' has no attribute 'run_build_command'

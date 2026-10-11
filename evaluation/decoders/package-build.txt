@@ -17,7 +17,7 @@ dist/assets/index-80Yvu-L7.js   264.81 kB │ gzip: 81.74 kB
    Compiling ring v0.17.14
    Compiling objc2 v0.6.5
    Compiling libsqlite3-sys v0.30.1
-   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+   Compiling cachella v0.1.0 (/Users/developer/cachella/src-tauri)
    Compiling objc2-foundation v0.3.2
    Compiling wry v0.57.0
    Compiling rustls v0.23.45
@@ -41,8 +41,8 @@ dist/assets/index-80Yvu-L7.js   264.81 kB │ gzip: 81.74 kB
    Compiling tauri-runtime-wry v2.12.1
    Compiling tauri v2.12.2
     Finished `dev` profile [unoptimized + debuginfo] target(s) in 19.58s
-       Built application at: /Users/hungpq2412/cachella/src-tauri/target/debug/cachella
-    Bundling Cachella.app (/Users/hungpq2412/cachella/src-tauri/target/debug/bundle/macos/Cachella.app)
+       Built application at: /Users/developer/cachella/src-tauri/target/debug/cachella
+    Bundling Cachella.app (/Users/developer/cachella/src-tauri/target/debug/bundle/macos/Cachella.app)
     Finished 1 bundle at:
-        /Users/hungpq2412/cachella/src-tauri/target/debug/bundle/macos/Cachella.app (144.99 MiB)
+        /Users/developer/cachella/src-tauri/target/debug/bundle/macos/Cachella.app (144.99 MiB)
 

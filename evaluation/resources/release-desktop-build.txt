@@ -195,13 +195,13 @@ dist/assets/index-By3cxbms.js   269.32 kB │ gzip: 82.88 kB
    Compiling tempfile v3.27.0
    Compiling cap-fs-ext v3.4.6
    Compiling tauri v2.12.2
-   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+   Compiling cachella v0.1.0 (/Users/developer/cachella/src-tauri)
    Compiling tauri-macros v2.7.1
-   Compiling lopdf v0.45.0 (/Users/hungpq2412/cachella/vendor/lopdf)
+   Compiling lopdf v0.45.0 (/Users/developer/cachella/vendor/lopdf)
    Compiling rusqlite v0.32.1
     Finished `release` profile [optimized] target(s) in 51.51s
-       Built application at: /Users/hungpq2412/cachella/src-tauri/target/release/cachella
-    Bundling Cachella Media Check.app (/Users/hungpq2412/cachella/src-tauri/target/release/bundle/macos/Cachella Media Check.app)
+       Built application at: /Users/developer/cachella/src-tauri/target/release/cachella
+    Bundling Cachella Media Check.app (/Users/developer/cachella/src-tauri/target/release/bundle/macos/Cachella Media Check.app)
     Finished 1 bundle at:
-        /Users/hungpq2412/cachella/src-tauri/target/release/bundle/macos/Cachella Media Check.app (114.85 MiB)
+        /Users/developer/cachella/src-tauri/target/release/bundle/macos/Cachella Media Check.app (114.85 MiB)
 

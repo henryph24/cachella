@@ -17,7 +17,7 @@
    Compiling ambient-authority v0.0.2
    Compiling libsqlite3-sys v0.30.1
    Compiling cap-fs-ext v3.4.6
-   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+   Compiling cachella v0.1.0 (/Users/developer/cachella/src-tauri)
    Compiling rustls v0.23.45
    Compiling rustls-webpki v0.103.15
    Compiling rcgen v0.14.10

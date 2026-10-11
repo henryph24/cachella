@@ -3,7 +3,7 @@
 > vitest run
 
 
- RUN  v4.1.11 /Users/hungpq2412/cachella
+ RUN  v4.1.11 /Users/developer/cachella
 
 
  Test Files  6 passed (6)

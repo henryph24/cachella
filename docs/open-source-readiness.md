@@ -6,10 +6,11 @@ Checked 11 October 2026. Repository: [henryph24/cachella](https://github.com/hen
 - [x] Preserve detailed runtime and build guidance in a development guide.
 - [x] Add contribution guidance and identify major third-party licensing boundaries.
 - [ ] Select the project source license, add its full text and align package metadata.
-- [x] Scan all six existing commits with Gitleaks 8.30.1 and review its one finding.
-- [ ] Complete the broader publication-content review.
-- [ ] Review evaluation artifacts and history for personal paths, private content and unpublished information before exposing them publicly.
-- [ ] Complete the resolved dependency license inventory and binary distribution review.
+- [x] Scan all 11 existing commits with Gitleaks 8.30.1 and review its one finding.
+- [x] Complete the bounded publication-content review; see [findings and scope](publication-review.md).
+- [x] Review evaluation artifacts and history; normalize personal home prefixes in 137 current evidence files and disclose retained historical paths.
+- [x] Generate the resolved [dependency license inventory](dependency-licenses.md): 566 Cargo packages and 210 npm entries.
+- [ ] Complete per-target binary notices, model terms and distribution review.
 - [ ] Configure private vulnerability reporting and publish its instructions.
 - [x] Qualify the Windows release installer and actual model execution on the hosted runner; consumer Windows 11 acceptance remains open.
 - [ ] Validate the intended consumer hardware; qualify cloud source integrations before advertising them.
@@ -25,13 +26,15 @@ Generated binaries, model weights, local databases and credentials belong outsid
 
 The current task prepares documentation and repository hygiene. Visibility changes, signed binary publication and accepting paid services are separate actions.
 
-## Checks performed
+## Verification record
 
-- `gh repo view --json nameWithOwner,visibility`: `henryph24/cachella`, `PRIVATE`.
-- `gitleaks git --redact`: six commits and 33.41 MB scanned; one generic-key finding. It matches explanatory prose about authenticated embedding and 768-dimensional vectors in `evaluation/engines/README.md:32`. The historical line equals the current prose; no credential appears in that line. The raw scanner exit remains 1 and no blanket suppression was added.
-- Tracked-content inspection found user-directory paths in 143 text files, primarily evaluation evidence. Review/redaction before publication remains open.
-- Five authored Markdown documents: 56 relative file-link targets resolve.
-- `git diff --check`: passed for the authored patch.
-- `git check-ignore .env .env.local model.gguf`: all three paths ignored.
+The [publication review](publication-review.md) records the 11-commit history scan,
+prepared snapshot scan, content audit and remaining prerequisites. The scanner's
+single prose finding is documented explicitly; its raw exit remains 1.
 
-This is documentation and ignore-rule preparation. Test-first is exempt; application tests were not rerun because executable behavior is unchanged. Secret scanning does not verify licensing, data sensitivity or model quality.
+The inventory generator has seven focused fixture tests and a reproducibility check.
+Documentation and evidence-path normalization are exempt from test-first; application
+behavior is unchanged. Signing discovery returned `0 valid identities found`.
+Private vulnerability reporting returned HTTP 404 and remains unverified.
+
+See the [alpha release notes](alpha-release.md) for source and installer gates.

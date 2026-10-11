@@ -5,7 +5,7 @@
     Blocking waiting for file lock on build directory
    Compiling ring v0.17.14
    Compiling libsqlite3-sys v0.30.1
-   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+   Compiling cachella v0.1.0 (/Users/developer/cachella/src-tauri)
    Compiling rustls v0.23.45
    Compiling rustls-webpki v0.103.15
    Compiling rcgen v0.14.10
@@ -36,7 +36,7 @@
    Compiling tauri-runtime v2.12.1
    Compiling tauri-runtime-wry v2.12.1
    Compiling tauri v2.12.2
-   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+   Compiling cachella v0.1.0 (/Users/developer/cachella/src-tauri)
     Finished `test` profile [unoptimized + debuginfo] target(s) in 13.90s
      Running unittests src/lib.rs (src-tauri/target/debug/deps/cachella_lib-0d67fb13494b5020)
 

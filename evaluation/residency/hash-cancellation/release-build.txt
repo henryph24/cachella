@@ -13,10 +13,10 @@ dist/index.html                   0.42 kB │ gzip:  0.28 kB
 dist/assets/index-DOMOwLOj.css   14.28 kB │ gzip:  3.90 kB
 dist/assets/index-By3cxbms.js   269.32 kB │ gzip: 82.88 kB
 ✓ built in 798ms
-   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+   Compiling cachella v0.1.0 (/Users/developer/cachella/src-tauri)
     Finished `release` profile [optimized] target(s) in 13.73s
-       Built application at: /Users/hungpq2412/cachella/src-tauri/target/release/cachella
-    Bundling Cachella Media Check.app (/Users/hungpq2412/cachella/src-tauri/target/release/bundle/macos/Cachella Media Check.app)
+       Built application at: /Users/developer/cachella/src-tauri/target/release/cachella
+    Bundling Cachella Media Check.app (/Users/developer/cachella/src-tauri/target/release/bundle/macos/Cachella Media Check.app)
     Finished 1 bundle at:
-        /Users/hungpq2412/cachella/src-tauri/target/release/bundle/macos/Cachella Media Check.app (114.85 MiB)
+        /Users/developer/cachella/src-tauri/target/release/bundle/macos/Cachella Media Check.app (114.85 MiB)
 

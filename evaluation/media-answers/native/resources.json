@@ -87,7 +87,7 @@
           ],
           "created": 1791578148,
           "id": "chatcmpl-MAtrPTT6i8RzL0NvYkdI7Xo9CiVFQLTX",
-          "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+          "model": "/Users/developer/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
           "object": "chat.completion",
           "system_fingerprint": "b11531-8b5436102",
           "timings": {
@@ -139,7 +139,7 @@
           ],
           "created": 1791578148,
           "id": "chatcmpl-LNnvRaY4haUoddOgsTOPf3zvf8KNdbPp",
-          "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+          "model": "/Users/developer/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
           "object": "chat.completion",
           "system_fingerprint": "b11531-8b5436102",
           "timings": {
@@ -191,7 +191,7 @@
           ],
           "created": 1791578149,
           "id": "chatcmpl-qvshNr7ngPu3HCDFcPVjKYi44EExbmrw",
-          "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+          "model": "/Users/developer/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
           "object": "chat.completion",
           "system_fingerprint": "b11531-8b5436102",
           "timings": {
@@ -243,7 +243,7 @@
           ],
           "created": 1791578149,
           "id": "chatcmpl-oxQalgtIVh63rQLfdQcKJ3wIfRENwYK6",
-          "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+          "model": "/Users/developer/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
           "object": "chat.completion",
           "system_fingerprint": "b11531-8b5436102",
           "timings": {
@@ -295,7 +295,7 @@
           ],
           "created": 1791578149,
           "id": "chatcmpl-0xvoB4yavUF0AALUoTRebPH7rOFzYTtA",
-          "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+          "model": "/Users/developer/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
           "object": "chat.completion",
           "system_fingerprint": "b11531-8b5436102",
           "timings": {
@@ -347,7 +347,7 @@
           ],
           "created": 1791578150,
           "id": "chatcmpl-XW2a20tf0A6G3fuO49mWnawwhjtopRwd",
-          "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+          "model": "/Users/developer/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
           "object": "chat.completion",
           "system_fingerprint": "b11531-8b5436102",
           "timings": {
@@ -394,7 +394,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 8241152,
           "physical_footprint_bytes": 2687872,
           "lifetime_peak_footprint_bytes": 2687872
@@ -408,7 +408,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 8404992,
           "physical_footprint_bytes": 2851712,
           "lifetime_peak_footprint_bytes": 2851712
@@ -416,7 +416,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -424,7 +424,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 41877504,
           "physical_footprint_bytes": 22170112,
           "lifetime_peak_footprint_bytes": 22383104
@@ -438,7 +438,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 8404992,
           "physical_footprint_bytes": 2851712,
           "lifetime_peak_footprint_bytes": 2851712
@@ -446,7 +446,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -454,7 +454,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 41877504,
           "physical_footprint_bytes": 22170112,
           "lifetime_peak_footprint_bytes": 22383104
@@ -468,7 +468,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 8798208,
           "physical_footprint_bytes": 3244928,
           "lifetime_peak_footprint_bytes": 3244928
@@ -476,7 +476,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -484,7 +484,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 41877504,
           "physical_footprint_bytes": 22170112,
           "lifetime_peak_footprint_bytes": 22383104
@@ -498,7 +498,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 8798208,
           "physical_footprint_bytes": 3244928,
           "lifetime_peak_footprint_bytes": 3244928
@@ -506,7 +506,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -514,7 +514,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 44613632,
           "physical_footprint_bytes": 24250880,
           "lifetime_peak_footprint_bytes": 24889856
@@ -528,7 +528,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 8945664,
           "physical_footprint_bytes": 3392384,
           "lifetime_peak_footprint_bytes": 3392384
@@ -536,7 +536,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -544,7 +544,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 44613632,
           "physical_footprint_bytes": 24250880,
           "lifetime_peak_footprint_bytes": 24889856
@@ -558,7 +558,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 8945664,
           "physical_footprint_bytes": 3392384,
           "lifetime_peak_footprint_bytes": 3392384
@@ -566,7 +566,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -574,7 +574,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 44613632,
           "physical_footprint_bytes": 24250880,
           "lifetime_peak_footprint_bytes": 24889856
@@ -588,7 +588,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 8945664,
           "physical_footprint_bytes": 3392384,
           "lifetime_peak_footprint_bytes": 3392384
@@ -596,7 +596,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -604,7 +604,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 44613632,
           "physical_footprint_bytes": 24250880,
           "lifetime_peak_footprint_bytes": 24889856
@@ -618,7 +618,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 8945664,
           "physical_footprint_bytes": 3392384,
           "lifetime_peak_footprint_bytes": 3392384
@@ -626,7 +626,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -634,7 +634,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 46546944,
           "physical_footprint_bytes": 25561600,
           "lifetime_peak_footprint_bytes": 26167808
@@ -648,7 +648,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 8945664,
           "physical_footprint_bytes": 3392384,
           "lifetime_peak_footprint_bytes": 3392384
@@ -656,7 +656,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -664,7 +664,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 46546944,
           "physical_footprint_bytes": 25561600,
           "lifetime_peak_footprint_bytes": 26167808
@@ -678,7 +678,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 8945664,
           "physical_footprint_bytes": 3392384,
           "lifetime_peak_footprint_bytes": 3392384
@@ -686,7 +686,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -694,7 +694,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 55050240,
           "physical_footprint_bytes": 27724288,
           "lifetime_peak_footprint_bytes": 34064896
@@ -708,7 +708,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 8945664,
           "physical_footprint_bytes": 3392384,
           "lifetime_peak_footprint_bytes": 3392384
@@ -716,7 +716,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -724,7 +724,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 55050240,
           "physical_footprint_bytes": 27724288,
           "lifetime_peak_footprint_bytes": 34064896
@@ -738,7 +738,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 8945664,
           "physical_footprint_bytes": 3392384,
           "lifetime_peak_footprint_bytes": 3392384
@@ -746,7 +746,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -754,7 +754,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 55050240,
           "physical_footprint_bytes": 27724288,
           "lifetime_peak_footprint_bytes": 34064896
@@ -768,7 +768,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9043968,
           "physical_footprint_bytes": 3490688,
           "lifetime_peak_footprint_bytes": 3490688
@@ -776,7 +776,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -784,7 +784,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 55050240,
           "physical_footprint_bytes": 27724288,
           "lifetime_peak_footprint_bytes": 34064896
@@ -798,7 +798,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9043968,
           "physical_footprint_bytes": 3490688,
           "lifetime_peak_footprint_bytes": 3490688
@@ -806,7 +806,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -814,7 +814,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 57753600,
           "physical_footprint_bytes": 29772288,
           "lifetime_peak_footprint_bytes": 34064896
@@ -828,7 +828,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -836,7 +836,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -844,7 +844,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 57753600,
           "physical_footprint_bytes": 29772288,
           "lifetime_peak_footprint_bytes": 34064896
@@ -858,7 +858,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -866,7 +866,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -874,7 +874,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 57753600,
           "physical_footprint_bytes": 29772288,
           "lifetime_peak_footprint_bytes": 34064896
@@ -888,7 +888,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -896,7 +896,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -904,7 +904,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 58359808,
           "physical_footprint_bytes": 29755904,
           "lifetime_peak_footprint_bytes": 34064896
@@ -918,7 +918,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -926,7 +926,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -934,7 +934,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 67862528,
           "physical_footprint_bytes": 32082432,
           "lifetime_peak_footprint_bytes": 39324160
@@ -948,7 +948,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -956,7 +956,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -964,7 +964,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 67862528,
           "physical_footprint_bytes": 32082432,
           "lifetime_peak_footprint_bytes": 39324160
@@ -978,7 +978,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -986,7 +986,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -994,7 +994,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 67862528,
           "physical_footprint_bytes": 32082432,
           "lifetime_peak_footprint_bytes": 39324160
@@ -1008,7 +1008,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1016,7 +1016,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1024,7 +1024,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 70434816,
           "physical_footprint_bytes": 34015744,
           "lifetime_peak_footprint_bytes": 39324160
@@ -1038,7 +1038,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1046,7 +1046,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1054,7 +1054,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 70402048,
           "physical_footprint_bytes": 33982976,
           "lifetime_peak_footprint_bytes": 39324160
@@ -1068,7 +1068,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1076,7 +1076,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1084,7 +1084,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 70402048,
           "physical_footprint_bytes": 33982976,
           "lifetime_peak_footprint_bytes": 39324160
@@ -1098,7 +1098,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1106,7 +1106,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1114,7 +1114,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 70402048,
           "physical_footprint_bytes": 33982976,
           "lifetime_peak_footprint_bytes": 39324160
@@ -1128,7 +1128,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1136,7 +1136,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1144,7 +1144,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 70402048,
           "physical_footprint_bytes": 33982976,
           "lifetime_peak_footprint_bytes": 39324160
@@ -1158,7 +1158,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1166,7 +1166,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1174,7 +1174,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 70369280,
           "physical_footprint_bytes": 33950208,
           "lifetime_peak_footprint_bytes": 39324160
@@ -1188,7 +1188,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1196,7 +1196,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1204,7 +1204,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 70369280,
           "physical_footprint_bytes": 33950208,
           "lifetime_peak_footprint_bytes": 39324160
@@ -1218,7 +1218,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1226,7 +1226,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1234,7 +1234,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 79249408,
           "physical_footprint_bytes": 36194816,
           "lifetime_peak_footprint_bytes": 42813952
@@ -1248,7 +1248,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1256,7 +1256,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1264,7 +1264,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 79249408,
           "physical_footprint_bytes": 36194816,
           "lifetime_peak_footprint_bytes": 42813952
@@ -1278,7 +1278,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1286,7 +1286,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1294,7 +1294,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 86540288,
           "physical_footprint_bytes": 36915712,
           "lifetime_peak_footprint_bytes": 43125248
@@ -1308,7 +1308,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1316,7 +1316,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1324,7 +1324,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 86540288,
           "physical_footprint_bytes": 36915712,
           "lifetime_peak_footprint_bytes": 43125248
@@ -1338,7 +1338,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1346,7 +1346,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1354,7 +1354,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 86507520,
           "physical_footprint_bytes": 36882944,
           "lifetime_peak_footprint_bytes": 43125248
@@ -1368,7 +1368,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1376,7 +1376,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1384,7 +1384,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 86507520,
           "physical_footprint_bytes": 36882944,
           "lifetime_peak_footprint_bytes": 43125248
@@ -1398,7 +1398,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1406,7 +1406,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1414,7 +1414,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 86507520,
           "physical_footprint_bytes": 36882944,
           "lifetime_peak_footprint_bytes": 43125248
@@ -1428,7 +1428,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1436,7 +1436,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1444,7 +1444,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 86507520,
           "physical_footprint_bytes": 36882944,
           "lifetime_peak_footprint_bytes": 43125248
@@ -1458,7 +1458,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1466,7 +1466,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1474,7 +1474,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 86458368,
           "physical_footprint_bytes": 36833792,
           "lifetime_peak_footprint_bytes": 43125248
@@ -1488,7 +1488,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1496,7 +1496,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1504,7 +1504,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 86458368,
           "physical_footprint_bytes": 36833792,
           "lifetime_peak_footprint_bytes": 43125248
@@ -1518,7 +1518,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1526,7 +1526,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1534,7 +1534,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 86458368,
           "physical_footprint_bytes": 36833792,
           "lifetime_peak_footprint_bytes": 43125248
@@ -1548,7 +1548,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1556,7 +1556,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1564,7 +1564,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 95387648,
           "physical_footprint_bytes": 39111168,
           "lifetime_peak_footprint_bytes": 45369856
@@ -1578,7 +1578,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1586,7 +1586,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1594,7 +1594,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 100728832,
           "physical_footprint_bytes": 37685760,
           "lifetime_peak_footprint_bytes": 45369856
@@ -1608,7 +1608,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1616,7 +1616,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1624,7 +1624,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 101072896,
           "physical_footprint_bytes": 37734912,
           "lifetime_peak_footprint_bytes": 45369856
@@ -1638,7 +1638,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1646,7 +1646,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1654,7 +1654,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 101072896,
           "physical_footprint_bytes": 37734912,
           "lifetime_peak_footprint_bytes": 45369856
@@ -1668,7 +1668,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1676,7 +1676,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1684,7 +1684,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 101072896,
           "physical_footprint_bytes": 37734912,
           "lifetime_peak_footprint_bytes": 45369856
@@ -1698,7 +1698,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1706,7 +1706,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1714,7 +1714,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 109101056,
           "physical_footprint_bytes": 39717376,
           "lifetime_peak_footprint_bytes": 45795840
@@ -1728,7 +1728,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1736,7 +1736,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1744,7 +1744,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 109101056,
           "physical_footprint_bytes": 39717376,
           "lifetime_peak_footprint_bytes": 45795840
@@ -1758,7 +1758,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1766,7 +1766,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1774,7 +1774,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 110313472,
           "physical_footprint_bytes": 39750144,
           "lifetime_peak_footprint_bytes": 45795840
@@ -1788,7 +1788,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1796,7 +1796,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1804,7 +1804,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 110313472,
           "physical_footprint_bytes": 39750144,
           "lifetime_peak_footprint_bytes": 45795840
@@ -1818,7 +1818,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1826,7 +1826,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1834,7 +1834,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 122191872,
           "physical_footprint_bytes": 40798720,
           "lifetime_peak_footprint_bytes": 51644928
@@ -1848,7 +1848,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1856,7 +1856,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1864,7 +1864,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 122191872,
           "physical_footprint_bytes": 40798720,
           "lifetime_peak_footprint_bytes": 51644928
@@ -1878,7 +1878,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1886,7 +1886,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1894,7 +1894,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 122191872,
           "physical_footprint_bytes": 40798720,
           "lifetime_peak_footprint_bytes": 51644928
@@ -1908,7 +1908,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1916,7 +1916,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1924,7 +1924,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 128172032,
           "physical_footprint_bytes": 40831488,
           "lifetime_peak_footprint_bytes": 51644928
@@ -1938,7 +1938,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1946,7 +1946,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1954,7 +1954,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 129089536,
           "physical_footprint_bytes": 40897024,
           "lifetime_peak_footprint_bytes": 51644928
@@ -1968,7 +1968,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -1976,7 +1976,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -1984,7 +1984,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 129089536,
           "physical_footprint_bytes": 40897024,
           "lifetime_peak_footprint_bytes": 51644928
@@ -1998,7 +1998,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9060352,
           "physical_footprint_bytes": 3507072,
           "lifetime_peak_footprint_bytes": 3507072
@@ -2006,7 +2006,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -2014,7 +2014,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 128925696,
           "physical_footprint_bytes": 40733184,
           "lifetime_peak_footprint_bytes": 51644928
@@ -2028,7 +2028,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9732096,
           "physical_footprint_bytes": 3638144,
           "lifetime_peak_footprint_bytes": 3638144
@@ -2036,7 +2036,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -2044,7 +2044,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 263602176,
           "physical_footprint_bytes": 105909440,
           "lifetime_peak_footprint_bytes": 105909440
@@ -2058,7 +2058,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9846784,
           "physical_footprint_bytes": 3752832,
           "lifetime_peak_footprint_bytes": 3752832
@@ -2066,7 +2066,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -2074,7 +2074,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 320339968,
           "physical_footprint_bytes": 79417024,
           "lifetime_peak_footprint_bytes": 162401984
@@ -2088,7 +2088,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9994240,
           "physical_footprint_bytes": 3900288,
           "lifetime_peak_footprint_bytes": 3900288
@@ -2096,7 +2096,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -2104,7 +2104,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 360759296,
           "physical_footprint_bytes": 119328960,
           "lifetime_peak_footprint_bytes": 162401984
@@ -2118,7 +2118,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 9994240,
           "physical_footprint_bytes": 3900288,
           "lifetime_peak_footprint_bytes": 3900288
@@ -2126,7 +2126,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -2134,7 +2134,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 366067712,
           "physical_footprint_bytes": 217190784,
           "lifetime_peak_footprint_bytes": 217190784
@@ -2148,7 +2148,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 10010624,
           "physical_footprint_bytes": 3916672,
           "lifetime_peak_footprint_bytes": 3916672
@@ -2156,7 +2156,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -2164,7 +2164,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 1004699648,
           "physical_footprint_bytes": 778868480,
           "lifetime_peak_footprint_bytes": 787732224
@@ -2178,7 +2178,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 10158080,
           "physical_footprint_bytes": 3998592,
           "lifetime_peak_footprint_bytes": 3998592
@@ -2186,7 +2186,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -2194,7 +2194,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 1018773504,
           "physical_footprint_bytes": 792090496,
           "lifetime_peak_footprint_bytes": 792123264
@@ -2208,7 +2208,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 10158080,
           "physical_footprint_bytes": 3998592,
           "lifetime_peak_footprint_bytes": 3998592
@@ -2216,7 +2216,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -2224,7 +2224,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 1019543552,
           "physical_footprint_bytes": 796481792,
           "lifetime_peak_footprint_bytes": 796498176
@@ -2238,7 +2238,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 10158080,
           "physical_footprint_bytes": 3998592,
           "lifetime_peak_footprint_bytes": 3998592
@@ -2246,7 +2246,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -2254,7 +2254,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 1020051456,
           "physical_footprint_bytes": 796563904,
           "lifetime_peak_footprint_bytes": 796563904
@@ -2268,7 +2268,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 10190848,
           "physical_footprint_bytes": 4031360,
           "lifetime_peak_footprint_bytes": 4031360
@@ -2276,7 +2276,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -2284,7 +2284,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 1026654208,
           "physical_footprint_bytes": 797858304,
           "lifetime_peak_footprint_bytes": 801610240
@@ -2298,7 +2298,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 10190848,
           "physical_footprint_bytes": 4031360,
           "lifetime_peak_footprint_bytes": 4031360
@@ -2306,7 +2306,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -2314,7 +2314,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 1026850816,
           "physical_footprint_bytes": 797891136,
           "lifetime_peak_footprint_bytes": 801610240
@@ -2328,7 +2328,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 10944512,
           "physical_footprint_bytes": 4801472,
           "lifetime_peak_footprint_bytes": 4801472
@@ -2336,7 +2336,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -2344,7 +2344,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 1031634944,
           "physical_footprint_bytes": 801888832,
           "lifetime_peak_footprint_bytes": 801888832
@@ -2358,7 +2358,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 11780096,
           "physical_footprint_bytes": 5653504,
           "lifetime_peak_footprint_bytes": 5653504
@@ -2366,7 +2366,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -2374,7 +2374,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 1037139968,
           "physical_footprint_bytes": 807131712,
           "lifetime_peak_footprint_bytes": 807131712
@@ -2388,7 +2388,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 11829248,
           "physical_footprint_bytes": 5702656,
           "lifetime_peak_footprint_bytes": 5702656
@@ -2396,7 +2396,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -2404,7 +2404,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 1039826944,
           "physical_footprint_bytes": 809081536,
           "lifetime_peak_footprint_bytes": 809081536
@@ -2418,7 +2418,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 11862016,
           "physical_footprint_bytes": 5735424,
           "lifetime_peak_footprint_bytes": 5735424
@@ -2426,7 +2426,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -2434,7 +2434,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 1048035328,
           "physical_footprint_bytes": 811457280,
           "lifetime_peak_footprint_bytes": 813701888
@@ -2448,7 +2448,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 11862016,
           "physical_footprint_bytes": 5735424,
           "lifetime_peak_footprint_bytes": 5735424
@@ -2456,7 +2456,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -2464,7 +2464,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 1048903680,
           "physical_footprint_bytes": 809523968,
           "lifetime_peak_footprint_bytes": 813701888
@@ -2478,7 +2478,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 11862016,
           "physical_footprint_bytes": 5735424,
           "lifetime_peak_footprint_bytes": 5735424
@@ -2486,7 +2486,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -2494,7 +2494,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 1049231360,
           "physical_footprint_bytes": 809523968,
           "lifetime_peak_footprint_bytes": 813701888
@@ -2508,7 +2508,7 @@
         {
           "pid": 69222,
           "parent_pid": 69217,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 11862016,
           "physical_footprint_bytes": 5735424,
           "lifetime_peak_footprint_bytes": 5735424
@@ -2516,7 +2516,7 @@
         {
           "pid": 69224,
           "parent_pid": 69222,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/target/debug/examples/media_answer_probe",
+          "executable": "/Users/developer/cachella/src-tauri/target/debug/examples/media_answer_probe",
           "resident_bytes": 3309568,
           "physical_footprint_bytes": 1688384,
           "lifetime_peak_footprint_bytes": 1688384
@@ -2524,7 +2524,7 @@
         {
           "pid": 69225,
           "parent_pid": 69224,
-          "executable": "/Users/hungpq2412/cachella/src-tauri/resources/engine/llama-server",
+          "executable": "/Users/developer/cachella/src-tauri/resources/engine/llama-server",
           "resident_bytes": 1049395200,
           "physical_footprint_bytes": 809589504,
           "lifetime_peak_footprint_bytes": 813701888

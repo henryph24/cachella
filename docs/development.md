@@ -130,7 +130,7 @@ npm run desktop:build:mac -- --debug --bundles app
 
 This command verifies the engine archive, rebuilds FFmpeg and x264 from pinned source, and applies both engine and decoder resource overlays. Decoder resources include source archives, licenses and standalone rebuild scripts. Engine preparation verifies existing outputs; decoder preparation always builds fresh source. The decoder receipt records the local build and does not authenticate cached binaries. For offline source preparation, run `python3 scripts/prepare_decoder.py --sources /path/to/archives --replace`. See [decoder verification](../evaluation/decoders/README.md).
 
-`npm run desktop:build` retains the engine-only packaging path, including Windows. Windows decoder preparation uses MSYS2 UCRT64 as described below. Native Windows execution remains a release gate. The raw Tauri CLI with the base configuration builds a manual-engine development app.
+`npm run desktop:build` retains the engine-only packaging path, including Windows. Windows decoder preparation uses MSYS2 UCRT64 as described below. Hosted Windows release execution passed; see the [qualification report](windows-runtime-qualification.md) for remaining Windows 11 acceptance gates. The raw Tauri CLI with the base configuration builds a manual-engine development app.
 
 Prepare the Windows decoder from the repository root in an MSYS2 UCRT64 shell:
 
@@ -142,7 +142,7 @@ pacman -S --needed python make pkgconf diffutils mingw-w64-ucrt-x86_64-gcc mingw
 Then build from the repository root in a Windows terminal with Node.js and the Rust/Tauri prerequisites:
 
 ```sh
-npm run desktop:bundle:windows -- --debug --bundles nsis
+npm run desktop:bundle:windows -- --bundles nsis
 ```
 
 The Windows source recipe includes pinned zlib and links its decoder dependencies statically. CI is configured to execute the production decoder smoke before bundling. Cross-compiling on macOS/Linux with MinGW-w64 and NASM uses `--platform windows-x86_64 --output /path/to/windows-decoder`; use a separate output from the macOS resources. Cross-compilation does not establish Windows runtime behavior.

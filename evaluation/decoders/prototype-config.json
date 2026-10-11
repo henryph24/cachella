@@ -2,8 +2,8 @@
   "status": "prototype build evidence; not a distribution recipe",
   "ffmpeg_configure": [
     "bash",
-    "/Users/hungpq2412/cachella/.local/decoder-source/ffmpeg-9.0.2/configure",
-    "--prefix=/Users/hungpq2412/cachella/.local/decoder-build/prefix",
+    "/Users/developer/cachella/.local/decoder-source/ffmpeg-9.0.2/configure",
+    "--prefix=/Users/developer/cachella/.local/decoder-build/prefix",
     "--disable-autodetect",
     "--disable-network",
     "--disable-doc",
@@ -32,8 +32,8 @@
   ],
   "x264_configure": [
     "bash",
-    "/Users/hungpq2412/cachella/.local/decoder-source/x264-0480cb05fa188d37ae87e8f4fd8f1aea3711f7ee/configure",
-    "--prefix=/Users/hungpq2412/cachella/.local/decoder-build/prefix-macos11",
+    "/Users/developer/cachella/.local/decoder-source/x264-0480cb05fa188d37ae87e8f4fd8f1aea3711f7ee/configure",
+    "--prefix=/Users/developer/cachella/.local/decoder-build/prefix-macos11",
     "--enable-static",
     "--enable-pic",
     "--disable-cli",

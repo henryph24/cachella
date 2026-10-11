@@ -4,7 +4,7 @@ Cachella is a pre-release desktop application. It has no supported public releas
 
 ## Reporting a vulnerability
 
-While the repository is private, report concerns through your existing private channel with the maintainer. A public-release reporting channel still needs configuration. Avoid posting exploit details, credentials or private source documents in a public issue. Include the app revision, operating system, affected path, impact and a minimal synthetic reproduction.
+While the repository is private, report concerns through your existing private channel with the maintainer. A public-release reporting channel still needs configuration. The repository API returned HTTP 404 for private vulnerability reporting during preparation; it has not been verified as enabled. See the [source-alpha publication gates](docs/alpha-release.md). Avoid posting exploit details, credentials or private source documents in a public issue. Include the app revision, operating system, affected path, impact and a minimal synthetic reproduction.
 
 ## Trust boundaries
 

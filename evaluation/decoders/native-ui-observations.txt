@@ -7,8 +7,8 @@ Documents 0
 Keyword search · 0 documents
 
 Local runtime:
-Included decoder selected : /Users/hungpq2412/cachella/src-tauri/target/debug/bundle/macos/Cachella Decoder Check.app/Contents/Resources/decoder/ffmpeg
-Library location: /Users/hungpq2412/Library/Application Support/com.cachella.decodercheck
+Included decoder selected : /Users/developer/cachella/src-tauri/target/debug/bundle/macos/Cachella Decoder Check.app/Contents/Resources/decoder/ffmpeg
+Library location: /Users/developer/Library/Application Support/com.cachella.decodercheck
 
 After importing budget-video.mp4 through the native file picker:
 1 file processed. Existing content is reused.
@@ -32,7 +32,7 @@ Slider Value: 1, Details: 3 seconds
 After quitting and relaunching:
 Documents 1
 1 documents and 2 indexed passages, available on this device.
-Included decoder selected : /Users/hungpq2412/cachella/src-tauri/target/debug/bundle/macos/Cachella Decoder Check.app/Contents/Resources/decoder/ffmpeg
+Included decoder selected : /Users/developer/cachella/src-tauri/target/debug/bundle/macos/Cachella Decoder Check.app/Contents/Resources/decoder/ffmpeg
 
 App was quit at the end. A read-only database and process check is recorded in native-profile-check.txt.
 These are transcribed CUA observations, not an automated browser test transcript.

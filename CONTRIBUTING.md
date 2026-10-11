@@ -1,6 +1,6 @@
 # Contributing to Cachella
 
-Cachella is preparing for a public open-source release. Source licensing is pending; the repository currently requires collaborator access.
+Cachella is preparing for a public open-source release. Source licensing is pending; the repository currently requires collaborator access. The [source-alpha release notes](docs/alpha-release.md) define the current qualification scope and publication gates.
 
 ## Development
 

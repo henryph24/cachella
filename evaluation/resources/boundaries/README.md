@@ -66,7 +66,7 @@ repeating the three FFmpeg commands; the commands do not overwrite files.
 - The five-case real-decoder regression passed after the fix (0.78 s), validating
   preview dimensions and every image part's 1–512-pixel bounds.
   [Green output](regression-green.txt).
-- `CACHELLA_FFMPEG=/Users/hungpq2412/cachella/src-tauri/resources/decoder/ffmpeg cargo test --manifest-path src-tauri/Cargo.toml --lib --features desktop`:
+- `CACHELLA_FFMPEG=/Users/developer/cachella/src-tauri/resources/decoder/ffmpeg cargo test --manifest-path src-tauri/Cargo.toml --lib --features desktop`:
   153 passed, zero failed, 3.04 s. [Full output](rust-tests.txt).
   The new decoder regression is conditional on `CACHELLA_FFMPEG`; this run set it
   explicitly. A run without that variable skips the real-decoder regression body.

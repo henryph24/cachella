@@ -3,7 +3,7 @@
 ERROR: test_pe_dependency_policy_rejects_external_runtime_and_missing_architecture (test_prepare_decoder.DecoderPreparationTests.test_pe_dependency_policy_rejects_external_runtime_and_missing_architecture)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/Users/hungpq2412/cachella/scripts/test_prepare_decoder.py", line 87, in test_pe_dependency_policy_rejects_external_runtime_and_missing_architecture
+  File "/Users/developer/cachella/scripts/test_prepare_decoder.py", line 87, in test_pe_dependency_policy_rejects_external_runtime_and_missing_architecture
     d.validate_pe_inspection(valid)
     ^^^^^^^^^^^^^^^^^^^^^^^^
 AttributeError: module 'prepare_decoder' has no attribute 'validate_pe_inspection'. Did you mean: 'validate_destination'?
@@ -12,7 +12,7 @@ AttributeError: module 'prepare_decoder' has no attribute 'validate_pe_inspectio
 ERROR: test_windows_recipe_keeps_cpu_assembly_and_static_dependencies (test_prepare_decoder.DecoderPreparationTests.test_windows_recipe_keeps_cpu_assembly_and_static_dependencies)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/Users/hungpq2412/cachella/scripts/test_prepare_decoder.py", line 74, in test_windows_recipe_keeps_cpu_assembly_and_static_dependencies
+  File "/Users/developer/cachella/scripts/test_prepare_decoder.py", line 74, in test_windows_recipe_keeps_cpu_assembly_and_static_dependencies
     x264, ffmpeg = d.flags_for('windows-x86_64', cross_prefix='x86_64-w64-mingw32-')
                    ^^^^^^^^^^^
 AttributeError: module 'prepare_decoder' has no attribute 'flags_for'
@@ -25,7 +25,7 @@ prepare_engine.PrepareError: decoder source preparation currently requires macOS
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/Users/hungpq2412/cachella/scripts/test_prepare_decoder.py", line 70, in test_unsupported_host_fails_explicitly
+  File "/Users/developer/cachella/scripts/test_prepare_decoder.py", line 70, in test_unsupported_host_fails_explicitly
     with self.assertRaisesRegex(d.PrepareError, 'MSYS2'):
          ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: "MSYS2" does not match "decoder source preparation currently requires macOS ARM64; Windows recipe pending"

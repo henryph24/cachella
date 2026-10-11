@@ -1,8 +1,8 @@
 {
   "after_cancel": [
-    "97544 /Users/hungpq2412/cachella/src-tauri/target/release/bundle/macos/Cachella Media Check.app/Contents/MacOS/cachella",
-    "97639 /Users/hungpq2412/cachella/src-tauri/target/release/bundle/macos/Cachella Media Check.app/Contents/MacOS/cachella",
-    "97640 /Users/hungpq2412/cachella/src-tauri/target/release/bundle/macos/Cachella Media Check.app/Contents/Resources/engine/llama-server"
+    "97544 /Users/developer/cachella/src-tauri/target/release/bundle/macos/Cachella Media Check.app/Contents/MacOS/cachella",
+    "97639 /Users/developer/cachella/src-tauri/target/release/bundle/macos/Cachella Media Check.app/Contents/MacOS/cachella",
+    "97640 /Users/developer/cachella/src-tauri/target/release/bundle/macos/Cachella Media Check.app/Contents/Resources/engine/llama-server"
   ],
   "after_quit": []
 }

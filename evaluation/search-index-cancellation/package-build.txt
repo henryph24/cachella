@@ -6,7 +6,7 @@
 > cachella@0.1.0 engine:prepare
 > python3 scripts/prepare_engine.py
 
-/Users/hungpq2412/cachella/src-tauri/resources/engine
+/Users/developer/cachella/src-tauri/resources/engine
         Info Looking up installed tauri packages to check mismatched versions...
      Running beforeBuildCommand `npm run build`
 
@@ -22,10 +22,10 @@ dist/index.html                   0.42 kB │ gzip:  0.28 kB
 dist/assets/index-DOMOwLOj.css   14.28 kB │ gzip:  3.90 kB
 dist/assets/index-DcLYgRxe.js   264.25 kB │ gzip: 81.59 kB
 ✓ built in 846ms
-   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+   Compiling cachella v0.1.0 (/Users/developer/cachella/src-tauri)
     Finished `dev` profile [unoptimized + debuginfo] target(s) in 3.95s
-       Built application at: /Users/hungpq2412/cachella/src-tauri/target/debug/cachella
-    Bundling Cachella.app (/Users/hungpq2412/cachella/src-tauri/target/debug/bundle/macos/Cachella.app)
+       Built application at: /Users/developer/cachella/src-tauri/target/debug/cachella
+    Bundling Cachella.app (/Users/developer/cachella/src-tauri/target/debug/bundle/macos/Cachella.app)
     Finished 1 bundle at:
-        /Users/hungpq2412/cachella/src-tauri/target/debug/bundle/macos/Cachella.app (115.12 MiB)
+        /Users/developer/cachella/src-tauri/target/debug/bundle/macos/Cachella.app (115.12 MiB)
 

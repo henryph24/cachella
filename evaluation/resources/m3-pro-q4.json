@@ -2700,7 +2700,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 191905792,
           "physical_footprint_bytes": 78744384,
           "lifetime_peak_footprint_bytes": 90770240
@@ -2722,7 +2722,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 274186240,
           "physical_footprint_bytes": 141774528,
           "lifetime_peak_footprint_bytes": 141774528
@@ -2744,7 +2744,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 304103424,
           "physical_footprint_bytes": 92065472,
           "lifetime_peak_footprint_bytes": 155946688
@@ -2766,7 +2766,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 326516736,
           "physical_footprint_bytes": 114462400,
           "lifetime_peak_footprint_bytes": 155946688
@@ -2788,7 +2788,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 735248384,
           "physical_footprint_bytes": 532599680,
           "lifetime_peak_footprint_bytes": 532599680
@@ -2810,7 +2810,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 992378880,
           "physical_footprint_bytes": 788338176,
           "lifetime_peak_footprint_bytes": 788338176
@@ -2832,7 +2832,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 992378880,
           "physical_footprint_bytes": 788338176,
           "lifetime_peak_footprint_bytes": 788338176
@@ -2854,7 +2854,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 1080639488,
           "physical_footprint_bytes": 875550464,
           "lifetime_peak_footprint_bytes": 875550464
@@ -2876,7 +2876,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 1065467904,
           "physical_footprint_bytes": 882759424,
           "lifetime_peak_footprint_bytes": 884414208
@@ -2898,7 +2898,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 1065811968,
           "physical_footprint_bytes": 883087104,
           "lifetime_peak_footprint_bytes": 884414208
@@ -2920,7 +2920,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 1065811968,
           "physical_footprint_bytes": 883087104,
           "lifetime_peak_footprint_bytes": 884414208
@@ -2942,7 +2942,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 1065664512,
           "physical_footprint_bytes": 882923264,
           "lifetime_peak_footprint_bytes": 884414208
@@ -2964,7 +2964,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 1065664512,
           "physical_footprint_bytes": 882923264,
           "lifetime_peak_footprint_bytes": 884414208
@@ -2986,7 +2986,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 1065664512,
           "physical_footprint_bytes": 799037184,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3016,7 +3016,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 1065467904,
           "physical_footprint_bytes": 792549120,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3046,7 +3046,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 1065467904,
           "physical_footprint_bytes": 792549120,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3076,7 +3076,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 1065467904,
           "physical_footprint_bytes": 792549120,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3106,7 +3106,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 1065271296,
           "physical_footprint_bytes": 792336128,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3136,7 +3136,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 1017741312,
           "physical_footprint_bytes": 828757760,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3166,7 +3166,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 895483904,
           "physical_footprint_bytes": 865933056,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3196,7 +3196,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 835387392,
           "physical_footprint_bytes": 871208704,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3226,7 +3226,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 835387392,
           "physical_footprint_bytes": 871208704,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3256,7 +3256,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 835371008,
           "physical_footprint_bytes": 871192320,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3286,7 +3286,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 835371008,
           "physical_footprint_bytes": 871192320,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3316,7 +3316,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 835371008,
           "physical_footprint_bytes": 871192320,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3346,7 +3346,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 835371008,
           "physical_footprint_bytes": 871192320,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3376,7 +3376,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 835371008,
           "physical_footprint_bytes": 871192320,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3406,7 +3406,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 835371008,
           "physical_footprint_bytes": 871192320,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3436,7 +3436,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 835371008,
           "physical_footprint_bytes": 871192320,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3466,7 +3466,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 835371008,
           "physical_footprint_bytes": 871192320,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3496,7 +3496,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 835371008,
           "physical_footprint_bytes": 871192320,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3526,7 +3526,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 746602496,
           "physical_footprint_bytes": 871192320,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3556,7 +3556,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 652525568,
           "physical_footprint_bytes": 871175936,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3586,7 +3586,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 652525568,
           "physical_footprint_bytes": 871175936,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3616,7 +3616,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 652525568,
           "physical_footprint_bytes": 871175936,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3646,7 +3646,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 652509184,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3676,7 +3676,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 652509184,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3706,7 +3706,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 652509184,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3736,7 +3736,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 652509184,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3766,7 +3766,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 652509184,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3796,7 +3796,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 652509184,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3826,7 +3826,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 652509184,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3856,7 +3856,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 652509184,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3886,7 +3886,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 652509184,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3916,7 +3916,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 652509184,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3946,7 +3946,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 652509184,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -3976,7 +3976,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 652509184,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4006,7 +4006,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 652509184,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4036,7 +4036,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 652509184,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4066,7 +4066,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 652509184,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4096,7 +4096,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 652476416,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4126,7 +4126,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 652476416,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4156,7 +4156,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 652476416,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4186,7 +4186,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 652476416,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4216,7 +4216,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 652476416,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4246,7 +4246,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 363954176,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4276,7 +4276,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 363954176,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4306,7 +4306,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 183418880,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4336,7 +4336,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 183418880,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4366,7 +4366,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 183418880,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4396,7 +4396,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 183418880,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4426,7 +4426,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 183418880,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4456,7 +4456,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 183418880,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4486,7 +4486,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 183418880,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4516,7 +4516,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 183418880,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4546,7 +4546,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4576,7 +4576,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4606,7 +4606,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4636,7 +4636,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4666,7 +4666,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4696,7 +4696,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4726,7 +4726,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4756,7 +4756,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4786,7 +4786,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4816,7 +4816,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4846,7 +4846,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4876,7 +4876,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4906,7 +4906,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4936,7 +4936,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4966,7 +4966,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -4996,7 +4996,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5026,7 +5026,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5056,7 +5056,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5086,7 +5086,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5116,7 +5116,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5146,7 +5146,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5176,7 +5176,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5206,7 +5206,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5236,7 +5236,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5266,7 +5266,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5296,7 +5296,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5326,7 +5326,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5356,7 +5356,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5386,7 +5386,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5416,7 +5416,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5446,7 +5446,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5476,7 +5476,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5506,7 +5506,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5536,7 +5536,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5566,7 +5566,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5596,7 +5596,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5626,7 +5626,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5656,7 +5656,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5686,7 +5686,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5716,7 +5716,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5746,7 +5746,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5776,7 +5776,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5806,7 +5806,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5836,7 +5836,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5866,7 +5866,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5896,7 +5896,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 181157888,
           "physical_footprint_bytes": 871159552,
           "lifetime_peak_footprint_bytes": 884414208
@@ -5926,7 +5926,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 201687040,
           "physical_footprint_bytes": 963647232,
           "lifetime_peak_footprint_bytes": 966285056
@@ -5956,7 +5956,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 210632704,
           "physical_footprint_bytes": 961058560,
           "lifetime_peak_footprint_bytes": 966285056
@@ -5986,7 +5986,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 211255296,
           "physical_footprint_bytes": 961255168,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6016,7 +6016,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 211255296,
           "physical_footprint_bytes": 961255168,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6046,7 +6046,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 211255296,
           "physical_footprint_bytes": 961255168,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6076,7 +6076,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 211255296,
           "physical_footprint_bytes": 961255168,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6106,7 +6106,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 211255296,
           "physical_footprint_bytes": 877369088,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6136,7 +6136,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 211255296,
           "physical_footprint_bytes": 871094016,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6166,7 +6166,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 211255296,
           "physical_footprint_bytes": 871094016,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6196,7 +6196,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 211255296,
           "physical_footprint_bytes": 871094016,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6226,7 +6226,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 211255296,
           "physical_footprint_bytes": 871094016,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6256,7 +6256,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 211255296,
           "physical_footprint_bytes": 871094016,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6286,7 +6286,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 211255296,
           "physical_footprint_bytes": 871094016,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6316,7 +6316,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 205307904,
           "physical_footprint_bytes": 871094016,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6346,7 +6346,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 205307904,
           "physical_footprint_bytes": 871094016,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6376,7 +6376,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 205307904,
           "physical_footprint_bytes": 871094016,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6406,7 +6406,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 205307904,
           "physical_footprint_bytes": 871094016,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6436,7 +6436,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 205307904,
           "physical_footprint_bytes": 871094016,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6466,7 +6466,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 205307904,
           "physical_footprint_bytes": 871094016,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6496,7 +6496,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 205307904,
           "physical_footprint_bytes": 871094016,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6526,7 +6526,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 205307904,
           "physical_footprint_bytes": 871094016,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6556,7 +6556,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 205307904,
           "physical_footprint_bytes": 871094016,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6586,7 +6586,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 205307904,
           "physical_footprint_bytes": 871094016,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6616,7 +6616,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 205307904,
           "physical_footprint_bytes": 871094016,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6646,7 +6646,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 205291520,
           "physical_footprint_bytes": 871094016,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6676,7 +6676,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 205291520,
           "physical_footprint_bytes": 871094016,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6706,7 +6706,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 205275136,
           "physical_footprint_bytes": 871077632,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6736,7 +6736,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 205275136,
           "physical_footprint_bytes": 871077632,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6766,7 +6766,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 205275136,
           "physical_footprint_bytes": 871077632,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6796,7 +6796,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 205275136,
           "physical_footprint_bytes": 871077632,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6826,7 +6826,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 205275136,
           "physical_footprint_bytes": 871077632,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6856,7 +6856,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 205275136,
           "physical_footprint_bytes": 871077632,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6886,7 +6886,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 205275136,
           "physical_footprint_bytes": 871077632,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6916,7 +6916,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 205275136,
           "physical_footprint_bytes": 871077632,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6946,7 +6946,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 205275136,
           "physical_footprint_bytes": 871077632,
           "lifetime_peak_footprint_bytes": 966285056
@@ -6976,7 +6976,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 200474624,
           "physical_footprint_bytes": 871077632,
           "lifetime_peak_footprint_bytes": 966285056
@@ -7006,7 +7006,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 200474624,
           "physical_footprint_bytes": 871077632,
           "lifetime_peak_footprint_bytes": 966285056
@@ -7036,7 +7036,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 184909824,
           "physical_footprint_bytes": 871077632,
           "lifetime_peak_footprint_bytes": 966285056
@@ -7066,7 +7066,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 184827904,
           "physical_footprint_bytes": 871077632,
           "lifetime_peak_footprint_bytes": 966285056
@@ -7096,7 +7096,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 184827904,
           "physical_footprint_bytes": 871077632,
           "lifetime_peak_footprint_bytes": 966285056
@@ -7126,7 +7126,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 184827904,
           "physical_footprint_bytes": 871077632,
           "lifetime_peak_footprint_bytes": 966285056
@@ -7156,7 +7156,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 184827904,
           "physical_footprint_bytes": 871077632,
           "lifetime_peak_footprint_bytes": 966285056
@@ -7186,7 +7186,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 184827904,
           "physical_footprint_bytes": 871077632,
           "lifetime_peak_footprint_bytes": 966285056
@@ -7216,7 +7216,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 184827904,
           "physical_footprint_bytes": 871077632,
           "lifetime_peak_footprint_bytes": 966285056
@@ -7246,7 +7246,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 184827904,
           "physical_footprint_bytes": 871077632,
           "lifetime_peak_footprint_bytes": 966285056
@@ -7276,7 +7276,7 @@
         {
           "pid": 83746,
           "parent_pid": 83449,
-          "executable": "/Users/hungpq2412/cachella/.local/llama-embedding-build/bin/llama-server",
+          "executable": "/Users/developer/cachella/.local/llama-embedding-build/bin/llama-server",
           "resident_bytes": 184827904,
           "physical_footprint_bytes": 871077632,
           "lifetime_peak_footprint_bytes": 966285056

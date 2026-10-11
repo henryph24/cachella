@@ -1,4 +1,4 @@
-   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+   Compiling cachella v0.1.0 (/Users/developer/cachella/src-tauri)
     Finished `dev` profile [unoptimized + debuginfo] target(s) in 7.76s
      Running `src-tauri/target/debug/examples/decode_smoke .local/decoder-build/ffmpeg/ffmpeg evaluation/multimodal/fixtures/red-circle.png evaluation/multimodal/fixtures/blue-square.png evaluation/multimodal/fixtures/budget.wav evaluation/multimodal/fixtures/lunch.wav evaluation/multimodal/fixtures/temporal-video.mp4 evaluation/multimodal/fixtures/budget-video.mp4`
 Error: "ffprobe could not inspect this media file: Unknown input format: png_pipe Failed to set value 'png_pipe' for option 'f': Invalid argument"

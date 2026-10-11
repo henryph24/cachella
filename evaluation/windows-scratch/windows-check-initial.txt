@@ -27,14 +27,14 @@
     Checking tempfile v3.27.0
    Compiling syn v3.0.6
    Compiling serde_derive v1.0.229
-    Checking cachella-scratch-check v0.1.0 (/Users/hungpq2412/cachella/scripts/scratch-check)
+    Checking cachella-scratch-check v0.1.0 (/Users/developer/cachella/scripts/scratch-check)
 error[E0412]: cannot find type `FILE_DIRECTORY_INFORMATION` in this scope
     --> ../../src-tauri/src/scratch_windows.rs:333:46
      |
  333 |         if buffer.len() - offset < size_of::<FILE_DIRECTORY_INFORMATION>() - size_of::<u16>() {
      |                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^ help: a struct with a similar name exists: `FILE_DISPOSITION_INFORMATION`
      |
-    ::: /Users/hungpq2412/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/windows-sys-0.61.2/src/Windows/Wdk/Storage/FileSystem/mod.rs:1699:1
+    ::: /Users/developer/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/windows-sys-0.61.2/src/Windows/Wdk/Storage/FileSystem/mod.rs:1699:1
      |
 1699 | pub struct FILE_DISPOSITION_INFORMATION {
      | --------------------------------------- similarly named struct `FILE_DISPOSITION_INFORMATION` defined here
@@ -45,7 +45,7 @@ error[E0412]: cannot find type `FILE_DIRECTORY_INFORMATION` in this scope
  336 |         let entry = unsafe { &*(buffer[offset..].as_ptr().cast::<FILE_DIRECTORY_INFORMATION>()) };
      |                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^ help: a struct with a similar name exists: `FILE_DISPOSITION_INFORMATION`
      |
-    ::: /Users/hungpq2412/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/windows-sys-0.61.2/src/Windows/Wdk/Storage/FileSystem/mod.rs:1699:1
+    ::: /Users/developer/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/windows-sys-0.61.2/src/Windows/Wdk/Storage/FileSystem/mod.rs:1699:1
      |
 1699 | pub struct FILE_DISPOSITION_INFORMATION {
      | --------------------------------------- similarly named struct `FILE_DISPOSITION_INFORMATION` defined here
@@ -56,7 +56,7 @@ error[E0412]: cannot find type `FILE_DIRECTORY_INFORMATION` in this scope
  337 |         let name_start = offset + (size_of::<FILE_DIRECTORY_INFORMATION>() - size_of::<u16>());
      |                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^ help: a struct with a similar name exists: `FILE_DISPOSITION_INFORMATION`
      |
-    ::: /Users/hungpq2412/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/windows-sys-0.61.2/src/Windows/Wdk/Storage/FileSystem/mod.rs:1699:1
+    ::: /Users/developer/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/windows-sys-0.61.2/src/Windows/Wdk/Storage/FileSystem/mod.rs:1699:1
      |
 1699 | pub struct FILE_DISPOSITION_INFORMATION {
      | --------------------------------------- similarly named struct `FILE_DISPOSITION_INFORMATION` defined here
@@ -67,7 +67,7 @@ error[E0412]: cannot find type `FILE_DIRECTORY_INFORMATION` in this scope
  353 | ...   if next < size_of::<FILE_DIRECTORY_INFORMATION>() - size_of::<u16>() || offset.checked_add(next).filter(|end| *end < buffer.len())....
      |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^ help: a struct with a similar name exists: `FILE_DISPOSITION_INFORMATION`
      |
-    ::: /Users/hungpq2412/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/windows-sys-0.61.2/src/Windows/Wdk/Storage/FileSystem/mod.rs:1699:1
+    ::: /Users/developer/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/windows-sys-0.61.2/src/Windows/Wdk/Storage/FileSystem/mod.rs:1699:1
      |
 1699 | pub struct FILE_DISPOSITION_INFORMATION {
      | --------------------------------------- similarly named struct `FILE_DISPOSITION_INFORMATION` defined here
@@ -84,7 +84,7 @@ error[E0308]: mismatched types
     = note: expected raw pointer `*mut c_void`
                       found type `usize`
 note: function defined here
-   --> /Users/hungpq2412/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/windows-sys-0.61.2/src/Windows/Wdk/Storage/FileSystem/mod.rs:660:45
+   --> /Users/developer/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/windows-sys-0.61.2/src/Windows/Wdk/Storage/FileSystem/mod.rs:660:45
     |
 660 | windows_link::link!("ntdll.dll" "system" fn NtQueryDirectoryFile(filehandle : super::super::super::Win32::Foundation:: HANDLE, event : su...
     |                                             ^^^^^^^^^^^^^^^^^^^^

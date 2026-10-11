@@ -8,7 +8,7 @@
    Compiling tokio-rustls v0.26.6
    Compiling hyper-rustls v0.27.10
    Compiling reqwest v0.12.28
-   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+   Compiling cachella v0.1.0 (/Users/developer/cachella/src-tauri)
     Finished `dev` profile [unoptimized + debuginfo] target(s) in 36.39s
      Running `src-tauri/target/debug/examples/pdf_smoke .local/engine-candidate/llama-b11531/llama-server .local/models/Qwen3-1.7B-Q4_K_M.gguf .local/models/embeddinggemma-2-Q8_0.gguf .local/models/mmproj-embeddinggemma-2-Q8_0.gguf evaluation/pdf/fixtures/project-brief.pdf evaluation/pdf/model-results.json`
 PASS: guarded PDF import preserves 3 physical pages and searches page 3 after a blank page.

@@ -18,7 +18,7 @@
         ],
         "created": 1791578199,
         "id": "chatcmpl-OfsAcJwtTWo7Dy3EoHPJNdok73tnNFAk",
-        "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+        "model": "/Users/developer/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
         "object": "chat.completion",
         "system_fingerprint": "b11531-8b5436102",
         "timings": {
@@ -70,7 +70,7 @@
         ],
         "created": 1791578201,
         "id": "chatcmpl-Lbmy6VVm0zLmecaSTOawVulVZvLjPHaE",
-        "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+        "model": "/Users/developer/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
         "object": "chat.completion",
         "system_fingerprint": "b11531-8b5436102",
         "timings": {
@@ -122,7 +122,7 @@
         ],
         "created": 1791578202,
         "id": "chatcmpl-PwbBeBJkJejPwBwY4WEuBRMHJYn5AluS",
-        "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+        "model": "/Users/developer/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
         "object": "chat.completion",
         "system_fingerprint": "b11531-8b5436102",
         "timings": {
@@ -174,7 +174,7 @@
         ],
         "created": 1791578203,
         "id": "chatcmpl-M4pT1EfZIR7gfV2irhUQYnrL0EsANFvO",
-        "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+        "model": "/Users/developer/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
         "object": "chat.completion",
         "system_fingerprint": "b11531-8b5436102",
         "timings": {
@@ -226,7 +226,7 @@
         ],
         "created": 1791578204,
         "id": "chatcmpl-IZVgeoXuV3WsRoJmRfb2XEGnHQ2OH2ml",
-        "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+        "model": "/Users/developer/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
         "object": "chat.completion",
         "system_fingerprint": "b11531-8b5436102",
         "timings": {
@@ -278,7 +278,7 @@
         ],
         "created": 1791578205,
         "id": "chatcmpl-Z4P9EThWnkk50Nm4K4jQ5mBuIj1SAWnD",
-        "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+        "model": "/Users/developer/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
         "object": "chat.completion",
         "system_fingerprint": "b11531-8b5436102",
         "timings": {

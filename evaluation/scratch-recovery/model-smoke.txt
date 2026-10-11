@@ -1,4 +1,4 @@
-   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+   Compiling cachella v0.1.0 (/Users/developer/cachella/src-tauri)
     Finished `dev` profile [unoptimized + debuginfo] target(s) in 8.18s
      Running `src-tauri/target/debug/examples/pdf_smoke .local/engine-candidate/llama-b11531/llama-server .local/models/Qwen3-1.7B-Q4_K_M.gguf .local/models/embeddinggemma-2-Q8_0.gguf .local/models/mmproj-embeddinggemma-2-Q8_0.gguf evaluation/pdf/fixtures/project-brief.pdf evaluation/scratch-recovery/model-results.json`
 PASS: guarded PDF import preserves 3 physical pages and searches page 3 after a blank page.

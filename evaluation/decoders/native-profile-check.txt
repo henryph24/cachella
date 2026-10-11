@@ -1,7 +1,7 @@
 PASS: isolated test app exited; 1 document, 2 chunks, 1 video asset, 2 media parts, 0 embeddings persisted
 PASS: included decoder used without a media-tools.json override
 {
-  "profile": "/Users/hungpq2412/Library/Application Support/com.cachella.decodercheck",
+  "profile": "/Users/developer/Library/Application Support/com.cachella.decodercheck",
   "counts": {
     "documents": 1,
     "chunks": 2,

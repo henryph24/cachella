@@ -36,7 +36,7 @@ libmpc
 ==> Would upgrade 1 dependency for mingw-w64:
 xz
 ==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/b1c63f8c9fa7f115188c81f91e04c7914d24764e/Formula/x/xz.rb
-Already downloaded: /Users/hungpq2412/Library/Caches/Homebrew/downloads/13257a85f34839562856c2223076b628b74fa96d7dab8ca561f2aa373bdbfaa0--xz.rb
+Already downloaded: /Users/developer/Library/Caches/Homebrew/downloads/13257a85f34839562856c2223076b628b74fa96d7dab8ca561f2aa373bdbfaa0--xz.rb
 ==> Fetching downloads for: mingw-w64 and nasm
 ✔︎ Bottle nasm (3.02)
 ✔︎ Bottle Manifest isl (0.28)

@@ -1,4 +1,4 @@
-   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+   Compiling cachella v0.1.0 (/Users/developer/cachella/src-tauri)
     Finished `test` profile [unoptimized + debuginfo] target(s) in 2.08s
      Running unittests src/lib.rs (src-tauri/target/debug/deps/cachella_lib-29f73393dc8ef66a)
 

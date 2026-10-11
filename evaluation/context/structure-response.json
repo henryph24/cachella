@@ -11,7 +11,7 @@
   ],
   "created": 1791585486,
   "id": "chatcmpl-J2k1kfdeFFV60N1SByKejL6xra6ujLzr",
-  "model": "/Users/hungpq2412/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
+  "model": "/Users/developer/cachella/.local/models/gemma-4-E2B-it-Q4_0.gguf",
   "object": "chat.completion",
   "system_fingerprint": "b11531-8b5436102",
   "timings": {

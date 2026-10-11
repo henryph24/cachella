@@ -1,4 +1,4 @@
-    Checking cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+    Checking cachella v0.1.0 (/Users/developer/cachella/src-tauri)
 error: read amount is not handled
    --> src/inference.rs:416:13
     |

@@ -612,3 +612,18 @@ made. Full product completion is unproven.
 - [x] Inspect artifacts, diagnose demonstrated failures, and record remaining consumer/interactive limits. Evidence in evaluation/windows-runtime; scope and remaining Windows 11 work in docs/windows-runtime-qualification.md.
 
 Scope uses the existing private GitHub Windows runner with a bounded job timeout; no paid VM subscription or local Windows installation is requested.
+
+## Public alpha preparation: 2026-10-11
+
+- [ ] Confirm the maintainer's source-license choice and align notices/metadata.
+- [x] Audit publication content, reachable history and resolved dependency licensing.
+- [x] Prepare source-alpha release notes, publication gates and reproducible verification instructions.
+- [x] Check signing/reporting prerequisites; record unavailable access without claiming release completion.
+- [x] Validate the scoped changes and obtain independent review; commit/push authorized by the maintainer.
+
+Scope: prepare the alpha in the existing private repository. Publishing visibility,
+signed binary distribution and destructive history rewriting require their concrete
+release prerequisites; the requested commit/push proceeds for completed preparation.
+
+Verification: seven inventory fixture tests passed; 776 resolved package entries reproduce; 137 evidence files preserve all bytes except the home prefix; 102 local Markdown links resolve. History and prepared snapshot scans each return one reviewed prose false positive (raw exit 1). Signing identities: zero. Source license awaits maintainer choice.
+Independent review: two rounds; stale metadata replay removed after a failing regression. Final seven tests and inventory reproduction passed. Full desktop CI is skipped for this preparation-only commit; application behavior is unchanged.

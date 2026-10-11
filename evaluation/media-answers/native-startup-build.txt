@@ -39,10 +39,10 @@ dist/assets/index-DYBCnF7F.js   266.47 kB │ gzip: 82.10 kB
    Compiling tauri-runtime v2.12.1
    Compiling tauri-runtime-wry v2.12.1
    Compiling tauri v2.12.2
-   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+   Compiling cachella v0.1.0 (/Users/developer/cachella/src-tauri)
     Finished `dev` profile [unoptimized + debuginfo] target(s) in 16.45s
-       Built application at: /Users/hungpq2412/cachella/src-tauri/target/debug/cachella
-    Bundling Cachella Media Check.app (/Users/hungpq2412/cachella/src-tauri/target/debug/bundle/macos/Cachella Media Check.app)
+       Built application at: /Users/developer/cachella/src-tauri/target/debug/cachella
+    Bundling Cachella Media Check.app (/Users/developer/cachella/src-tauri/target/debug/bundle/macos/Cachella Media Check.app)
     Finished 1 bundle at:
-        /Users/hungpq2412/cachella/src-tauri/target/debug/bundle/macos/Cachella Media Check.app (145.09 MiB)
+        /Users/developer/cachella/src-tauri/target/debug/bundle/macos/Cachella Media Check.app (145.09 MiB)
 

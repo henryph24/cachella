@@ -13,10 +13,10 @@ dist/index.html                   0.42 kB │ gzip:  0.28 kB
 dist/assets/index-DOMOwLOj.css   14.28 kB │ gzip:  3.90 kB
 dist/assets/index-80Yvu-L7.js   264.81 kB │ gzip: 81.74 kB
 ✓ built in 886ms
-   Compiling cachella v0.1.0 (/Users/hungpq2412/cachella/src-tauri)
+   Compiling cachella v0.1.0 (/Users/developer/cachella/src-tauri)
     Finished `dev` profile [unoptimized + debuginfo] target(s) in 7.83s
-       Built application at: /Users/hungpq2412/cachella/src-tauri/target/debug/cachella
-    Bundling Cachella Decoder Check.app (/Users/hungpq2412/cachella/src-tauri/target/debug/bundle/macos/Cachella Decoder Check.app)
+       Built application at: /Users/developer/cachella/src-tauri/target/debug/cachella
+    Bundling Cachella Decoder Check.app (/Users/developer/cachella/src-tauri/target/debug/bundle/macos/Cachella Decoder Check.app)
     Finished 1 bundle at:
-        /Users/hungpq2412/cachella/src-tauri/target/debug/bundle/macos/Cachella Decoder Check.app (144.99 MiB)
+        /Users/developer/cachella/src-tauri/target/debug/bundle/macos/Cachella Decoder Check.app (144.99 MiB)
 
