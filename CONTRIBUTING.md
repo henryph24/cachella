@@ -1,6 +1,6 @@
 # Contributing to Cachella
 
-Cachella is preparing for a public open-source release. Source licensing is pending; the repository currently requires collaborator access. The [source-alpha release notes](docs/alpha-release.md) define the current qualification scope and publication gates.
+Cachella is an open-source alpha licensed under the [MIT License](LICENSE). The [source-alpha release notes](docs/alpha-release.md) define the current qualification scope and publication gates.
 
 ## Development
 
@@ -14,7 +14,7 @@ Describe the problem, resulting behavior, checks run and remaining limits in the
 
 Include the operating system and architecture, app revision, model and engine versions, reproducible steps and redacted diagnostic output. State whether the issue occurs with a bundled or manually selected engine. Do not attach model weights or a private knowledge library.
 
-For a suspected security vulnerability, avoid a public issue containing exploit details or secrets. Follow the [security policy](SECURITY.md). A public-release private reporting channel still needs configuration.
+For a suspected security vulnerability, avoid a public issue containing exploit details or secrets. Follow the [security policy](SECURITY.md).
 
 ## Third-party changes
 

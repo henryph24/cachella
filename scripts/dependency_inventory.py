@@ -194,7 +194,7 @@ def generate(root, metadata):
                         "This inventory provides no legal clearance or final binary notice bundle. Declared metadata must be checked against license/NOTICE texts when distributing binaries.",
                         "Resolved across platform conditions; counts exceed any one platform's compiled or shipped dependencies. Cargo registry declarations come from local locked-package metadata.",
                         "Nested native/vendor code and complete upstream binary archive contents require a separate target-specific distribution audit.",
-                        "The Cachella project license remains a separate owner decision. Model catalog declarations do not verify publisher terms."],
+                        "The Cachella project source uses MIT; dependencies retain their separate licenses. Model catalog declarations do not verify publisher terms."],
     }
 
 
@@ -207,7 +207,7 @@ def render_report(data):
     counts = data["summary"]
     lines = ["# Source-alpha dependency license inventory", "",
              f"The locked graph contains {counts['cargo_packages']} third-party Cargo packages and {counts['npm_instances']} npm package instances; {counts['missing_license_metadata']} have missing license declarations and {counts['packages_with_missing_metadata']} have any missing recorded metadata. There are {counts['distribution_boundaries']} additional distribution boundaries.", "",
-             "This is an engineering inventory of the source alpha. Legal clearance, verification of every upstream license/NOTICE text, model publisher terms and the final per-platform binary notice bundle remain open. Cachella's source license is a separate owner decision.", "",
+             "This is an engineering inventory of the source alpha. Legal clearance, verification of every upstream license/NOTICE text, model publisher terms and the final per-platform binary notice bundle remain open. Cachella's own source uses MIT; upstream licenses remain separate.", "",
              "## Reproduce", "", "```sh", "python3 scripts/dependency_inventory.py --cargo /opt/homebrew/bin/cargo", "python3 scripts/dependency_inventory.py --cargo /opt/homebrew/bin/cargo --check", "python3 -m unittest discover -s scripts -p test_dependency_inventory.py -v", "```", "",
              "The generator uses Python 3.11+, the npm v3 lockfile and locked offline Cargo metadata with `desktop` enabled. It applies no platform filter, preserving Windows, Unix and other resolved target dependencies. Use `--allow-network` only when a locked package is unavailable locally. The JSON records exact sources, versions, checksums/integrity, npm instances and flags, Cargo incoming edge kinds and target conditions, and input hashes.", "",
              "Cargo runtime/build/development labels describe graph reachability. Normal dependencies of a build dependency inherit build context; proc-macros can execute during compilation despite normal edges. npm development labels include build tooling; the lockfile cannot establish which code enters a frontend bundle. All-target reachability does not establish binary inclusion.", "",

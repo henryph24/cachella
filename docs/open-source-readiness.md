@@ -1,11 +1,11 @@
 # Open-source readiness
 
-Checked 11 October 2026. Repository: [henryph24/cachella](https://github.com/henryph24/cachella). Git and the GitHub remote are already initialized. Visibility remains private while publication preparation is in progress.
+Checked 11 October 2026. Repository: [henryph24/cachella](https://github.com/henryph24/cachella). Git and the GitHub remote are already initialized. The maintainer authorized public source publication under MIT.
 
 - [x] Provide a public-facing README with setup, capabilities, limits and evidence.
 - [x] Preserve detailed runtime and build guidance in a development guide.
 - [x] Add contribution guidance and identify major third-party licensing boundaries.
-- [ ] Select the project source license, add its full text and align package metadata.
+- [x] Select MIT, add its full text and align package metadata.
 - [x] Scan all 11 existing commits with Gitleaks 8.30.1 and review its one finding.
 - [x] Complete the bounded publication-content review; see [findings and scope](publication-review.md).
 - [x] Review evaluation artifacts and history; normalize personal home prefixes in 137 current evidence files and disclose retained historical paths.
@@ -14,7 +14,7 @@ Checked 11 October 2026. Repository: [henryph24/cachella](https://github.com/hen
 - [ ] Configure private vulnerability reporting and publish its instructions.
 - [x] Qualify the Windows release installer and actual model execution on the hosted runner; consumer Windows 11 acceptance remains open.
 - [ ] Validate the intended consumer hardware; qualify cloud source integrations before advertising them.
-- [ ] Publish the repository after the maintainer's release decision; create signed releases separately.
+- [x] Publish the source repository with maintainer authorization; signed releases remain pending.
 
 ## Windows checkpoint
 
@@ -24,7 +24,7 @@ Checked 11 October 2026. Repository: [henryph24/cachella](https://github.com/hen
 
 Generated binaries, model weights, local databases and credentials belong outside source commits. The repository includes development evaluation evidence and historical logs; ignore rules cannot remove files already tracked or erase history. A secrets scanner supplements review and cannot certify that a repository contains no sensitive information.
 
-The current task prepares documentation and repository hygiene. Visibility changes, signed binary publication and accepting paid services are separate actions.
+The source repository is public under MIT. Signed binary publication and paid services remain outside this source publication.
 
 ## Verification record
 
@@ -35,6 +35,6 @@ single prose finding is documented explicitly; its raw exit remains 1.
 The inventory generator has seven focused fixture tests and a reproducibility check.
 Documentation and evidence-path normalization are exempt from test-first; application
 behavior is unchanged. Signing discovery returned `0 valid identities found`.
-Private vulnerability reporting returned HTTP 404 and remains unverified.
+The private-repository preflight returned HTTP 404 for vulnerability reporting; public reporting status is recorded in the security policy.
 
 See the [alpha release notes](alpha-release.md) for source and installer gates.

@@ -1,8 +1,8 @@
 # Cachella 0.1.0 source alpha candidate
 
-Status: prepared for review in the private repository. No public release, tag or
+Status: public source alpha. No packaged release, tag or
 end-user installer is published. Package versions remain `0.1.0`; alpha status is
-explicit in these notes and the README. The source-license decision is pending.
+explicit in these notes and the README. Cachella's own source uses the [MIT License](../LICENSE).
 
 ## Intended audience and setup
 
@@ -33,11 +33,11 @@ restoration and a public updater have not been qualified.
 
 | Gate | Current evidence | Remaining action |
 | --- | --- | --- |
-| Project license | Maintainer selection requested | Add the selected full license and align npm/Cargo metadata |
+| Project license | MIT selected | Full license and npm/Cargo metadata included |
 | Source content and history | [Publication review](publication-review.md); historical paths classified as development provenance | Keep the review's scope and path disclosure with the release |
 | Dependency licensing | [Resolved inventory](dependency-licenses.md) | Resolve any missing metadata; retain notices and separate binary/model terms |
-| Private security reporting | Private-repository API returned HTTP 404 | After public visibility is authorized, enable and verify GitHub private vulnerability reporting before announcing the release |
-| Public repository/release | Existing repository remains private | Publish only the reviewed commit after the source gates are satisfied; mark the release as a prerelease |
+| Private security reporting | GitHub private vulnerability reporting | Use the confidential reporting link in the security policy |
+| Public repository/release | Public source alpha | Signed installer releases remain pending; mark any alpha package release as a prerelease |
 | macOS installer | `security find-identity -v -p codesigning`: `0 valid identities found` | Provide Developer ID signing identity and notarization credentials, then qualify the signed artifact |
 | Windows installer | Hosted unsigned development artifact passed six runtime gates | Qualify intended user installation and signing before advertising an end-user package |
 

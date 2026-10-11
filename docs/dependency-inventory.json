@@ -28730,13 +28730,13 @@
     }
   ],
   "inputs_sha256": {
-    "package-lock.json": "667963df6caaef03bce58192564a44d73db76bbde04a06c54d4b7e347a6daa38",
-    "package.json": "f36c9f9932510f065c87d9946f0526c88459cfbad7a38ec9795d862f85c757de",
+    "package-lock.json": "7b1cad2434194a98bdb6f207850acd245473b96330e3c1677898ec0a58246b35",
+    "package.json": "e7449c786fd91f293adce9d384c924c5d39322a5fa438bbef47849acdb06febf",
     "scripts/licenses/llama.cpp-LICENSE.txt": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d",
     "scripts/prepare_decoder.py": "348ffbb68ed0bba03af882b3c28592571514853b51e25276ebf8dbafe1b69e63",
     "scripts/prepare_engine.py": "d963518d42047af105a614e788940ceb3959105ae5f61e493c9057069088df72",
     "src-tauri/Cargo.lock": "3654e829dfc3a5759cf8669532802ed8e0e167b4db529247afd7be16a86f1d02",
-    "src-tauri/Cargo.toml": "1351c8ddea0a10f4a14c2d03f55c44279dba1bf01884858a064a4f52857f699c",
+    "src-tauri/Cargo.toml": "4d3d59c156002dfc5ed10fffe630351bd78b2807a344e4be2eb959eb93ed2fc3",
     "src-tauri/src/models.rs": "18adb8373707364d1f5e384b4f35c53ae51e621c8d4627b89883907ad9e10d5c",
     "vendor/lopdf/Cargo.toml": "271a88255c99418241b9beae196ebb857eda8a9e5fb03c6ae954d2b6d2290aff",
     "vendor/lopdf/LICENSE": "2fb01e6708ea9d53e8b7e74bd82af23bce5256f19f4de93915027a53173c50d8"
@@ -28746,7 +28746,7 @@
     "This inventory provides no legal clearance or final binary notice bundle. Declared metadata must be checked against license/NOTICE texts when distributing binaries.",
     "Resolved across platform conditions; counts exceed any one platform's compiled or shipped dependencies. Cargo registry declarations come from local locked-package metadata.",
     "Nested native/vendor code and complete upstream binary archive contents require a separate target-specific distribution audit.",
-    "The Cachella project license remains a separate owner decision. Model catalog declarations do not verify publisher terms."
+    "The Cachella project source uses MIT; dependencies retain their separate licenses. Model catalog declarations do not verify publisher terms."
   ],
   "resolution": {
     "cargo": "cargo metadata --locked --offline --features desktop --format-version 1 --manifest-path src-tauri/Cargo.toml",

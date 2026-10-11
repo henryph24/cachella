@@ -2,7 +2,7 @@
 
 The locked graph contains 566 third-party Cargo packages and 210 npm package instances; 0 have missing license declarations and 0 have any missing recorded metadata. There are 8 additional distribution boundaries.
 
-This is an engineering inventory of the source alpha. Legal clearance, verification of every upstream license/NOTICE text, model publisher terms and the final per-platform binary notice bundle remain open. Cachella's source license is a separate owner decision.
+This is an engineering inventory of the source alpha. Legal clearance, verification of every upstream license/NOTICE text, model publisher terms and the final per-platform binary notice bundle remain open. Cachella's own source uses MIT; upstream licenses remain separate.
 
 ## Reproduce
 
@@ -833,4 +833,4 @@ Exact source and integrity records are in [dependency-inventory.json](dependency
 - This inventory provides no legal clearance or final binary notice bundle. Declared metadata must be checked against license/NOTICE texts when distributing binaries.
 - Resolved across platform conditions; counts exceed any one platform's compiled or shipped dependencies. Cargo registry declarations come from local locked-package metadata.
 - Nested native/vendor code and complete upstream binary archive contents require a separate target-specific distribution audit.
-- The Cachella project license remains a separate owner decision. Model catalog declarations do not verify publisher terms.
+- The Cachella project source uses MIT; dependencies retain their separate licenses. Model catalog declarations do not verify publisher terms.

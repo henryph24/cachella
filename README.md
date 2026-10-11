@@ -1,8 +1,8 @@
 # Cachella
 
 **Source alpha candidate:** experimental software for developers and invited testers.
-The repository is currently private; public source licensing and signed installer
-publication are still being prepared. See the [alpha release notes](docs/alpha-release.md)
+Cachella's source is available under the MIT license. Signed installer
+publication is still being prepared. See the [alpha release notes](docs/alpha-release.md)
 and [changelog](CHANGELOG.md).
 
 A local-first knowledge workspace with search across documents, images, audio and video, and cited answers from quantized models running on your computer.
@@ -23,7 +23,7 @@ Local prompt reuse uses llama.cpp caching. LMCache integration remains proposed 
 
 ## Install on macOS
 
-**Release status:** there is currently no published end-user installer. The repository is private, and existing app bundles are development builds. Signing, notarization and clean-Mac installation testing remain release requirements. Obtain a test build directly from the maintainer if you are participating in testing. The steps below describe a prepared macOS build with its engine and decoder included.
+**Release status:** there is currently no published end-user installer. Existing app bundles are development builds. Signing, notarization and clean-Mac installation testing remain release requirements. Obtain a test build directly from the maintainer if you are participating in testing. The steps below describe a prepared macOS build with its engine and decoder included.
 
 ### Before you start
 
@@ -101,7 +101,7 @@ To uninstall, quit Cachella and move the app from **Applications** to Trash. Thi
 
 ## For developers
 
-Source builds require Node.js 24, Rust 1.89 or later, Python 3.11 or later, and the [Tauri prerequisites](https://v2.tauri.app/start/prerequisites/). Clone access currently requires permission to the private repository.
+Source builds require Node.js 24, Rust 1.89 or later, Python 3.11 or later, and the [Tauri prerequisites](https://v2.tauri.app/start/prerequisites/). Clone the public repository to build locally.
 
 ```sh
 git clone https://github.com/henryph24/cachella.git
@@ -134,4 +134,4 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) for development checks and contribution 
 
 ## Licensing
 
-A license for Cachella's own source is awaiting the maintainer's selection. Public open-source release remains pending. Third-party code, bundled executables and downloaded models retain their own licenses; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The decoder build enables GPL components and requires its accompanying licensing and source materials when distributed.
+Cachella's own source is licensed under the [MIT License](LICENSE). Third-party code, bundled executables and downloaded models retain their own licenses; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The decoder build enables GPL components and requires its accompanying licensing and source materials when distributed.

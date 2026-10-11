@@ -4,7 +4,7 @@ Cachella is a pre-release desktop application. It has no supported public releas
 
 ## Reporting a vulnerability
 
-While the repository is private, report concerns through your existing private channel with the maintainer. A public-release reporting channel still needs configuration. The repository API returned HTTP 404 for private vulnerability reporting during preparation; it has not been verified as enabled. See the [source-alpha publication gates](docs/alpha-release.md). Avoid posting exploit details, credentials or private source documents in a public issue. Include the app revision, operating system, affected path, impact and a minimal synthetic reproduction.
+Report vulnerabilities confidentially through [GitHub private vulnerability reporting](https://github.com/henryph24/cachella/security/advisories/new). Avoid posting exploit details, credentials or private source documents in a public issue. Include the app revision, operating system, affected path, impact and a minimal synthetic reproduction.
 
 ## Trust boundaries
 
@@ -17,4 +17,4 @@ While the repository is private, report concerns through your existing private c
 
 ## Release requirements
 
-Before public macOS distribution, sign the app and bundled executables with the intended Developer ID, notarize and staple the package, verify it under Gatekeeper on a clean Mac, and publish the package provenance. Keep dependency/advisory checks current and retain third-party distribution materials. Source licensing, private vulnerability reporting and consumer-hardware qualification are also pending.
+Before public macOS distribution, sign the app and bundled executables with the intended Developer ID, notarize and staple the package, verify it under Gatekeeper on a clean Mac, and publish the package provenance. Keep dependency/advisory checks current and retain third-party distribution materials. Consumer-hardware qualification remains pending.
