@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "executable": "D:\\a\\_temp\\cachella-qualification\\installed\\cachella.exe",
+  "process_id": 9012,
+  "expected_title": "Cachella",
+  "ready_text": "Workspace ready",
+  "startup_timeout_seconds": 60,
+  "close_timeout_seconds": 30,
+  "pe_subsystem": {
+    "value": 2,
+    "name": "windows_gui"
+  },
+  "pe_subsystem_error": null,
+  "input_idle": {
+    "outcome": "returned",
+    "result": true,
+    "exception": null,
+    "elapsed_ms": 41
+  },
+  "last_visible_windows": [
+    {
+      "handle": 590230,
+      "title": "Cachella",
+      "window_class": "Tauri Window"
+    },
+    {
+      "handle": 655544,
+      "title": "",
+      "window_class": "Tao Thread Event Target"
+    }
+  ],
+  "matched_window": {
+    "handle": 590230,
+    "title": "Cachella",
+    "window_class": "Tauri Window"
+  },
+  "ready_observed": true,
+  "readiness_error": null,
+  "close_requested": true,
+  "clean_close": true,
+  "exit_code": 0,
+  "exit_code_hex": "0x00000000",
+  "forced_cleanup": false,
+  "cleanup_error": null,
+  "failure": null,
+  "started_utc": "2026-10-11T10:45:33.2450651Z",
+  "elapsed_ms": 8344,
+  "stdout_log": "D:\\a\\_temp\\cachella-qualification\\reports\\desktop.stdout.log",
+  "stderr_log": "D:\\a\\_temp\\cachella-qualification\\reports\\desktop.stderr.log"
+}

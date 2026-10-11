@@ -284,7 +284,7 @@ async fn run() -> Result<(), Box<dyn std::error::Error>> {
     if std::net::TcpStream::connect(("127.0.0.1", port)).is_ok() {
         return Err("Engine listener survived stop".into());
     }
-    let report = json!({"scope":"Synthetic macOS integration; no general retrieval quality or performance claim","single_resident":single_resident,"embedding_restarted":single_resident,"profile":profile,"imports":imports,"indexed_parts":total,"indexing_ms":indexing_ms,"checks":checks,"passed":checks.len(),"total":checks.len(),"answers":answers,"persistence":true,"timestamp_metadata":true,"text_only_generation_guard":true,"delete_preview":true,"engine_stopped":true});
+    let report = json!({"scope":"Synthetic native integration; no general retrieval quality or performance claim","single_resident":single_resident,"embedding_restarted":single_resident,"profile":profile,"imports":imports,"indexed_parts":total,"indexing_ms":indexing_ms,"checks":checks,"passed":checks.len(),"total":checks.len(),"answers":answers,"persistence":true,"timestamp_metadata":true,"text_only_generation_guard":true,"delete_preview":true,"engine_stopped":true});
     std::fs::write(&args[6], serde_json::to_vec_pretty(&report)?)?;
     println!("PASS: persistence, timestamp metadata, text-only generation guard, deletion and process cleanup verified.");
     Ok(())

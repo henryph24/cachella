@@ -3,7 +3,7 @@
 Date: 2026-10-10. Overall result: incomplete. This audit preserves the local-first
 Windows/macOS knowledge-app objective in [the implementation plan](../tasks/todo.md)
 and [HTML product contract](local-first-plan.html). It separates demonstrated
-macOS behavior from remaining qualification and delivery work. Historical reports
+macOS and hosted Windows behavior from remaining qualification and delivery work. Historical reports
 retain their original scope; their passing counts are not universal guarantees.
 
 Current handoff: [delivery status](delivery-status.md) identifies the available
@@ -14,14 +14,14 @@ Mac test package, evidence limits and Windows environment requirements.
 | Requirement | Current evidence inspected | Assessment |
 | --- | --- | --- |
 | Detailed HTML architecture plan | [Current plan](local-first-plan.html), [historical Fly proposal](cachella-demo-plan.html) | Present. Tauri/Rust/SQLite/llama.cpp and optional enterprise LMCache are explicit. |
-| Cross-platform local desktop | Tauri source; [Mac package run](../evaluation/media-answers/native-normalized.md); [Windows workflow](../.github/workflows/desktop-checks.yml) | Mac execution verified. Windows workflow is configured; native Windows execution and installer acceptance are unverified. |
+| Cross-platform local desktop | Tauri source; [Mac package run](../evaluation/media-answers/native-normalized.md); [Windows workflow](../.github/workflows/desktop-checks.yml); [Windows qualification](windows-runtime-qualification.md) | Mac execution and Windows Server 2025 release installation, GUI readiness/close, installed helpers, Qwen3 inference and five retrieval cases verified. Windows 11 interactive acceptance and consumer hardware remain open. |
 | Persistent text/document library and citations | Store implementation; [PDF report](../evaluation/pdf/README.md); [native persistence](../evaluation/media-answers/native-ui-persistence.json) | Implemented and exercised within those fixture scopes. PDF extraction is selectable text; OCR and original-layout rendering are outside this path. |
 | Text/image/audio/video search | [Multimodal results](../evaluation/multimodal/README.md); [integration report](../evaluation/media-answers/integration-video.json) | Local indexed retrieval demonstrated on synthetic fixtures. Video is decomposed into timed frames/audio. Continuous temporal understanding is unproven. |
 | Small quantized local generation | [Gemma text assessment](../evaluation/gemma4-e2b-text-assessment.md), [media correction](../evaluation/media-answers/normalization.md) | Grounded generation demonstrated. Eight text rubrics and two media fixtures are bounded development evidence; representative enterprise quality remains open. |
 | Citation navigation and absent-evidence behavior | Production `ask_library` path; [native citations](../evaluation/media-answers/native-normalized.md); text/media abstention records | Source IDs and timestamps remain connected to selected evidence. Structural citation validation does not prove factual support. |
 | Local caching and cost demonstration | [Combined resource run](../evaluation/resources/gemma-media.md) | Built-in llama.cpp reuse is measured. LMCache is optional future server work. No cloud resources or hosting-cost savings are claimed. |
-| Packaged model, engine and decoder setup | [Engine preparation](../evaluation/engines/README.md), [decoder verification](../evaluation/decoders/README.md), [native setup](../evaluation/media-answers/native-ui.md) | Mac bundled runtime and cached-model verification/selection exercised. Native Windows setup remains unverified. The cited Gemma UI check preseeded model files. |
-| Private runtime, cancellation and recovery | [Lifecycle](../evaluation/lifecycle/README.md), [model recovery](../evaluation/recovery/README.md), [settings recovery](../evaluation/settings-recovery/README.md), [answer cancellation](../evaluation/cancellation/README.md) | Reviewed/tested boundaries and macOS execution recorded. Windows-specific runtime recovery remains open; no universal crash/security guarantee is inferred. |
+| Packaged model, engine and decoder setup | [Engine preparation](../evaluation/engines/README.md), [decoder verification](../evaluation/decoders/README.md), [native setup](../evaluation/media-answers/native-ui.md) | Mac bundled runtime and cached-model verification/selection exercised. Hosted Windows release installation and pinned model downloads passed. Windows 11 end-user setup remains unverified. The cited Gemma UI check preseeded model files. |
+| Private runtime, cancellation and recovery | [Lifecycle](../evaluation/lifecycle/README.md), [model recovery](../evaluation/recovery/README.md), [settings recovery](../evaluation/settings-recovery/README.md), [answer cancellation](../evaluation/cancellation/README.md) | Reviewed/tested boundaries and macOS execution recorded. Hosted Windows authentication, stop/restart, credential rotation and owner-drop checks passed; full Windows desktop recovery remains open; no universal crash/security guarantee is inferred. |
 | Bounded ingestion and resumable indexing | Media/store limits; [search/index cancellation](../evaluation/search-index-cancellation/README.md); native indexed-row persistence | Per-file, payload, storage and job bounds are implemented. These bounds do not constitute a whole-application memory budget. |
 | Consumer hardware/resource budget | `start_runtime`/`Runtime::start_mode` inspection; [component measurements](../evaluation/resources/gemma-media.md) | Incomplete. An optional one-managed-model residency policy is implemented; native switching, cancellation, explicit Stop and policy/session restart behavior are verified in the [residency report](../evaluation/residency/README.md). It enforces process residency without promising a byte-level RAM cap. The [release desktop run](../evaluation/resources/release-desktop.md) measures the app, attributed WebKit/Metal helpers, engines and a separate decoder workload on the 36 GiB Mac. Early launch, system-wide allocations, maximum workloads and the intended 16 GB Windows target remain unverified. |
 | Required checks and independent reviews | Recorded Rust/frontend/package results and bounded review reports above | Relevant completed increments have evidence. Full cross-platform acceptance is incomplete, so the goal cannot be marked achieved. |
@@ -35,15 +35,16 @@ Mac test package, evidence limits and Windows environment requirements.
    resource pressure and intended consumer hardware. The UI/Metal helper process
    run on the 36 GiB Mac remains separate from the intended 16 GB Windows target. Maximum supported context/media workloads and
    representative enterprise documents remain outside current qualification.
-3. Execute native Windows build, process/recovery tests, media imports, model
-   startup/inference and NSIS installation. The checked workflow supplies build
-   steps, but a workflow file and inspected PE binaries do not prove execution.
+3. Complete Windows 11 standard-user install/uninstall, interactive imports, GPU
+   behavior and consumer-hardware acceptance. Hosted Windows release installation,
+   startup, helper modes and synthetic real-model retrieval passed on 11 October
+   2026; see the [qualification report](windows-runtime-qualification.md).
 4. Recheck acceptance against those results and document the delivered package's
    limits. Signing/publishing requires the corresponding distribution setup; no
    deployment or publication has been authorized or performed.
 
-Windows runner availability has been requested; no response is assumed. The
-workspace has no `.git` directory, and no remote workflow execution is evidenced.
+Git and the private GitHub remote are initialized. Hosted Windows run 38131003959
+completed successfully; the retained report records its bounded acceptance scope.
 The existing default model choice remains unchanged. Gemma's new eight-case
 result improves evidence for its selectable desktop configuration without
 resolving the historical Qwen attack-case utility failure or proving general

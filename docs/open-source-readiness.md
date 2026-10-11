@@ -11,13 +11,13 @@ Checked 11 October 2026. Repository: [henryph24/cachella](https://github.com/hen
 - [ ] Review evaluation artifacts and history for personal paths, private content and unpublished information before exposing them publicly.
 - [ ] Complete the resolved dependency license inventory and binary distribution review.
 - [ ] Configure private vulnerability reporting and publish its instructions.
-- [ ] Resolve Windows installer/runtime qualification and record actual model execution.
+- [x] Qualify the Windows release installer and actual model execution on the hosted runner; consumer Windows 11 acceptance remains open.
 - [ ] Validate the intended consumer hardware; qualify cloud source integrations before advertising them.
 - [ ] Publish the repository after the maintainer's release decision; create signed releases separately.
 
 ## Windows checkpoint
 
-[Run 38028684256](https://github.com/henryph24/cachella/actions/runs/38028684256) built the Windows decoder and NSIS installer. Its qualification step failed while calling `WaitForInputIdle`, before real-model acceptance. A successful package build does not establish successful desktop startup.
+[Run 38131003959](https://github.com/henryph24/cachella/actions/runs/38131003959) passed all six hosted Windows qualification gates, including release GUI readiness, installed helper modes, Qwen3 inference and five multimodal retrieval cases. The [retained report](windows-runtime-qualification.md) records Windows Server 2025 scope and the remaining Windows 11, signing, interactive-import and consumer-hardware limits.
 
 ## Publication boundaries
 

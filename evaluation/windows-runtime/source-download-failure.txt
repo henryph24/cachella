@@ -1,0 +1,22 @@
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	﻿2026-10-11T10:08:18.0149476Z ##[group]Run /usr/bin/python3 -m unittest discover -s scripts -p "test_prepare_decoder.py"
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	2026-10-11T10:08:18.0150643Z [36;1m/usr/bin/python3 -m unittest discover -s scripts -p "test_prepare_decoder.py"[0m
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	2026-10-11T10:08:18.0151670Z [36;1m/usr/bin/python3 scripts/prepare_decoder.py --platform windows-x86_64 --replace[0m
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	2026-10-11T10:08:18.0159283Z shell: D:\a\_temp\setup-msys2\msys2.CMD {0}
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	2026-10-11T10:08:18.0159791Z env:
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	2026-10-11T10:08:18.0160822Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.12.10\x64
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	2026-10-11T10:08:18.0161943Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.12.10\x64/lib/pkgconfig
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	2026-10-11T10:08:18.0162745Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	2026-10-11T10:08:18.0163451Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	2026-10-11T10:08:18.0164157Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	2026-10-11T10:08:18.0164755Z   CARGO_HOME: C:\Users\runneradmin\.cargo
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	2026-10-11T10:08:18.0165236Z   CARGO_INCREMENTAL: 0
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	2026-10-11T10:08:18.0165591Z   CARGO_TERM_COLOR: always
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	2026-10-11T10:08:18.0165943Z   MSYSTEM: UCRT64
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	2026-10-11T10:08:18.0166236Z ##[endgroup]
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	2026-10-11T10:08:20.1398007Z ..s......s.......
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	2026-10-11T10:08:20.1508330Z ----------------------------------------------------------------------
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	2026-10-11T10:08:20.1514305Z Ran 17 tests in 1.170s
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	2026-10-11T10:08:20.1517609Z
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	2026-10-11T10:08:20.1519006Z OK (skipped=2)
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	2026-10-11T10:08:34.8993726Z prepare_decoder: source archive does not match pin: zlib-1.3.2.tar.xz
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	2026-10-11T10:08:34.9531975Z ##[error]Process completed with exit code 1.

@@ -1,0 +1,14 @@
+   Compiling cachella v0.1.0 (D:\a\cachella\cachella\src-tauri)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 14.81s
+     Running `src-tauri\target\debug\examples\multimodal_smoke.exe 'D:\a\_temp\cachella-qualification\installed\engine\llama-server.exe' 'D:\a\_temp\cachella-qualification\models\embeddinggemma2-q8\bfcd298762cc34d0357ece5ebdd31791a3a374d8\embeddinggemma-2-Q8_0.gguf' 'D:\a\_temp\cachella-qualification\models\embeddinggemma2-q8\bfcd298762cc34d0357ece5ebdd31791a3a374d8\mmproj-embeddinggemma-2-Q8_0.gguf' 'D:\a\_temp\cachella-qualification\installed\decoder\ffmpeg.exe' evaluation/multimodal/fixtures 'D:\a\_temp\cachella-qualification\reports\multimodal.json'`
+PASS: decoded, persisted and range-served red-circle.png (1 parts).
+PASS: decoded, persisted and range-served blue-square.png (1 parts).
+PASS: decoded, persisted and range-served budget.wav (1 parts).
+PASS: decoded, persisted and range-served lunch.wav (1 parts).
+PASS: decoded, persisted and range-served budget-video.mp4 (2 parts).
+PASS: image retrieval ranks expected content above contrast.
+PASS: audio retrieval ranks expected content above contrast.
+PASS: video_frame retrieval ranks expected content above contrast.
+PASS: video_audio retrieval ranks expected content above contrast.
+PASS: text retrieval ranks expected content above contrast.
+PASS: persistence, timestamp metadata, text-only generation guard, deletion and process cleanup verified.

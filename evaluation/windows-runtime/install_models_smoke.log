@@ -1,0 +1,17 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.81s
+     Running `src-tauri\target\debug\examples\install_models_smoke.exe 'D:\a\_temp\cachella-qualification\models' embeddinggemma2-q8 'D:\a\_temp\cachella-qualification\reports\embedding-install.json'`
+downloading: 0 of 864676480 bytes
+downloading: 114227338 of 864676480 bytes
+downloading: 252482863 of 864676480 bytes
+downloading: 309855456 of 864676480 bytes
+verifying: 309855456 of 864676480 bytes
+downloading: 309855456 of 864676480 bytes
+downloading: 401643308 of 864676480 bytes
+downloading: 468621730 of 864676480 bytes
+downloading: 523740912 of 864676480 bytes
+downloading: 591194377 of 864676480 bytes
+downloading: 644497260 of 864676480 bytes
+downloading: 776843281 of 864676480 bytes
+downloading: 864676480 of 864676480 bytes
+verifying: 864676480 of 864676480 bytes
+PASS: 2 verified model file(s), 864676480 bytes, 46303 ms

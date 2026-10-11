@@ -1,0 +1,50 @@
+desktop (windows-latest, nsis, desktop:bundle:windows)	Run python3 -m unittest discover -s scripts -p "test_*.py"	2026-10-11T10:10:58.8126444Z Ran 41 tests in 4.112s
+desktop (windows-latest, nsis, desktop:bundle:windows)	Run python3 -m unittest discover -s scripts -p "test_*.py"	2026-10-11T10:10:58.8129259Z OK (skipped=6)
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows GUI probe regression fixtures	2026-10-11T10:11:21.3073218Z PASS: console subsystem window accepted; old input-idle gate rejected (exception).
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows GUI probe regression fixtures	2026-10-11T10:11:22.2509322Z PASS: GUI subsystem window, ready marker, and clean exit.
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows GUI probe regression fixtures	2026-10-11T10:11:22.4805233Z PASS: early exit rejected with code 42 and retained stderr.
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows GUI probe regression fixtures	2026-10-11T10:11:26.5741198Z PASS: never-ready window rejected within startup deadline and owned process removed.
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows GUI probe regression fixtures	2026-10-11T10:11:26.5799969Z PASS: 4 native Windows desktop probe fixtures.
+desktop (windows-latest, nsis, desktop:bundle:windows)	Verify Windows decoder source downloads before compilation	2026-10-11T10:11:27.7945671Z [36;1mpython3 -c 'import pathlib,sys; sys.path.insert(0,"scripts"); import prepare_decoder as p; root=pathlib.Path(sys.argv[1]); [p.obtain(source,root/source.filename,None) for source in p.sources_for("windows-x86_64")]; print("PASS: all three decoder source archives match pinned sizes and hashes")' $sources[0m
+desktop (windows-latest, nsis, desktop:bundle:windows)	Verify Windows decoder source downloads before compilation	2026-10-11T10:11:31.8647598Z PASS: all three decoder source archives match pinned sizes and hashes
+desktop (windows-latest, nsis, desktop:bundle:windows)	Run npm run test:rust	2026-10-11T10:20:01.0314846Z test result: ok. 154 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 14.42s
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows scratch reparse-point regression	2026-10-11T10:20:04.8019737Z test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 154 filtered out; finished in 0.00s
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	2026-10-11T10:23:33.0594329Z Ran 18 tests in 1.109s
+desktop (windows-latest, nsis, desktop:bundle:windows)	Build Windows decoder from pinned source	2026-10-11T10:23:33.0595293Z OK (skipped=2)
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows decoder production import smoke	2026-10-11T10:35:12.6141219Z PASS: red-circle.png -> image/png preview, 1 indexed parts
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows decoder production import smoke	2026-10-11T10:35:12.7571170Z PASS: blue-square.png -> image/png preview, 1 indexed parts
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows decoder production import smoke	2026-10-11T10:35:12.9950393Z PASS: budget.wav -> audio/wav preview, 1 indexed parts
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows decoder production import smoke	2026-10-11T10:35:13.9712059Z PASS: lunch.wav -> audio/wav preview, 1 indexed parts
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows decoder production import smoke	2026-10-11T10:35:14.9068573Z PASS: temporal-video.mp4 -> video/mp4 preview, 5 indexed parts
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows decoder production import smoke	2026-10-11T10:35:15.3661726Z PASS: budget-video.mp4 -> video/mp4 preview, 2 indexed parts
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows decoder production import smoke	2026-10-11T10:35:15.4769640Z PASS: image.jpg -> image/png preview, 1 indexed parts
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows decoder production import smoke	2026-10-11T10:35:15.7305376Z PASS: audio.mp3 -> audio/wav preview, 1 indexed parts
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows decoder production import smoke	2026-10-11T10:35:15.9678758Z PASS: audio.flac -> audio/wav preview, 1 indexed parts
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows decoder production import smoke	2026-10-11T10:35:16.2177341Z PASS: audio.ogg -> audio/wav preview, 1 indexed parts
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows decoder production import smoke	2026-10-11T10:35:17.3006125Z PASS: video.webm -> video/mp4 preview, 5 indexed parts
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:45:33.1919452Z PASS: installer
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:45:41.6489991Z PASS: desktop
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:45:41.9169539Z PASS: installed PDF and guardian helpers (D:\a\_temp\cachella-qualification\reports\installed-helpers.json)
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:45:41.9242885Z PASS: installed-helpers
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:46:45.0268571Z PASS: 1 verified model file(s), 1107409472 bytes, 47492 ms
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:46:59.2440247Z PASS: mismatched TLS certificate rejected before authentication.
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:46:59.2467224Z PASS: managed engine ready; unauthenticated requests rejected.
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:47:11.6952765Z PASS: authenticated answer with 1 citation(s), 12436 ms: The Atlas launch moved to Friday because the security review found a permission bug. Source: a0a32eef9f1555a74dcf860418f4676706d92585ebc5b5d34b1eb9d42f59b841:0
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:47:13.9421404Z PASS: stop reaped the child; connection closed; automatic fallback blocked.
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:47:15.9954422Z PASS: restart rotates credentials; owner drop stops the child.
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:47:16.0629951Z PASS: generation
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:48:03.3332156Z PASS: 2 verified model file(s), 864676480 bytes, 46303 ms
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:48:59.8100260Z PASS: decoded, persisted and range-served red-circle.png (1 parts).
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:49:00.0610392Z PASS: decoded, persisted and range-served blue-square.png (1 parts).
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:49:00.6562438Z PASS: decoded, persisted and range-served budget.wav (1 parts).
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:49:00.9875105Z PASS: decoded, persisted and range-served lunch.wav (1 parts).
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:49:01.7888867Z PASS: decoded, persisted and range-served budget-video.mp4 (2 parts).
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:49:15.6374218Z PASS: image retrieval ranks expected content above contrast.
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:49:15.7135641Z PASS: audio retrieval ranks expected content above contrast.
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:49:15.7882666Z PASS: video_frame retrieval ranks expected content above contrast.
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:49:15.8629616Z PASS: video_audio retrieval ranks expected content above contrast.
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:49:15.9381779Z PASS: text retrieval ranks expected content above contrast.
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:49:18.0437053Z PASS: persistence, timestamp metadata, text-only generation guard, deletion and process cleanup verified.
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:49:18.0818977Z PASS: multimodal
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:49:18.0912772Z PASS: cleanup
+desktop (windows-latest, nsis, desktop:bundle:windows)	Windows installer and real-model qualification	2026-10-11T10:49:19.4226436Z PASS: All six Windows qualification stages.

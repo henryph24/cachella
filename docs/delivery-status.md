@@ -1,8 +1,8 @@
 # Cachella delivery status
 
-As of 10 October 2026, the local macOS demo is built and has recorded execution
-evidence. Cross-platform delivery remains incomplete pending native Windows
-verification and the intended 16 GB device check. The active objective stays open.
+As of 11 October 2026, the local macOS demo and hosted Windows release runtime
+have recorded execution evidence. Full delivery remains incomplete pending Windows
+11 user acceptance, signing/publication and consumer-device qualification.
 
 ## Available demo
 
@@ -25,22 +25,25 @@ It is not a signed distributable or a self-contained bundle of model weights.
 Local prompt caching is implemented. LMCache remains optional future shared-server
 work. No Fly.io resources or recurring cloud charges were introduced.
 
-## Delivery gates requiring another environment
+## Windows execution checkpoint
 
-1. Run the checked-in Windows build/test workflow and retain its actual output.
-   The workspace has no Git repository or identified authorized remote runner.
-2. Exercise NSIS installation, model/decoder setup, inference, four-modality
-   import/retrieval and process recovery on Windows. A workflow file and prepared
-   Windows resources are insufficient execution evidence.
-3. Measure the core workload on the intended 16 GB consumer device. The available
-   Mac has 36 GiB RAM; its process measurements do not establish minimum RAM.
+[Run 38131003959](https://github.com/henryph24/cachella/actions/runs/38131003959)
+passed all six [Windows runtime gates](windows-runtime-qualification.md): release
+installation, desktop readiness/close, installed PDF/guardian helpers, Qwen3
+inference, five multimodal retrieval cases and zero remaining app/engine processes.
+Native checks passed 154 Rust tests plus the explicit reparse test, 67 frontend
+tests, lint, four GUI probe fixtures and 11 decoder fixtures. Python collected
+41 tests with six platform skips; MSYS decoder tests collected 18 with two skips.
 
-[Current environment inspection](../evaluation/delivery/environment.json) reports
-macOS, `git rev-parse` exit 128, no `qemu-system-x86_64` or `wine` on PATH, and no
-UTM/Parallels/Fusion at the inspected app paths. Other remote environments were
-not inventoried. A request for an available authorized Windows machine or
-repository/runner is pending. No access, repository creation or remote publishing
-is assumed from silence.
+The hosted OS was Windows Server 2025 with about 8 GiB physical memory. This
+single synthetic workload does not establish minimum RAM or Windows 11 consumer
+performance. Standard-user install/uninstall, interactive imports, GPU backends,
+per-user data isolation and the intended consumer workload remain to be tested.
+
+The private GitHub runner is available; the earlier missing-runner blocker is
+resolved. Each job has a 60-minute timeout, with installer and report artifacts
+retained for three days. Evidence and the tested installer were also retained
+locally. No Fly resources or paid VM subscriptions were created.
 
 ## Remaining qualification limits
 

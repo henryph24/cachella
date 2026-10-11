@@ -121,7 +121,7 @@ Notion, Google Drive and watched Obsidian vaults are planned. Composio is being 
 - Citation membership checks do not establish answer correctness. Existing model evaluations use synthetic fixtures and small rubrics.
 - Memory and latency depend on hardware, model and workload. The intended 16 GB consumer-device workload remains unqualified.
 
-On 10 October 2026, [Windows CI](https://github.com/henryph24/cachella/actions/runs/38028684256) passed 151 Rust tests, one separately invoked reparse test, frontend checks, lint, decoder smoke and NSIS packaging. The subsequent installer/runtime qualification failed at `WaitForInputIdle`; Windows desktop launch and real-model acceptance remain open. macOS execution evidence is available in the [evaluation index](evaluation/README.md).
+On 11 October 2026, [Windows qualification](docs/windows-runtime-qualification.md) passed release NSIS installation, desktop readiness and clean close, installed PDF/guardian helpers, Qwen3 inference, and five synthetic text/image/audio/video retrieval checks on Windows Server 2025. The run also passed 154 Rust tests plus one separately invoked reparse test, 67 frontend tests, lint and 11 decoder fixtures. Windows 11 standard-user installation, interactive import flows, GPU behavior and consumer-hardware performance remain unqualified. macOS execution evidence is available in the [evaluation index](evaluation/README.md).
 
 ## Contributing and project status
 

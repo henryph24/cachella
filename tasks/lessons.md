@@ -149,3 +149,24 @@ yuv420p encoding requirements. Bound the final computed dimensions, including
 encoder divisibility, and exercise horizontal, vertical and odd-sized media with
 the actual decoder. Keep normalization fingerprint versions aligned with changed
 stored previews and state reimport consequences explicitly.
+
+## 2026-10-11: Windows GUI readiness must observe the actual window
+
+`WaitForInputIdle` rejected the debug console-subsystem Cachella executable before
+any launch diagnostics were saved. A native console-subsystem fixture later
+reproduced the exact exception while opening a visible window, exposing its ready
+marker and exiting with code 0. Use input-idle as diagnostic information; require
+an owned visible window, an application readiness marker and clean close. Save
+exit codes, stderr and failure reports before returning a failed qualification.
+The fixture establishes the old gate's defect; the earlier app's actual state was
+not recorded and cannot be reconstructed from the exception alone.
+
+## 2026-10-11: Verify source downloads before expensive compilation
+
+Windows run 38129822008 spent about 17 minutes on checks before a zlib download
+failed its pinned hash. The error omitted the observed length and hash. The next
+run verified all three unchanged source pins using native Python before compiling,
+then passed those verified archives into the MSYS build with a second verification.
+Keep integrity rejection intact, report expected/observed metadata, and move
+independent network prerequisites ahead of expensive build work. Do not repin an
+archive merely to make a failed download pass.

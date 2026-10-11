@@ -603,3 +603,12 @@ Native Windows delivery and consumer-device acceptance remain unverified. Await
 the requested environment details before running those checks. Existing Mac
 evidence is retained; no repeated tests or unrelated implementation changes were
 made. Full product completion is unproven.
+
+## Windows runtime investigation: 2026-10-11
+
+- [x] Reproduce the GUI-wait assumption with native Windows fixtures and retain failure diagnostics. Run 38129822008: all 4 fixtures passed.
+- [x] Separate installer, GUI and model phases; collect independent results without hiding failures. Commit 1061d2d; injected stage failure preserved diagnostics and allowed the next stage.
+- [x] Qualify the current Windows release build on the existing runner, including pinned real models. Run 38131003959: all six stages passed.
+- [x] Inspect artifacts, diagnose demonstrated failures, and record remaining consumer/interactive limits. Evidence in evaluation/windows-runtime; scope and remaining Windows 11 work in docs/windows-runtime-qualification.md.
+
+Scope uses the existing private GitHub Windows runner with a bounded job timeout; no paid VM subscription or local Windows installation is requested.

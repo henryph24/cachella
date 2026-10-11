@@ -1,0 +1,8 @@
+   Compiling cachella v0.1.0 (D:\a\cachella\cachella\src-tauri)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 6.33s
+     Running `src-tauri\target\debug\examples\managed_runtime_smoke.exe 'D:\a\_temp\cachella-qualification\installed\engine\llama-server.exe' 'D:\a\_temp\cachella-qualification\models\qwen3-1.7b-q4\d7f544eead698dbd1f15126ef60b45a1e1933222\Qwen3-1.7B-Q4_K_M.gguf'`
+PASS: mismatched TLS certificate rejected before authentication.
+PASS: managed engine ready; unauthenticated requests rejected.
+PASS: authenticated answer with 1 citation(s), 12436 ms: The Atlas launch moved to Friday because the security review found a permission bug. Source: a0a32eef9f1555a74dcf860418f4676706d92585ebc5b5d34b1eb9d42f59b841:0
+PASS: stop reaped the child; connection closed; automatic fallback blocked.
+PASS: restart rotates credentials; owner drop stops the child.

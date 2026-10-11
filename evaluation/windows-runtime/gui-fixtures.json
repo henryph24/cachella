@@ -1,0 +1,203 @@
+{
+  "passed": true,
+  "tests": 4,
+  "old_input_idle_gate_regression": {
+    "input_idle": {
+      "outcome": "exception",
+      "result": null,
+      "exception": "Exception calling \"WaitForInputIdle\" with \"1\" argument(s): \"WaitForInputIdle failed.  This could be because the process does not have a graphical interface.\"",
+      "elapsed_ms": 22
+    },
+    "old_gate_would_reject": true,
+    "current_probe_passed": true,
+    "pe_subsystem": {
+      "value": 3,
+      "name": "windows_console"
+    }
+  },
+  "fixtures": [
+    {
+      "name": "ConsoleWindow",
+      "probe": {
+        "passed": true,
+        "executable": "D:\\a\\_temp\\cachella-gui-probe\\ConsoleWindow.exe",
+        "process_id": 7100,
+        "expected_title": "Cachella",
+        "ready_text": "Workspace ready",
+        "startup_timeout_seconds": 12,
+        "close_timeout_seconds": 5,
+        "pe_subsystem": {
+          "value": 3,
+          "name": "windows_console"
+        },
+        "pe_subsystem_error": null,
+        "input_idle": {
+          "outcome": "exception",
+          "result": null,
+          "exception": "Exception calling \"WaitForInputIdle\" with \"1\" argument(s): \"WaitForInputIdle failed.  This could be because the process does not have a graphical interface.\"",
+          "elapsed_ms": 22
+        },
+        "last_visible_windows": [
+          {
+            "handle": 196688,
+            "title": "Cachella",
+            "window_class": "WindowsForms10.Window.8.app.0.34f5582_r6_ad1"
+          }
+        ],
+        "matched_window": {
+          "handle": 196688,
+          "title": "Cachella",
+          "window_class": "WindowsForms10.Window.8.app.0.34f5582_r6_ad1"
+        },
+        "ready_observed": true,
+        "readiness_error": null,
+        "close_requested": true,
+        "clean_close": true,
+        "exit_code": 0,
+        "exit_code_hex": "0x00000000",
+        "forced_cleanup": false,
+        "cleanup_error": null,
+        "failure": null,
+        "started_utc": "2026-10-11T09:51:32.7900246Z",
+        "elapsed_ms": 14002,
+        "stdout_log": "D:\\a\\_temp\\cachella-gui-probe\\ConsoleWindow\\desktop.stdout.log",
+        "stderr_log": "D:\\a\\_temp\\cachella-gui-probe\\ConsoleWindow\\desktop.stderr.log"
+      }
+    },
+    {
+      "name": "GuiWindow",
+      "probe": {
+        "passed": true,
+        "executable": "D:\\a\\_temp\\cachella-gui-probe\\GuiWindow.exe",
+        "process_id": 3308,
+        "expected_title": "Cachella",
+        "ready_text": "Workspace ready",
+        "startup_timeout_seconds": 12,
+        "close_timeout_seconds": 5,
+        "pe_subsystem": {
+          "value": 2,
+          "name": "windows_gui"
+        },
+        "pe_subsystem_error": null,
+        "input_idle": {
+          "outcome": "returned",
+          "result": true,
+          "exception": null,
+          "elapsed_ms": 661
+        },
+        "last_visible_windows": [
+          {
+            "handle": 196966,
+            "title": "Cachella",
+            "window_class": "WindowsForms10.Window.8.app.0.34f5582_r6_ad1"
+          }
+        ],
+        "matched_window": {
+          "handle": 196966,
+          "title": "Cachella",
+          "window_class": "WindowsForms10.Window.8.app.0.34f5582_r6_ad1"
+        },
+        "ready_observed": true,
+        "readiness_error": null,
+        "close_requested": true,
+        "clean_close": true,
+        "exit_code": 0,
+        "exit_code_hex": "0x00000000",
+        "forced_cleanup": false,
+        "cleanup_error": null,
+        "failure": null,
+        "started_utc": "2026-10-11T09:51:46.9286541Z",
+        "elapsed_ms": 940,
+        "stdout_log": "D:\\a\\_temp\\cachella-gui-probe\\GuiWindow\\desktop.stdout.log",
+        "stderr_log": "D:\\a\\_temp\\cachella-gui-probe\\GuiWindow\\desktop.stderr.log"
+      }
+    },
+    {
+      "name": "ExitEarly",
+      "probe": {
+        "passed": false,
+        "executable": "D:\\a\\_temp\\cachella-gui-probe\\ExitEarly.exe",
+        "process_id": 6696,
+        "expected_title": "Cachella",
+        "ready_text": "Workspace ready",
+        "startup_timeout_seconds": 4,
+        "close_timeout_seconds": 5,
+        "pe_subsystem": {
+          "value": 3,
+          "name": "windows_console"
+        },
+        "pe_subsystem_error": null,
+        "input_idle": {
+          "outcome": "exception",
+          "result": null,
+          "exception": "Exception calling \"WaitForInputIdle\" with \"1\" argument(s): \"WaitForInputIdle failed.  This could be because the process does not have a graphical interface.\"",
+          "elapsed_ms": 1
+        },
+        "last_visible_windows": [],
+        "matched_window": null,
+        "ready_observed": false,
+        "readiness_error": null,
+        "close_requested": false,
+        "clean_close": false,
+        "exit_code": 42,
+        "exit_code_hex": "0x0000002A",
+        "forced_cleanup": false,
+        "cleanup_error": null,
+        "failure": "Desktop exited during startup with code 42.",
+        "started_utc": "2026-10-11T09:51:47.8731224Z",
+        "elapsed_ms": 405,
+        "stdout_log": "D:\\a\\_temp\\cachella-gui-probe\\ExitEarly\\desktop.stdout.log",
+        "stderr_log": "D:\\a\\_temp\\cachella-gui-probe\\ExitEarly\\desktop.stderr.log"
+      }
+    },
+    {
+      "name": "NeverReady",
+      "probe": {
+        "passed": false,
+        "executable": "D:\\a\\_temp\\cachella-gui-probe\\NeverReady.exe",
+        "process_id": 7108,
+        "expected_title": "Cachella",
+        "ready_text": "Workspace ready",
+        "startup_timeout_seconds": 4,
+        "close_timeout_seconds": 5,
+        "pe_subsystem": {
+          "value": 2,
+          "name": "windows_gui"
+        },
+        "pe_subsystem_error": null,
+        "input_idle": {
+          "outcome": "returned",
+          "result": true,
+          "exception": null,
+          "elapsed_ms": 673
+        },
+        "last_visible_windows": [
+          {
+            "handle": 459084,
+            "title": "Cachella",
+            "window_class": "WindowsForms10.Window.8.app.0.34f5582_r6_ad1"
+          }
+        ],
+        "matched_window": {
+          "handle": 459084,
+          "title": "Cachella",
+          "window_class": "WindowsForms10.Window.8.app.0.34f5582_r6_ad1"
+        },
+        "ready_observed": false,
+        "readiness_error": null,
+        "close_requested": false,
+        "clean_close": false,
+        "exit_code": -1,
+        "exit_code_hex": "0xFFFFFFFF",
+        "forced_cleanup": true,
+        "cleanup_error": null,
+        "failure": "Desktop did not expose readiness text 'Workspace ready' before the startup deadline. ",
+        "started_utc": "2026-10-11T09:51:48.2890512Z",
+        "elapsed_ms": 4160,
+        "stdout_log": "D:\\a\\_temp\\cachella-gui-probe\\NeverReady\\desktop.stdout.log",
+        "stderr_log": "D:\\a\\_temp\\cachella-gui-probe\\NeverReady\\desktop.stderr.log"
+      }
+    }
+  ],
+  "failure": null
+}

@@ -1,0 +1,308 @@
+{
+  "installer_sha256": "B024AD7D61B1A74BAE49216A1F9117A43442F64DF3D17097419D5B2FA8409AFE",
+  "installed_engine_verified": true,
+  "app_sha256": "40DC9DF1A12BA2CA5AA593E41391916434F9F3CAEFDE4F5FDBF9F253C9622498",
+  "files": [
+    {
+      "bytes": 17021952,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\cachella.exe"
+    },
+    {
+      "bytes": 79956,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\uninstall.exe"
+    },
+    {
+      "bytes": 113342,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\decoder\\build.log"
+    },
+    {
+      "bytes": 6758,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\decoder\\decoder-manifest.json"
+    },
+    {
+      "bytes": 75690,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\decoder\\ffmpeg-components.h"
+    },
+    {
+      "bytes": 25308,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\decoder\\ffmpeg-config.h"
+    },
+    {
+      "bytes": 14124544,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\decoder\\ffmpeg.exe"
+    },
+    {
+      "bytes": 13913088,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\decoder\\ffprobe.exe"
+    },
+    {
+      "bytes": 3091860,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\decoder\\inspection.txt"
+    },
+    {
+      "bytes": 1206,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\decoder\\README.txt"
+    },
+    {
+      "bytes": 18092,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\decoder\\licenses\\FFmpeg\\COPYING.GPLv2"
+    },
+    {
+      "bytes": 35147,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\decoder\\licenses\\FFmpeg\\COPYING.GPLv3"
+    },
+    {
+      "bytes": 26517,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\decoder\\licenses\\FFmpeg\\COPYING.LGPLv2.1"
+    },
+    {
+      "bytes": 7651,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\decoder\\licenses\\FFmpeg\\COPYING.LGPLv3"
+    },
+    {
+      "bytes": 4346,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\decoder\\licenses\\FFmpeg\\LICENSE.md"
+    },
+    {
+      "bytes": 17992,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\decoder\\licenses\\x264\\COPYING"
+    },
+    {
+      "bytes": 1002,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\decoder\\licenses\\zlib\\LICENSE"
+    },
+    {
+      "bytes": 23255,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\decoder\\rebuild\\prepare_decoder.py"
+    },
+    {
+      "bytes": 19576,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\decoder\\rebuild\\prepare_engine.py"
+    },
+    {
+      "bytes": 12040788,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\decoder\\sources\\ffmpeg-9.0.2.tar.xz"
+    },
+    {
+      "bytes": 848652,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\decoder\\sources\\x264-0480cb05fa188d37ae87e8f4fd8f1aea3711f7ee.tar.bz2"
+    },
+    {
+      "bytes": 1320064,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\decoder\\sources\\zlib-1.3.2.tar.xz"
+    },
+    {
+      "bytes": 9009,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\engine-manifest.json"
+    },
+    {
+      "bytes": 803840,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\ggml-base.dll"
+    },
+    {
+      "bytes": 1435136,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\ggml-cpu-alderlake.dll"
+    },
+    {
+      "bytes": 1614848,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\ggml-cpu-cannonlake.dll"
+    },
+    {
+      "bytes": 1599488,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\ggml-cpu-cascadelake.dll"
+    },
+    {
+      "bytes": 1609216,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\ggml-cpu-cooperlake.dll"
+    },
+    {
+      "bytes": 1439744,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\ggml-cpu-haswell.dll"
+    },
+    {
+      "bytes": 1606656,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\ggml-cpu-icelake.dll"
+    },
+    {
+      "bytes": 1315328,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\ggml-cpu-ivybridge.dll"
+    },
+    {
+      "bytes": 1308160,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\ggml-cpu-piledriver.dll"
+    },
+    {
+      "bytes": 1290240,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\ggml-cpu-sandybridge.dll"
+    },
+    {
+      "bytes": 1886208,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\ggml-cpu-sapphirerapids.dll"
+    },
+    {
+      "bytes": 1608704,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\ggml-cpu-skylakex.dll"
+    },
+    {
+      "bytes": 915968,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\ggml-cpu-sse42.dll"
+    },
+    {
+      "bytes": 908800,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\ggml-cpu-x64.dll"
+    },
+    {
+      "bytes": 1615872,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\ggml-cpu-zen4.dll"
+    },
+    {
+      "bytes": 117248,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\ggml-rpc-server.exe"
+    },
+    {
+      "bytes": 204800,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\ggml-rpc.dll"
+    },
+    {
+      "bytes": 79872,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\ggml.dll"
+    },
+    {
+      "bytes": 768000,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\libomp.dll"
+    },
+    {
+      "bytes": 1078,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\LICENSE-llama.cpp.txt"
+    },
+    {
+      "bytes": 19741,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\LICENSE-LLVM-OpenMP"
+    },
+    {
+      "bytes": 61952,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-batched-bench-impl.dll"
+    },
+    {
+      "bytes": 9216,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-batched-bench.exe"
+    },
+    {
+      "bytes": 404480,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-bench-impl.dll"
+    },
+    {
+      "bytes": 9216,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-bench.exe"
+    },
+    {
+      "bytes": 3317248,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-cli-impl.dll"
+    },
+    {
+      "bytes": 9216,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-cli.exe"
+    },
+    {
+      "bytes": 7975424,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-common.dll"
+    },
+    {
+      "bytes": 140288,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-completion-impl.dll"
+    },
+    {
+      "bytes": 9216,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-completion.exe"
+    },
+    {
+      "bytes": 43008,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-fit-params-impl.dll"
+    },
+    {
+      "bytes": 9216,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-fit-params.exe"
+    },
+    {
+      "bytes": 27136,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-gemma3-cli.exe"
+    },
+    {
+      "bytes": 60416,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-gguf-split.exe"
+    },
+    {
+      "bytes": 252416,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-imatrix.exe"
+    },
+    {
+      "bytes": 27136,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-llava-cli.exe"
+    },
+    {
+      "bytes": 27136,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-minicpmv-cli.exe"
+    },
+    {
+      "bytes": 92672,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-mtmd-cli.exe"
+    },
+    {
+      "bytes": 55808,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-mtmd-debug.exe"
+    },
+    {
+      "bytes": 197632,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-perplexity-impl.dll"
+    },
+    {
+      "bytes": 9216,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-perplexity.exe"
+    },
+    {
+      "bytes": 137216,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-quantize-impl.dll"
+    },
+    {
+      "bytes": 9216,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-quantize.exe"
+    },
+    {
+      "bytes": 27136,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-qwen2vl-cli.exe"
+    },
+    {
+      "bytes": 46592,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-results.exe"
+    },
+    {
+      "bytes": 9231872,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-server-impl.dll"
+    },
+    {
+      "bytes": 9216,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-server.exe"
+    },
+    {
+      "bytes": 58880,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-tokenize.exe"
+    },
+    {
+      "bytes": 41984,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama-tts.exe"
+    },
+    {
+      "bytes": 3380224,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama.dll"
+    },
+    {
+      "bytes": 104448,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\llama.exe"
+    },
+    {
+      "bytes": 1817600,
+      "path": "D:\\a\\_temp\\cachella-qualification\\installed\\engine\\mtmd.dll"
+    }
+  ],
+  "app_pe_subsystem": 2
+}

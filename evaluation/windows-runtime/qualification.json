@@ -1,0 +1,48 @@
+{
+  "scope": "Hosted Windows release installation, GUI readiness/close, installed helper modes, CPU inference and synthetic retrieval. Consumer Windows 11 hardware, interactive imports and GPU performance require separate qualification.",
+  "os_version": "Microsoft Windows NT 10.0.26100.0",
+  "os": "Microsoft Windows Server 2025 Datacenter",
+  "physical_memory_bytes": 8584425472,
+  "cpu": [
+    "AMD EPYC 9V74 80-Core Processor                "
+  ],
+  "passed": true,
+  "stages": {
+    "installer": {
+      "passed": true,
+      "started": "2026-10-11T10:45:26.2840762Z",
+      "error": null,
+      "elapsed_seconds": 6.8993509
+    },
+    "desktop": {
+      "passed": true,
+      "started": "2026-10-11T10:45:33.2274750Z",
+      "error": null,
+      "elapsed_seconds": 8.4111777
+    },
+    "installed-helpers": {
+      "passed": true,
+      "started": "2026-10-11T10:45:41.6431296Z",
+      "error": null,
+      "elapsed_seconds": 0.2812796
+    },
+    "generation": {
+      "passed": true,
+      "started": "2026-10-11T10:45:41.9259471Z",
+      "error": null,
+      "elapsed_seconds": 94.1373847
+    },
+    "multimodal": {
+      "passed": true,
+      "started": "2026-10-11T10:47:16.0644041Z",
+      "error": null,
+      "elapsed_seconds": 122.017638
+    },
+    "cleanup": {
+      "passed": true,
+      "started": "2026-10-11T10:49:18.0829550Z",
+      "error": null,
+      "elapsed_seconds": 0.0082652
+    }
+  }
+}
